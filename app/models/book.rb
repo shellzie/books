@@ -1,5 +1,4 @@
 class Book < ActiveRecord::Base
-
   validates :title, presence: true
   validates :author, presence: true
   validates :publication_date, presence: true
@@ -18,5 +17,4 @@ class Book < ActiveRecord::Base
   validates :series
   validates :num_pages
   validates :publisher
-
 end

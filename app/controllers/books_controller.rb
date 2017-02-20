@@ -14,82 +14,108 @@ class BooksController < ApplicationController
 
     agent = Mechanize.new
     agent.user_agent_alias = 'Mac Safari'
-    page = agent.get('https://www.amazon.com')
-    search_form = page.form('site-search')
-    search_form['field-keywords'] = 'picture books for children 3-5'
-    page = agent.submit(search_form)
+    # page = agent.get('https://www.amazon.com')
+    # search_form = page.form('site-search')
+    # search_form['field-keywords'] = 'picture books for children 3-5'
+    # page = agent.submit(search_form)
 
-    #arrive at first book listings page
 
-    # #region
-    # region_text = page.parser.xpath("//div[@id='header_global_container']//li[@id='userGroups']/a[@id='userGroups_List_open']").text
-    # region_string = region_text.split(" ").join(" ")
-    # result = Region.find_by name: region_string
-    # if (!result.nil?)
-    #   regionid = result.id
-    # end
-    #
-    # while (page.parser.xpath("//div[@class='forum_footer']/ul[@class='pagination']/li/a[@class='next']").text == 'Next') do #while there is a 'next' link at bottom of page
-    #   scrape_page(page, agent, regionid)
-    #   page = page.link_with(:text => 'Next').click
-    # end
-    #
-    # scrape_page(page, agent, regionid) #scrape the last page
-    # agent.shutdown #avoids the "too many connection reset" error
+    #LISTINGS PAGE 'Children's Books' -> 'Ages 3-5yrs'
+    page = agent.get('https://www.amazon.com/b/ref=s9_acss_bw_cg_CHP8P_2b1_w?node=2578999011')
+    doc = Nokogiri::HTML(page.content)
+    results = doc.css('div#search-results div#mainResults ul li')
+
+    results.each do |book|
+      image_src = book.css('div.a-col-left img')[0]["src"]
+      #download image and save it
+      details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
+      details_page = agent.get(details_url)
+      doc = Nokogiri::HTML(details_page.content)
+
+      #DETAILS PAGE
+      title = doc.css('span#productTitle')
+      author = doc.css('span.author span.a-declarative a')[0].text
+      price = doc.css("div#formats ul li span.a-color-price").text.strip
+
+      product_bullets = doc.css("div#detail-bullets div.content ul li")
+      hash = {}
+
+      product_bullets.each do |item|
+        pair = item.text.split(":")
+        key = pair[0].strip
+        if !key.include?("Customer Review") && !key.include?("Language")
+          if key.include?("Best Sellers Rank")
+            list_items = item.css("ul.zg_hrsr li")
+            categories = get_tags_array(list_items)
+            hash_elt = {"tags" => categories}
+          else
+            val = pair[1].strip
+            hash_elt = format_product_detail_value(key, val)
+          end
+          hash = hash.merge(hash_elt)
+        end
+      end
+    end
+  end
+
+  def get_tags_array(list_items)
+    categories = []
+    list_items.each do |item|
+      links = item.css("span.zg_hrsr_ladder a")
+      num_levels = links.length
+      for i in 2..num_levels-1
+        categories << links[i].text
+      end
+    end
+    return categories
+  end
+
+  def format_product_detail_value(key, value)
+    case key
+      when "Age Range"
+        elts = value.split(" ")
+        val = elts[0] + elts[1] + elts[2]
+        {"age" => val}
+      when "Grade Level"
+        elts = value.split(" ")
+        val = elts[0] + elts[1] + elts[2]
+        {"grade" => val}
+      when "Hardcover"
+        {"cover_type" => "hard", "pages" => value}
+      when "Series"
+        {"series" => value}
+      when "Board book"
+        {"cover_type" => "board", "pages" => value}
+      when "Publisher"
+        sections = value.split("(")
+        val = sections[0].strip
+        date = sections[1].slice(0, sections[1].length-1)
+        {"publisher" => val, "publish_date" => date}
+      when "Lexile Measure"
+        val = value.split(" ")[0]
+        {"lexile" => val}
+      when "ISBN-10"
+        {"ISBN-10" => value}
+      when "ISBN-13"
+        {"ISBN-13" => value}
+      when "Product Dimensions"
+        {"dimensions" => value}
+      when "Shipping Weight"
+        elts = value.split(" ")
+        unit = elts[1]
+        if unit == "ounces" || unit == "ounce"
+          units = "oz"
+        elsif unit == "pounds" || unit == "pound"
+          units = "lbs"
+        end
+         result = elts[0] + " " + units
+        {"weight" => result}
+      when "Amazon Best Sellers Rank"
+      else
+        print('It is not a recognized label for Product Details')
+    end
 
   end
 
-    # def scrape_page(page, agent, regionid)
-    #   all_links = page.parser.xpath("//table[@class='forums_index']//tr[@class='forum_message']//a[starts-with(@href, '/group/forum/message/')]/@href")
-    #   all_links.each do |link|
-    #     post_page = agent.get("http://www.bigtent.com" + link.value)
-    #
-    #     #topicid
-    #     topic_info = post_page.parser.xpath("//div[@class='flag_container']/@id").first.value
-    #     # topic_info = post_page.parser.xpath("//ul[@class='message_list']/li[@class='comments']/div[@class='flag_container']/@id").first.value
-    #     topicid = topic_info[15..topic_info.length]
-    #
-    #     comments = post_page.parser.xpath("//ul[@class='message_list']/li[@class='comments']/ul[@class='comments_list']/li")
-    #     comments.each do |comment|
-    #       #userid
-    #       userid = nil
-    #       if (comment.xpath("div[@class='message_id']/p[@class='username']/a/@href").present?) #user still has active account
-    #         username_href = comment.xpath("div[@class='message_id']/p[@class='username']/a/@href").first.value
-    #         username_temp = username_href.chomp("?trackback")
-    #         userid = username_temp[9..username_temp.length]
-    #       end
-    #
-    #       #date
-    #       date_str = comment.xpath("div[@class='message_id']/p[@class='date']").text
-    #       dt = format_date(date_str)
-    #
-    #       #didn't find a way to traverse cleanly because no root node is available. have to iterate over until node is nil
-    #       #skip over first <p> because it's always empty
-    #       message_node = comment.xpath("div[@class='message']/p").first.next
-    #       combined_msg = ""
-    #
-    #       while (message_node != nil)
-    #         combined_msg += message_node.text + " "
-    #         message_node = message_node.next
-    #       end
-    #       matches = find_dr_name_matches(combined_msg)
-    #
-    #       #dr name
-    #       matches.each do |match|
-    #         if (match != nil && match[0] != "dren's") # throw out "children's" string
-    #           if match[1].in?(@@extra_words) && match[2].in?(@@extra_words)
-    #             #do nothing. don't insert random preposition words into DB
-    #           elsif match[2].in?(@@extra_words) # includes a "throw away" word (first AND last name)
-    #             dr_name = match[1]
-    #             do_insert(userid, dt, dr_name, topicid, regionid)
-    #           else
-    #             dr_name = match[1] + " " + match[2]
-    #             do_insert(userid, dt, dr_name, topicid, regionid)
-    #           end
-    #         end
-    #       end
-    #     end
-    #   end
-    # end
 
 end
