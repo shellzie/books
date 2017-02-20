@@ -3,22 +3,23 @@ class CreateBooks < ActiveRecord::Migration
     create_table :books do |t|
       t.string :title
       t.string :author
-      t.date :publication_date
+      t.decimal :price
+      t.date :publish_date
       t.text :image_path
       t.string :cover_type
       t.decimal :price
-      t.float :rating
-      t.integer :num_reviews
-      t.string :isbn
+      t.string :ISBN-10
+      t.string :ISBN-13
       t.text :description
-      t.string :age_range
-      t.string :grade_level
+      t.string :age
+      t.string :grade
       t.float :weight
       t.string :dimensions
       t.text :tags
       t.string :series
       t.integer :num_pages
       t.string :publisher
+      t.string :lexile
 
 
       t.timestamps null: false

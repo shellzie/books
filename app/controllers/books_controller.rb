@@ -33,18 +33,23 @@ class BooksController < ApplicationController
       doc = Nokogiri::HTML(details_page.content)
 
       #DETAILS PAGE
-      title = doc.css('span#productTitle')
-      author = doc.css('span.author span.a-declarative a')[0].text
-      price = doc.css("div#formats ul li span.a-color-price").text.strip
-
-      product_bullets = doc.css("div#detail-bullets div.content ul li")
       hash = {}
+      title = doc.css('span#productTitle')
+      hash.merge({"title" => title})
+      author = doc.css('span.author span.a-declarative a')[0].text
+      hash.merge({"author" => author})
+      price = doc.css("div#formats ul li span.a-color-price").text.strip
+      hash.merge({"price" => price})
+      description = doc.css("div#bookDescription_feature_div noscript").text.strip
+      hash.merge("description" => description)
 
+
+      product_bullets = doc.css("div#detail-bullets div.content > ul > li")
       product_bullets.each do |item|
         pair = item.text.split(":")
         key = pair[0].strip
         if !key.include?("Customer Review") && !key.include?("Language")
-          if key.include?("Best Sellers Rank")
+          if key.include?("Best Sellers")
             list_items = item.css("ul.zg_hrsr li")
             categories = get_tags_array(list_items)
             hash_elt = {"tags" => categories}
@@ -55,7 +60,13 @@ class BooksController < ApplicationController
           hash = hash.merge(hash_elt)
         end
       end
+      do_insert(hash)
     end
+  end
+
+  #params is a hash of key, value pairs
+  def do_insert(params)
+      Book.create(params)
   end
 
   def get_tags_array(list_items)
@@ -115,6 +126,10 @@ class BooksController < ApplicationController
         print('It is not a recognized label for Product Details')
     end
 
+  end
+
+  def books_params
+    params.require(:book).permit(:title, :author, :publication_date, :isbn)
   end
 
 
