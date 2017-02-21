@@ -5,7 +5,6 @@ class BooksController < ApplicationController
 
   @@local_img_path = '/Users/mkam/books/app/assets/images/'
   @@agent = Mechanize.new
-  @@start_page = 2
 
   def show
     scrape_amazon
@@ -20,13 +19,6 @@ class BooksController < ApplicationController
   end
 
   def scrape_amazon
-    if (Book.count < 12)
-      scrape_first_page
-    end
-    scrape_second_page_and_beyond
-  end
-
-  def scrape_first_page
     #page 1
     @@agent.user_agent_alias = random_user_agent
     page = @@agent.get('https://www.amazon.com/b/ref=s9_acss_bw_cg_CHP8P_2b1_w?node=2578999011')
@@ -36,11 +28,9 @@ class BooksController < ApplicationController
     results.each do |book_block|
       scrape_book(book_block)
     end
-  end
 
-  def scrape_second_page_and_beyond
     #PAGES 2-20
-    for i in @@start_page..20
+    for i in 2..20
       @@agent.user_agent_alias = random_user_agent
       page = @@agent.get('https://www.amazon.com/s/ref=sr_pg_' + i.to_s + '?rh=n%3A283155%2Cn%3A%211000%2Cn%3A4%2Cp_n_feature_five_browse-bin%3A2578999011&page=' + i.to_s)
       random_delay
@@ -119,7 +109,6 @@ class BooksController < ApplicationController
 
   #params is a hash of key, value pairs
   def do_insert(params)
-    #check if record exists
     Book.create(params)
   end
 
