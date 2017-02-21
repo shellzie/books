@@ -1,8 +1,7 @@
 require 'mechanize'
+require 'open-uri'
 
 class BooksController < ApplicationController
-
-
   def show
     scrape_amazon
     render text: "OK"
@@ -11,14 +10,9 @@ class BooksController < ApplicationController
   private
 
   def scrape_amazon
-
+    local_image_path = '/Users/mkam/books/app/assets/images/'
     agent = Mechanize.new
     agent.user_agent_alias = 'Mac Safari'
-    # page = agent.get('https://www.amazon.com')
-    # search_form = page.form('site-search')
-    # search_form['field-keywords'] = 'picture books for children 3-5'
-    # page = agent.submit(search_form)
-
 
     #LISTINGS PAGE 'Children's Books' -> 'Ages 3-5yrs'
     page = agent.get('https://www.amazon.com/b/ref=s9_acss_bw_cg_CHP8P_2b1_w?node=2578999011')
@@ -26,29 +20,41 @@ class BooksController < ApplicationController
     results = doc.css('div#search-results div#mainResults ul li')
 
     results.each do |book|
-      image_src = book.css('div.a-col-left img')[0]["src"]
-      #download image and save it
+
+      debugger
+      hash = {}
+      title = book.css("a.s-access-detail-page h2").text
+      hash.merge({"title" => title})
+
+      Rails.logger.debug "+++++++++++++++ " + title + "+++++++++++++++++\n\n"
+
+      formatted_title = title.split(" ").join("_")
+      image_url = book.css('div.a-col-left img')[0]["src"]
+      download = open(image_url)
+      open(local_image_path+formatted_title+".jpg", 'w')
+      IO.copy_stream(download, local_image_path+formatted_title+".jpg")
+
+      hash.merge({"image_path" => formatted_title+".jpg"})
+
       details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
       details_page = agent.get(details_url)
       doc = Nokogiri::HTML(details_page.content)
 
-      #DETAILS PAGE
-      hash = {}
-      title = doc.css('span#productTitle')
-      hash.merge({"title" => title})
       author = doc.css('span.author span.a-declarative a')[0].text
       hash.merge({"author" => author})
       price = doc.css("div#formats ul li span.a-color-price").text.strip
       hash.merge({"price" => price})
       description = doc.css("div#bookDescription_feature_div noscript").text.strip
-      hash.merge("description" => description)
-
+      hash.merge({"description" => description})
 
       product_bullets = doc.css("div#detail-bullets div.content > ul > li")
+      product_details_hash = {}
+
+      debugger
       product_bullets.each do |item|
         pair = item.text.split(":")
         key = pair[0].strip
-        if !key.include?("Customer Review") && !key.include?("Language")
+        if !key.include?("Customer Review") && !key.include?("Language") #throw away these items
           if key.include?("Best Sellers")
             list_items = item.css("ul.zg_hrsr li")
             categories = get_tags_array(list_items)
@@ -57,16 +63,20 @@ class BooksController < ApplicationController
             val = pair[1].strip
             hash_elt = format_product_detail_value(key, val)
           end
-          hash = hash.merge(hash_elt)
+          product_details_hash.merge(hash_elt)
         end
       end
+
+      hash.merge(product_details_hash)
+
       do_insert(hash)
     end
   end
 
   #params is a hash of key, value pairs
   def do_insert(params)
-      Book.create(params)
+    #check if record exists
+    Book.create(params)
   end
 
   def get_tags_array(list_items)
@@ -106,9 +116,9 @@ class BooksController < ApplicationController
         val = value.split(" ")[0]
         {"lexile" => val}
       when "ISBN-10"
-        {"ISBN-10" => value}
+        {"ISBN10" => value}
       when "ISBN-13"
-        {"ISBN-13" => value}
+        {"ISBN13" => value}
       when "Product Dimensions"
         {"dimensions" => value}
       when "Shipping Weight"
@@ -129,7 +139,7 @@ class BooksController < ApplicationController
   end
 
   def books_params
-    params.require(:book).permit(:title, :author, :publication_date, :isbn)
+    params.require(:book).permit(:title, :author, :publish_date)
   end
 
 

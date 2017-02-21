@@ -17,10 +17,9 @@ class CreateBooks < ActiveRecord::Migration
       t.string :dimensions
       t.text :tags
       t.string :series
-      t.integer :num_pages
+      t.integer :pages
       t.string :publisher
       t.string :lexile
-
 
       t.timestamps null: false
     end
