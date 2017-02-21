@@ -13,21 +13,33 @@ class BooksController < ApplicationController
 
   private
 
-  def scrape_amazon
-    @@agent.user_agent_alias = 'Mac Safari'
+  #rand returns random double between 0 and 10
+  def random_delay
+    sleep(rand * 10)
+  end
 
+
+
+  def scrape_amazon
     #LISTINGS PAGE 'Children's Books' -> 'Ages 3-5yrs'
     #PAGE 1
+
+    @@agent.user_agent_alias = random_user_agent
     page = @@agent.get('https://www.amazon.com/b/ref=s9_acss_bw_cg_CHP8P_2b1_w?node=2578999011')
+
+    random_delay
     doc = Nokogiri::HTML(page.content)
     results = doc.css('div#search-results div#mainResults ul li')
+
     results.each do |book_block|
       scrape_book(book_block)
     end
 
     #PAGES 2-20
     for i in 2..20
+      @@agent.user_agent_alias = random_user_agent
       page = @@agent.get('https://www.amazon.com/s/ref=sr_pg_' + i.to_s + '?rh=n%3A283155%2Cn%3A%211000%2Cn%3A4%2Cp_n_feature_five_browse-bin%3A2578999011&page=' + i.to_s)
+      random_delay
       doc = Nokogiri::HTML(page.content)
       results = doc.css('div#resultsCol div#atfResults ul li')
       results.each do |book_block|
@@ -37,6 +49,7 @@ class BooksController < ApplicationController
   end
 
   def scrape_book(book)
+
     hash = {}
     title = book.css("a.s-access-detail-page h2").text
     hash = hash.merge({"title" => title})
@@ -54,6 +67,7 @@ class BooksController < ApplicationController
     hash = hash.merge({"image_path" => formatted_title+".jpg"})
 
     details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
+    @@agent.user_agent_alias = random_user_agent
     details_page = @@agent.get(details_url)
     doc2 = Nokogiri::HTML(details_page.content)
 
@@ -79,7 +93,7 @@ class BooksController < ApplicationController
         hash = hash.merge(hash_elt)
       end
     end
-
+    random_delay
     do_insert(hash)
 
   end
@@ -159,6 +173,36 @@ class BooksController < ApplicationController
 
   def books_params
     params.require(:book).permit(:title, :author, :publish_date)
+  end
+
+  def random_user_agent
+    agent_array =
+    [
+      "Linux Firefox",
+      "Linux Konqueror",
+      "Linux Mozilla",
+      "Mac Firefox",
+      "Mac Mozilla",
+      "Mac Safari 4",
+      "Mac Safari",
+      "Windows Chrome",
+      "Windows IE 6",
+      "Windows IE 7",
+      "Windows IE 8",
+      "Windows IE 9",
+      "Windows IE 10",
+      "Windows IE 11",
+      "Windows Edge",
+      "Windows Mozilla",
+      "Windows Firefox"
+      # "iPhone",
+      # "iPad",
+      # "Android"
+    ]
+
+    num_agents = agent_array.length
+    index = rand(0..num_agents-1)
+    return agent_array[index]
   end
 
 
