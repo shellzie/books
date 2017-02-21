@@ -81,7 +81,7 @@ class BooksController < ApplicationController
     product_bullets.each do |item|
       pair = item.text.split(":")
       key = pair[0].strip
-      if !key.include?("Customer Review") && !key.include?("Language") #throw away these items
+      if !key.include?("Customer Review") && !key.include?("Language") && !key.include?("ASIN") #throw away these items
         if key.include?("Best Sellers")
           list_items = item.css("ul.zg_hrsr li")
           categories = get_tags_array(list_items)
@@ -90,7 +90,10 @@ class BooksController < ApplicationController
           val = pair[1].strip
           hash_elt = format_product_detail_value(key, val)
         end
-        hash = hash.merge(hash_elt)
+        if (hash_elt.present?)
+          hash = hash.merge(hash_elt)
+        end
+
       end
     end
     random_delay
@@ -117,7 +120,6 @@ class BooksController < ApplicationController
   end
 
   def format_product_detail_value(key, value)
-
     case key
       when "Age Range"
         elts = value.split(" ")
