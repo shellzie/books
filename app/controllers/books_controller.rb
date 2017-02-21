@@ -5,6 +5,7 @@ class BooksController < ApplicationController
 
   @@local_img_path = '/Users/mkam/books/app/assets/images/'
   @@agent = Mechanize.new
+  @@start_page = 2
 
   def show
     scrape_amazon
@@ -18,25 +19,28 @@ class BooksController < ApplicationController
     sleep(rand * 10)
   end
 
-
-
   def scrape_amazon
-    #LISTINGS PAGE 'Children's Books' -> 'Ages 3-5yrs'
-    #PAGE 1
+    if (Book.count < 12)
+      scrape_first_page
+    end
+    scrape_second_page_and_beyond
+  end
 
+  def scrape_first_page
+    #page 1
     @@agent.user_agent_alias = random_user_agent
     page = @@agent.get('https://www.amazon.com/b/ref=s9_acss_bw_cg_CHP8P_2b1_w?node=2578999011')
-
     random_delay
     doc = Nokogiri::HTML(page.content)
     results = doc.css('div#search-results div#mainResults ul li')
-
     results.each do |book_block|
       scrape_book(book_block)
     end
+  end
 
+  def scrape_second_page_and_beyond
     #PAGES 2-20
-    for i in 2..20
+    for i in @@start_page..20
       @@agent.user_agent_alias = random_user_agent
       page = @@agent.get('https://www.amazon.com/s/ref=sr_pg_' + i.to_s + '?rh=n%3A283155%2Cn%3A%211000%2Cn%3A4%2Cp_n_feature_five_browse-bin%3A2578999011&page=' + i.to_s)
       random_delay
@@ -50,54 +54,66 @@ class BooksController < ApplicationController
 
   def scrape_book(book)
 
-    hash = {}
-    title = book.css("a.s-access-detail-page h2").text
-    hash = hash.merge({"title" => title})
+    item_type = book.css("div.a-col-right div.a-spacing-none a h3").text
+    acceptable_types = ["Hardcover", "Board book", "Paperback"]
+    if acceptable_types.include?(item_type)
+      hash = {}
+      title = book.css("a.s-access-detail-page h2").text
+      hash = hash.merge({"title" => title})
 
-    author = book.css("div.a-col-right span.a-size-small a").text
-    hash = hash.merge({"author" => author})
-    Rails.logger.debug "+++++++++++++++ " + title + "+++++++++++++++++\n\n"
+      author = book.css("div.a-col-right span.a-size-small a").text
+      hash = hash.merge({"author" => author})
+      Rails.logger.debug "+++++++++++++++ " + title + "+++++++++++++++++\n\n"
 
-    formatted_title = title.split(" ").join("_")
-    image_url = book.css('div.a-col-left img')[0]["src"]
-    download = open(image_url)
-    open(@@local_img_path + formatted_title + ".jpg", 'w')
-    IO.copy_stream(download, @@local_img_path + formatted_title + ".jpg")
+      formatted_title = title.split(" ").join("_")
+      file_name = formatted_title.gsub(/[\/\;\,\!\:\'\(\)]/, '') #remove special characters when creating a file name
+      file_name_final = file_name.slice(0,75)
 
-    hash = hash.merge({"image_path" => formatted_title+".jpg"})
+      image_url = book.css('div.a-col-left img')[0]["src"]
+      download = open(image_url)
 
-    details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
-    @@agent.user_agent_alias = random_user_agent
-    details_page = @@agent.get(details_url)
-    doc2 = Nokogiri::HTML(details_page.content)
+      open(@@local_img_path + file_name_final + ".jpg", 'w')
 
-    price = doc2.css("div#formats ul li span.a-color-price").text.strip
-    hash = hash.merge({"price" => price})
-    description = doc2.css("div#bookDescription_feature_div noscript").text.strip
-    hash = hash.merge({"description" => description})
+      IO.copy_stream(download, @@local_img_path + file_name_final + ".jpg")
 
-    product_bullets = doc2.css("div#detail-bullets div.content > ul > li")
+      hash = hash.merge({"image_path" => file_name_final+".jpg"})
 
-    product_bullets.each do |item|
-      pair = item.text.split(":")
-      key = pair[0].strip
-      if !key.include?("Customer Review") && !key.include?("Language") && !key.include?("ASIN") #throw away these items
-        if key.include?("Best Sellers")
-          list_items = item.css("ul.zg_hrsr li")
-          categories = get_tags_array(list_items)
-          hash_elt = {"tags" => categories}
-        else
-          val = pair[1].strip
-          hash_elt = format_product_detail_value(key, val)
+      details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
+      @@agent.user_agent_alias = random_user_agent
+      details_page = @@agent.get(details_url)
+      doc2 = Nokogiri::HTML(details_page.content)
+
+      price = doc2.css("div#formats ul li span.a-color-price").text.strip
+      hash = hash.merge({"price" => price})
+      description = doc2.css("div#bookDescription_feature_div noscript").text.strip
+      hash = hash.merge({"description" => description})
+
+      product_bullets = doc2.css("div#detail-bullets div.content > ul > li")
+
+      product_bullets.each do |item|
+        pair = item.text.split(":")
+        key = pair[0].strip
+        if !key.include?("Customer Review") && !key.include?("Language") && !key.include?("ASIN") #throw away these items
+          if key.include?("Best Sellers")
+            list_items = item.css("ul.zg_hrsr li")
+            categories = get_tags_array(list_items)
+            hash_elt = {"tags" => categories}
+          elsif pair[1] != nil
+            val = pair[1].strip
+            hash_elt = format_product_detail_value(key, val)
+          else
+            debugger
+            Rails.logger.debug "++++++++++++++ error in product bullet key. item = " + item
+            hash_elt = format_product_detail_value(key, "none")
+          end
+          if (hash_elt.present?)
+            hash = hash.merge(hash_elt)
+          end
         end
-        if (hash_elt.present?)
-          hash = hash.merge(hash_elt)
-        end
-
       end
+      random_delay
+      do_insert(hash)
     end
-    random_delay
-    do_insert(hash)
 
   end
 
@@ -119,6 +135,14 @@ class BooksController < ApplicationController
     return categories
   end
 
+  def handle_blank_value(value)
+    if (value == "none")
+      result = "none"
+    else
+      result = value.split(" ")[1]
+    end
+  end
+
   def format_product_detail_value(key, value)
     case key
       when "Age Range"
@@ -130,15 +154,16 @@ class BooksController < ApplicationController
         val = elts[0] + elts[1] + elts[2]
         {"grade" => val}
       when "Hardcover"
-        num_pages = value.split(" ")[1]
-        {"cover_type" => "hard", "pages" => num_pages}
+        result = handle_blank_value(value)
+        {"cover_type" => "hard", "pages" => result}
       when "Paperback"
-        num_pages = value.split(" ")[1]
-        {"cover_type" => "paper", "pages" => num_pages}
+        result = handle_blank_value(value)
+        {"cover_type" => "paper", "pages" => result}
       when "Series"
         {"series" => value}
       when "Board book"
-        {"cover_type" => "board", "pages" => value}
+        result = handle_blank_value(value)
+        {"cover_type" => "board", "pages" => result}
       when "Publisher"
         sections = value.split("(")
         val = sections[0].strip
@@ -168,9 +193,9 @@ class BooksController < ApplicationController
         {"weight" => result}
       when "Amazon Best Sellers Rank"
       else
+        debugger
         print('Case is key: ' + key + ' and value: ' + value + ' It is not a recognized label for Product Details')
-    end
-
+     end
   end
 
   def books_params
