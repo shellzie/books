@@ -20,7 +20,6 @@ class BooksController < ApplicationController
     results = doc.css('div#search-results div#mainResults ul li')
 
     results.each do |book|
-
       hash = {}
       title = book.css("a.s-access-detail-page h2").text
       hash = hash.merge({"title" => title})
@@ -87,6 +86,7 @@ class BooksController < ApplicationController
   end
 
   def format_product_detail_value(key, value)
+
     case key
       when "Age Range"
         elts = value.split(" ")
@@ -97,7 +97,11 @@ class BooksController < ApplicationController
         val = elts[0] + elts[1] + elts[2]
         {"grade" => val}
       when "Hardcover"
-        {"cover_type" => "hard", "pages" => value}
+        num_pages = value.split(" ")[1]
+        {"cover_type" => "hard", "pages" => num_pages}
+      when "Paperback"
+        num_pages = value.split(" ")[1]
+        {"cover_type" => "paper", "pages" => num_pages}
       when "Series"
         {"series" => value}
       when "Board book"
@@ -131,7 +135,7 @@ class BooksController < ApplicationController
         {"weight" => result}
       when "Amazon Best Sellers Rank"
       else
-        print('It is not a recognized label for Product Details')
+        print('Case is key: ' + key + ' and value: ' + value + ' It is not a recognized label for Product Details')
     end
 
   end
