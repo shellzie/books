@@ -39,7 +39,7 @@ class BooksController < ApplicationController
       details_page = agent.get(details_url)
       doc = Nokogiri::HTML(details_page.content)
 
-      author = doc.css('span.author span.a-declarative a')[0].text
+      author = doc.css('span.author a')[0].text
       hash = hash.merge({"author" => author})
       price = doc.css("div#formats ul li span.a-color-price").text.strip
       hash = hash.merge({"price" => price})
@@ -117,19 +117,18 @@ class BooksController < ApplicationController
       when "Product Dimensions"
         {"dimensions" => value}
       when "Shipping Weight"
-        debugger
         elts = value.split(" ")
         unit = elts[1]
         units = ""
-        if unit == "ounces" || unit == "ounce"
+        if (unit == "ounces" || unit == "ounce")
           units = "oz"
-        elsif unit == "pounds" || unit == "pound"
+        elsif (unit == "pounds" || unit == "pound")
           units = "lbs"
+        else
+          puts "error parsing shipping weight"
         end
         result = elts[0] + " " + units
-
         {"weight" => result}
-
       when "Amazon Best Sellers Rank"
       else
         print('It is not a recognized label for Product Details')
