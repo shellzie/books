@@ -21,10 +21,9 @@ class BooksController < ApplicationController
 
     results.each do |book|
 
-      debugger
       hash = {}
       title = book.css("a.s-access-detail-page h2").text
-      hash.merge({"title" => title})
+      hash = hash.merge({"title" => title})
 
       Rails.logger.debug "+++++++++++++++ " + title + "+++++++++++++++++\n\n"
 
@@ -34,23 +33,21 @@ class BooksController < ApplicationController
       open(local_image_path+formatted_title+".jpg", 'w')
       IO.copy_stream(download, local_image_path+formatted_title+".jpg")
 
-      hash.merge({"image_path" => formatted_title+".jpg"})
+      hash = hash.merge({"image_path" => formatted_title+".jpg"})
 
       details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
       details_page = agent.get(details_url)
       doc = Nokogiri::HTML(details_page.content)
 
       author = doc.css('span.author span.a-declarative a')[0].text
-      hash.merge({"author" => author})
+      hash = hash.merge({"author" => author})
       price = doc.css("div#formats ul li span.a-color-price").text.strip
-      hash.merge({"price" => price})
+      hash = hash.merge({"price" => price})
       description = doc.css("div#bookDescription_feature_div noscript").text.strip
-      hash.merge({"description" => description})
+      hash = hash.merge({"description" => description})
 
       product_bullets = doc.css("div#detail-bullets div.content > ul > li")
-      product_details_hash = {}
 
-      debugger
       product_bullets.each do |item|
         pair = item.text.split(":")
         key = pair[0].strip
@@ -63,11 +60,9 @@ class BooksController < ApplicationController
             val = pair[1].strip
             hash_elt = format_product_detail_value(key, val)
           end
-          product_details_hash.merge(hash_elt)
+          hash = hash.merge(hash_elt)
         end
       end
-
-      hash.merge(product_details_hash)
 
       do_insert(hash)
     end
@@ -122,15 +117,19 @@ class BooksController < ApplicationController
       when "Product Dimensions"
         {"dimensions" => value}
       when "Shipping Weight"
+        debugger
         elts = value.split(" ")
         unit = elts[1]
+        units = ""
         if unit == "ounces" || unit == "ounce"
           units = "oz"
         elsif unit == "pounds" || unit == "pound"
           units = "lbs"
         end
-         result = elts[0] + " " + units
+        result = elts[0] + " " + units
+
         {"weight" => result}
+
       when "Amazon Best Sellers Rank"
       else
         print('It is not a recognized label for Product Details')
