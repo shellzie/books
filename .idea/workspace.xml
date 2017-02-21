@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7674b2-7e85-4c03-9307-0cfad543ea12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/The_Very_Hungry_Caterpillar.jpg" afterPath="$PROJECT_DIR$/app/assets/images/The_Very_Hungry_Caterpillar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/The_Wonderful_Things_You_Will_Be.jpg" afterPath="$PROJECT_DIR$/app/assets/images/The_Wonderful_Things_You_Will_Be.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
-    </list>
+    <list default="true" id="6e7674b2-7e85-4c03-9307-0cfad543ea12" name="Default" comment="" />
     <ignored path="books.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
