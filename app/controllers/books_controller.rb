@@ -7,11 +7,33 @@ class BooksController < ApplicationController
   @@agent = Mechanize.new
 
   def show
-    scrape_amazon
+    scrape_bn
     render text: "OK"
   end
 
   private
+
+  def scrape_bn
+    @@agent.user_agent_alias = random_user_agent
+    debugger
+    #main index of all picture books
+    page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1')
+    # random_delay
+    doc = Nokogiri::HTML(page.content)
+    results = doc.css("div.resultsListContainer li.clearer")
+    results.each do |listing|
+      debugger
+      scrape_bn_book(book_block)
+    end
+  end
+
+
+  def scrape_bn_book(book)
+    hash = {}
+    image_path = "http://" + doc.css('div.resultsListContainer li.clearer ul li a img')[0]['src']
+    hash = hash.merge({"image_path" => image_path})
+  end
+
 
   #rand returns random double between 0 and 10
   def random_delay
@@ -26,7 +48,7 @@ class BooksController < ApplicationController
     doc = Nokogiri::HTML(page.content)
     results = doc.css('div#search-results div#mainResults ul li')
     results.each do |book_block|
-      scrape_book(book_block)
+      scrape_amazon_book(book_block)
     end
 
     #PAGES 2-20
@@ -37,13 +59,12 @@ class BooksController < ApplicationController
       doc = Nokogiri::HTML(page.content)
       results = doc.css('div#resultsCol div#atfResults ul li')
       results.each do |book_block|
-        scrape_book(book_block)
+        scrape_amazon_book(book_block)
       end
     end
   end
 
-  def scrape_book(book)
-
+  def scrape_amazon_book(book)
     item_type = book.css("div.a-col-right div.a-spacing-none a h3").text
     acceptable_types = ["Hardcover", "Board book", "Paperback"]
     if acceptable_types.include?(item_type)
@@ -215,11 +236,8 @@ class BooksController < ApplicationController
       # "iPad",
       # "Android"
     ]
-
     num_agents = agent_array.length
     index = rand(0..num_agents-1)
     return agent_array[index]
   end
-
-
 end
