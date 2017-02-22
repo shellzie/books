@@ -1,5 +1,6 @@
 require 'mechanize'
 require 'open-uri'
+require 'date'
 
 class BooksController < ApplicationController
 
@@ -15,25 +16,125 @@ class BooksController < ApplicationController
 
   def scrape_bn
     @@agent.user_agent_alias = random_user_agent
-    debugger
-    #main index of all picture books
-    page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1')
-    # random_delay
-    doc = Nokogiri::HTML(page.content)
-    results = doc.css("div.resultsListContainer li.clearer")
-    results.each do |listing|
+    for i in 1..5
       debugger
-      scrape_bn_book(book_block)
+      page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=' + i.to_s)
+      doc = Nokogiri::HTML(page.content)
+      rows = doc.css('div.resultsListContainer ul#gridView li.clearer > ul')
+      rows.each do |row|
+        items_in_row = row.xpath('./li')
+        items_in_row.each do | item|
+          title = item.css('p.product-info-title').text.strip
+          details_page = @@agent.click(title)
+          details_doc = Nokogiri::HTML(details_page.content)
+          scrape_bn_book(details_doc)
+        end
+      end
+    end
+  end
+
+  def scrape_bn_book(book)
+    item_type = book.css('section#prodPromo > h2').text
+    acceptable_types = ["Hardcover", "Board Book", "Paperback"]
+    if acceptable_types.include?(item_type)
+      hash = {}
+
+      result = convert_cover_type(item_type)
+      hash = hash.merge({"cover_type" => result})
+
+      title = book.css('section#prodSummary h1').text
+      hash = hash.merge({"title" => title})
+
+      author = book.css('section#prodSummary span.contributors > a')[0].text
+      if author.include?('(Illustrator)')
+        author = author.slice(0, author.length-14)
+      end
+      hash = hash.merge({"author" => author})
+
+
+      image_path = "http:" + book.css("section#prodImage img#pdpMainImage").attr('src').value
+      result_pair = download_and_save_image(title, image_path)
+      hash = hash.merge(result_pair)
+
+      price = book.css('aside#prodInfoContainer span.clearance span.old-price').text
+      hash = hash.merge({"price" => price})
+
+      description = book.css('div#productInfoOverview div.flexColumn p').text.strip
+      hash = hash.merge("description" => description)
+
+      #iterate product details bullets
+      all_labels = book.css('div#ProductDetailsTab section#additionalProductInfo dt')
+      all_values = book.css('div#ProductDetailsTab section#additionalProductInfo dd')
+      num_pairs = all_labels.length
+      for i in 0..num_pairs-1
+        label_raw = all_labels[i].text
+        label = label_raw.slice(0, label_raw.length-1)
+        if ((label != "Sales rank") && (label != "Edition description"))
+          value = all_values[i].text.strip
+          result = format_details(label, value)
+          hash = hash.merge(result)
+        end
+      end
+      do_insert(hash)
+    end
+  end
+
+  def convert_cover_type(covertype)
+    case covertype
+      when "Hardback"
+        return 'hard'
+      when "Paperback"
+        return 'paper'
+      when "Board Book"
+        return 'board'
+      else
+        Rails.logger.debug "Error in convert_cover_type(). covertype = " + covertype
     end
   end
 
 
-  def scrape_bn_book(book)
-    hash = {}
-    image_path = "http://" + doc.css('div.resultsListContainer li.clearer ul li a img')[0]['src']
-    hash = hash.merge({"image_path" => image_path})
+  def format_date(date_str)
+    elts = date_str.split("/")
+    return elts[2] + "/" + elts[0] + "/" + elts[1]
   end
 
+  def format_details(key, value)
+    case key
+    when "Pages", "Publisher"
+      {key.downcase => value}
+    when "Lexile"
+      value = value.slice(0, value.length-15)
+      {"lexile" => value}
+    when "Publication date"
+      value = format_date(value)
+      value = value.to_datetime.strftime('%Y-%m-%d')
+      {"publish_date" => value}
+    when "Product dimensions"
+      {"dimensions" => value}
+    when "Age Range"
+      #4 - 8 Years
+      elts = value.split(" ")
+      val = elts[0] + elts[1] + elts[2]
+      {"age" => val}
+    when "ISBN-10"
+      {"ISBN10" => value}
+    when "ISBN-13"
+      {"ISBN13" => value}
+    else
+        debugger
+        print('Case is key: ' + key + ' and value: ' + value + ' It is not a recognized label for Product Details')
+    end
+  end
+
+  def download_and_save_image(unformatted_title, image_url)
+    formatted_title = unformatted_title.split(" ").join("_")
+    file_name = formatted_title.gsub(/[\/\;\,\!\:\'\(\)]/, '') #remove special characters when creating a file name
+    file_name_final = file_name.slice(0,75)
+    download = open(image_url)
+    open(@@local_img_path + file_name_final + ".jpg", 'w')
+    IO.copy_stream(download, @@local_img_path + file_name_final + ".jpg")
+    return {"image_path" => file_name_final+".jpg"}
+  end
 
   #rand returns random double between 0 and 10
   def random_delay
@@ -76,18 +177,8 @@ class BooksController < ApplicationController
       hash = hash.merge({"author" => author})
       Rails.logger.debug "+++++++++++++++ " + title + "+++++++++++++++++\n\n"
 
-      formatted_title = title.split(" ").join("_")
-      file_name = formatted_title.gsub(/[\/\;\,\!\:\'\(\)]/, '') #remove special characters when creating a file name
-      file_name_final = file_name.slice(0,75)
-
       image_url = book.css('div.a-col-left img')[0]["src"]
-      download = open(image_url)
-
-      open(@@local_img_path + file_name_final + ".jpg", 'w')
-
-      IO.copy_stream(download, @@local_img_path + file_name_final + ".jpg")
-
-      hash = hash.merge({"image_path" => file_name_final+".jpg"})
+      hash = hash.merge(download_and_save_image(title, image_url))
 
       details_url = book.css('div.a-col-right div.a-spacing-small a.s-access-detail-page')[0]["href"]
       @@agent.user_agent_alias = random_user_agent
@@ -155,57 +246,57 @@ class BooksController < ApplicationController
 
   def format_product_detail_value(key, value)
     case key
-      when "Age Range"
-        elts = value.split(" ")
-        val = elts[0] + elts[1] + elts[2]
-        {"age" => val}
-      when "Grade Level"
-        elts = value.split(" ")
-        val = elts[0] + elts[1] + elts[2]
-        {"grade" => val}
-      when "Hardcover"
-        result = handle_blank_value(value)
-        {"cover_type" => "hard", "pages" => result}
-      when "Paperback"
-        result = handle_blank_value(value)
-        {"cover_type" => "paper", "pages" => result}
-      when "Series"
-        {"series" => value}
-      when "Board book"
-        result = handle_blank_value(value)
-        {"cover_type" => "board", "pages" => result}
-      when "Publisher"
-        sections = value.split("(")
-        val = sections[0].strip
-        date = sections[1].slice(0, sections[1].length-1)
-        {"publisher" => val, "publish_date" => date}
-      when "Lexile Measure"
-        val = value.split(" ")[0]
-        {"lexile" => val}
-      when "ISBN-10"
-        {"ISBN10" => value}
-      when "ISBN-13"
-        {"ISBN13" => value}
-      when "Product Dimensions"
-        {"dimensions" => value}
-      when "Shipping Weight"
-        elts = value.split(" ")
-        unit = elts[1]
-        units = ""
-        if (unit == "ounces" || unit == "ounce")
-          units = "oz"
-        elsif (unit == "pounds" || unit == "pound")
-          units = "lbs"
-        else
-          puts "error parsing shipping weight"
-        end
-        result = elts[0] + " " + units
-        {"weight" => result}
-      when "Amazon Best Sellers Rank"
+    when "Age Range"
+      elts = value.split(" ")
+      val = elts[0] + elts[1] + elts[2]
+      {"age" => val}
+    when "Grade Level"
+      elts = value.split(" ")
+      val = elts[0] + elts[1] + elts[2]
+      {"grade" => val}
+    when "Hardcover"
+      result = handle_blank_value(value)
+      {"cover_type" => "hard", "pages" => result}
+    when "Paperback"
+      result = handle_blank_value(value)
+      {"cover_type" => "paper", "pages" => result}
+    when "Series"
+      {"series" => value}
+    when "Board book"
+      result = handle_blank_value(value)
+      {"cover_type" => "board", "pages" => result}
+    when "Publisher"
+      sections = value.split("(")
+      val = sections[0].strip
+      date = sections[1].slice(0, sections[1].length-1)
+      {"publisher" => val, "publish_date" => date}
+    when "Lexile Measure"
+      val = value.split(" ")[0]
+      {"lexile" => val}
+    when "ISBN-10"
+      {"ISBN10" => value}
+    when "ISBN-13"
+      {"ISBN13" => value}
+    when "Product Dimensions"
+      {"dimensions" => value}
+    when "Shipping Weight"
+      elts = value.split(" ")
+      unit = elts[1]
+      units = ""
+      if (unit == "ounces" || unit == "ounce")
+        units = "oz"
+      elsif (unit == "pounds" || unit == "pound")
+        units = "lbs"
       else
+        puts "error parsing shipping weight"
+      end
+      result = elts[0] + " " + units
+      {"weight" => result}
+    when "Amazon Best Sellers Rank"
+    else
         debugger
         print('Case is key: ' + key + ' and value: ' + value + ' It is not a recognized label for Product Details')
-     end
+    end
   end
 
   def books_params
