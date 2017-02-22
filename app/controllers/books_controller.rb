@@ -17,15 +17,19 @@ class BooksController < ApplicationController
   def scrape_bn
     @@agent.user_agent_alias = random_user_agent
     for i in 1..5
-      debugger
       page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=' + i.to_s)
       doc = Nokogiri::HTML(page.content)
       rows = doc.css('div.resultsListContainer ul#gridView li.clearer > ul')
       rows.each do |row|
+        random_delay
         items_in_row = row.xpath('./li')
         items_in_row.each do | item|
-          title = item.css('p.product-info-title').text.strip
-          details_page = @@agent.click(title)
+
+          # title = item.css('p.product-info-title').text.strip
+          link = "www.barnesandnoble.com" + item.css('p.product-info-title a')[0]['href']
+          @@agent.user_agent_alias = random_user_agent
+          # details_page = @@agent.click(title)
+          details_page = @@agent.get(link)
           details_doc = Nokogiri::HTML(details_page.content)
           scrape_bn_book(details_doc)
         end
@@ -51,7 +55,6 @@ class BooksController < ApplicationController
       end
       hash = hash.merge({"author" => author})
 
-
       image_path = "http:" + book.css("section#prodImage img#pdpMainImage").attr('src').value
       result_pair = download_and_save_image(title, image_path)
       hash = hash.merge(result_pair)
@@ -75,13 +78,14 @@ class BooksController < ApplicationController
           hash = hash.merge(result)
         end
       end
+      random_delay
       do_insert(hash)
     end
   end
 
   def convert_cover_type(covertype)
     case covertype
-      when "Hardback"
+      when "Hardcover"
         return 'hard'
       when "Paperback"
         return 'paper'
