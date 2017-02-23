@@ -1,11 +1,12 @@
 require 'mechanize'
+require 'logger'
 require 'open-uri'
 require 'date'
 
 class BooksController < ApplicationController
 
-  @@local_img_path = '/Users/mkam/books/app/assets/images/'
-  @@agent = Mechanize.new
+  # @@local_img_path = '/Users/mkam/books/app/assets/images/'
+  # @@agent = Mechanize.new
 
   def show
     scrape_bn
@@ -15,9 +16,27 @@ class BooksController < ApplicationController
   private
 
   def scrape_bn
+    debugger
+    agent = Mechanize.new
+    agent.log = Logger.new "mech.log"
+    agent.user_agent_alias = random_user_agent
+    # agent.add_header("Referer" => "http://www.google.com")
+
+    agent.request_headers = {"Referer" => "http://www.google.com"}
+    page = agent.get("http://www.barnesandnoble.com")
+    puts page.body
+
+    debugger
+
+    # @@agent.user_agent_alias = random_user_agent
+    # @@agent.get('http://www.jcrew.com')
+
+
     @@agent.user_agent_alias = random_user_agent
+
     for i in 1..5
       page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=' + i.to_s)
+
       doc = Nokogiri::HTML(page.content)
       rows = doc.css('div.resultsListContainer ul#gridView li.clearer > ul')
       rows.each do |row|

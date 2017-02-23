@@ -1,0 +1,37 @@
+I, [2017-02-23T15:33:51.578162 #6217]  INFO -- : Net::HTTP::Get: /
+
+D, [2017-02-23T15:33:51.578730 #6217] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:33:51.586298 #6217] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:33:51.586529 #6217] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-02-23T15:33:51.586739 #6217] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-02-23T15:33:51.586945 #6217] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:33:51.587152 #6217] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:33:51.587371 #6217] DEBUG -- : request-header: referer => http://www.google.com
+
+
+
+I, [2017-02-23T15:33:52.212050 #6217]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:33:52.212395 #6217] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:33:52.212694 #6217] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:33:52.212970 #6217] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:33:52.213264 #6217] DEBUG -- : response-header: content-length => 25353
+D, [2017-02-23T15:33:52.213541 #6217] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:33:36 GMT
+D, [2017-02-23T15:33:52.213826 #6217] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:33:52.214169 #6217] DEBUG -- : response-header: set-cookie => JSESSIONID=B6442DAFE08F0F85F539E24F8468CF9F.prodny_store01-atgap07; Path=/; HttpOnly, userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:33:35 GMT; path=/; HttpOnly, W2A=!0doTJymTcdxt77/AXN0BF8xiOC6QvCtOguYG356C+0ogOSCpR2WhM2tQV7dzLSXt8l3cLLY8JTmIow==; path=/, org-dc=WBY;path=/;domain=.barnesandnoble.com;, DeviceType=Desktop;path=/;domain=.barnesandnoble.com;, showSiteAs=Desktop;path=/;domain=.barnesandnoble.com;, client-profile=Desktop;path=/;domain=.barnesandnoble.com;, TS01e75984=01b2269760bd57ccaa228990107902719408a5870491ff5f3416053b754c88822a8417bb0663b6c0a0a3a5baac4c2d112067de7c7e64652ae2388067aef21584c5f5455ad4682c867a7c6f97df7746e69ff0a7179c; Path=/, TS01af0a8e=01b2269760a89804013226e5d11a8be3ed91fad3a8ec414016f09d90d41073e81952af209405a25e09c54c0e3cc23fa51202c8c7010e298e1b7256d8e666464251bc0fec86bad0607ccff379ac98649ed6ebc41521c598a5bdb084d610c2fb0dd0aaef99ed; path=/; domain=.barnesandnoble.com, Mobile-seg=Control-A-seg; path=/; domain=.barnesandnoble.com, akaas_Mobile_phase_rollout=2147483647~rv=60~id=9d4801f4409abc8f2007d9dca921972e; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+D, [2017-02-23T15:33:52.214921 #6217] DEBUG -- : Read 17 bytes (17 total)
+D, [2017-02-23T15:33:52.215382 #6217] DEBUG -- : Read 16384 bytes (16401 total)
+D, [2017-02-23T15:33:52.215859 #6217] DEBUG -- : Read 4654 bytes (21055 total)
+D, [2017-02-23T15:33:52.228843 #6217] DEBUG -- : Read 1448 bytes (22503 total)
+D, [2017-02-23T15:33:52.229387 #6217] DEBUG -- : Read 2850 bytes (25353 total)
+D, [2017-02-23T15:33:52.230613 #6217] DEBUG -- : gzip response
+D, [2017-02-23T15:33:52.248966 #6217] DEBUG -- : saved cookie: JSESSIONID=B6442DAFE08F0F85F539E24F8468CF9F.prodny_store01-atgap07
+D, [2017-02-23T15:33:52.252012 #6217] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:33:52.253764 #6217] DEBUG -- : saved cookie: W2A=!0doTJymTcdxt77/AXN0BF8xiOC6QvCtOguYG356C+0ogOSCpR2WhM2tQV7dzLSXt8l3cLLY8JTmIow==
+D, [2017-02-23T15:33:52.255681 #6217] DEBUG -- : saved cookie: org-dc=WBY
+D, [2017-02-23T15:33:52.257834 #6217] DEBUG -- : saved cookie: DeviceType=Desktop
+D, [2017-02-23T15:33:52.260134 #6217] DEBUG -- : saved cookie: showSiteAs=Desktop
+D, [2017-02-23T15:33:52.264723 #6217] DEBUG -- : saved cookie: client-profile=Desktop
+D, [2017-02-23T15:33:52.266279 #6217] DEBUG -- : saved cookie: TS01e75984=01b2269760bd57ccaa228990107902719408a5870491ff5f3416053b754c88822a8417bb0663b6c0a0a3a5baac4c2d112067de7c7e64652ae2388067aef21584c5f5455ad4682c867a7c6f97df7746e69ff0a7179c
+D, [2017-02-23T15:33:52.267907 #6217] DEBUG -- : saved cookie: TS01af0a8e=01b2269760a89804013226e5d11a8be3ed91fad3a8ec414016f09d90d41073e81952af209405a25e09c54c0e3cc23fa51202c8c7010e298e1b7256d8e666464251bc0fec86bad0607ccff379ac98649ed6ebc41521c598a5bdb084d610c2fb0dd0aaef99ed
+D, [2017-02-23T15:33:52.269814 #6217] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
+D, [2017-02-23T15:33:52.272102 #6217] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=60~id=9d4801f4409abc8f2007d9dca921972e
