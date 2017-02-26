@@ -2,7 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7674b2-7e85-4c03-9307-0cfad543ea12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results.txt.1" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.txt" afterPath="$PROJECT_DIR$/app/static_html/.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.txt.1" afterPath="$PROJECT_DIR$/app/static_html/.txt.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.txt.2" afterPath="$PROJECT_DIR$/app/static_html/.txt.2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.txt.3" afterPath="$PROJECT_DIR$/app/static_html/.txt.3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/A Ball for Daisy.txt" afterPath="$PROJECT_DIR$/app/static_html/A Ball for Daisy.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/A Cat Named Swan.txt" afterPath="$PROJECT_DIR$/app/static_html/A Cat Named Swan.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/A Lullaby for Little One.txt" afterPath="$PROJECT_DIR$/app/static_html/A Lullaby for Little One.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/A Season to Bee.txt" afterPath="$PROJECT_DIR$/app/static_html/A Season to Bee.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ABC Pasta.txt" afterPath="$PROJECT_DIR$/app/static_html/ABC Pasta.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Abe Lincoln Crosses a Creek.txt" afterPath="$PROJECT_DIR$/app/static_html/Abe Lincoln Crosses a Creek.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Albert the Alphabetical Elephant.txt" afterPath="$PROJECT_DIR$/app/static_html/Albert the Alphabetical Elephant.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bear Likes Jam.txt" afterPath="$PROJECT_DIR$/app/static_html/Bear Likes Jam.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bluebird.txt" afterPath="$PROJECT_DIR$/app/static_html/Bluebird.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bunny’s Book Club.txt" afterPath="$PROJECT_DIR$/app/static_html/Bunny’s Book Club.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Clever Jack Takes the Cake.txt" afterPath="$PROJECT_DIR$/app/static_html/Clever Jack Takes the Cake.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Coming on Home Soon.txt" afterPath="$PROJECT_DIR$/app/static_html/Coming on Home Soon.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Count Worm.txt" afterPath="$PROJECT_DIR$/app/static_html/Count Worm.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Curious About Worms.txt" afterPath="$PROJECT_DIR$/app/static_html/Curious About Worms.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Duck &amp; Goose.txt" afterPath="$PROJECT_DIR$/app/static_html/Duck &amp; Goose.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Elsie Piddock Skips in Her Sleep.txt" afterPath="$PROJECT_DIR$/app/static_html/Elsie Piddock Skips in Her Sleep.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Emma and the Whale.txt" afterPath="$PROJECT_DIR$/app/static_html/Emma and the Whale.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Farmer Duck.txt" afterPath="$PROJECT_DIR$/app/static_html/Farmer Duck.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Feel the Beat: Dance Poems that Zing from Salsa to Swing.txt" afterPath="$PROJECT_DIR$/app/static_html/Feel the Beat: Dance Poems that Zing from Salsa to Swing.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Friendship and Junk.txt" afterPath="$PROJECT_DIR$/app/static_html/Friendship and Junk.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Froggy Goes to the Library.txt" afterPath="$PROJECT_DIR$/app/static_html/Froggy Goes to the Library.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Good Sports.txt" afterPath="$PROJECT_DIR$/app/static_html/Good Sports.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Goodnight, Numbers.txt" afterPath="$PROJECT_DIR$/app/static_html/Goodnight, Numbers.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Grandfather Clock.txt" afterPath="$PROJECT_DIR$/app/static_html/Grandfather Clock.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Great, Now We’ve Got Barbarians!.txt" afterPath="$PROJECT_DIR$/app/static_html/Great, Now We’ve Got Barbarians!.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Happy Birthday, Kate and Mim-Mim!.txt" afterPath="$PROJECT_DIR$/app/static_html/Happy Birthday, Kate and Mim-Mim!.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Happy!.txt" afterPath="$PROJECT_DIR$/app/static_html/Happy!.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Here Comes the Garbage Barge!.txt" afterPath="$PROJECT_DIR$/app/static_html/Here Comes the Garbage Barge!.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Home.txt" afterPath="$PROJECT_DIR$/app/static_html/Home.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/How to Be a Baby . . . by Me, the Big Sister.txt" afterPath="$PROJECT_DIR$/app/static_html/How to Be a Baby . . . by Me, the Big Sister.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/How to Catch Santa.txt" afterPath="$PROJECT_DIR$/app/static_html/How to Catch Santa.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Hush-A-Bye Bunny.txt" afterPath="$PROJECT_DIR$/app/static_html/Hush-A-Bye Bunny.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I Will Never Get a Star on Mrs. Benson’s Blackboard.txt" afterPath="$PROJECT_DIR$/app/static_html/I Will Never Get a Star on Mrs. Benson’s Blackboard.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I am George Washington B&amp;N Exclusive Edititon.txt" afterPath="$PROJECT_DIR$/app/static_html/I am George Washington B&amp;N Exclusive Edititon.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I am George Washington B&amp;N Exclusive Edititon.txt.1" afterPath="$PROJECT_DIR$/app/static_html/I am George Washington B&amp;N Exclusive Edititon.txt.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I am Jane Goodall.txt" afterPath="$PROJECT_DIR$/app/static_html/I am Jane Goodall.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I am Jane Goodall.txt.1" afterPath="$PROJECT_DIR$/app/static_html/I am Jane Goodall.txt.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/I am Martin Luther King, Jr..txt" afterPath="$PROJECT_DIR$/app/static_html/I am Martin Luther King, Jr..txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/If Rocks Could Sing.txt" afterPath="$PROJECT_DIR$/app/static_html/If Rocks Could Sing.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/If Your Monster Won’t Go To Bed.txt" afterPath="$PROJECT_DIR$/app/static_html/If Your Monster Won’t Go To Bed.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inch by Inch.txt" afterPath="$PROJECT_DIR$/app/static_html/Inch by Inch.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Keith Haring: The Boy Who Just Kept Drawing.txt" afterPath="$PROJECT_DIR$/app/static_html/Keith Haring: The Boy Who Just Kept Drawing.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Last Stop on Market Street.txt" afterPath="$PROJECT_DIR$/app/static_html/Last Stop on Market Street.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Life on Mars.txt" afterPath="$PROJECT_DIR$/app/static_html/Life on Mars.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Little Fox in the Forest.txt" afterPath="$PROJECT_DIR$/app/static_html/Little Fox in the Forest.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Llama Llama Gram and Grandpa.txt" afterPath="$PROJECT_DIR$/app/static_html/Llama Llama Gram and Grandpa.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Love from The Very Hungry Caterpillar.txt" afterPath="$PROJECT_DIR$/app/static_html/Love from The Very Hungry Caterpillar.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Me, All Alone, at the End of the World.txt" afterPath="$PROJECT_DIR$/app/static_html/Me, All Alone, at the End of the World.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mickey Mantle: The Commerce Comet.txt" afterPath="$PROJECT_DIR$/app/static_html/Mickey Mantle: The Commerce Comet.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mr. Lincoln’s Way.txt" afterPath="$PROJECT_DIR$/app/static_html/Mr. Lincoln’s Way.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oh, No!.txt" afterPath="$PROJECT_DIR$/app/static_html/Oh, No!.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Patrick and the President.txt" afterPath="$PROJECT_DIR$/app/static_html/Patrick and the President.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Return.txt" afterPath="$PROJECT_DIR$/app/static_html/Return.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Robert Louis Stevenson’s A Child’s Garden of Verses.txt" afterPath="$PROJECT_DIR$/app/static_html/Robert Louis Stevenson’s A Child’s Garden of Verses.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Robo-Sauce.txt" afterPath="$PROJECT_DIR$/app/static_html/Robo-Sauce.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Say Hello, Sophie.txt" afterPath="$PROJECT_DIR$/app/static_html/Say Hello, Sophie.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Show Way.txt" afterPath="$PROJECT_DIR$/app/static_html/Show Way.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/So You Want to Be President?.txt" afterPath="$PROJECT_DIR$/app/static_html/So You Want to Be President?.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sometimes It’s Storks.txt" afterPath="$PROJECT_DIR$/app/static_html/Sometimes It’s Storks.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spin.txt" afterPath="$PROJECT_DIR$/app/static_html/Spin.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Steppin’ Out.txt" afterPath="$PROJECT_DIR$/app/static_html/Steppin’ Out.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sun Bread.txt" afterPath="$PROJECT_DIR$/app/static_html/Sun Bread.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The All-I’ll-Ever-Want Christmas Doll.txt" afterPath="$PROJECT_DIR$/app/static_html/The All-I’ll-Ever-Want Christmas Doll.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Answer.txt" afterPath="$PROJECT_DIR$/app/static_html/The Answer.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Bill the Cat Story: A Bloom County Epic.txt" afterPath="$PROJECT_DIR$/app/static_html/The Bill the Cat Story: A Bloom County Epic.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Bill the Cat Story: A Bloom County Epic.txt.1" afterPath="$PROJECT_DIR$/app/static_html/The Bill the Cat Story: A Bloom County Epic.txt.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Chupacabra Ate the Candelabra.txt" afterPath="$PROJECT_DIR$/app/static_html/The Chupacabra Ate the Candelabra.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Day the Babies Crawled Away.txt" afterPath="$PROJECT_DIR$/app/static_html/The Day the Babies Crawled Away.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Day the Crayons Came Home.txt" afterPath="$PROJECT_DIR$/app/static_html/The Day the Crayons Came Home.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Little Snowplow.txt" afterPath="$PROJECT_DIR$/app/static_html/The Little Snowplow.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Poop Sleuth.txt" afterPath="$PROJECT_DIR$/app/static_html/The Poop Sleuth.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Rabbit Who Wants to Fall Asleep.txt" afterPath="$PROJECT_DIR$/app/static_html/The Rabbit Who Wants to Fall Asleep.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Tale of Kitty-in-Boots.txt" afterPath="$PROJECT_DIR$/app/static_html/The Tale of Kitty-in-Boots.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Tree.txt" afterPath="$PROJECT_DIR$/app/static_html/The Tree.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Wonderful Things You Will Be.txt" afterPath="$PROJECT_DIR$/app/static_html/The Wonderful Things You Will Be.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/This Is Not My Hat.txt" afterPath="$PROJECT_DIR$/app/static_html/This Is Not My Hat.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Warning: Wild Weather Ahead.txt" afterPath="$PROJECT_DIR$/app/static_html/Warning: Wild Weather Ahead.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/What Pet Should I Get?.txt" afterPath="$PROJECT_DIR$/app/static_html/What Pet Should I Get?.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Woody Guthrie.txt" afterPath="$PROJECT_DIR$/app/static_html/Woody Guthrie.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mech.log" afterPath="$PROJECT_DIR$/app/static_html/mech.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
     </list>
     <ignored path="books.iws" />
@@ -36,23 +121,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78882575">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#9009#9060#0" expanded="false" />
-                <element signature="e#9064#9337#0" expanded="false" />
-                <element signature="e#11131#11218#0" expanded="false" />
-                <element signature="e#11222#11815#0" expanded="false" />
+                <element signature="e#8897#8948#0" expanded="false" />
+                <element signature="e#8952#9225#0" expanded="false" />
+                <element signature="e#11019#11106#0" expanded="false" />
+                <element signature="e#11110#11703#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="config.ru" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/books.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3469388">
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="The Chupacabra Ate the Candelabra.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/The Chupacabra Ate the Candelabra.txt">
+        <entry file="file://$PROJECT_DIR$/app/static_html/The Chupacabra Ate the Candelabra.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -62,7 +167,7 @@
         </entry>
       </file>
       <file leaf-file-name=".txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.txt">
+        <entry file="file://$PROJECT_DIR$/app/static_html/.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
@@ -72,17 +177,17 @@
         </entry>
       </file>
       <file leaf-file-name=".txt.3" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.txt.3">
+        <entry file="file://$PROJECT_DIR$/app/static_html/.txt.3">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="282" column="82" selection-start-line="282" selection-start-column="82" selection-end-line="282" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".txt.2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.txt.2">
+        <entry file="file://$PROJECT_DIR$/app/static_html/.txt.2">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,7 +197,7 @@
         </entry>
       </file>
       <file leaf-file-name=".txt.1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.txt.1">
+        <entry file="file://$PROJECT_DIR$/app/static_html/.txt.1">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -102,17 +207,7 @@
         </entry>
       </file>
       <file leaf-file-name="The Day the Crayons Came Home.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/The Day the Crayons Came Home.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="The Tale of Kitty-in-Boots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/The Tale of Kitty-in-Boots.txt">
+        <entry file="file://$PROJECT_DIR$/app/static_html/The Day the Crayons Came Home.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -122,10 +217,10 @@
         </entry>
       </file>
       <file leaf-file-name="Return.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Return.txt">
+        <entry file="file://$PROJECT_DIR$/app/static_html/Return.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -224,88 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -337,6 +350,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static_html" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -584,10 +598,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9009#9060#0" expanded="false" />
-            <element signature="e#9064#9337#0" expanded="false" />
-            <element signature="e#11131#11218#0" expanded="false" />
-            <element signature="e#11222#11815#0" expanded="false" />
+            <element signature="e#8897#8948#0" expanded="false" />
+            <element signature="e#8952#9225#0" expanded="false" />
+            <element signature="e#11019#11106#0" expanded="false" />
+            <element signature="e#11110#11703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -597,10 +611,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9009#9060#0" expanded="false" />
-            <element signature="e#9064#9337#0" expanded="false" />
-            <element signature="e#11131#11218#0" expanded="false" />
-            <element signature="e#11222#11815#0" expanded="false" />
+            <element signature="e#8897#8948#0" expanded="false" />
+            <element signature="e#8952#9225#0" expanded="false" />
+            <element signature="e#11019#11106#0" expanded="false" />
+            <element signature="e#11110#11703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,10 +624,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9009#9060#0" expanded="false" />
-            <element signature="e#9064#9337#0" expanded="false" />
-            <element signature="e#11131#11218#0" expanded="false" />
-            <element signature="e#11222#11815#0" expanded="false" />
+            <element signature="e#8897#8948#0" expanded="false" />
+            <element signature="e#8952#9225#0" expanded="false" />
+            <element signature="e#11019#11106#0" expanded="false" />
+            <element signature="e#11110#11703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -653,10 +667,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9009#9060#0" expanded="false" />
-            <element signature="e#9064#9337#0" expanded="false" />
-            <element signature="e#11131#11218#0" expanded="false" />
-            <element signature="e#11222#11815#0" expanded="false" />
+            <element signature="e#8897#8948#0" expanded="false" />
+            <element signature="e#8952#9225#0" expanded="false" />
+            <element signature="e#11019#11106#0" expanded="false" />
+            <element signature="e#11110#11703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -842,7 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mech.log">
+    <entry file="file://$PROJECT_DIR$/app/static_html/mech.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="12.82731">
           <caret line="724" column="0" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
@@ -850,23 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt.1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20406279">
-          <caret line="523" column="12" selection-start-line="523" selection-start-column="12" selection-end-line="523" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/I am George Washington B&amp;N Exclusive Edititon.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/I am George Washington B&amp;N Exclusive Edititon.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -874,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/The Bill the Cat Story: A Bloom County Epic.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/The Bill the Cat Story: A Bloom County Epic.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40812558">
           <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
@@ -882,7 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/The Tale of Kitty-in-Boots.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/The Tale of Kitty-in-Boots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -890,7 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Return.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/The Day the Crayons Came Home.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -898,7 +896,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/The Day the Crayons Came Home.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/The Chupacabra Ate the Candelabra.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -906,39 +904,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/The Chupacabra Ate the Candelabra.txt">
+    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#8897#8948#0" expanded="false" />
+            <element signature="e#8952#9225#0" expanded="false" />
+            <element signature="e#11019#11106#0" expanded="false" />
+            <element signature="e#11110#11703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static_html/Return.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.txt.3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.txt.2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.txt.1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.txt">
+    <entry file="file://$PROJECT_DIR$/app/static_html/.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
@@ -946,16 +933,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/static_html/.txt.1">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78882575">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#9009#9060#0" expanded="false" />
-            <element signature="e#9064#9337#0" expanded="false" />
-            <element signature="e#11131#11218#0" expanded="false" />
-            <element signature="e#11222#11815#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static_html/.txt.2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static_html/.txt.3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="282" column="82" selection-start-line="282" selection-start-column="82" selection-end-line="282" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3469388">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

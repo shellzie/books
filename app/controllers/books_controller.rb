@@ -19,7 +19,6 @@ class BooksController < ApplicationController
   def scrape_rh
     @@agent.user_agent_alias = random_user_agent
     @@agent.pluggable_parser.default = Mechanize::Download
-    # page = @@agent.get('http://www.penguinrandomhouse.com/books/picture-books-childrens').save('results.txt')
 
     page = @@agent.get('http://www.penguinrandomhouse.com/books/picture-books-childrens')
     doc = Nokogiri::HTML(page.content)
