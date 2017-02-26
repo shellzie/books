@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>What Pet Should I Get? by Dr. Seuss | PenguinRandomHouse.com</title>
+<meta itemprop="name" content="What Pet Should I Get? by Dr. Seuss | PenguinRandomHouse.com"/>
+<meta property="og:title" content="What Pet Should I Get? by Dr. Seuss | PenguinRandomHouse.com"/>
+<meta name="twitter:text:title" content="What Pet Should I Get? by Dr. Seuss | PenguinRandomHouse.com"/>
+<meta name="description" content="A #1 New York Times bestseller! &amp;#160; This previously never-before-seen picture book by Dr. Seuss about making up one&amp;rsquo;s mind is the literary equivalent..."/>
+<meta itemprop="description" content="A #1 New York Times bestseller! &amp;#160; This previously never-before-seen picture book by Dr. Seuss about making up one&amp;rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother..."/>
+<meta property="og:description" content="A #1 New York Times bestseller! &amp;#160; This previously never-before-seen picture book by Dr. Seuss about making up one&amp;rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother..."/>
+<meta name="twitter:text:description" content="A #1 New York Times bestseller! &amp;#160; This previously never-before-seen picture book by Dr. Seuss about making up one&amp;rsquo;s mind is the literary equivalent of buried treasure! What happens..."/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/"/>
+<meta itemprop="image" content="http://images.penguinrandomhouse.com/cover/9780553524277"/>
+<meta property="og:image" content="http://images.penguinrandomhouse.com/cover/9780553524277"/>
+<meta name="twitter:image" content="http://images.penguinrandomhouse.com/cover/9780553524277"/>
+<meta itemprop="price" content="20.99"/>
+<meta itemprop="priceCurrency" content="USD"/>
+<meta property="og:price:currency" content="USD"/>
+<meta property="og:price:amount" content="20.99"/>
+<meta property="og:type" content="book"/>
+<meta name="twitter:url" content="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/#excerpt"/>
+<meta name="twitter:url:preview" content="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/#excerpt"/>
+<meta name="twitter:text:isbn" content="9780553524277"/>
+<meta name="twitter:text:cta" content="Start reading"/>
+<meta name="Tealium" content="Tealium meta values" data-book-title="What Pet Should I Get?" data-book-authors="Dr. Seuss" data-book-isbn="9780553524277" data-book-imprint="Random House Books for Young Readers" data-book-division="" data-book-format="Hardcover" data-page-type="product"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F249167%2Fwhat-pet-should-i-get-by-dr-seuss" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F249167%2Fwhat-pet-should-i-get-by-dr-seuss&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/9780553524277/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"249167"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"What Pet Should I Get? by Dr. Seuss | PenguinRandomHouse.com","code_release_version":"cb20170213032739","product_list_price":[20.99],"product_isbn":[9780553524277],"product_title":["What Pet Should I Get?"],"product_author":["Dr. Seuss"],"product_author_id":["2000585"],"page_type":"Product Detail Page","product_imprint":["Random House Books for Young Readers"],"product_format":["Hardcover"],"product_work_id":["249167"],"product_category":["Children's Picture Books | Children's Books"],"product_division":["RH Childrens Books"],"age_range":"3-7 years"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<!--html from front end -->
+<!-- product info top -->
+<a name="#home" id="home"></a>
+<div id="tmpl-indc" class="tmpl-product" data-id="9780553524277,9780553524260,9780399552212,9780147522160"></div>
+<div class="inner-facade">
+  <div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+      <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+                <div class="product-header clearfix">
+                    <div class="slot product-title">
+                        <div class="panel-body">
+                            <h1>What Pet Should I Get?</h1>
+                			    <h2 class="contributors isbn-related 9780553524277 show">By <span class="ws-nw"><a href="/authors/2000585/dr-seuss" >Dr. Seuss</a></span><br/></h2><h2 class="contributors isbn-related 9780553524260">By <span class="ws-nw"><a href="/authors/2000585/dr-seuss" >Dr. Seuss</a></span><br/></h2><h2 class="contributors isbn-related 9780399552212">By <span class="ws-nw"><a href="/authors/2000585/dr-seuss" >Dr. Seuss</a></span><br/></h2><h2 class="contributors isbn-related 9780147522160">By <span class="ws-nw"><a href="/authors/2000585/dr-seuss" >Dr. Seuss</a></span><br/>Read by <span class="ws-nw">Rainn Wilson</span><br/></h2>                <h4 class="isbn-related 9780553524277">Part of <a href="/series/CSE/classic-seuss">Classic Seuss</a></h4><h4 class="isbn-related 9780553524260">Part of <a href="/series/CSE/classic-seuss">Classic Seuss</a></h4><h4 class="isbn-related 9780399552212">Part of <a href="/series/CSE/classic-seuss">Classic Seuss</a></h4>                <h4 class="isbn-related 9780553524277">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780553524260">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780399552212">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780147522160">Category: <a href="/books/childrens">Children&#8217;s Books</a> | <a href="/books/audiobooks">Audiobooks</a></h4>                        </div>
+                    </div>
+
+                    <div class="slot product-jacket">
+                        <div class="book-detail">
+                            <div class="cover-wrapper">
+                            <div class="bs-seal">Best Seller</div>
+			      <img src="http://images.penguinrandomhouse.com/cover/9780553524277" id="coverFormat" class="cover img-responsive" alt="What Pet Should I Get? by Dr. Seuss" />
+                            </div><!-- /.cover-wrapper -->
+
+			
+			            <p class="excerpt-link isbn-related 9780553524277"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+			            <p class="excerpt-link isbn-related 9780553524260"><a href="#" data-workid="" data-isbn="9780553524260" data-title="What Pet Should I Get?" data-author="Dr. Seuss" class="insight">Look Inside</a> | <a href="#" class="enlarge">Enlarge Cover</a></p>
+
+
+			            <p class="excerpt-link isbn-related 9780399552212"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+			         <div class="excerpt-button isbn-related 9780147522160"><a class="btn excerpt excerpt-embedded">Read An Excerpt</a></div>
+			
+			            <p class="excerpt-link isbn-related 9780147522160"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+                        </div>
+                    </div>
+                    <div class="slot product-format">
+                    	<div class="product-format-mobile">
+		                                  <div class="curr-ttl-mobile active show 9780553524277">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$20.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Jul 28, 2015</span>
+                                                                        <span class="ws-nw">| 48 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 8 x 10-7/8</span>-->
+                                    				    								    				<span class="ws-nw">| 3-7 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780553524277</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780553524277" rel="popover">Buy</button>
+																	</p>
+                            </div>
+						                            <div class="curr-ttl-mobile active  9780553524260">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$17.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Jul 28, 2015</span>
+                                                                        <span class="ws-nw">| 48 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 8 x 10-7/8</span>-->
+                                    				    								    				<span class="ws-nw">| 3-7 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780553524260</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780553524260" rel="popover">Buy</button>
+																	</p>
+                            </div>
+						                            <div class="curr-ttl-mobile active  9780399552212">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Ebook</a>
+				                            	    <span class="us-price">$9.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Jul 28, 2015</span>
+                                                                        <span class="ws-nw">| 48 Pages</span> 
+                                                                                                            				    								    				<span class="ws-nw">| 3-7 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780399552212</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780399552212" rel="popover">Buy</button>
+																	</p>
+                            </div>
+						                            <div class="curr-ttl-mobile active  9780147522160">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Audiobook Download</a>
+				                            	    <span class="us-price">$5.00</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Jul 28, 2015</span>
+                                                                                                            <span class="ws-nw">| 17 Minutes</span> 
+                                                                        				    								    				<span class="ws-nw">| 3-7 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780147522160</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780147522160" rel="popover">Buy</button>
+																	</p>
+                            </div>
+												</div>
+												<div class="product-format-mobile-link_wrap">
+	                        <div class="product-format-mobile-link-div">
+	                        	<a href="javascript:;" class="product-format-mobile-link">All Formats<div class="pl_mn_format">+</div></a>
+	                        	<div class="mobile-formats-div">
+	                        		<div class="mobile-formats">
+	                            		<ul class="mobile-inner"></ul>
+	                            	</div>
+	                        	</div>
+	                     	</div>
+                     	</div>
+						                        <div class="panel-group" id="accordion">
+														<div class="panel">
+							    <div class="panel-heading selected">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					  					Hardcover <span class="countDiv0">(2)</span>
+					  					<div class="pl_mn_format">&#8211;</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse1" class="panel-collapse collapse in">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="active">
+					    <a href="#9780553524277" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Dr. Seuss" primaryauthids="2000585" best-seller=""
+					        age_segment="3-7 years"  merchandise="false"  series-code="CSE" series-ttl="Classic Seuss" isbn="9780553524277" format="HC" format-name="Hardcover" categories="Children's Picture Books | Children's Books" imprint="Random House Books for Young Readers" division="RH Childrens Books" price="20.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 9780553524277" rel="popover">Buy</button>
+												       	<span class="us-price">$20.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Jul 28, 2015</span>
+															<span class="ws-nw">| 48 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 3-7 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780553524277</span>-->
+														</p></li>
+					  <li class="">
+					    <a href="#9780553524260" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Dr. Seuss" primaryauthids="2000585" best-seller="true"
+					        age_segment="3-7 years"  merchandise="false"  series-code="CSE" series-ttl="Classic Seuss" isbn="9780553524260" format="HC" format-name="Hardcover" categories="Children's Picture Books | Children's Books" imprint="Random House Books for Young Readers" division="RH Childrens Books" price="17.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 9780553524260" rel="popover">Buy</button>
+												       	<span class="us-price">$17.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Jul 28, 2015</span>
+															<span class="ws-nw">| 48 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 3-7 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780553524260</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+							<div class="panel">
+							    <div class="panel-heading">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+					  					Ebook <span class="countDiv1"></span>
+					  					<div class="pl_mn_format">+</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse2" class="panel-collapse collapse">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="">
+					    <a href="#9780399552212" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Dr. Seuss" primaryauthids="2000585" best-seller=""
+					        age_segment="3-7 years"  merchandise="false"  series-code="CSE" series-ttl="Classic Seuss" isbn="9780399552212" format="EL" format-name="Ebook" categories="Children's Picture Books | Children's Books" imprint="Random House Books for Young Readers" division="RH Childrens Books" price="9.99">Ebook</a>
+					       																<button type="button" class="btn buy2 9780399552212" rel="popover">Buy</button>
+												       	<span class="us-price">$9.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Jul 28, 2015</span>
+															<span class="ws-nw">| 48 Pages</span> 
+																																				<span class="ws-nw">| 3-7 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780399552212</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+							<div class="panel">
+							    <div class="panel-heading">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+					  					Audio <span class="countDiv2"></span>
+					  					<div class="pl_mn_format">+</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse3" class="panel-collapse collapse">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="">
+					    <a href="#9780147522160" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Dr. Seuss" primaryauthids="2000585" best-seller=""
+					        soundcloud="http://soundcloud.com/penguin-audio/what-pet-should-i-get-by-dr"  age_segment="3-7 years"  merchandise="false"  isbn="9780147522160" format="DN" format-name="Audio" categories="Children's Books | Audiobooks" imprint="Listening Library (Audio)" division="Audio" price="5.00">Audiobook Download</a>
+					       																<button type="button" class="btn buy2 9780147522160" rel="popover">Buy</button>
+												       	<span class="us-price">$5.00</span>							
+							<p class="title-details">
+															<span class="ws-nw">Jul 28, 2015</span>
+																						<span class="ws-nw">| 17 Minutes</span> 
+																													<span class="ws-nw">| 3-7 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780147522160</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                
+                				<div class="default-retailer">
+                	<h4 class="buy">Buy the Audiobook Download:</h4>
+                	<ul>         
+                    	<li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780147522160/siteId/301/retailerid/3/trackingcode/PRHEFFDF5A7F1" target="_blank">Apple</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780147522160/siteId/301/retailerid/15/trackingcode/PRHEFFDF5A7F1" target="_blank">Audible</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780147522160/siteId/301/retailerid/16/trackingcode/PRHEFFDF5A7F1" target="_blank">downpour</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780147522160/siteId/301/retailerid/17/trackingcode/PRHEFFDF5A7F1" target="_blank">eMusic</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780147522160/siteId/301/retailerid/18/trackingcode/PRHEFFDF5A7F1" target="_blank">audiobooks.com</a></li>                    </ul>
+                </div>
+                                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div> <!-- inner-facade END -->
+<!-- end product info top -->
+<!-- buy options -->     
+ <div class="sticky-buy">
+   <div id="buy-options">
+     <ul>
+		            <li class="isbn-related 9780553524277 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780553524277" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/9780553524277" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/9780553524277" />
+             </form>
+           </li>
+		            <li class="isbn-related 9780553524260 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780553524260" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/9780553524260" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/249167/what-pet-should-i-get-by-dr-seuss/9780553524260" />
+             </form>
+           </li>
+			     </ul>
+   </div>
+ </div>
+<!-- end buy options -->
+<div id="share-links-wrap-desktop"></div>
+<!-- product info bottom -->        
+<div class="container">
+  <div class="scaffolding row">
+    <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+      <div class="product-body clearfix">
+
+	<!-- newsletter -->
+	<div id="newsletter-wrap-mobile">
+	  <div class="slot newsletter-signup product" ></div>	</div>
+	<!-- /newsletter -->
+
+	<!-- about the book -->
+        <a name="#aboutthebook" id="aboutthebook"></a>
+	
+	<div class="slot product-about 9780553524277 isbn-related seemoreenable show">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>What Pet Should I Get?</span></h4>
+    			<p><b>A #1 <i>New York Times</i> bestseller!</b><br> &#160;<br> This previously never-before-seen picture book by Dr. Seuss about making up one&rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother and sister visit a pet store to pick a pet? Naturally, they can&rsquo;t choose just one! The tale captures a classic childhood moment&mdash;choosing a pet&mdash;and uses it to illuminate a life lesson: that it is hard to make up your mind, but sometimes you just have to do it! <br> &#160;<br> Told in Dr. Seuss&rsquo;s signature rhyming style, this is a must-have for Seuss fans and book collectors, and a perfect choice for the holidays, birthdays, and happy occasions of all kinds.<br> &#160;<br> An Editor&rsquo;s Note at the end discusses Dr. Seuss&rsquo;s pets, his creative process, and the discovery of the manuscript and illustrations for <i>What Pet Should I Get?</i></p>	 	</section>
+     </div>
+
+	
+	<div class="slot product-about 9780553524260 isbn-related seemoreenable">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>What Pet Should I Get?</span></h4>
+    			<p><b>A #1 <i>New York Times </i>bestseller!</b><br> &#160;<br> This previously never-before-seen picture book by Dr. Seuss about making up one&rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother and sister visit a pet store to pick a pet? Naturally, they can&rsquo;t choose just one! The tale captures a classic childhood moment&mdash;choosing a pet&mdash;and uses it to illuminate a life lesson: that it is hard to make up your mind, but sometimes you just have to do it! <br> &#160;<br> Told in Dr. Seuss&rsquo;s signature rhyming style, this is a must-have for Seuss fans and book collectors, and a perfect choice for the holidays, birthdays, and happy occasions of all kinds.<br> &#160;<br> An Editor&rsquo;s Note at the end discusses Dr. Seuss&rsquo;s pets, his creative process, and the discovery of the manuscript and illustrations for <i>What Pet Should I Get?</i></p>	 	</section>
+     </div>
+
+	
+	<div class="slot product-about 9780399552212 isbn-related seemoreenable">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>What Pet Should I Get?</span></h4>
+    			<p><b>A #1 <i>New York Times </i>bestseller!</b><br> &#160;<br> This previously never-before-seen picture book by Dr. Seuss about making up one&rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother and sister visit a pet store to pick a pet? Naturally, they can&rsquo;t choose just one! The tale captures a classic childhood moment&mdash;choosing a pet&mdash;and uses it to illuminate a life lesson: that it is hard to make up your mind, but sometimes you just have to do it! <br> &#160;<br> Told in Dr. Seuss&rsquo;s signature rhyming style, this is a must-have for Seuss fans and book collectors, and a perfect choice for the holidays, birthdays, and happy occasions of all kinds.<br> &#160;<br> An Editor&rsquo;s Note at the end discusses Dr. Seuss&rsquo;s pets, his creative process, and the discovery of the manuscript and illustrations for <i>What Pet Should I Get?</i><br><br><br><i>From the Hardcover edition.</i></p>	 	</section>
+     </div>
+
+	
+	<div class="slot product-about 9780147522160 isbn-related seemoreenable">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>What Pet Should I Get?</span></h4>
+    			<p>This book by Dr. Seuss about making up one&rsquo;s mind is the literary equivalent of buried treasure! What happens when a brother and sister visit a pet store to pick a pet? Naturally, they can&rsquo;t choose just one! The tale captures a classic childhood moment&mdash;choosing a pet&mdash;and uses it to illuminate a life lesson: that it is hard to make up your mind, but sometimes you just have to do it! <br>&#160;<br>Told in Dr. Seuss&rsquo;s signature rhyming style, this is a must-have for Seuss fans and book collectors, and a perfect choice for the holidays, birthdays, and happy occasions of all kinds.</p>	 	</section>
+     </div>
+
+	        <!-- /about the book -->
+    <div id="newsletter-wrap-desktop" class="grayab">
+    	<div class="graybox">
+    		<div class="newcoppy">Get the news you want from Penguin Random House</div>
+    	</div>
+    </div>
+        <!-- book awards -->
+		        <!-- /book awards -->
+
+        <!-- praises -->
+		            <!-- /praises -->
+
+        <!-- table of contents -->
+		            <!-- /table of contents -->
+
+        <!-- author spotlights -->
+                    <a name="#author" id="author"></a>
+		                        <div class="slot product-author-info isbn-related 9780553524277">
+		      <h4 class="slot-header">About Dr. Seuss</h4>
+		      <p class="clearfix">THEODOR SEUSS GEISEL&mdash;aka Dr. Seuss&mdash;is one of the most beloved children&rsquo;s book authors of all time. From&#160;The Cat in the Hat&#160;to&#160;Oh, the Places You&rsquo;ll Go!,&#160;his iconic characters, stories, and art style have been a lasting influence on generations of children&#8230; <a href="/authors/2000585/dr-seuss">More about Dr. Seuss</a></p>
+		    </div>
+		                        <div class="slot product-author-info isbn-related 9780553524260">
+		      <h4 class="slot-header">About Dr. Seuss</h4>
+		      <p class="clearfix">THEODOR SEUSS GEISEL&mdash;aka Dr. Seuss&mdash;is one of the most beloved children&rsquo;s book authors of all time. From&#160;The Cat in the Hat&#160;to&#160;Oh, the Places You&rsquo;ll Go!,&#160;his iconic characters, stories, and art style have been a lasting influence on generations of children&#8230; <a href="/authors/2000585/dr-seuss">More about Dr. Seuss</a></p>
+		    </div>
+		                        <div class="slot product-author-info isbn-related 9780399552212">
+		      <h4 class="slot-header">About Dr. Seuss</h4>
+		      <p class="clearfix">THEODOR SEUSS GEISEL&mdash;aka Dr. Seuss&mdash;is one of the most beloved children&rsquo;s book authors of all time. From&#160;The Cat in the Hat&#160;to&#160;Oh, the Places You&rsquo;ll Go!,&#160;his iconic characters, stories, and art style have been a lasting influence on generations of children&#8230; <a href="/authors/2000585/dr-seuss">More about Dr. Seuss</a></p>
+		    </div>
+		                        <div class="slot product-author-info isbn-related 9780147522160">
+		      <h4 class="slot-header">About Dr. Seuss</h4>
+		      <p class="clearfix">THEODOR SEUSS GEISEL&mdash;aka Dr. Seuss&mdash;is one of the most beloved children&rsquo;s book authors of all time. From&#160;The Cat in the Hat&#160;to&#160;Oh, the Places You&rsquo;ll Go!,&#160;his iconic characters, stories, and art style have been a lasting influence on generations of children&#8230; <a href="/authors/2000585/dr-seuss">More about Dr. Seuss</a></p>
+		    </div>
+		            <!-- /author spotlights -->
+
+        <!-- author Q & A's -->
+		            <!-- /author Q & A's -->
+
+        <!-- video related links -->
+		            <!-- /video related links -->
+
+		<!-- audio extras -->
+		    <a name="#more" id="more"></a>
+		    		<!-- / audio extras -->
+		
+		<!-- author essays -->    
+		    		<!-- / author essays -->
+		
+		<!-- slideshow promo images and slideshow related links -->
+					<!-- / slideshow promo images and slideshow related links -->
+		  <!-- 2nd prod detail -->
+          <div class="slot scnd-prod-detail">
+                <div class="product-author-also-by" id="scnd-detail">
+                    <h4 class="slot-header">Product Details</h4>
+               </div>
+               			  	<p class="clearfix isbn-related 9780553524277">
+			  				  	Hardcover<br />
+			  					Published by Random House Books for Young Readers<br />
+				<span class="ws-nw">Jul 28, 2015</span>
+									<span class="ws-nw">| 48 Pages</span> 
+																	<span class="ws-nw">| 8 x 10-7/8</span>
+													<span class="ws-nw">| 3-7 years</span>
+													<span class="ws-nw">| ISBN 9780553524277</span>
+							  	</p>
+		  						  	<p class="clearfix isbn-related 9780553524260">
+			  				  	Hardcover<br />
+			  					Published by Random House Books for Young Readers<br />
+				<span class="ws-nw">Jul 28, 2015</span>
+									<span class="ws-nw">| 48 Pages</span> 
+																	<span class="ws-nw">| 8 x 10-7/8</span>
+													<span class="ws-nw">| 3-7 years</span>
+													<span class="ws-nw">| ISBN 9780553524260</span>
+							  	</p>
+		  						  	<p class="clearfix isbn-related 9780399552212">
+			  				  	Ebook<br />
+			  					Published by Random House Books for Young Readers<br />
+				<span class="ws-nw">Jul 28, 2015</span>
+									<span class="ws-nw">| 48 Pages</span> 
+																					<span class="ws-nw">| 3-7 years</span>
+													<span class="ws-nw">| ISBN 9780399552212</span>
+							  	</p>
+		  						  	<p class="clearfix isbn-related 9780147522160">
+			  				  	Audiobook Download<br />
+			  					Published by Listening Library (Audio)<br />
+				<span class="ws-nw">Jul 28, 2015</span>
+													<span class="ws-nw">| 17 Minutes</span> 
+																	<span class="ws-nw">| 3-7 years</span>
+													<span class="ws-nw">| ISBN 9780147522160</span>
+							  	</p>
+		  			           </div>
+	      <!-- / 2nd prod detail -->
+	      <!-- share -->
+	      <div class="slot mobile-share" id="share-links-wrap-mobile">
+			<div class="share-links" id="share-collapse"><ul class="share-items" data-sharemessageservice="http://services.penguin.com/rest/v1/json/socialmedia/sharemessage/get" data-siteid="301" data-sharetypeid="1" data-booktitle="What Pet Should I Get?"><li class="header">Share:</li><li data-socialmediaid="1" data-fbappid="350479041816117"><a class="facebook"><div class="fa fa-facebook"><span>Share on Facebook</span></div></a></li><li data-socialmediaid="2"><a class="twitter"><div class="fa fa-twitter"><span>Tweet</span></div></a></li><li data-socialmediaid="6"><a class="pinterest"><div class="fa fa-pinterest"><span>Pin it</span></div></a></li><li data-socialmediaid="7"><a class="google-plus"><div class="fa fa-google-plus"><span>Share on G+</span></div></a></li><li data-socialmediaid="3"><a class="tumblr"><div class="fa fa-tumblr"><span>Share on Tumblr</span></div></a></li><li data-socialmediaid="9"><a class="sms-share"><span>SMS</span></a></li><li data-socialmediaid="8"><a class="envelope"><div class="fa fa-envelope"><span>Email</span></div></a></li></ul></div>        </div>
+        <!-- / share -->
+
+       <!-- Also by author -->
+        <div class="slot author-also-by">
+          <div class="product-author-also-by" id="by-author" data-work-author-list="2000585,223820">
+            <h4 class="slot-header">Also by <a href="/authors/2000585/dr-seuss">Dr. Seuss</a></h4>
+          </div>
+        </div>
+       <!-- / Also by author -->
+
+       <!-- people who read -->
+              <div class="slot product-recommended">
+         <h4 class="slot-header">People Who Read <span>What Pet Should I Get?</span> Also Read</h4>
+         <section class="carousel recommended">
+           <a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+           <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+
+           <div class="viewport">
+              <div class="slider">
+                               <div class="item">
+                  <div class="img">
+                    <a href="/books/101916/frederick-by-leo-lionni"><img alt="Frederick" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399555527?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/101916/frederick-by-leo-lionni" title="Frederick">Frederick</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17763/leo-lionni" title="Leo Lionni">Leo Lionni</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/133689/good-sports-by-jack-prelutsky-illustrated-by-chris-raschka"><img alt="Good Sports" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375865589?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/133689/good-sports-by-jack-prelutsky-illustrated-by-chris-raschka" title="Good Sports">Good Sports</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24470/jack-prelutsky" title="Jack Prelutsky">Jack Prelutsky</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/306931/three-little-kittens-by-jerry-pinkney-illustrated-by-jerry-pinkney"><img alt="Three Little Kittens" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803735330?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/306931/three-little-kittens-by-jerry-pinkney-illustrated-by-jerry-pinkney" title="Three Little Kittens">Three Little Kittens</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/45616/jerry-pinkney" title="Jerry Pinkney">Jerry Pinkney</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/305875/roald-dahls-revolting-rhymes-by-roald-dahl-illustrated-by-quentin-blake"><img alt="Roald Dahl's Revolting Rhymes" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142414828?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/305875/roald-dahls-revolting-rhymes-by-roald-dahl-illustrated-by-quentin-blake" title="Roald Dahl's Revolting Rhymes">Roald Dahl&#8217;s Revolting Rhymes</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/6284/roald-dahl" title="Roald Dahl">Roald Dahl</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/45957/and-heres-to-you-by-david-elliott-illustrated-by-randy-cecil"><img alt="And Here's to You!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763641269?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/45957/and-heres-to-you-by-david-elliott-illustrated-by-randy-cecil" title="And Here's to You!">And Here&#8217;s to You!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110041/david-elliott" title="David Elliott">David Elliott</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/298560/doggone-dogs-by-karen-beaumont-illustrated-by-david-catrow"><img alt="Doggone Dogs" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803731578?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/298560/doggone-dogs-by-karen-beaumont-illustrated-by-david-catrow" title="Doggone Dogs">Doggone Dogs</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/237879/karen-beaumont" title="Karen Beaumont">Karen Beaumont</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/296761/skippyjon-jones-in-mummy-trouble-by-judy-schachner"><img alt="Skippyjon Jones in Mummy Trouble" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142412114?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/296761/skippyjon-jones-in-mummy-trouble-by-judy-schachner" title="Skippyjon Jones in Mummy Trouble">Skippyjon Jones in Mummy Trouble</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/227573/judy-schachner" title="Judy Schachner">Judy Schachner</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/301536/beatrix-potters-nursery-rhyme-book-by-beatrix-potter-illustrated-by-beatrix-potter"><img alt="Beatrix Potter's Nursery Rhyme Book" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780723257714?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/301536/beatrix-potters-nursery-rhyme-book-by-beatrix-potter-illustrated-by-beatrix-potter" title="Beatrix Potter's Nursery Rhyme Book">Beatrix Potter&#8217;s Nursery Rhyme Book</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24359/beatrix-potter" title="Beatrix Potter">Beatrix Potter</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/299351/llama-llama-mad-at-mama-by-anna-dewdney-illustrated-by-anna-dewdney"><img alt="Llama Llama Mad at Mama" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670062409?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/299351/llama-llama-mad-at-mama-by-anna-dewdney-illustrated-by-anna-dewdney" title="Llama Llama Mad at Mama">Llama Llama Mad at Mama</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/228092/anna-dewdney" title="Anna Dewdney">Anna Dewdney</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320864/a-house-is-a-house-for-me-by-mary-hoberman-illustrated-by-betty-fraser"><img alt="A House Is a House for Me" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142407738?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320864/a-house-is-a-house-for-me-by-mary-hoberman-illustrated-by-betty-fraser" title="A House Is a House for Me">A House Is a House for Me</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/13163/mary-ann-hoberman" title="Mary Ann Hoberman">Mary Ann Hoberman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/137134/oh-the-pets-you-can-get-by-tish-rabe-illustrated-by-aristides-ruiz-and-joe-mathieu"><img alt="Oh, the Pets You Can Get!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375822780?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/137134/oh-the-pets-you-can-get-by-tish-rabe-illustrated-by-aristides-ruiz-and-joe-mathieu" title="Oh, the Pets You Can Get!">Oh, the Pets You Can Get!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24775/tish-rabe" title="Tish Rabe">Tish Rabe</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/167022/wild-about-books-by-judy-sierra-illustrated-by-marc-brown"><img alt="Wild About Books" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375825385?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/167022/wild-about-books-by-judy-sierra-illustrated-by-marc-brown" title="Wild About Books">Wild About Books</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/28328/judy-sierra" title="Judy Sierra">Judy Sierra</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/289924/boom-chicka-rock-by-john-archambault-illustrated-by-suzanne-chitwood"><img alt="Boom Chicka Rock" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399235870?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/289924/boom-chicka-rock-by-john-archambault-illustrated-by-suzanne-chitwood" title="Boom Chicka Rock">Boom Chicka Rock</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/236831/john-archambault" title="John Archambault">John Archambault</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/292852/miss-bindergarten-stays-home-from-kindergarten-by-joseph-slate-illustrated-by-ashley-wolff"><img alt="Miss Bindergarten Stays Home from Kindergarten" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142301272?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/292852/miss-bindergarten-stays-home-from-kindergarten-by-joseph-slate-illustrated-by-ashley-wolff" title="Miss Bindergarten Stays Home from Kindergarten">Miss Bindergarten Stays Home from Kindergarten</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/237463/joseph-slate" title="Joseph Slate">Joseph Slate</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238791/how-much-is-that-doggie-in-the-window-by-iza-trapani-authorrand-bob-merrill"><img alt="How Much Is That Doggie in the Window?" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781580890304?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238791/how-much-is-that-doggie-in-the-window-by-iza-trapani-authorrand-bob-merrill" title="How Much Is That Doggie in the Window?">How Much Is That Doggie in the Window?</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220477/iza-trapani" title="Iza Trapani">Iza Trapani</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238629/hello-oceanhola-mar-by-pam-munoz-ryan-author-mark-astrella-illustrator"><img alt="Hello Ocean/Hola mar" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781570913723?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238629/hello-oceanhola-mar-by-pam-munoz-ryan-author-mark-astrella-illustrator" title="Hello Ocean/Hola mar">Hello Ocean/Hola mar</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220463/pam-munoz-ryan" title="Pam Munoz Ryan">Pam Munoz Ryan</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/286642/petite-rouge-by-mike-artell"><img alt="Petite Rouge" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142500705?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/286642/petite-rouge-by-mike-artell" title="Petite Rouge">Petite Rouge</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/241122/mike-artell" title="Mike Artell">Mike Artell</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319763/stopping-by-woods-on-a-snowy-evening-by-robert-frost-illustrated-by-susan-jeffers"><img alt="Stopping By Woods on a Snowy Evening" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780525467342?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319763/stopping-by-woods-on-a-snowy-evening-by-robert-frost-illustrated-by-susan-jeffers" title="Stopping By Woods on a Snowy Evening">Stopping By Woods on a Snowy Evening</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/9444/robert-frost" title="Robert Frost">Robert Frost</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/41546/hairy-maclary-from-donaldsons-dairy-by-lynley-dodd"><img alt="Hairy Maclary from Donaldson's Dairy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781582460598?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/41546/hairy-maclary-from-donaldsons-dairy-by-lynley-dodd" title="Hairy Maclary from Donaldson's Dairy">Hairy Maclary from Donaldson&#8217;s Dairy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/7166/lynley-dodd" title="Lynley Dodd">Lynley Dodd</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/333559/mice-squeak-we-speak-by-arnold-shapiro-illustrated-by-tomie-depaola"><img alt="Mice Squeak, We Speak" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698118737?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/333559/mice-squeak-we-speak-by-arnold-shapiro-illustrated-by-tomie-depaola" title="Mice Squeak, We Speak">Mice Squeak, We Speak</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/46908/arnold-shapiro" title="Arnold Shapiro">Arnold Shapiro</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320479/noisy-nora-by-rosemary-wells-illustrated-by-susan-jeffers"><img alt="Noisy Nora" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140567281?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320479/noisy-nora-by-rosemary-wells-illustrated-by-susan-jeffers" title="Noisy Nora">Noisy Nora</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/32812/rosemary-wells" title="Rosemary Wells">Rosemary Wells</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/305891/madelines-rescue-by-ludwig-bemelmans"><img alt="Madeline's Rescue" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140566512?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/305891/madelines-rescue-by-ludwig-bemelmans" title="Madeline's Rescue">Madeline&#8217;s Rescue</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/1912/ludwig-bemelmans" title="Ludwig Bemelmans">Ludwig Bemelmans</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319392/the-adventures-of-taxi-dog-by-debra-barracca-illustrated-by-mark-buehner"><img alt="The Adventures of Taxi Dog" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140566659?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319392/the-adventures-of-taxi-dog-by-debra-barracca-illustrated-by-mark-buehner" title="The Adventures of Taxi Dog">The Adventures of Taxi Dog</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/231610/debra-barracca" title="Debra Barracca">Debra Barracca</a> and <a href="/authors/231611/sal-barracca" title="Sal Barracca">Sal Barracca</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/335985/eric-carles-animals-animals-by-eric-carle"><img alt="Eric Carle's Animals, Animals" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698118553?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/335985/eric-carles-animals-animals-by-eric-carle" title="Eric Carle's Animals, Animals">Eric Carle&#8217;s Animals, Animals</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/45198/eric-carle" title="Eric Carle">Eric Carle</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/59425/mice-are-nice-by-charles-ghigna-illustrated-by-jon-goodell"><img alt="Mice Are Nice" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679889298?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/59425/mice-are-nice-by-charles-ghigna-illustrated-by-jon-goodell" title="Mice Are Nice">Mice Are Nice</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/9966/charles-ghigna" title="Charles Ghigna">Charles Ghigna</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/354455/over-in-the-meadow-by-ezra-jack-keats"><img alt="Over in the Meadow" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140565089?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/354455/over-in-the-meadow-by-ezra-jack-keats" title="Over in the Meadow">Over in the Meadow</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/15261/ezra-jack-keats" title="Ezra Jack Keats">Ezra Jack Keats</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238417/bugs-for-lunch-by-margery-facklam-author-sylvia-long-illustrator"><img alt="Bugs for Lunch" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780881062724?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238417/bugs-for-lunch-by-margery-facklam-author-sylvia-long-illustrator" title="Bugs for Lunch">Bugs for Lunch</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220597/margery-facklam" title="Margery Facklam">Margery Facklam</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman"><img alt="My Little Sister Ate One Hare" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517885765?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman" title="My Little Sister Ate One Hare">My Little Sister Ate One Hare</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/11237/bill-grossman" title="Bill Grossman">Bill Grossman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/197720/hey-little-ant-by-phillip-m-hoose-and-hannah-hoose-illustrated-by-debbie-tilley"><img alt="Hey, Little Ant" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781883672546?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/197720/hey-little-ant-by-phillip-m-hoose-and-hannah-hoose-illustrated-by-debbie-tilley" title="Hey, Little Ant">Hey, Little Ant</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/42617/phillip-m-hoose" title="Phillip M. Hoose">Phillip M. Hoose</a> and <a href="/authors/105188/hannah-hoose" title="Hannah Hoose">Hannah Hoose</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/76691/too-many-dogs-by-lori-haskins-houran"><img alt="Too Many Dogs" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679864431?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/76691/too-many-dogs-by-lori-haskins-houran" title="Too Many Dogs">Too Many Dogs</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/12197/lori-haskins" title="Lori Haskins">Lori Haskins</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/288763/there-was-an-old-lady-who-swallowed-a-fly-by-simms-taback"><img alt="There Was an Old Lady Who Swallowed a Fly" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670869398?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/288763/there-was-an-old-lady-who-swallowed-a-fly-by-simms-taback" title="There Was an Old Lady Who Swallowed a Fly">There Was an Old Lady Who Swallowed a Fly</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/66829/simms-taback" title="Simms Taback">Simms Taback</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320040/pigs-aplenty-pigs-galore-by-david-mcphail"><img alt="Pigs Aplenty, Pigs Galore!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140553130?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320040/pigs-aplenty-pigs-galore-by-david-mcphail" title="Pigs Aplenty, Pigs Galore!">Pigs Aplenty, Pigs Galore!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/20152/david-mcphail" title="David McPhail">David McPhail</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/329409/animalia-by-graeme-base"><img alt="Animalia" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140559965?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/329409/animalia-by-graeme-base" title="Animalia">Animalia</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/1578/graeme-base" title="Graeme Base">Graeme Base</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/336070/the-owl-and-the-pussycat-by-edward-lear-illustrated-by-jan-brett"><img alt="The Owl and the Pussycat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698113671?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/336070/the-owl-and-the-pussycat-by-edward-lear-illustrated-by-jan-brett" title="The Owl and the Pussycat">The Owl and the Pussycat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17008/edward-lear" title="Edward Lear">Edward Lear</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319671/i-am-the-dog-i-am-the-cat-by-donald-hall"><img alt="I Am the Dog I Am the Cat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803715042?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319671/i-am-the-dog-i-am-the-cat-by-donald-hall" title="I Am the Dog I Am the Cat">I Am the Dog I Am the Cat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/11579/donald-hall" title="Donald Hall">Donald Hall</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319265/bringing-the-rain-to-kapiti-plain-by-verna-aardema"><img alt="Bringing the Rain to Kapiti Plain" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140546163?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319265/bringing-the-rain-to-kapiti-plain-by-verna-aardema" title="Bringing the Rain to Kapiti Plain">Bringing the Rain to Kapiti Plain</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/9/verna-aardema" title="Verna Aardema">Verna Aardema</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/352074/how-hide-an-octopus-by-ruth-heller"><img alt="How Hide An Octopus" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780448404783?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/352074/how-hide-an-octopus-by-ruth-heller" title="How Hide An Octopus">How Hide An Octopus</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/244066/ruth-heller" title="Ruth Heller">Ruth Heller</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/137340/down-by-the-bay-by-raffi"><img alt="DOWN BY THE BAY" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517566459?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/137340/down-by-the-bay-by-raffi" title="DOWN BY THE BAY">DOWN BY THE BAY</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/55287/raffi" title="Raffi">Raffi</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/293553/each-peach-pear-plum-by-allan-ahlberg"><img alt="Each Peach Pear Plum" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140506396?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/293553/each-peach-pear-plum-by-allan-ahlberg" title="Each Peach Pear Plum">Each Peach Pear Plum</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/208/allan-ahlberg" title="Allan Ahlberg">Allan Ahlberg</a> and <a href="/authors/227594/janet-ahlberg" title="Janet Ahlberg">Janet Ahlberg</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/56700/ill-teach-my-dog-100-words-by-michael-frith"><img alt="I'll Teach My Dog 100 Words" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394826929?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/56700/ill-teach-my-dog-100-words-by-michael-frith" title="I'll Teach My Dog 100 Words">I&#8217;ll Teach My Dog 100 Words</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/9421/michael-frith" title="Michael Frith">Michael Frith</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/129596/the-digging-est-dog-by-al-perkins"><img alt="The Digging-Est Dog" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394800479?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/129596/the-digging-est-dog-by-al-perkins" title="The Digging-Est Dog">The Digging-Est Dog</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/23658/al-perkins" title="Al Perkins">Al Perkins</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/126304/a-fish-out-of-water-by-helen-palmer"><img alt="A Fish Out of Water" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394800233?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/126304/a-fish-out-of-water-by-helen-palmer" title="A Fish Out of Water">A Fish Out of Water</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/23122/helen-palmer" title="Helen Palmer">Helen Palmer</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/44576/go-dog-go-by-pd-eastman"><img alt="Go, Dog. Go!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394800202?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/44576/go-dog-go-by-pd-eastman" title="Go, Dog. Go!">Go, Dog. Go!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/7735/pd-eastman" title="P.D. Eastman">P.D. Eastman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/103589/put-me-in-the-zoo-by-robert-lopshire-illustrated-by-robert-lopshire"><img alt="Put Me in the Zoo" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394800172?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/103589/put-me-in-the-zoo-by-robert-lopshire-illustrated-by-robert-lopshire" title="Put Me in the Zoo">Put Me in the Zoo</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/18054/robert-lopshire" title="Robert Lopshire">Robert Lopshire</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/110655/a-fly-went-by-by-mike-mcclintock"><img alt="A Fly Went by" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394800035?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/110655/a-fly-went-by-by-mike-mcclintock" title="A Fly Went by">A Fly Went by</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/19715/mike-mcclintock" title="Mike McClintock">Mike McClintock</a></div>
+
+		</div>
+	                   </div> <!-- slider -->
+           </div> <!-- viewport -->
+         </section>
+       </div>
+              <!-- / people who read -->
+		
+       <!-- recommended for you products -->
+       <div class="slot product-recommended selected-for-you loading">
+         <h4 class="slot-header">Inspired by Your Browsing History</h4>
+       </div>
+       <!-- / recommended products -->
+
+       <!-- Also in [category] -->
+              <!-- / Also in [category] -->
+
+		<!-- Related Links -->
+		    		<!-- / Related Links -->
+		<!-- Reader and Teacher Guides -->
+					<!-- / Reader and Teacher Guides -->
+		
+		<!-- Related Articles -->	
+			<!-- Asynchronous Loading Required:  PRHCS-31 - AC #9 -->
+			
+			<div id="product-articles-wrap-mobile">
+				<div class="slot product-articles product-related articles" data-work="feedTagValue:9780553524277^20 OR title_workid:249167^10 OR author_authorId:2000585 OR author_authorid_display_group:/2000585\:[AI].*/^9">
+					<h2 class="slot-header">Related Articles</h2>
+				</div>
+			</div>
+		<!-- / Related Articles -->
+		
+		<!-- Promo Tiles -->
+			<div id="product-promo-tiles-wrap-mobile">
+				<div class="slot promo-tiles">
+			 				</div>
+			</div>
+		<!-- / Promo Tiles -->
+</div>
+<!-- / End Main Content -->
+
+<!-- Right Rail - visible on desktop -->
+	<div class="right-rail">
+		<div id="product-related-wrap-desktop"></div>
+		<div id="product-guides-wrap-desktop"></div>
+		<div id="product-articles-wrap-desktop"></div>
+		<div id="product-promo-tiles-wrap-desktop"></div>
+	</div>
+<!-- / Right Rail -->
+
+<div class="modal fade product-image" id="modal-product-image" style="display:none;">
+  <div class="modal-dialog product-image">
+    <div class="modal-content">
+      <div class="modal-header product-image">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+      </div>
+
+      <div class="modal-body">
+        <img>
+        <div class="btn product-image download"><span class="fa fa-download"></span>Download Hi Res</div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- excerpts -->
+
+
+<script>
+
+var excerpt_embed_html_list = {"9780147522160":{"html":null,"url":"http:\/\/soundcloud.com\/penguin-audio\/what-pet-should-i-get-by-dr","media_type":"soundcloud"}};
+var excerpt_text_list = [];
+
+</script>
+
+<div class="modal fade" id="modal-excerpt">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+        <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+
+          <div class="book">
+            <div class="cover">
+            	<img src />
+            </div>
+            <div class="book-meta">
+            	<div class="book-name">What Pet Should I Get?</div>
+		                <h2 class="contributors"><span class="ws-nw">
+                    		</span></h2>
+
+		<div class="buttons">
+                    <button type="button" class="btn buy2" rel="popover">Buy</button>
+		</div>
+            
+		<h4 class="isbn-related 9780553524277">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780553524260">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780399552212">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780147522160">Category: <a href="/books/childrens">Children&#8217;s Books</a> | <a href="/books/audiobooks">Audiobooks</a></h4>
+        <!-- newsletter -->
+        <div id="excerpt-newsletter-wrap-desktop">
+          <div class="slot newsletter-signup excerpt" acq-code="PRH_EXCERPT_STATIC_ONGOING" workid="249167"></div>        </div>
+
+        <!-- MOBILE EXCERPT SUBSCRIBE MOVED TO SECOND PARAGRAPH OF EXCERPT ITSELF -->
+
+        <!-- /newsletter -->
+
+            </div>
+
+          </div>
+      </div>
+      <div class="modal-body scrolling"></div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade embedded" id="modal-excerpt-embedded">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+          <span class="sr-only">Close</span>
+	</button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+	</div>
+    <!-- End Scaffolding -->
+</div> <!-- container END -->
+<!-- end product info bottom -->
+<!-- product extended carousel -->
+<div class="extendwrap">
+		<div class="extended-carousel" id="extended-read-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">People Who Read <span>What Pet Should I Get?</span> Also Read</h4></div>
+		<div id="extended-read-carousel" class="extended-carousel-div loading">
+					<div class="item" ttl="Frederick" url="/books/101916/frederick-by-leo-lionni">
+				<div class="img">
+					<a href="/books/101916/frederick-by-leo-lionni"><img alt="Frederick" src="http://images.penguinrandomhouse.com/cover/9780399555527?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Good Sports" url="/books/133689/good-sports-by-jack-prelutsky-illustrated-by-chris-raschka">
+				<div class="img">
+					<a href="/books/133689/good-sports-by-jack-prelutsky-illustrated-by-chris-raschka"><img alt="Good Sports" src="http://images.penguinrandomhouse.com/cover/9780375865589?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Three Little Kittens" url="/books/306931/three-little-kittens-by-jerry-pinkney-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/306931/three-little-kittens-by-jerry-pinkney-illustrated-by-jerry-pinkney"><img alt="Three Little Kittens" src="http://images.penguinrandomhouse.com/cover/9780803735330?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Roald Dahl's Revolting Rhymes" url="/books/305875/roald-dahls-revolting-rhymes-by-roald-dahl-illustrated-by-quentin-blake">
+				<div class="img">
+					<a href="/books/305875/roald-dahls-revolting-rhymes-by-roald-dahl-illustrated-by-quentin-blake"><img alt="Roald Dahl's Revolting Rhymes" src="http://images.penguinrandomhouse.com/cover/9780142414828?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="And Here's to You!" url="/books/45957/and-heres-to-you-by-david-elliott-illustrated-by-randy-cecil">
+				<div class="img">
+					<a href="/books/45957/and-heres-to-you-by-david-elliott-illustrated-by-randy-cecil"><img alt="And Here's to You!" src="http://images.penguinrandomhouse.com/cover/9780763641269?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Doggone Dogs" url="/books/298560/doggone-dogs-by-karen-beaumont-illustrated-by-david-catrow">
+				<div class="img">
+					<a href="/books/298560/doggone-dogs-by-karen-beaumont-illustrated-by-david-catrow"><img alt="Doggone Dogs" src="http://images.penguinrandomhouse.com/cover/9780803731578?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Skippyjon Jones in Mummy Trouble" url="/books/296761/skippyjon-jones-in-mummy-trouble-by-judy-schachner">
+				<div class="img">
+					<a href="/books/296761/skippyjon-jones-in-mummy-trouble-by-judy-schachner"><img alt="Skippyjon Jones in Mummy Trouble" src="http://images.penguinrandomhouse.com/cover/9780142412114?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Beatrix Potter's Nursery Rhyme Book" url="/books/301536/beatrix-potters-nursery-rhyme-book-by-beatrix-potter-illustrated-by-beatrix-potter">
+				<div class="img">
+					<a href="/books/301536/beatrix-potters-nursery-rhyme-book-by-beatrix-potter-illustrated-by-beatrix-potter"><img alt="Beatrix Potter's Nursery Rhyme Book" src="http://images.penguinrandomhouse.com/cover/9780723257714?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Llama Llama Mad at Mama" url="/books/299351/llama-llama-mad-at-mama-by-anna-dewdney-illustrated-by-anna-dewdney">
+				<div class="img">
+					<a href="/books/299351/llama-llama-mad-at-mama-by-anna-dewdney-illustrated-by-anna-dewdney"><img alt="Llama Llama Mad at Mama" src="http://images.penguinrandomhouse.com/cover/9780670062409?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="A House Is a House for Me" url="/books/320864/a-house-is-a-house-for-me-by-mary-hoberman-illustrated-by-betty-fraser">
+				<div class="img">
+					<a href="/books/320864/a-house-is-a-house-for-me-by-mary-hoberman-illustrated-by-betty-fraser"><img alt="A House Is a House for Me" src="http://images.penguinrandomhouse.com/cover/9780142407738?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Oh, the Pets You Can Get!" url="/books/137134/oh-the-pets-you-can-get-by-tish-rabe-illustrated-by-aristides-ruiz-and-joe-mathieu">
+				<div class="img">
+					<a href="/books/137134/oh-the-pets-you-can-get-by-tish-rabe-illustrated-by-aristides-ruiz-and-joe-mathieu"><img alt="Oh, the Pets You Can Get!" src="http://images.penguinrandomhouse.com/cover/9780375822780?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Wild About Books" url="/books/167022/wild-about-books-by-judy-sierra-illustrated-by-marc-brown">
+				<div class="img">
+					<a href="/books/167022/wild-about-books-by-judy-sierra-illustrated-by-marc-brown"><img alt="Wild About Books" src="http://images.penguinrandomhouse.com/cover/9780375825385?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Boom Chicka Rock" url="/books/289924/boom-chicka-rock-by-john-archambault-illustrated-by-suzanne-chitwood">
+				<div class="img">
+					<a href="/books/289924/boom-chicka-rock-by-john-archambault-illustrated-by-suzanne-chitwood"><img alt="Boom Chicka Rock" src="http://images.penguinrandomhouse.com/cover/9780399235870?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Miss Bindergarten Stays Home from Kindergarten" url="/books/292852/miss-bindergarten-stays-home-from-kindergarten-by-joseph-slate-illustrated-by-ashley-wolff">
+				<div class="img">
+					<a href="/books/292852/miss-bindergarten-stays-home-from-kindergarten-by-joseph-slate-illustrated-by-ashley-wolff"><img alt="Miss Bindergarten Stays Home from Kindergarten" src="http://images.penguinrandomhouse.com/cover/9780142301272?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="How Much Is That Doggie in the Window?" url="/books/238791/how-much-is-that-doggie-in-the-window-by-iza-trapani-authorrand-bob-merrill">
+				<div class="img">
+					<a href="/books/238791/how-much-is-that-doggie-in-the-window-by-iza-trapani-authorrand-bob-merrill"><img alt="How Much Is That Doggie in the Window?" src="http://images.penguinrandomhouse.com/cover/9781580890304?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hello Ocean/Hola mar" url="/books/238629/hello-oceanhola-mar-by-pam-munoz-ryan-author-mark-astrella-illustrator">
+				<div class="img">
+					<a href="/books/238629/hello-oceanhola-mar-by-pam-munoz-ryan-author-mark-astrella-illustrator"><img alt="Hello Ocean/Hola mar" src="http://images.penguinrandomhouse.com/cover/9781570913723?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Petite Rouge" url="/books/286642/petite-rouge-by-mike-artell">
+				<div class="img">
+					<a href="/books/286642/petite-rouge-by-mike-artell"><img alt="Petite Rouge" src="http://images.penguinrandomhouse.com/cover/9780142500705?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Stopping By Woods on a Snowy Evening" url="/books/319763/stopping-by-woods-on-a-snowy-evening-by-robert-frost-illustrated-by-susan-jeffers">
+				<div class="img">
+					<a href="/books/319763/stopping-by-woods-on-a-snowy-evening-by-robert-frost-illustrated-by-susan-jeffers"><img alt="Stopping By Woods on a Snowy Evening" src="http://images.penguinrandomhouse.com/cover/9780525467342?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hairy Maclary from Donaldson's Dairy" url="/books/41546/hairy-maclary-from-donaldsons-dairy-by-lynley-dodd">
+				<div class="img">
+					<a href="/books/41546/hairy-maclary-from-donaldsons-dairy-by-lynley-dodd"><img alt="Hairy Maclary from Donaldson's Dairy" src="http://images.penguinrandomhouse.com/cover/9781582460598?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mice Squeak, We Speak" url="/books/333559/mice-squeak-we-speak-by-arnold-shapiro-illustrated-by-tomie-depaola">
+				<div class="img">
+					<a href="/books/333559/mice-squeak-we-speak-by-arnold-shapiro-illustrated-by-tomie-depaola"><img alt="Mice Squeak, We Speak" src="http://images.penguinrandomhouse.com/cover/9780698118737?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Noisy Nora" url="/books/320479/noisy-nora-by-rosemary-wells-illustrated-by-susan-jeffers">
+				<div class="img">
+					<a href="/books/320479/noisy-nora-by-rosemary-wells-illustrated-by-susan-jeffers"><img alt="Noisy Nora" src="http://images.penguinrandomhouse.com/cover/9780140567281?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Madeline's Rescue" url="/books/305891/madelines-rescue-by-ludwig-bemelmans">
+				<div class="img">
+					<a href="/books/305891/madelines-rescue-by-ludwig-bemelmans"><img alt="Madeline's Rescue" src="http://images.penguinrandomhouse.com/cover/9780140566512?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Adventures of Taxi Dog" url="/books/319392/the-adventures-of-taxi-dog-by-debra-barracca-illustrated-by-mark-buehner">
+				<div class="img">
+					<a href="/books/319392/the-adventures-of-taxi-dog-by-debra-barracca-illustrated-by-mark-buehner"><img alt="The Adventures of Taxi Dog" src="http://images.penguinrandomhouse.com/cover/9780140566659?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Eric Carle's Animals, Animals" url="/books/335985/eric-carles-animals-animals-by-eric-carle">
+				<div class="img">
+					<a href="/books/335985/eric-carles-animals-animals-by-eric-carle"><img alt="Eric Carle's Animals, Animals" src="http://images.penguinrandomhouse.com/cover/9780698118553?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mice Are Nice" url="/books/59425/mice-are-nice-by-charles-ghigna-illustrated-by-jon-goodell">
+				<div class="img">
+					<a href="/books/59425/mice-are-nice-by-charles-ghigna-illustrated-by-jon-goodell"><img alt="Mice Are Nice" src="http://images.penguinrandomhouse.com/cover/9780679889298?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Over in the Meadow" url="/books/354455/over-in-the-meadow-by-ezra-jack-keats">
+				<div class="img">
+					<a href="/books/354455/over-in-the-meadow-by-ezra-jack-keats"><img alt="Over in the Meadow" src="http://images.penguinrandomhouse.com/cover/9780140565089?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Bugs for Lunch" url="/books/238417/bugs-for-lunch-by-margery-facklam-author-sylvia-long-illustrator">
+				<div class="img">
+					<a href="/books/238417/bugs-for-lunch-by-margery-facklam-author-sylvia-long-illustrator"><img alt="Bugs for Lunch" src="http://images.penguinrandomhouse.com/cover/9780881062724?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="My Little Sister Ate One Hare" url="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman">
+				<div class="img">
+					<a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman"><img alt="My Little Sister Ate One Hare" src="http://images.penguinrandomhouse.com/cover/9780517885765?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hey, Little Ant" url="/books/197720/hey-little-ant-by-phillip-m-hoose-and-hannah-hoose-illustrated-by-debbie-tilley">
+				<div class="img">
+					<a href="/books/197720/hey-little-ant-by-phillip-m-hoose-and-hannah-hoose-illustrated-by-debbie-tilley"><img alt="Hey, Little Ant" src="http://images.penguinrandomhouse.com/cover/9781883672546?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Too Many Dogs" url="/books/76691/too-many-dogs-by-lori-haskins-houran">
+				<div class="img">
+					<a href="/books/76691/too-many-dogs-by-lori-haskins-houran"><img alt="Too Many Dogs" src="http://images.penguinrandomhouse.com/cover/9780679864431?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="There Was an Old Lady Who Swallowed a Fly" url="/books/288763/there-was-an-old-lady-who-swallowed-a-fly-by-simms-taback">
+				<div class="img">
+					<a href="/books/288763/there-was-an-old-lady-who-swallowed-a-fly-by-simms-taback"><img alt="There Was an Old Lady Who Swallowed a Fly" src="http://images.penguinrandomhouse.com/cover/9780670869398?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Pigs Aplenty, Pigs Galore!" url="/books/320040/pigs-aplenty-pigs-galore-by-david-mcphail">
+				<div class="img">
+					<a href="/books/320040/pigs-aplenty-pigs-galore-by-david-mcphail"><img alt="Pigs Aplenty, Pigs Galore!" src="http://images.penguinrandomhouse.com/cover/9780140553130?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Animalia" url="/books/329409/animalia-by-graeme-base">
+				<div class="img">
+					<a href="/books/329409/animalia-by-graeme-base"><img alt="Animalia" src="http://images.penguinrandomhouse.com/cover/9780140559965?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Owl and the Pussycat" url="/books/336070/the-owl-and-the-pussycat-by-edward-lear-illustrated-by-jan-brett">
+				<div class="img">
+					<a href="/books/336070/the-owl-and-the-pussycat-by-edward-lear-illustrated-by-jan-brett"><img alt="The Owl and the Pussycat" src="http://images.penguinrandomhouse.com/cover/9780698113671?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="I Am the Dog I Am the Cat" url="/books/319671/i-am-the-dog-i-am-the-cat-by-donald-hall">
+				<div class="img">
+					<a href="/books/319671/i-am-the-dog-i-am-the-cat-by-donald-hall"><img alt="I Am the Dog I Am the Cat" src="http://images.penguinrandomhouse.com/cover/9780803715042?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Bringing the Rain to Kapiti Plain" url="/books/319265/bringing-the-rain-to-kapiti-plain-by-verna-aardema">
+				<div class="img">
+					<a href="/books/319265/bringing-the-rain-to-kapiti-plain-by-verna-aardema"><img alt="Bringing the Rain to Kapiti Plain" src="http://images.penguinrandomhouse.com/cover/9780140546163?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="How Hide An Octopus" url="/books/352074/how-hide-an-octopus-by-ruth-heller">
+				<div class="img">
+					<a href="/books/352074/how-hide-an-octopus-by-ruth-heller"><img alt="How Hide An Octopus" src="http://images.penguinrandomhouse.com/cover/9780448404783?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="DOWN BY THE BAY" url="/books/137340/down-by-the-bay-by-raffi">
+				<div class="img">
+					<a href="/books/137340/down-by-the-bay-by-raffi"><img alt="DOWN BY THE BAY" src="http://images.penguinrandomhouse.com/cover/9780517566459?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Each Peach Pear Plum" url="/books/293553/each-peach-pear-plum-by-allan-ahlberg">
+				<div class="img">
+					<a href="/books/293553/each-peach-pear-plum-by-allan-ahlberg"><img alt="Each Peach Pear Plum" src="http://images.penguinrandomhouse.com/cover/9780140506396?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="I'll Teach My Dog 100 Words" url="/books/56700/ill-teach-my-dog-100-words-by-michael-frith">
+				<div class="img">
+					<a href="/books/56700/ill-teach-my-dog-100-words-by-michael-frith"><img alt="I'll Teach My Dog 100 Words" src="http://images.penguinrandomhouse.com/cover/9780394826929?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Digging-Est Dog" url="/books/129596/the-digging-est-dog-by-al-perkins">
+				<div class="img">
+					<a href="/books/129596/the-digging-est-dog-by-al-perkins"><img alt="The Digging-Est Dog" src="http://images.penguinrandomhouse.com/cover/9780394800479?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="A Fish Out of Water" url="/books/126304/a-fish-out-of-water-by-helen-palmer">
+				<div class="img">
+					<a href="/books/126304/a-fish-out-of-water-by-helen-palmer"><img alt="A Fish Out of Water" src="http://images.penguinrandomhouse.com/cover/9780394800233?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Go, Dog. Go!" url="/books/44576/go-dog-go-by-pd-eastman">
+				<div class="img">
+					<a href="/books/44576/go-dog-go-by-pd-eastman"><img alt="Go, Dog. Go!" src="http://images.penguinrandomhouse.com/cover/9780394800202?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Put Me in the Zoo" url="/books/103589/put-me-in-the-zoo-by-robert-lopshire-illustrated-by-robert-lopshire">
+				<div class="img">
+					<a href="/books/103589/put-me-in-the-zoo-by-robert-lopshire-illustrated-by-robert-lopshire"><img alt="Put Me in the Zoo" src="http://images.penguinrandomhouse.com/cover/9780394800172?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="A Fly Went by" url="/books/110655/a-fly-went-by-by-mike-mcclintock">
+				<div class="img">
+					<a href="/books/110655/a-fly-went-by-by-mike-mcclintock"><img alt="A Fly Went by" src="http://images.penguinrandomhouse.com/cover/9780394800035?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+				</div>
+	</div>
+	
+	<div class="extended-carousel hide" id="extended-recommended-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Inspired by Your Browsing History</h4></div>
+		<div id="extended-recommended-carousel" class="extended-carousel-div loading"></div>
+	</div>
+
+	</div>
+<!-- end product extended carousel -->
+<script type="text/javascript">
+var specific_to_signup = {"specific_to_type":"product","signup":{"type":"author","id":2000585},"message":"Sign me up for news about Dr. Seuss and more from Penguin Random House"};
+</script>
+
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":514,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

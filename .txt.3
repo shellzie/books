@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta itemprop="image" content="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-512.png"/>
+<meta property="og:image" content="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-512.png"/>
+<meta name="twitter:image" content="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-512.png"/>
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="og:type" content="website"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>Coming Soon: Children's Picture Books Books | Penguin Random House</title>
+<meta itemprop="name" content="Coming Soon: Children's Picture Books Books | Penguin Random House"/>
+<meta property="og:title" content="Coming Soon: Children's Picture Books Books | Penguin Random House"/>
+<meta name="twitter:text:title" content="Coming Soon: Children's Picture Books Books | Penguin Random House"/>
+<meta name="description" content="Browse our latest titles in the Coming Soon category to discover your next read from PenguinRandomHouse.com"/>
+<meta itemprop="description" content="Browse our latest titles in the Coming Soon category to discover your next read from PenguinRandomHouse.com"/>
+<meta property="og:description" content="Browse our latest titles in the Coming Soon category to discover your next read from PenguinRandomHouse.com"/>
+<meta name="twitter:text:description" content="Browse our latest titles in the Coming Soon category to discover your next read from PenguinRandomHouse.com"/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2Fcoming-soon-picture-books-childrens" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2Fcoming-soon-picture-books-childrens&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/coming-soon-picture-books-childrens' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  category_results_page --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/coming-soon-picture-books-childrens';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/category.min.css?vers=cb20170213032739" media="all" />
+
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/carousel.min.css?vers=cb20170213032739" id="carousel.min.css" media="all" />
+
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/serieslanding.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_CATEGORYPAGE-[Category]_STATIC_ONGOING","catUri":"picture-books-childrens","filter":"coming-soon"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"Coming Soon: Children's Picture Books Books | Penguin Random House","code_release_version":"cb20170213032739","page_type":"Category Results Page"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<div id="tmpl-indc" class="tmpl-category" cat="picture-books-childrens" catFilter="coming-soon" totalResults="133" sort="frontlistiest_onsale"></div>
+<div class="inner-facade ribbon">
+    <div class="container">
+        <!-- Start Scaffolding -->
+        <div class="scaffolding row">
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+
+                <div class="category-ribbon">
+                    <div class="browse">
+                                                <div class="ctrl lvl1 l11">
+                            <a href="javascript:;" class="cat-ctrl">Coming Soon&nbsp;<span class="fa fa-angle-down"></span></a>
+                            <div class="arrow"></div>
+                            <div class="facet-list" style="opacity:0;filter:alpha(opacity=0);"> <!-- [!] the inline style is purposeful -->
+                                <a href="/books/best-sellers">Best Sellers</a>
+<a href="/books/award-winners">Award Winners</a>
+<a href="/books/new-releases">New Releases</a>
+<a href="/books/coming-soon" class="active">Coming Soon</a>
+                                <div></div>
+                                <a href="http://www.penguinrandomhouse.com/books/arts-entertainment/">Arts &#038; Entertainment</a>
+<a href="http://www.penguinrandomhouse.com/books/audiobooks/">Audiobooks</a>
+<a href="http://www.penguinrandomhouse.com/books/biography-memoir/">Biography &#038; Memoir</a>
+<a href="http://www.penguinrandomhouse.com/books/childrens/">Children&#8217;s Books</a>
+<a href="http://www.penguinrandomhouse.com/books/classics/">Classics</a>
+<a href="http://www.penguinrandomhouse.com/books/cooking/">Cooking</a>
+<a href="http://www.penguinrandomhouse.com/books/fantasy/">Fantasy</a>
+<a href="http://www.penguinrandomhouse.com/books/fiction/">Fiction</a>
+<a href="http://www.penguinrandomhouse.com/books/history/">History</a>
+<a href="http://www.penguinrandomhouse.com/books/humor/">Humor</a>
+<a href="http://www.penguinrandomhouse.com/books/mystery-suspense/">Mystery &#038; Suspense</a>
+<a href="http://www.penguinrandomhouse.com/books/nonfiction/">Nonfiction</a>
+<a href="http://www.penguinrandomhouse.com/books/poetry/">Poetry</a>
+<a href="http://www.penguinrandomhouse.com/books/politics/">Politics</a>
+<a href="http://www.penguinrandomhouse.com/books/reference/">Reference</a>
+<a href="http://www.penguinrandomhouse.com/books/romance/">Romance</a>
+<a href="http://www.penguinrandomhouse.com/books/science-fiction/">Science Fiction</a>
+<a href="http://www.penguinrandomhouse.com/books/travel/">Travel</a>
+<a href="http://www.penguinrandomhouse.com/books/teen-young-adult/">Teen &#038; Young Adult</a>
+                            </div>            
+                        </div>
+                                        		<div class="ctrl lvl2 l13">
+                            <a href="javascript:;" class="cat-ctrl">Browse Genres&nbsp;<span class="fa fa-angle-down"></span></a>
+                            <div class="arrow"></div>
+                            <div class="facet-list" style="opacity:0;filter:alpha(opacity=0);">
+                            <a href="http://www.penguinrandomhouse.com/books/coming-soon-fiction/">Fiction</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-nonfiction/">Nonfiction</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-childrens/">Children&#8217;s Books</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-classics/">Classics</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-cooking/">Cooking</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-fantasy/">Fantasy</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-history/">History</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-humor/">Humor</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-mystery-suspense/">Mystery &#038; Suspense</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-romance/">Romance</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-science-fiction/">Science Fiction</a>
+<a href="http://www.penguinrandomhouse.com/books/coming-soon-teen-young-adult/">Teen &#038; Young Adult</a>
+                            </div>            
+                        </div>
+                        
+                        
+                                            </div><!--browse-->
+                </div><!-- category-ribbon -->
+                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div>
+<div class="inner-facade hero">
+	<div class="container">
+    <!-- Start Scaffolding -->
+    	<div class="scaffolding row">
+        	<div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        	<div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+            <!-- Start Hero Content -->
+            	<div class="clearfix">                    	
+                	<div class="no-hero"> <!-- No hero variant -->
+                        <div class="browse-btn-box">
+                            <a class="btn generic browse">Browse</a>
+                        </div>
+
+                    	<h1>Coming Soon: Children&#8217;s Picture Books</h1>
+                    	<h4>133 Results</h4>
+                	</div>
+           		</div>
+        	</div> <!-- main-content -->
+        	<div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    	</div> <!-- scaffolding row -->
+	</div> <!-- container -->
+</div>
+<div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+        	<div class="products-category-grid clearfix">
+			                <div class="book">
+                    <div class="img">
+                        <a href="/books/251647/a-cat-named-swan-by-holly-hobbie" title="A Cat Named Swan">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780553537444" alt="A Cat Named Swan" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/251647/a-cat-named-swan-by-holly-hobbie">A Cat Named Swan</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/42238/holly-hobbie" title="Holly Hobbie">Holly Hobbie</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/251938/little-fox-in-the-forest-by-stephanie-graegin" title="Little Fox in the Forest">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780553537895" alt="Little Fox in the Forest" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/251938/little-fox-in-the-forest-by-stephanie-graegin">Little Fox in the Forest</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/151646/stephanie-graegin" title="Stephanie Graegin">Stephanie Graegin</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/539679/life-on-mars-by-jon-agee" title="Life on Mars">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780399538520" alt="Life on Mars" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/539679/life-on-mars-by-jon-agee">Life on Mars</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/198/jon-agee" title="Jon Agee">Jon Agee</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison" title="Friendship and Junk">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780515158021" alt="Friendship and Junk" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison">Friendship and Junk</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/2028193/cartoon-network-books" title="Cartoon Network Books">Cartoon Network Books</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/249400/a-lullaby-for-little-one-by-dawn-casey" title="A Lullaby for Little One">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780763676087" alt="A Lullaby for Little One" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/249400/a-lullaby-for-little-one-by-dawn-casey">A Lullaby for Little One</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/259268/dawn-casey" title="Dawn Casey">Dawn Casey</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/252770/emma-and-the-whale-by-julie-case-illustrated-by-lee-white" title="Emma and the Whale">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780553538472" alt="Emma and the Whale" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/252770/emma-and-the-whale-by-julie-case-illustrated-by-lee-white">Emma and the Whale</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/306567/julie-case" title="Julie Case">Julie Case</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/258546/goodnight-numbers-by-danica-mckellar-illustrated-by-alicia-padron" title="Goodnight, Numbers">
+                            <img src="http://images.penguinrandomhouse.com/cover/9781101933787" alt="Goodnight, Numbers" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/258546/goodnight-numbers-by-danica-mckellar-illustrated-by-alicia-padron">Goodnight, Numbers</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/231021/danica-mckellar" title="Danica McKellar">Danica McKellar</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/313697/feel-the-beat-dance-poems-that-zing-from-salsa-to-swing-by-marilyn-singer" title="Feel the Beat: Dance Poems that Zing from Salsa to Swing">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780803740211" alt="Feel the Beat: Dance Poems that Zing from Salsa to Swing" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/313697/feel-the-beat-dance-poems-that-zing-from-salsa-to-swing-by-marilyn-singer">Feel the Beat: Dance Poems that Zing from Salsa to Swing</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/28567/marilyn-singer" title="Marilyn Singer">Marilyn Singer</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/314629/froggy-goes-to-the-library-by-jonathan-london-illustrated-by-frank-remkiewicz" title="Froggy Goes to the Library">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780425288320" alt="Froggy Goes to the Library" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/314629/froggy-goes-to-the-library-by-jonathan-london-illustrated-by-frank-remkiewicz">Froggy Goes to the Library</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/17988/jonathan-london" title="Jonathan London">Jonathan London</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/318055/the-chupacabra-ate-the-candelabra-by-marc-tyler-nobleman-illustrated-by-ana-aranda" title="The Chupacabra Ate the Candelabra">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780399174438" alt="The Chupacabra Ate the Candelabra" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/318055/the-chupacabra-ate-the-candelabra-by-marc-tyler-nobleman-illustrated-by-ana-aranda">The Chupacabra Ate the Candelabra</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/70561/marc-tyler-nobleman" title="Marc Tyler Nobleman">Marc Tyler Nobleman</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/344301/grandfather-clock-by-roger-hargreaves" title="Grandfather Clock">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780515157338" alt="Grandfather Clock" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/344301/grandfather-clock-by-roger-hargreaves">Grandfather Clock</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/11922/roger-hargreaves" title="Roger Hargreaves">Roger Hargreaves</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/485308/count-worm-by-roger-hargreaves" title="Count Worm">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780515157321" alt="Count Worm" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/485308/count-worm-by-roger-hargreaves">Count Worm</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/11922/roger-hargreaves" title="Roger Hargreaves">Roger Hargreaves</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/530115/say-hello-sophie-by-rosemary-wells" title="Say Hello, Sophie">
+                            <img src="http://images.penguinrandomhouse.com/cover/9781101999257" alt="Say Hello, Sophie" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/530115/say-hello-sophie-by-rosemary-wells">Say Hello, Sophie</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/32812/rosemary-wells" title="Rosemary Wells">Rosemary Wells</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/547305/albert-the-alphabetical-elephant-by-roger-hargreaves" title="Albert the Alphabetical Elephant">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780515157314" alt="Albert the Alphabetical Elephant" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/547305/albert-the-alphabetical-elephant-by-roger-hargreaves">Albert the Alphabetical Elephant</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/11922/roger-hargreaves" title="Roger Hargreaves">Roger Hargreaves</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/552189/hush-a-bye-bunny-by-nosy-crow" title="Hush-A-Bye Bunny">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780763694593" alt="Hush-A-Bye Bunny" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/552189/hush-a-bye-bunny-by-nosy-crow">Hush-A-Bye Bunny</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/149588/nosy-crow" title="Nosy Crow">Nosy Crow</a>                    </div>
+                </div>
+                        </div>
+        </div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    </div>
+</div>
+
+    <div class="inner-facade content tripod catsgnup">
+      <div class="container">
+        <!-- Start Scaffolding -->
+        <div class="scaffolding row">
+          <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+          <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+            <div class="products-promo clearfix">
+			
+	      <div class="tripod-variant categorysgnup"> 
+		  		 <h1>Stay in touch!</h1><div class="slot newsletter-signup fullwidth"></div>
+              </div>
+            </div>
+          </div> <!-- main-content -->
+          <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+      </div> <!-- container -->
+    </div>
+
+
+<div class="container">
+<!-- Start Scaffolding -->
+	<div class="scaffolding row">
+		<div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+			<div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+				<div class="products-category-grid clearfix">
+			                <div class="book">
+                    <div class="img">
+                        <a href="/books/3619/me-all-alone-at-the-end-of-the-world-by-mt-anderson" title="Me, All Alone, at the End of the World">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780763689025" alt="Me, All Alone, at the End of the World" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/3619/me-all-alone-at-the-end-of-the-world-by-mt-anderson">Me, All Alone, at the End of the World</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/109927/mt-anderson" title="M.T. Anderson">M.T. Anderson</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/184498/farmer-duck-by-martin-waddell-illustrated-by-helen-oxenbury" title="Farmer Duck">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780763689186" alt="Farmer Duck" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/184498/farmer-duck-by-martin-waddell-illustrated-by-helen-oxenbury">Farmer Duck</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/109967/martin-waddell" title="Martin Waddell">Martin Waddell</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/240329/if-your-monster-wont-go-to-bed-by-denise-vega-illustrated-by-zachariah-ohora" title="If Your Monster Won't Go To Bed">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780553496550" alt="If Your Monster Won't Go To Bed" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/240329/if-your-monster-wont-go-to-bed-by-denise-vega-illustrated-by-zachariah-ohora">If Your Monster Won&#8217;t Go To Bed</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/77772/denise-vega" title="Denise Vega">Denise Vega</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/249443/i-will-never-get-a-star-on-mrs-bensons-blackboard-by-jennifer-k-mann" title="I Will Never Get a Star on Mrs. Benson's Blackboard">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780763692995" alt="I Will Never Get a Star on Mrs. Benson's Blackboard" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/249443/i-will-never-get-a-star-on-mrs-bensons-blackboard-by-jennifer-k-mann">I Will Never Get a Star on Mrs. Benson&#8217;s Blackboard</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/187809/jennifer-k-mann" title="Jennifer K. Mann">Jennifer K. Mann</a>                    </div>
+                </div>
+                            <div class="book">
+                    <div class="img">
+                        <a href="/books/317807/i-just-want-to-say-good-night-by-rachel-isadora" title="I Just Want to Say Good Night">
+                            <img src="http://images.penguinrandomhouse.com/cover/9780399173844" alt="I Just Want to Say Good Night" class="responsive_img">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <a href="/books/317807/i-just-want-to-say-good-night-by-rachel-isadora">I Just Want to Say Good Night</a>
+                    </div>
+                    <div class="contributor">
+                        <a href="/authors/234436/rachel-isadora" title="Rachel Isadora">Rachel Isadora</a>                    </div>
+                </div>
+                        </div>
+        </div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    </div>
+</div>
+<div class="pagination" id="infinite-scroll">
+    <div class="pg-ctrls"><a href="#" class="js-less pg-prev">Previous</a> <a href="#" class="js-less pg-next">Next</a></div>
+</div>
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":579,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

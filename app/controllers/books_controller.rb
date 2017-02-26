@@ -17,8 +17,25 @@ class BooksController < ApplicationController
   private
 
   def scrape_random_house
-    @@agent.user_agent_alias
+    @@agent.user_agent_alias = random_user_agent
+    @@agent.pluggable_parser.default = Mechanize::Download
+    # page = @@agent.get('http://www.penguinrandomhouse.com/books/picture-books-childrens').save('results.txt')
+
+    page = @@agent.get('http://www.penguinrandomhouse.com/books/picture-books-childrens')
+    doc = Nokogiri::HTML(page.content)
+    first_row_books = doc.css('div.products-category section.carousel div.viewport div.item')
+    first_row_books.each do |book|
+      random_delay
+      url = book.css('div.img > a')[0]['href']
+      @@agent.user_agent_alias = random_user_agent
+      title = book.css('div.title > a').text
+      details_page = @@agent.get('http://www.penguinrandomhouse.com' + url).save(title + ".txt")
+
+
+    end
   end
+
+
 
   def scrape_bn
 

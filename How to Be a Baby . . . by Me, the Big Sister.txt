@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones | PenguinRandomHouse.com</title>
+<meta itemprop="name" content="How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones | PenguinRandomHouse.com"/>
+<meta property="og:title" content="How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones | PenguinRandomHouse.com"/>
+<meta name="twitter:text:title" content="How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones | PenguinRandomHouse.com"/>
+<meta name="description" content="The New York Times praised this best-selling picture book as &quot;adorable, original, well-illustrated and fabulous.&quot; In this first book in the How-To Series..."/>
+<meta itemprop="description" content="The New York Times praised this best-selling picture book as &quot;adorable, original, well-illustrated and fabulous.&quot; In this first book in the How-To Series (which includes How To Get Married and How to Get..."/>
+<meta property="og:description" content="The New York Times praised this best-selling picture book as &quot;adorable, original, well-illustrated and fabulous.&quot; In this first book in the How-To Series (which includes How To Get Married and How to Get..."/>
+<meta name="twitter:text:description" content="The New York Times praised this best-selling picture book as &quot;adorable, original, well-illustrated and fabulous.&quot; In this first book in the How-To Series (which includes How To Get Married and..."/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/"/>
+<meta itemprop="image" content="http://images.penguinrandomhouse.com/cover/9780375873881"/>
+<meta property="og:image" content="http://images.penguinrandomhouse.com/cover/9780375873881"/>
+<meta name="twitter:image" content="http://images.penguinrandomhouse.com/cover/9780375873881"/>
+<meta itemprop="price" content="7.99"/>
+<meta itemprop="priceCurrency" content="USD"/>
+<meta property="og:price:currency" content="USD"/>
+<meta property="og:price:amount" content="7.99"/>
+<meta property="og:type" content="book"/>
+<meta name="twitter:url" content="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/#excerpt"/>
+<meta name="twitter:url:preview" content="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/#excerpt"/>
+<meta name="twitter:text:isbn" content="9780375873881"/>
+<meta name="twitter:text:cta" content="Start reading"/>
+<meta name="Tealium" content="Tealium meta values" data-book-title="How to Be a Baby . . . by Me, the Big Sister" data-book-authors="Sally Lloyd-Jones" data-book-isbn="9780375873881" data-book-imprint="Dragonfly Books" data-book-division="" data-book-format="Paperback" data-page-type="product"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F102956%2Fhow-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F102956%2Fhow-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/9780375873881/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"102956"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones | PenguinRandomHouse.com","code_release_version":"cb20170213032739","product_list_price":[7.99],"product_isbn":[9780375873881],"product_title":["How to Be a Baby . . . by Me, the Big Sister"],"product_author":["Sally Lloyd-Jones"],"product_author_id":["62272"],"page_type":"Product Detail Page","product_imprint":["Dragonfly Books"],"product_format":["Paperback"],"product_work_id":["102956"],"product_category":["Children's Picture Books | Children's Books"],"product_division":["RH Childrens Books"],"age_range":"4-8 years"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<!--html from front end -->
+<!-- product info top -->
+<a name="#home" id="home"></a>
+<div id="tmpl-indc" class="tmpl-product" data-id="9780375873881,9780375838439,9780307983657"></div>
+<div class="inner-facade">
+  <div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+      <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+                <div class="product-header clearfix">
+                    <div class="slot product-title">
+                        <div class="panel-body">
+                            <h1>How to Be a Baby . . . by Me, the Big Sister</h1>
+                			    <h2 class="contributors isbn-related 9780375873881 show">By <span class="ws-nw"><a href="/authors/62272/sally-lloyd-jones" >Sally Lloyd-Jones</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/45728/sue-heap" >Sue Heap</a></span><br/></h2><h2 class="contributors isbn-related 9780375838439">By <span class="ws-nw"><a href="/authors/62272/sally-lloyd-jones" >Sally Lloyd-Jones</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/45728/sue-heap" >Sue Heap</a></span><br/></h2><h2 class="contributors isbn-related 9780307983657">By <span class="ws-nw"><a href="/authors/62272/sally-lloyd-jones" >Sally Lloyd-Jones</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/45728/sue-heap" >Sue Heap</a></span><br/></h2>                                <h4 class="isbn-related 9780375873881">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780375838439">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780307983657">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>                        </div>
+                    </div>
+
+                    <div class="slot product-jacket">
+                        <div class="book-detail">
+                            <div class="cover-wrapper">
+                            <div class="bs-seal">Best Seller</div>
+			      <img src="http://images.penguinrandomhouse.com/cover/9780375873881" id="coverFormat" class="cover img-responsive" alt="How to Be a Baby . . . by Me, the Big Sister by Sally Lloyd-Jones" />
+                            </div><!-- /.cover-wrapper -->
+
+			
+			            <p class="excerpt-link isbn-related 9780375873881"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+			            <p class="excerpt-link isbn-related 9780375838439"><a href="#" data-workid="" data-isbn="9780375838439" data-title="How to Be a Baby . . . by Me, the Big Sister" data-author="Sally Lloyd-Jones" class="insight">Look Inside</a> | <a href="#" class="enlarge">Enlarge Cover</a></p>
+
+
+			            <p class="excerpt-link isbn-related 9780307983657"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+                        </div>
+                    </div>
+                    <div class="slot product-format">
+                    	<div class="product-format-mobile">
+		                                  <div class="curr-ttl-mobile active show 9780375873881">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Paperback</a>
+				                            	    <span class="us-price">$7.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">May 10, 2011</span>
+                                                                        <span class="ws-nw">| 40 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 8-1/2 x 11</span>-->
+                                    				    								    				<span class="ws-nw">| 4-8 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780375873881</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780375873881" rel="popover">Buy</button>
+																	</p>
+                            </div>
+						                            <div class="curr-ttl-mobile active  9780375838439">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$16.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Feb 13, 2007</span>
+                                                                        <span class="ws-nw">| 40 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 8-1/2 x 11-1/2</span>-->
+                                    				    								    				<span class="ws-nw">| 4-8 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780375838439</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780375838439" rel="popover">Buy</button>
+																	</p>
+                            </div>
+						                            <div class="curr-ttl-mobile active  9780307983657">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Ebook</a>
+				                            	    <span class="us-price">$7.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Dec 19, 2012</span>
+                                                                        <span class="ws-nw">| 40 Pages</span> 
+                                                                                                            				    								    				<span class="ws-nw">| 4-8 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780307983657</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780307983657" rel="popover">Buy</button>
+																	</p>
+                            </div>
+												</div>
+												<div class="product-format-mobile-link_wrap">
+	                        <div class="product-format-mobile-link-div">
+	                        	<a href="javascript:;" class="product-format-mobile-link">All Formats<div class="pl_mn_format">+</div></a>
+	                        	<div class="mobile-formats-div">
+	                        		<div class="mobile-formats">
+	                            		<ul class="mobile-inner"></ul>
+	                            	</div>
+	                        	</div>
+	                     	</div>
+                     	</div>
+						                        <div class="panel-group" id="accordion">
+														<div class="panel">
+							    <div class="panel-heading selected">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					  					Paperback <span class="countDiv0"></span>
+					  					<div class="pl_mn_format">&#8211;</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse1" class="panel-collapse collapse in">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="active">
+					    <a href="#9780375873881" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Sally Lloyd-Jones" primaryauthids="62272" best-seller=""
+					        age_segment="4-8 years"  merchandise="false"  isbn="9780375873881" format="TR" format-name="Paperback" categories="Children's Picture Books | Children's Books" imprint="Dragonfly Books" division="RH Childrens Books" price="7.99">Paperback</a>
+					       																<button type="button" class="btn buy2 9780375873881" rel="popover">Buy</button>
+												       	<span class="us-price">$7.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">May 10, 2011</span>
+															<span class="ws-nw">| 40 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 4-8 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780375873881</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+							<div class="panel">
+							    <div class="panel-heading">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+					  					Hardcover <span class="countDiv1"></span>
+					  					<div class="pl_mn_format">+</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse2" class="panel-collapse collapse">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="">
+					    <a href="#9780375838439" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Sally Lloyd-Jones" primaryauthids="62272" best-seller="true"
+					        age_segment="4-8 years"  merchandise="false"  isbn="9780375838439" format="HC" format-name="Hardcover" categories="Children's Picture Books | Children's Books" imprint="Schwartz &#038; Wade" division="RH Childrens Books" price="16.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 9780375838439" rel="popover">Buy</button>
+												       	<span class="us-price">$16.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Feb 13, 2007</span>
+															<span class="ws-nw">| 40 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 4-8 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780375838439</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+							<div class="panel">
+							    <div class="panel-heading">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+					  					Ebook <span class="countDiv2"></span>
+					  					<div class="pl_mn_format">+</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse3" class="panel-collapse collapse">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="">
+					    <a href="#9780307983657" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Sally Lloyd-Jones" primaryauthids="62272" best-seller=""
+					        age_segment="4-8 years"  merchandise="false"  isbn="9780307983657" format="EL" format-name="Ebook" categories="Children's Picture Books | Children's Books" imprint="Schwartz &#038; Wade" division="RH Childrens Books" price="7.99">Ebook</a>
+					       																<button type="button" class="btn buy2 9780307983657" rel="popover">Buy</button>
+												       	<span class="us-price">$7.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Dec 19, 2012</span>
+															<span class="ws-nw">| 40 Pages</span> 
+																																				<span class="ws-nw">| 4-8 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780307983657</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                
+                				<div class="default-retailer">
+                	<h4 class="buy">Buy the Ebook:</h4>
+                	<ul>         
+                    	<li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/1/trackingcode/PRHEFFDF5A7F1" target="_blank">Kobo</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/2/trackingcode/PRHEFFDF5A7F1" target="_blank">Barnes &#038; Noble</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/3/trackingcode/PRHEFFDF5A7F1" target="_blank">Apple</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/5/trackingcode/PRHEFFDF5A7F1" target="_blank">Books A Million</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/7/trackingcode/randohouseinc7986-20" target="_blank">Amazon</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780307983657/siteId/301/retailerid/22/trackingcode/PRHEFFDF5A7F1" target="_blank">Google Play Store</a></li>                    </ul>
+                </div>
+                                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div> <!-- inner-facade END -->
+<!-- end product info top -->
+<!-- buy options -->     
+ <div class="sticky-buy">
+   <div id="buy-options">
+     <ul>
+		            <li class="isbn-related 9780375873881 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780375873881" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/9780375873881" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/9780375873881" />
+             </form>
+           </li>
+		            <li class="isbn-related 9780375838439 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780375838439" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/9780375838439" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/102956/how-to-be-a-baby----by-me-the-big-sister-by-sally-lloyd-jones-illustrated-by-sue-heap/9780375838439" />
+             </form>
+           </li>
+		     </ul>
+   </div>
+ </div>
+<!-- end buy options -->
+<div id="share-links-wrap-desktop"></div>
+<!-- product info bottom -->        
+<div class="container">
+  <div class="scaffolding row">
+    <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+      <div class="product-body clearfix">
+
+	<!-- newsletter -->
+	<div id="newsletter-wrap-mobile">
+	  <div class="slot newsletter-signup product" ></div>	</div>
+	<!-- /newsletter -->
+
+	<!-- about the book -->
+        <a name="#aboutthebook" id="aboutthebook"></a>
+	
+	<div class="slot product-about 9780375873881 isbn-related seemoreenable show">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>How to Be a Baby . . . by Me, the Big Sister</span></h4>
+    			<p><p>The <i>New York Times</i> praised this best-selling picture book as &#8220;adorable, original, well-illustrated and fabulous.&#8221; In this first book in the How-To Series (which includes <i>How To Get Married</i> and <i>How to Get a Job</i>), the know-it-all big sister narrator tells it like it is: When you&#8217;re a  baby you don&#8217;t read books. You eat them. You don&#8217;t know how old you are, or even  if you&#8217;re a boy or a girl. And you have to keep a special plug in your mouth to stop  your scream from coming out. But one day, you won&#8217;t be little anymore, and then you&#8217;ll  be taller and smarter, and actually quite clever. Like the narrator. And you&#8217;ll be  able to share memories of what it was like when you were little with your incredible  Big Sister.</p></p>	 	</section>
+     </div>
+
+	
+	<div class="slot product-about 9780375838439 isbn-related seemoreenable">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>How to Be a Baby . . . by Me, the Big Sister</span></h4>
+    			<p><p>The <i>New York Times</i> praised this best-selling picture book as &#8220;adorable, original, well-illustrated and fabulous.&#8221; In this first book in the How-To Series (which includes <i>How To Get Married</i> and <i>How to Get a Job</i>), the know-it-all big sister narrator tells it like it is: When you&#8217;re a  baby you don&#8217;t read books. You eat them. You don&#8217;t know how old you are, or even  if you&#8217;re a boy or a girl. And you have to keep a special plug in your mouth to stop  your scream from coming out. But one day, you won&#8217;t be little anymore, and then you&#8217;ll  be taller and smarter, and actually quite clever. Like the narrator. And you&#8217;ll be  able to share memories of what it was like when you were little with your incredible  Big Sister.</p></p>	 	</section>
+     </div>
+
+	
+	<div class="slot product-about 9780307983657 isbn-related seemoreenable">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>How to Be a Baby . . . by Me, the Big Sister</span></h4>
+    			<p><p>The <i>New York Times</i> praised this best-selling picture book as &#8220;adorable, original, well-illustrated and fabulous.&#8221; In this first book in the How-To Series (which includes <i>How To Get Married</i> and <i>How to Get a Job</i>), the know-it-all big sister narrator tells it like it is: When you&#8217;re a  baby you don&#8217;t read books. You eat them. You don&#8217;t know how old you are, or even  if you&#8217;re a boy or a girl. And you have to keep a special plug in your mouth to stop  your scream from coming out. But one day, you won&#8217;t be little anymore, and then you&#8217;ll  be taller and smarter, and actually quite clever. Like the narrator. And you&#8217;ll be  able to share memories of what it was like when you were little with your incredible  Big Sister.</p></p>	 	</section>
+     </div>
+
+	        <!-- /about the book -->
+    <div id="newsletter-wrap-desktop" class="grayab">
+    	<div class="graybox">
+    		<div class="newcoppy">Get the news you want from Penguin Random House</div>
+    	</div>
+    </div>
+        <!-- book awards -->
+				  		    	              	                <div class="slot product-awards seemoreenable">
+	                  <h4 class="slot-header">Awards</h4>
+	              						                  <p class="clearfix">
+			    <span class="left">IRA&#8211;CBC Children&#8217;s Choice</span>
+			    <span class="right">WINNER </span>
+			  </p>
+						            	              						                  <p class="clearfix">
+			    <span class="left">National Parenting Publications Award (NAPPA)</span>
+			    <span class="right">WINNER 2007</span>
+			  </p>
+						            	              						                  <p class="clearfix">
+			    <span class="left">New York Times Bestseller</span>
+			    <span class="right">WINNER 2007</span>
+			  </p>
+						            	              						                  <p class="clearfix">
+			    <span class="left">New York Times Notable Book</span>
+			    <span class="right">WINNER 2007</span>
+			  </p>
+						            		  		    	              						                  <p class="clearfix">
+			    <span class="left">Cooperative Children&#8217;s Book Center Choices</span>
+			    <span class="right">NOMINEE </span>
+			  </p>
+						            		  	          	            </div>
+		  		        <!-- /book awards -->
+
+        <!-- praises -->
+		                        <div class="slot product-praise seemoreenable">
+		      <h4 class="slot-header">Praise</h4>
+		        <p class="clearfix">
+			  <b>Review, <u>The New York Times Book Review</u>, December 2, 2007:<br></b>&quot;An ultracharming picture book.&quot;<br><br><b>Starred review, <u>The Bulletin of the Center for Children&#8217;s Books</u>, April 2007:<br></b>&quot;There&#8217;s plenty to pore over in the detail-rich scenes, and the childlike but deft lines match the text&#8217;s exuberance . . . This is perfect family fare and a welcome departure from storybooks that assume the worst when a new life joins the family.&quot;			</p>
+		    </div>
+		            <!-- /praises -->
+
+        <!-- table of contents -->
+		            <!-- /table of contents -->
+
+        <!-- author spotlights -->
+                    <a name="#author" id="author"></a>
+		                        <div class="slot product-author-info isbn-related 9780375873881">
+		      <h4 class="slot-header">About Sally Lloyd-Jones</h4>
+		      <p class="clearfix">A NOTE FROM THE AUTHORI wrote How to Be a Baby by Me the Big Sister as a kind of revenge on my three little sisters . . . not really. But since I&#8217;m the oldest, I obviously am the&#8230; <a href="/authors/62272/sally-lloyd-jones">More about Sally Lloyd-Jones</a></p>
+		    </div>
+		                        <div class="slot product-author-info isbn-related 9780375838439">
+		      <h4 class="slot-header">About Sally Lloyd-Jones</h4>
+		      <p class="clearfix">A NOTE FROM THE AUTHORI wrote How to Be a Baby by Me the Big Sister as a kind of revenge on my three little sisters . . . not really. But since I&#8217;m the oldest, I obviously am the&#8230; <a href="/authors/62272/sally-lloyd-jones">More about Sally Lloyd-Jones</a></p>
+		    </div>
+		                        <div class="slot product-author-info isbn-related 9780307983657">
+		      <h4 class="slot-header">About Sally Lloyd-Jones</h4>
+		      <p class="clearfix">A NOTE FROM THE AUTHORI wrote How to Be a Baby by Me the Big Sister as a kind of revenge on my three little sisters . . . not really. But since I&#8217;m the oldest, I obviously am the&#8230; <a href="/authors/62272/sally-lloyd-jones">More about Sally Lloyd-Jones</a></p>
+		    </div>
+		            <!-- /author spotlights -->
+
+        <!-- author Q & A's -->
+		            <!-- /author Q & A's -->
+
+        <!-- video related links -->
+		            <!-- /video related links -->
+
+		<!-- audio extras -->
+		    <a name="#more" id="more"></a>
+		    		<!-- / audio extras -->
+		
+		<!-- author essays -->    
+		    		<!-- / author essays -->
+		
+		<!-- slideshow promo images and slideshow related links -->
+					<!-- / slideshow promo images and slideshow related links -->
+		  <!-- 2nd prod detail -->
+          <div class="slot scnd-prod-detail">
+                <div class="product-author-also-by" id="scnd-detail">
+                    <h4 class="slot-header">Product Details</h4>
+               </div>
+               			  	<p class="clearfix isbn-related 9780375873881">
+			  				  	Paperback<br />
+			  					Published by Dragonfly Books<br />
+				<span class="ws-nw">May 10, 2011</span>
+									<span class="ws-nw">| 40 Pages</span> 
+																	<span class="ws-nw">| 8-1/2 x 11</span>
+													<span class="ws-nw">| 4-8 years</span>
+													<span class="ws-nw">| ISBN 9780375873881</span>
+							  	</p>
+		  						  	<p class="clearfix isbn-related 9780375838439">
+			  				  	Hardcover<br />
+			  					Published by Schwartz &#038; Wade<br />
+				<span class="ws-nw">Feb 13, 2007</span>
+									<span class="ws-nw">| 40 Pages</span> 
+																	<span class="ws-nw">| 8-1/2 x 11-1/2</span>
+													<span class="ws-nw">| 4-8 years</span>
+													<span class="ws-nw">| ISBN 9780375838439</span>
+							  	</p>
+		  						  	<p class="clearfix isbn-related 9780307983657">
+			  				  	Ebook<br />
+			  					Published by Schwartz &#038; Wade<br />
+				<span class="ws-nw">Dec 19, 2012</span>
+									<span class="ws-nw">| 40 Pages</span> 
+																					<span class="ws-nw">| 4-8 years</span>
+													<span class="ws-nw">| ISBN 9780307983657</span>
+							  	</p>
+		  			           </div>
+	      <!-- / 2nd prod detail -->
+	      <!-- share -->
+	      <div class="slot mobile-share" id="share-links-wrap-mobile">
+			<div class="share-links" id="share-collapse"><ul class="share-items" data-sharemessageservice="http://services.penguin.com/rest/v1/json/socialmedia/sharemessage/get" data-siteid="301" data-sharetypeid="1" data-booktitle="How to Be a Baby . . . by Me, the Big Sister"><li class="header">Share:</li><li data-socialmediaid="1" data-fbappid="350479041816117"><a class="facebook"><div class="fa fa-facebook"><span>Share on Facebook</span></div></a></li><li data-socialmediaid="2"><a class="twitter"><div class="fa fa-twitter"><span>Tweet</span></div></a></li><li data-socialmediaid="6"><a class="pinterest"><div class="fa fa-pinterest"><span>Pin it</span></div></a></li><li data-socialmediaid="7"><a class="google-plus"><div class="fa fa-google-plus"><span>Share on G+</span></div></a></li><li data-socialmediaid="3"><a class="tumblr"><div class="fa fa-tumblr"><span>Share on Tumblr</span></div></a></li><li data-socialmediaid="9"><a class="sms-share"><span>SMS</span></a></li><li data-socialmediaid="8"><a class="envelope"><div class="fa fa-envelope"><span>Email</span></div></a></li></ul></div>        </div>
+        <!-- / share -->
+
+       <!-- Also by author -->
+        <div class="slot author-also-by">
+          <div class="product-author-also-by" id="by-author" data-work-author-list="62272,45728">
+            <h4 class="slot-header">Also by <a href="/authors/62272/sally-lloyd-jones">Sally Lloyd-Jones</a></h4>
+          </div>
+        </div>
+       <!-- / Also by author -->
+
+       <!-- people who read -->
+              <div class="slot product-recommended">
+         <h4 class="slot-header">People Who Read <span>How to Be a Baby . . . by Me, the Big Sister</span> Also Read</h4>
+         <section class="carousel recommended">
+           <a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+           <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+
+           <div class="viewport">
+              <div class="slider">
+                               <div class="item">
+                  <div class="img">
+                    <a href="/books/536646/secret-tree-fort-by-brianne-farley"><img alt="Secret Tree Fort" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763662974?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/536646/secret-tree-fort-by-brianne-farley" title="Secret Tree Fort">Secret Tree Fort</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/178154/brianne-farley" title="Brianne Farley">Brianne Farley</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/249411/cody-and-the-fountain-of-happiness-by-tricia-springstubb"><img alt="Cody and the Fountain of Happiness" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763687533?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/249411/cody-and-the-fountain-of-happiness-by-tricia-springstubb" title="Cody and the Fountain of Happiness">Cody and the Fountain of Happiness</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/168810/tricia-springstubb" title="Tricia Springstubb">Tricia Springstubb</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/300110/ladybug-girl-by-jacky-davis-illustrated-by-david-soman"><img alt="Ladybug Girl" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101994337?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/300110/ladybug-girl-by-jacky-davis-illustrated-by-david-soman" title="Ladybug Girl">Ladybug Girl</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/231383/jacky-davis" title="Jacky Davis">Jacky Davis</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/248829/the-new-small-person-by-lauren-child"><img alt="The New Small Person" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763678104?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/248829/the-new-small-person-by-lauren-child" title="The New Small Person">The New Small Person</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110079/lauren-child" title="Lauren Child">Lauren Child</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/204822/theres-going-to-be-a-baby-by-john-burningham"><img alt="There's Going to Be a Baby" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763672652?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/204822/theres-going-to-be-a-baby-by-john-burningham" title="There's Going to Be a Baby">There&#8217;s Going to Be a Baby</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109942/john-burningham" title="John Burningham">John Burningham</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/313369/three-bears-in-a-boat-by-david-soman"><img alt="Three Bears in a Boat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803739932?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/313369/three-bears-in-a-boat-by-david-soman" title="Three Bears in a Boat">Three Bears in a Boat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/231382/david-soman" title="David Soman">David Soman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/309760/the-baby-tree-by-sophie-blackall-illustrated-by-sophie-blackall"><img alt="The Baby Tree" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399257186?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/309760/the-baby-tree-by-sophie-blackall-illustrated-by-sophie-blackall" title="The Baby Tree">The Baby Tree</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/68553/sophie-blackall" title="Sophie Blackall">Sophie Blackall</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/311995/maple-by-lori-nichols-illustrated-by-lori-nichols"><img alt="Maple" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399160851?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/311995/maple-by-lori-nichols-illustrated-by-lori-nichols" title="Maple">Maple</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/239397/lori-nichols" title="Lori Nichols">Lori Nichols</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/96436/zelda-and-ivy-by-laura-mcgee-kvasnosky"><img alt="Zelda and Ivy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763668785?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/96436/zelda-and-ivy-by-laura-mcgee-kvasnosky" title="Zelda and Ivy">Zelda and Ivy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/67920/laura-mcgee-kvasnosky" title="Laura McGee Kvasnosky">Laura McGee Kvasnosky</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/291781/pecan-pie-baby-by-jacqueline-woodson-illustrated-by-sophie-blackall"><img alt="Pecan Pie Baby" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780147511287?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/291781/pecan-pie-baby-by-jacqueline-woodson-illustrated-by-sophie-blackall" title="Pecan Pie Baby">Pecan Pie Baby</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33705/jacqueline-woodson" title="Jacqueline Woodson">Jacqueline Woodson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/43141/the-cat-in-the-hat-by-dr-seuss"><img alt="The Cat in the Hat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780449810866?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/43141/the-cat-in-the-hat-by-dr-seuss" title="The Cat in the Hat">The Cat in the Hat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2000585/dr-seuss" title="Dr. Seuss">Dr. Seuss</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/105973/velma-gratch-and-the-way-cool-butterfly-by-alan-madison-illustrated-by-kevin-hawkes"><img alt="Velma Gratch and the Way Cool Butterfly" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780307978042?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/105973/velma-gratch-and-the-way-cool-butterfly-by-alan-madison-illustrated-by-kevin-hawkes" title="Velma Gratch and the Way Cool Butterfly">Velma Gratch and the Way Cool Butterfly</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/69362/alan-madison" title="Alan Madison">Alan Madison</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/259887/the-phoenix-and-the-carpet-by-e-nesbit-illustrated-by-h-millar"><img alt="The Phoenix and the Carpet" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780141340869?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/259887/the-phoenix-and-the-carpet-by-e-nesbit-illustrated-by-h-millar" title="The Phoenix and the Carpet">The Phoenix and the Carpet</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/21977/e-nesbit" title="E. Nesbit">E. Nesbit</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/124091/17-things-im-not-allowed-to-do-anymore-by-jenny-offill-illustrated-by-nancy-carpenter"><img alt="17 Things I'm Not Allowed to Do Anymore" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375866012?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/124091/17-things-im-not-allowed-to-do-anymore-by-jenny-offill-illustrated-by-nancy-carpenter" title="17 Things I'm Not Allowed to Do Anymore">17 Things I&#8217;m Not Allowed to Do Anymore</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/22677/jenny-offill" title="Jenny Offill">Jenny Offill</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/202066/mine-by-shutta-crum-illustrated-by-patrice-barton"><img alt="Mine!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375867118?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/202066/mine-by-shutta-crum-illustrated-by-patrice-barton" title="Mine!">Mine!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/53002/shutta-crum" title="Shutta Crum">Shutta Crum</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/322861/peter-pan-by-j-barrie-illustrated-by-richard-kennedy"><img alt="Peter Pan" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780141329819?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/322861/peter-pan-by-j-barrie-illustrated-by-richard-kennedy" title="Peter Pan">Peter Pan</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/71958/j-m-barrie" title="J. M. Barrie">J. M. Barrie</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/296980/big-red-lollipop-by-rukhsana-khan-illustrated-by-sophie-blackall"><img alt="Big Red Lollipop" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670062874?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/296980/big-red-lollipop-by-rukhsana-khan-illustrated-by-sophie-blackall" title="Big Red Lollipop">Big Red Lollipop</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/244025/rukhsana-khan" title="Rukhsana Khan">Rukhsana Khan</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238820/what-will-you-be-sara-mee-by-kate-aver-avraham-author-anne-sibley-obrien-illustrator"><img alt="What Will You Be, Sara Mee?" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781580892100?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238820/what-will-you-be-sara-mee-by-kate-aver-avraham-author-anne-sibley-obrien-illustrator" title="What Will You Be, Sara Mee?">What Will You Be, Sara Mee?</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220747/kate-aver-avraham" title="Kate Aver Avraham">Kate Aver Avraham</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/78782/ten-days-and-nine-nights-by-yumi-heo-illustrated-by-yumi-heo"><img alt="Ten Days and Nine Nights" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375847189?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/78782/ten-days-and-nine-nights-by-yumi-heo-illustrated-by-yumi-heo" title="Ten Days and Nine Nights">Ten Days and Nine Nights</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/76214/yumi-heo" title="Yumi Heo">Yumi Heo</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/291101/babies-dont-eat-pizza-by-dianne-danzig-illustrated-by-debbie-tilley"><img alt="Babies Don't Eat Pizza" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780525474418?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/291101/babies-dont-eat-pizza-by-dianne-danzig-illustrated-by-debbie-tilley" title="Babies Don't Eat Pizza">Babies Don&#8217;t Eat Pizza</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/231827/dianne-danzig" title="Dianne Danzig">Dianne Danzig</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/123019/beatrice-doesnt-want-to-by-laura-numeroff"><img alt="Beatrice Doesn't Want To" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763638436?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/123019/beatrice-doesnt-want-to-by-laura-numeroff" title="Beatrice Doesn't Want To">Beatrice Doesn&#8217;t Want To</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110089/laura-numeroff" title="Laura Numeroff">Laura Numeroff</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/288447/the-road-to-paris-by-nikki-grimes"><img alt="The Road to Paris" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142410820?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/288447/the-road-to-paris-by-nikki-grimes" title="The Road to Paris">The Road to Paris</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/11159/nikki-grimes" title="Nikki Grimes">Nikki Grimes</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/112096/the-all-ill-ever-want-christmas-doll-by-patricia-c-mckissack-illustrated-by-jerry-pinkney"><img alt="The All-I'll-Ever-Want Christmas Doll" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375837593?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/112096/the-all-ill-ever-want-christmas-doll-by-patricia-c-mckissack-illustrated-by-jerry-pinkney" title="The All-I'll-Ever-Want Christmas Doll">The All-I&#8217;ll-Ever-Want Christmas Doll</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/104266/patricia-c-mckissack" title="Patricia C. McKissack">Patricia C. McKissack</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/290659/double-fudge-by-judy-blume"><img alt="Double Fudge" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142408780?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/290659/double-fudge-by-judy-blume" title="Double Fudge">Double Fudge</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2611/judy-blume" title="Judy Blume">Judy Blume</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/298344/rotten-richie-and-the-ultimate-dare-by-patricia-polacco-illustrated-by-patricia-polacco"><img alt="Rotten Richie and the Ultimate Dare" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399245312?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/298344/rotten-richie-and-the-ultimate-dare-by-patricia-polacco-illustrated-by-patricia-polacco" title="Rotten Richie and the Ultimate Dare">Rotten Richie and the Ultimate Dare</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24173/patricia-polacco" title="Patricia Polacco">Patricia Polacco</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/286805/al-capone-does-my-shirts-by-gennifer-choldenko"><img alt="Al Capone Does My Shirts" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142403709?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/286805/al-capone-does-my-shirts-by-gennifer-choldenko" title="Al Capone Does My Shirts">Al Capone Does My Shirts</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/4877/gennifer-choldenko" title="Gennifer Choldenko">Gennifer Choldenko</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/297359/charlie-and-lola-but-excuse-me-that-is-my-book-by-lauren-child"><img alt="Charlie and Lola: But Excuse Me That is My Book" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803730960?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/297359/charlie-and-lola-but-excuse-me-that-is-my-book-by-lauren-child" title="Charlie and Lola: But Excuse Me That is My Book">Charlie and Lola: But Excuse Me That is My Book</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/67988/lauren-child" title="Lauren Child">Lauren Child</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/288204/froggys-baby-sister-by-jonathan-london-illustrated-by-frank-remkiewicz"><img alt="Froggy's Baby Sister" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142403426?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/288204/froggys-baby-sister-by-jonathan-london-illustrated-by-frank-remkiewicz" title="Froggy's Baby Sister">Froggy&#8217;s Baby Sister</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17988/jonathan-london" title="Jonathan London">Jonathan London</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/175208/dear-baby-by-sarah-sullivan"><img alt="Dear Baby" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763621261?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/175208/dear-baby-by-sarah-sullivan" title="Dear Baby">Dear Baby</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/68104/sarah-sullivan" title="Sarah Sullivan">Sarah Sullivan</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/80934/and-to-think-that-we-thought-that-wed-never-be-friends-by-maryann-hoberman-illustrated-by-kevin-hawkes"><img alt="And To Think That We Thought That We'd Never Be Friends" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780440417767?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/80934/and-to-think-that-we-thought-that-wed-never-be-friends-by-maryann-hoberman-illustrated-by-kevin-hawkes" title="And To Think That We Thought That We'd Never Be Friends">And To Think That We Thought That We&#8217;d Never Be Friends</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/13163/mary-ann-hoberman" title="Mary Ann Hoberman">Mary Ann Hoberman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/289786/max-cleans-up-by-rosemary-wells"><img alt="Max Cleans Up" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142301333?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/289786/max-cleans-up-by-rosemary-wells" title="Max Cleans Up">Max Cleans Up</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/32812/rosemary-wells" title="Rosemary Wells">Rosemary Wells</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/184518/owl-babies-by-martin-waddell-illustrated-by-patrick-benson"><img alt="Owl Babies" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763617103?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/184518/owl-babies-by-martin-waddell-illustrated-by-patrick-benson" title="Owl Babies">Owl Babies</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109967/martin-waddell" title="Martin Waddell">Martin Waddell</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/109668/me-too-little-critter-by-mercer-mayer"><img alt="Me Too! (Little Critter)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780307119414?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/109668/me-too-little-critter-by-mercer-mayer" title="Me Too! (Little Critter)">Me Too! (Little Critter)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/19548/mercer-mayer" title="Mercer Mayer">Mercer Mayer</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/355361/the-baby-sister-by-tomie-depaola"><img alt="The Baby Sister" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698117730?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/355361/the-baby-sister-by-tomie-depaola" title="The Baby Sister">The Baby Sister</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/6889/tomie-depaola" title="Tomie dePaola">Tomie dePaola</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/335780/five-minutes-peace-by-jill-murphy"><img alt="Five Minutes' Peace" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698117877?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/335780/five-minutes-peace-by-jill-murphy" title="Five Minutes' Peace">Five Minutes&#8217; Peace</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/236518/jill-murphy" title="Jill Murphy">Jill Murphy</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/530451/hansel-and-gretel-by-rika-lesser-illustrated-by-paul-zelinsky"><img alt="Hansel and Gretel" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780525461524?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/530451/hansel-and-gretel-by-rika-lesser-illustrated-by-paul-zelinsky" title="Hansel and Gretel">Hansel and Gretel</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/254694/rika-lesser" title="Rika Lesser">Rika Lesser</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/1608/watch-out-big-bros-coming-by-jez-alborough-illustrated-by-jez-alborough"><img alt="Watch Out! Big Bro's Coming!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763605841?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/1608/watch-out-big-bros-coming-by-jez-alborough-illustrated-by-jez-alborough" title="Watch Out! Big Bro's Coming!">Watch Out! Big Bro&#8217;s Coming!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109959/jez-alborough" title="Jez Alborough">Jez Alborough</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman"><img alt="My Little Sister Ate One Hare" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517885765?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman" title="My Little Sister Ate One Hare">My Little Sister Ate One Hare</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/11237/bill-grossman" title="Bill Grossman">Bill Grossman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/350904/peters-chair-by-ezra-jack-keats"><img alt="Peter's Chair" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670880645?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/350904/peters-chair-by-ezra-jack-keats" title="Peter's Chair">Peter&#8217;s Chair</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/15261/ezra-jack-keats" title="Ezra Jack Keats">Ezra Jack Keats</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/348596/the-five-chinese-brothers-by-claire-huchet-bishop-illustrated-by-kurt-wiese"><img alt="The Five Chinese Brothers" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698113572?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/348596/the-five-chinese-brothers-by-claire-huchet-bishop-illustrated-by-kurt-wiese" title="The Five Chinese Brothers">The Five Chinese Brothers</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/62416/claire-huchet-bishop" title="Claire Huchet Bishop">Claire Huchet Bishop</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/19754/arthurs-reading-race-by-marc-brown"><img alt="Arthur's Reading Race" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679867388?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/19754/arthurs-reading-race-by-marc-brown" title="Arthur's Reading Race">Arthur&#8217;s Reading Race</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/3496/marc-brown" title="Marc Brown">Marc Brown</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/335927/lon-po-po-by-ed-young"><img alt="Lon Po Po" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698113824?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/335927/lon-po-po-by-ed-young" title="Lon Po Po">Lon Po Po</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/43928/ed-young" title="Ed Young">Ed Young</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320045/hansel-and-gretel-by-james-marshall"><img alt="Hansel and Gretel" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140508369?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320045/hansel-and-gretel-by-james-marshall" title="Hansel and Gretel">Hansel and Gretel</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/43692/james-marshall" title="James Marshall">James Marshall</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/12177/the-berenstain-bears-get-in-a-fight-by-stan-and-jan-berenstain-illustrated-by-the-authors"><img alt="The Berenstain Bears Get in a Fight" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394851327?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/12177/the-berenstain-bears-get-in-a-fight-by-stan-and-jan-berenstain-illustrated-by-the-authors" title="The Berenstain Bears Get in a Fight">The Berenstain Bears Get in a Fight</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2044/stan-berenstain" title="Stan Berenstain">Stan Berenstain</a> and <a href="/authors/45052/jan-berenstain" title="Jan Berenstain">Jan Berenstain</a></div>
+
+		</div>
+	                   </div> <!-- slider -->
+           </div> <!-- viewport -->
+         </section>
+       </div>
+              <!-- / people who read -->
+		
+       <!-- recommended for you products -->
+       <div class="slot product-recommended selected-for-you loading">
+         <h4 class="slot-header">Inspired by Your Browsing History</h4>
+       </div>
+       <!-- / recommended products -->
+
+       <!-- Also in [category] -->
+              <!-- / Also in [category] -->
+
+		<!-- Related Links -->
+		    		<!-- / Related Links -->
+		<!-- Reader and Teacher Guides -->
+					<!-- / Reader and Teacher Guides -->
+		
+		<!-- Related Articles -->	
+			<!-- Asynchronous Loading Required:  PRHCS-31 - AC #9 -->
+			
+			<div id="product-articles-wrap-mobile">
+				<div class="slot product-articles product-related articles" data-work="feedTagValue:9780375873881^20 OR title_workid:102956^10 OR author_authorId:62272 OR author_authorid_display_group:/62272\:[AI].*/^9 OR author_authorid_display_group:/45728\:[AI].*/^9">
+					<h2 class="slot-header">Related Articles</h2>
+				</div>
+			</div>
+		<!-- / Related Articles -->
+		
+		<!-- Promo Tiles -->
+			<div id="product-promo-tiles-wrap-mobile">
+				<div class="slot promo-tiles">
+			 				</div>
+			</div>
+		<!-- / Promo Tiles -->
+</div>
+<!-- / End Main Content -->
+
+<!-- Right Rail - visible on desktop -->
+	<div class="right-rail">
+		<div id="product-related-wrap-desktop"></div>
+		<div id="product-guides-wrap-desktop"></div>
+		<div id="product-articles-wrap-desktop"></div>
+		<div id="product-promo-tiles-wrap-desktop"></div>
+	</div>
+<!-- / Right Rail -->
+
+<div class="modal fade product-image" id="modal-product-image" style="display:none;">
+  <div class="modal-dialog product-image">
+    <div class="modal-content">
+      <div class="modal-header product-image">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+      </div>
+
+      <div class="modal-body">
+        <img>
+        <div class="btn product-image download"><span class="fa fa-download"></span>Download Hi Res</div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- excerpts -->
+
+
+<script>
+
+var excerpt_embed_html_list = [];
+var excerpt_text_list = [];
+
+</script>
+
+<div class="modal fade" id="modal-excerpt">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+        <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+
+          <div class="book">
+            <div class="cover">
+            	<img src />
+            </div>
+            <div class="book-meta">
+            	<div class="book-name">How to Be a Baby . . . by Me, the Big Sister</div>
+		                <h2 class="contributors"><span class="ws-nw">
+                    		</span></h2>
+
+		<div class="buttons">
+                    <button type="button" class="btn buy2" rel="popover">Buy</button>
+		</div>
+            
+		<h4 class="isbn-related 9780375873881">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780375838439">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4><h4 class="isbn-related 9780307983657">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>
+        <!-- newsletter -->
+        <div id="excerpt-newsletter-wrap-desktop">
+          <div class="slot newsletter-signup excerpt" acq-code="PRH_EXCERPT_STATIC_ONGOING" workid="102956"></div>        </div>
+
+        <!-- MOBILE EXCERPT SUBSCRIBE MOVED TO SECOND PARAGRAPH OF EXCERPT ITSELF -->
+
+        <!-- /newsletter -->
+
+            </div>
+
+          </div>
+      </div>
+      <div class="modal-body scrolling"></div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade embedded" id="modal-excerpt-embedded">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+          <span class="sr-only">Close</span>
+	</button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+	</div>
+    <!-- End Scaffolding -->
+</div> <!-- container END -->
+<!-- end product info bottom -->
+<!-- product extended carousel -->
+<div class="extendwrap">
+		<div class="extended-carousel" id="extended-read-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">People Who Read <span>How to Be a Baby . . . by Me, the Big Sister</span> Also Read</h4></div>
+		<div id="extended-read-carousel" class="extended-carousel-div loading">
+					<div class="item" ttl="Secret Tree Fort" url="/books/536646/secret-tree-fort-by-brianne-farley">
+				<div class="img">
+					<a href="/books/536646/secret-tree-fort-by-brianne-farley"><img alt="Secret Tree Fort" src="http://images.penguinrandomhouse.com/cover/9780763662974?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Cody and the Fountain of Happiness" url="/books/249411/cody-and-the-fountain-of-happiness-by-tricia-springstubb">
+				<div class="img">
+					<a href="/books/249411/cody-and-the-fountain-of-happiness-by-tricia-springstubb"><img alt="Cody and the Fountain of Happiness" src="http://images.penguinrandomhouse.com/cover/9780763687533?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ladybug Girl" url="/books/300110/ladybug-girl-by-jacky-davis-illustrated-by-david-soman">
+				<div class="img">
+					<a href="/books/300110/ladybug-girl-by-jacky-davis-illustrated-by-david-soman"><img alt="Ladybug Girl" src="http://images.penguinrandomhouse.com/cover/9781101994337?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The New Small Person" url="/books/248829/the-new-small-person-by-lauren-child">
+				<div class="img">
+					<a href="/books/248829/the-new-small-person-by-lauren-child"><img alt="The New Small Person" src="http://images.penguinrandomhouse.com/cover/9780763678104?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="There's Going to Be a Baby" url="/books/204822/theres-going-to-be-a-baby-by-john-burningham">
+				<div class="img">
+					<a href="/books/204822/theres-going-to-be-a-baby-by-john-burningham"><img alt="There's Going to Be a Baby" src="http://images.penguinrandomhouse.com/cover/9780763672652?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Three Bears in a Boat" url="/books/313369/three-bears-in-a-boat-by-david-soman">
+				<div class="img">
+					<a href="/books/313369/three-bears-in-a-boat-by-david-soman"><img alt="Three Bears in a Boat" src="http://images.penguinrandomhouse.com/cover/9780803739932?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Baby Tree" url="/books/309760/the-baby-tree-by-sophie-blackall-illustrated-by-sophie-blackall">
+				<div class="img">
+					<a href="/books/309760/the-baby-tree-by-sophie-blackall-illustrated-by-sophie-blackall"><img alt="The Baby Tree" src="http://images.penguinrandomhouse.com/cover/9780399257186?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Maple" url="/books/311995/maple-by-lori-nichols-illustrated-by-lori-nichols">
+				<div class="img">
+					<a href="/books/311995/maple-by-lori-nichols-illustrated-by-lori-nichols"><img alt="Maple" src="http://images.penguinrandomhouse.com/cover/9780399160851?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Zelda and Ivy" url="/books/96436/zelda-and-ivy-by-laura-mcgee-kvasnosky">
+				<div class="img">
+					<a href="/books/96436/zelda-and-ivy-by-laura-mcgee-kvasnosky"><img alt="Zelda and Ivy" src="http://images.penguinrandomhouse.com/cover/9780763668785?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Pecan Pie Baby" url="/books/291781/pecan-pie-baby-by-jacqueline-woodson-illustrated-by-sophie-blackall">
+				<div class="img">
+					<a href="/books/291781/pecan-pie-baby-by-jacqueline-woodson-illustrated-by-sophie-blackall"><img alt="Pecan Pie Baby" src="http://images.penguinrandomhouse.com/cover/9780147511287?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Cat in the Hat" url="/books/43141/the-cat-in-the-hat-by-dr-seuss">
+				<div class="img">
+					<a href="/books/43141/the-cat-in-the-hat-by-dr-seuss"><img alt="The Cat in the Hat" src="http://images.penguinrandomhouse.com/cover/9780449810866?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Velma Gratch and the Way Cool Butterfly" url="/books/105973/velma-gratch-and-the-way-cool-butterfly-by-alan-madison-illustrated-by-kevin-hawkes">
+				<div class="img">
+					<a href="/books/105973/velma-gratch-and-the-way-cool-butterfly-by-alan-madison-illustrated-by-kevin-hawkes"><img alt="Velma Gratch and the Way Cool Butterfly" src="http://images.penguinrandomhouse.com/cover/9780307978042?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Phoenix and the Carpet" url="/books/259887/the-phoenix-and-the-carpet-by-e-nesbit-illustrated-by-h-millar">
+				<div class="img">
+					<a href="/books/259887/the-phoenix-and-the-carpet-by-e-nesbit-illustrated-by-h-millar"><img alt="The Phoenix and the Carpet" src="http://images.penguinrandomhouse.com/cover/9780141340869?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="17 Things I'm Not Allowed to Do Anymore" url="/books/124091/17-things-im-not-allowed-to-do-anymore-by-jenny-offill-illustrated-by-nancy-carpenter">
+				<div class="img">
+					<a href="/books/124091/17-things-im-not-allowed-to-do-anymore-by-jenny-offill-illustrated-by-nancy-carpenter"><img alt="17 Things I'm Not Allowed to Do Anymore" src="http://images.penguinrandomhouse.com/cover/9780375866012?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mine!" url="/books/202066/mine-by-shutta-crum-illustrated-by-patrice-barton">
+				<div class="img">
+					<a href="/books/202066/mine-by-shutta-crum-illustrated-by-patrice-barton"><img alt="Mine!" src="http://images.penguinrandomhouse.com/cover/9780375867118?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Peter Pan" url="/books/322861/peter-pan-by-j-barrie-illustrated-by-richard-kennedy">
+				<div class="img">
+					<a href="/books/322861/peter-pan-by-j-barrie-illustrated-by-richard-kennedy"><img alt="Peter Pan" src="http://images.penguinrandomhouse.com/cover/9780141329819?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Big Red Lollipop" url="/books/296980/big-red-lollipop-by-rukhsana-khan-illustrated-by-sophie-blackall">
+				<div class="img">
+					<a href="/books/296980/big-red-lollipop-by-rukhsana-khan-illustrated-by-sophie-blackall"><img alt="Big Red Lollipop" src="http://images.penguinrandomhouse.com/cover/9780670062874?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="What Will You Be, Sara Mee?" url="/books/238820/what-will-you-be-sara-mee-by-kate-aver-avraham-author-anne-sibley-obrien-illustrator">
+				<div class="img">
+					<a href="/books/238820/what-will-you-be-sara-mee-by-kate-aver-avraham-author-anne-sibley-obrien-illustrator"><img alt="What Will You Be, Sara Mee?" src="http://images.penguinrandomhouse.com/cover/9781580892100?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ten Days and Nine Nights" url="/books/78782/ten-days-and-nine-nights-by-yumi-heo-illustrated-by-yumi-heo">
+				<div class="img">
+					<a href="/books/78782/ten-days-and-nine-nights-by-yumi-heo-illustrated-by-yumi-heo"><img alt="Ten Days and Nine Nights" src="http://images.penguinrandomhouse.com/cover/9780375847189?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Babies Don't Eat Pizza" url="/books/291101/babies-dont-eat-pizza-by-dianne-danzig-illustrated-by-debbie-tilley">
+				<div class="img">
+					<a href="/books/291101/babies-dont-eat-pizza-by-dianne-danzig-illustrated-by-debbie-tilley"><img alt="Babies Don't Eat Pizza" src="http://images.penguinrandomhouse.com/cover/9780525474418?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Beatrice Doesn't Want To" url="/books/123019/beatrice-doesnt-want-to-by-laura-numeroff">
+				<div class="img">
+					<a href="/books/123019/beatrice-doesnt-want-to-by-laura-numeroff"><img alt="Beatrice Doesn't Want To" src="http://images.penguinrandomhouse.com/cover/9780763638436?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Road to Paris" url="/books/288447/the-road-to-paris-by-nikki-grimes">
+				<div class="img">
+					<a href="/books/288447/the-road-to-paris-by-nikki-grimes"><img alt="The Road to Paris" src="http://images.penguinrandomhouse.com/cover/9780142410820?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The All-I'll-Ever-Want Christmas Doll" url="/books/112096/the-all-ill-ever-want-christmas-doll-by-patricia-c-mckissack-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/112096/the-all-ill-ever-want-christmas-doll-by-patricia-c-mckissack-illustrated-by-jerry-pinkney"><img alt="The All-I'll-Ever-Want Christmas Doll" src="http://images.penguinrandomhouse.com/cover/9780375837593?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Double Fudge" url="/books/290659/double-fudge-by-judy-blume">
+				<div class="img">
+					<a href="/books/290659/double-fudge-by-judy-blume"><img alt="Double Fudge" src="http://images.penguinrandomhouse.com/cover/9780142408780?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Rotten Richie and the Ultimate Dare" url="/books/298344/rotten-richie-and-the-ultimate-dare-by-patricia-polacco-illustrated-by-patricia-polacco">
+				<div class="img">
+					<a href="/books/298344/rotten-richie-and-the-ultimate-dare-by-patricia-polacco-illustrated-by-patricia-polacco"><img alt="Rotten Richie and the Ultimate Dare" src="http://images.penguinrandomhouse.com/cover/9780399245312?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Al Capone Does My Shirts" url="/books/286805/al-capone-does-my-shirts-by-gennifer-choldenko">
+				<div class="img">
+					<a href="/books/286805/al-capone-does-my-shirts-by-gennifer-choldenko"><img alt="Al Capone Does My Shirts" src="http://images.penguinrandomhouse.com/cover/9780142403709?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Charlie and Lola: But Excuse Me That is My Book" url="/books/297359/charlie-and-lola-but-excuse-me-that-is-my-book-by-lauren-child">
+				<div class="img">
+					<a href="/books/297359/charlie-and-lola-but-excuse-me-that-is-my-book-by-lauren-child"><img alt="Charlie and Lola: But Excuse Me That is My Book" src="http://images.penguinrandomhouse.com/cover/9780803730960?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Froggy's Baby Sister" url="/books/288204/froggys-baby-sister-by-jonathan-london-illustrated-by-frank-remkiewicz">
+				<div class="img">
+					<a href="/books/288204/froggys-baby-sister-by-jonathan-london-illustrated-by-frank-remkiewicz"><img alt="Froggy's Baby Sister" src="http://images.penguinrandomhouse.com/cover/9780142403426?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Dear Baby" url="/books/175208/dear-baby-by-sarah-sullivan">
+				<div class="img">
+					<a href="/books/175208/dear-baby-by-sarah-sullivan"><img alt="Dear Baby" src="http://images.penguinrandomhouse.com/cover/9780763621261?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="And To Think That We Thought That We'd Never Be Friends" url="/books/80934/and-to-think-that-we-thought-that-wed-never-be-friends-by-maryann-hoberman-illustrated-by-kevin-hawkes">
+				<div class="img">
+					<a href="/books/80934/and-to-think-that-we-thought-that-wed-never-be-friends-by-maryann-hoberman-illustrated-by-kevin-hawkes"><img alt="And To Think That We Thought That We'd Never Be Friends" src="http://images.penguinrandomhouse.com/cover/9780440417767?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Max Cleans Up" url="/books/289786/max-cleans-up-by-rosemary-wells">
+				<div class="img">
+					<a href="/books/289786/max-cleans-up-by-rosemary-wells"><img alt="Max Cleans Up" src="http://images.penguinrandomhouse.com/cover/9780142301333?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Owl Babies" url="/books/184518/owl-babies-by-martin-waddell-illustrated-by-patrick-benson">
+				<div class="img">
+					<a href="/books/184518/owl-babies-by-martin-waddell-illustrated-by-patrick-benson"><img alt="Owl Babies" src="http://images.penguinrandomhouse.com/cover/9780763617103?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Me Too! (Little Critter)" url="/books/109668/me-too-little-critter-by-mercer-mayer">
+				<div class="img">
+					<a href="/books/109668/me-too-little-critter-by-mercer-mayer"><img alt="Me Too! (Little Critter)" src="http://images.penguinrandomhouse.com/cover/9780307119414?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Baby Sister" url="/books/355361/the-baby-sister-by-tomie-depaola">
+				<div class="img">
+					<a href="/books/355361/the-baby-sister-by-tomie-depaola"><img alt="The Baby Sister" src="http://images.penguinrandomhouse.com/cover/9780698117730?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Five Minutes' Peace" url="/books/335780/five-minutes-peace-by-jill-murphy">
+				<div class="img">
+					<a href="/books/335780/five-minutes-peace-by-jill-murphy"><img alt="Five Minutes' Peace" src="http://images.penguinrandomhouse.com/cover/9780698117877?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hansel and Gretel" url="/books/530451/hansel-and-gretel-by-rika-lesser-illustrated-by-paul-zelinsky">
+				<div class="img">
+					<a href="/books/530451/hansel-and-gretel-by-rika-lesser-illustrated-by-paul-zelinsky"><img alt="Hansel and Gretel" src="http://images.penguinrandomhouse.com/cover/9780525461524?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Watch Out! Big Bro's Coming!" url="/books/1608/watch-out-big-bros-coming-by-jez-alborough-illustrated-by-jez-alborough">
+				<div class="img">
+					<a href="/books/1608/watch-out-big-bros-coming-by-jez-alborough-illustrated-by-jez-alborough"><img alt="Watch Out! Big Bro's Coming!" src="http://images.penguinrandomhouse.com/cover/9780763605841?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="My Little Sister Ate One Hare" url="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman">
+				<div class="img">
+					<a href="/books/72396/my-little-sister-ate-one-hare-by-bill-grossman"><img alt="My Little Sister Ate One Hare" src="http://images.penguinrandomhouse.com/cover/9780517885765?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Peter's Chair" url="/books/350904/peters-chair-by-ezra-jack-keats">
+				<div class="img">
+					<a href="/books/350904/peters-chair-by-ezra-jack-keats"><img alt="Peter's Chair" src="http://images.penguinrandomhouse.com/cover/9780670880645?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Five Chinese Brothers" url="/books/348596/the-five-chinese-brothers-by-claire-huchet-bishop-illustrated-by-kurt-wiese">
+				<div class="img">
+					<a href="/books/348596/the-five-chinese-brothers-by-claire-huchet-bishop-illustrated-by-kurt-wiese"><img alt="The Five Chinese Brothers" src="http://images.penguinrandomhouse.com/cover/9780698113572?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Arthur's Reading Race" url="/books/19754/arthurs-reading-race-by-marc-brown">
+				<div class="img">
+					<a href="/books/19754/arthurs-reading-race-by-marc-brown"><img alt="Arthur's Reading Race" src="http://images.penguinrandomhouse.com/cover/9780679867388?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Lon Po Po" url="/books/335927/lon-po-po-by-ed-young">
+				<div class="img">
+					<a href="/books/335927/lon-po-po-by-ed-young"><img alt="Lon Po Po" src="http://images.penguinrandomhouse.com/cover/9780698113824?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hansel and Gretel" url="/books/320045/hansel-and-gretel-by-james-marshall">
+				<div class="img">
+					<a href="/books/320045/hansel-and-gretel-by-james-marshall"><img alt="Hansel and Gretel" src="http://images.penguinrandomhouse.com/cover/9780140508369?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Berenstain Bears Get in a Fight" url="/books/12177/the-berenstain-bears-get-in-a-fight-by-stan-and-jan-berenstain-illustrated-by-the-authors">
+				<div class="img">
+					<a href="/books/12177/the-berenstain-bears-get-in-a-fight-by-stan-and-jan-berenstain-illustrated-by-the-authors"><img alt="The Berenstain Bears Get in a Fight" src="http://images.penguinrandomhouse.com/cover/9780394851327?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+				</div>
+	</div>
+	
+	<div class="extended-carousel hide" id="extended-recommended-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Inspired by Your Browsing History</h4></div>
+		<div id="extended-recommended-carousel" class="extended-carousel-div loading"></div>
+	</div>
+
+	</div>
+<!-- end product extended carousel -->
+<script type="text/javascript">
+var specific_to_signup = {"specific_to_type":"product","signup":{"type":"author","id":62272},"message":"Sign me up for news about Sally Lloyd-Jones and more from Penguin Random House"};
+</script>
+
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":491,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

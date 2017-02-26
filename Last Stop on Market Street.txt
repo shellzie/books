@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>Last Stop on Market Street by Matt de la Peña | PenguinRandomHouse.com</title>
+<meta itemprop="name" content="Last Stop on Market Street by Matt de la Peña | PenguinRandomHouse.com"/>
+<meta property="og:title" content="Last Stop on Market Street by Matt de la Peña | PenguinRandomHouse.com"/>
+<meta name="twitter:text:title" content="Last Stop on Market Street by Matt de la Peña | PenguinRandomHouse.com"/>
+<meta name="description" content="Winner of the 2016 Newbery MedalA 2016 Caldecott Honor BookA 2016 Coretta Scott King Illustrator Honor BookA New York Times Book Review Notable Children's..."/>
+<meta itemprop="description" content="Winner of the 2016 Newbery MedalA 2016 Caldecott Honor BookA 2016 Coretta Scott King Illustrator Honor BookA New York Times Book Review Notable Children's Book of 2015A Wall Street Journal Best Children's..."/>
+<meta property="og:description" content="Winner of the 2016 Newbery MedalA 2016 Caldecott Honor BookA 2016 Coretta Scott King Illustrator Honor BookA New York Times Book Review Notable Children's Book of 2015A Wall Street Journal Best Children's..."/>
+<meta name="twitter:text:description" content="Winner of the 2016 Newbery MedalA 2016 Caldecott Honor BookA 2016 Coretta Scott King Illustrator Honor BookA New York Times Book Review Notable Children's Book of 2015A Wall Street Journal Best..."/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/"/>
+<meta itemprop="image" content="http://images.penguinrandomhouse.com/cover/9780399257742"/>
+<meta property="og:image" content="http://images.penguinrandomhouse.com/cover/9780399257742"/>
+<meta name="twitter:image" content="http://images.penguinrandomhouse.com/cover/9780399257742"/>
+<meta itemprop="price" content="16.99"/>
+<meta itemprop="priceCurrency" content="USD"/>
+<meta property="og:price:currency" content="USD"/>
+<meta property="og:price:amount" content="16.99"/>
+<meta property="og:type" content="book"/>
+<meta name="twitter:url" content="http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/#excerpt"/>
+<meta name="twitter:url:preview" content="http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/#excerpt"/>
+<meta name="twitter:text:isbn" content="9780399257742"/>
+<meta name="twitter:text:cta" content="Start reading"/>
+<meta name="Tealium" content="Tealium meta values" data-book-title="Last Stop on Market Street" data-book-authors="Matt de la Peña" data-book-isbn="9780399257742" data-book-imprint="G.P. Putnam's Sons Books for Young Readers" data-book-division="" data-book-format="Hardcover" data-page-type="product"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F310757%2Flast-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F310757%2Flast-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/9780399257742/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"310757"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"Last Stop on Market Street by Matt de la Pe\u00f1a | PenguinRandomHouse.com","code_release_version":"cb20170213032739","product_list_price":[16.99],"product_isbn":[9780399257742],"product_title":["Last Stop on Market Street"],"product_author":["Matt de la Pe\u00f1a"],"product_author_id":["2025886"],"page_type":"Product Detail Page","product_imprint":["G.P. Putnam's Sons Books for Young Readers"],"product_format":["Hardcover"],"product_work_id":["310757"],"product_category":["Children's Picture Books | Children's Books"],"product_division":["Penguin Young Readers"],"age_range":"3-5 years"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<!--html from front end -->
+<!-- product info top -->
+<a name="#home" id="home"></a>
+<div id="tmpl-indc" class="tmpl-product" data-id="9780399257742"></div>
+<div class="inner-facade">
+  <div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+      <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+                <div class="product-header clearfix">
+                    <div class="slot product-title">
+                        <div class="panel-body">
+                            <h1>Last Stop on Market Street</h1>
+                			    <h2 class="contributors isbn-related 9780399257742 show">By <span class="ws-nw"><a href="/authors/2025886/matt-de-la-pena" >Matt de la Peña</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/156886/christian-robinson" >Christian Robinson</a></span><br/></h2>                                <h4 class="isbn-related 9780399257742">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>                        </div>
+                    </div>
+
+                    <div class="slot product-jacket">
+                        <div class="book-detail">
+                            <div class="cover-wrapper">
+                            <div class="bs-seal">Best Seller</div>
+			      <img src="http://images.penguinrandomhouse.com/cover/9780399257742" id="coverFormat" class="cover img-responsive" alt="Last Stop on Market Street by Matt de la Peña" />
+                            </div><!-- /.cover-wrapper -->
+
+						            <p class="excerpt-link isbn-related 9780399257742"><a href="#" data-workid="" data-isbn="9780399257742" data-title="Last Stop on Market Street" data-author="Matt de la Peña" class="insight">Look Inside</a> | <a href="#" class="enlarge">Enlarge Cover</a></p>
+
+                        </div>
+                    </div>
+                    <div class="slot product-format">
+                    	<div class="product-format-mobile">
+		                                  <div class="curr-ttl-mobile active show 9780399257742">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$16.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Jan 08, 2015</span>
+                                                                        <span class="ws-nw">| 32 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 8-1/2 x 10-1/2</span>-->
+                                    				    								    				<span class="ws-nw">| 3-5 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780399257742</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780399257742" rel="popover">Buy</button>
+																	</p>
+                            </div>
+												</div>
+						                        <div class="panel-group" id="accordion">
+														<div class="panel">
+							    <div class="panel-heading selected">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					  					Hardcover <span class="countDiv0"></span>
+					  					<div class="pl_mn_format">&#8211;</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse1" class="panel-collapse collapse in">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="active">
+					    <a href="#9780399257742" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Matt de la Peña" primaryauthids="2025886" best-seller="true"
+					        age_segment="3-5 years"  merchandise="false"  isbn="9780399257742" format="HC" format-name="Hardcover" categories="Children's Picture Books | Children's Books" imprint="G.P. Putnam's Sons Books for Young Readers" division="Penguin Young Readers" price="16.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 9780399257742" rel="popover">Buy</button>
+												       	<span class="us-price">$16.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Jan 08, 2015</span>
+															<span class="ws-nw">| 32 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 3-5 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780399257742</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                
+                				<div class="default-retailer">
+                	<h4 class="buy">Buy the Hardcover:</h4>
+                	<ul>         
+                    	<li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/2/trackingcode/PRHEFFDF5A7F1" target="_blank">Barnes &amp; Noble</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/4/trackingcode/PRHEFFDF5A7F1" target="_blank">Walmart</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/5/trackingcode/PRHEFFDF5A7F1" target="_blank">Books A Million</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/6/trackingcode/penguinrandom" target="_blank">IndieBound</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/7/trackingcode/randohouseinc7986-20" target="_blank">Amazon</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/9/trackingcode/PRHEFFDF5A7F1" target="_blank">Powell&#8217;s</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399257742/siteId/301/retailerid/23/trackingcode/PRHEFFDF5A7F1" target="_blank">Target</a></li>                    </ul>
+                </div>
+                                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div> <!-- inner-facade END -->
+<!-- end product info top -->
+<!-- buy options -->     
+ <div class="sticky-buy">
+   <div id="buy-options">
+     <ul>
+		            <li class="isbn-related 9780399257742 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780399257742" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/9780399257742" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/310757/last-stop-on-market-street-by-matt-de-la-pena-illustrated-by-christian-robinson/9780399257742" />
+             </form>
+           </li>
+	     </ul>
+   </div>
+ </div>
+<!-- end buy options -->
+<div id="share-links-wrap-desktop"></div>
+<!-- product info bottom -->        
+<div class="container">
+  <div class="scaffolding row">
+    <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+      <div class="product-body clearfix">
+
+	<!-- newsletter -->
+	<div id="newsletter-wrap-mobile">
+	  <div class="slot newsletter-signup product" ></div>	</div>
+	<!-- /newsletter -->
+
+	<!-- about the book -->
+        <a name="#aboutthebook" id="aboutthebook"></a>
+	
+	<div class="slot product-about 9780399257742 isbn-related seemoreenable show">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>Last Stop on Market Street</span></h4>
+    			<p><b><b>Winner of the 2016 Newbery Medal<br><b>A 2016 Caldecott Honor Book</b><br><b>A 2016 Coretta Scott King Illustrator Honor Book</b></b><br>A <i>New York Times Book Review</i> Notable Children&#8217;s Book of 2015<br>A <i>Wall Street Journal</i> Best Children&#8217;s Book of 2015</b><br><br>Every Sunday after church, CJ and his grandma ride the bus across town. But today, CJ wonders why they don&#8217;t own a car like his friend Colby. Why doesn&rsquo;t he have an iPod like the boys on the bus? How come they always have to get off in the dirty part of town? Each question is met with an encouraging answer from grandma, who helps him see the beauty&mdash;and fun&mdash;in their routine and the world around them.<br>&#160;<br>This energetic ride through a bustling city highlights the wonderful perspective only grandparent and grandchild can share, and comes to life through Matt de la Pena&rsquo;s vibrant text and Christian Robinson&rsquo;s radiant illustrations.</p>	 	</section>
+     </div>
+
+	        <!-- /about the book -->
+    <div id="newsletter-wrap-desktop" class="grayab">
+    	<div class="graybox">
+    		<div class="newcoppy">Get the news you want from Penguin Random House</div>
+    	</div>
+    </div>
+        <!-- book awards -->
+				  		    	              	                <div class="slot product-awards seemoreenable">
+	                  <h4 class="slot-header">Awards</h4>
+	              						                  <p class="clearfix">
+			    <span class="left">Caldecott Honor Book</span>
+			    <span class="right">HONOR 2016</span>
+			  </p>
+						            	              						                  <p class="clearfix">
+			    <span class="left">Coretta Scott King Illustrator Honor Book</span>
+			    <span class="right">HONOR 2016</span>
+			  </p>
+						            		  		    	              						                  <p class="clearfix">
+			    <span class="left">Newbery Medal Winner</span>
+			    <span class="right">AWARD 2016</span>
+			  </p>
+						            		  	          	            </div>
+		  		        <!-- /book awards -->
+
+        <!-- praises -->
+		                        <div class="slot product-praise seemoreenable">
+		      <h4 class="slot-header">Praise</h4>
+		        <p class="clearfix">
+			  <p><b><u>Praise for <i>LAST STOP ON MARKET STREET</i>:<br></u><b>Winner of the 2016 Newbery Medal</b><br><b>A 2016 Caldecott Honor Book</b><br><b>A 2016 Coretta Scott King Illustrator Honor Book</b><br><b>A <i>New York Times </i>Bestseller<br><b>A </b><i>New York Times</i><b> </b><i>Book Review</i><b> Notable Children&rsquo;s Book of 2015</b><br>An NPR Best Book of 2015</b><br><b>A <i>Kirkus Reviews </i>Best Book of 2015</b><br><b>A <i>Wall Street Journal</i> Best Book of 2015</b><br><b>A 2015 <i>Publishers Weekly</i> Best Book of the Year</b><br><b>A <i>Horn Book</i> Best Book of 2015</b><br><b><i>BookPage</i>&rsquo;s &ldquo;2015&rsquo;s First Must-Read Picture Book&rdquo;</b><br><b><i>The Huffington Post</i> Best Overall Picture Book of 2015</b><br><b>A <i>Boston Globe</i> Best Book of 2015</b><br><b>A Chicago Public Library Best Book of 2015</b><br><b>Chosen for the New York Public Library&rsquo;s 100 Books for Reading &amp; Sharing List </b><br><b>A <i>Miami Herald</i> Best Children&rsquo;s Book of 2015</b><br><b>A <i>Raleigh News &amp; Observer</i> Best Children&rsquo;s Book of 2015</b><br><b>An <i>Atlanta Parent</i> Best Book of 2015</b><br><b>A <i>San Francisco Chronicle</i> Holiday Gift Guide Pick</b><br><b>A Center for the Study of Multicultural Children&rsquo;s Literature &ldquo;Best Multicultural Books of 2015&rdquo; Pick</b><br><b>A Scholastic <i>Instructor</i> 50 Best Summer Book</b><br><b>Chosen for the ALSC 2015 Summer Reading List </b><br><b>A <i>Horn Book</i> Summer 2015 Reading List Pick</b><br><b>Chosen for <i>School Library Journal</i>&rsquo;s 2015 Top 10 Latin Books List</b><br><b>A <i>Kansas City Star</i> Thanksgiving 2015 Roundup Pick</b><br><b>A Winter 2014-2015 Kids&#8217; Indie Next Pick <br>2015 E.B. White Read Aloud Award Finalist<br>Nominated for the 2016 Washington Children&rsquo;s Choice Picture Book Award</b><br><b>Nominated for the 2016 Kentucky Bluegrass Award</b><br><b>Four Starred Reviews!</b><br><br><br></b>&ldquo;It&rsquo;s also the warmth of their intergenerational relationship that will make this book so satisfying, for both young readers and the adults sharing it with them.&rdquo;&mdash;<b><i>The</i> <i>New York Times Book Review&#160;<br></i><br></b>&ldquo;That material poverty need not mean spiritual or imaginative poverty becomes beautifully clear in the quietly moving pages of &lsquo;Last Stop on Market Street,&rdquo; a picture book by Matt de la Pe&ntilde;a filled with Christian Robinson&rsquo;s vibrant na&iuml;f illustrations.&rdquo;&mdash;<b><i>The Wall Street Journal</i><br><br></b>&ldquo;Matt de la Pe&ntilde;a&rsquo;s warmhearted story is&#160;musical in its cadences&hellip;Christian Robinson&rsquo;s angular, bright&#160;illustrations are energetic and vibrant&#8230;&#160;[A] celebration of the joys of service, the gifts of grandmothers and the tenderness that the city can contain.&rdquo;&mdash;<b><i>The Washington Post</i><br><br></b>&ldquo;The sharp illustrations &mdash; in bold, and cheerful primaries &mdash; get CJ&rsquo;s restless energy and curious postures&#160;exactly right. The voices of CJ and his grandmother carry the story along in subtle point and counterpoint&#160;so that at this book&rsquo;s quiet close you feel like you&rsquo;ve been listening to a song.&rdquo;&mdash;<b><i>The Boston Globe</i><br><br></b>&ldquo;This celebration of cross-generational bonding is a textual and artistic tour de force.&rdquo;&mdash;<b><i>Kirkus Reviews</i>, starred review<br><br></b>&ldquo;Like still waters, de la Pe&ntilde;a and Robinson&rsquo;s story runs deep. It finds beauty in unexpected places, explores the difference between what&rsquo;s fleeting and what lasts, acknowledges inequality, and testifies to the love shared by an African-American boy and his grandmother.&rdquo;&mdash;<b><i>Publishers Weekly</i>, starred review<br><br></b>&ldquo;De la Pe&ntilde;a and Robinson here are carrying on for Ezra Jack Keats in spirit and visual style. This quietly remarkable book will likely inspire questions&hellip; it will also have some adult readers reaching for a tissue.&rdquo;&mdash;<b><i>The Horn Book</i>, starred review<br><br></b>&ldquo;The urban setting is truly reflective, showing people with different skin colors, body types, abilities, ages, and classes in a natural and authentic manner&hellip; A lovely title.&rdquo;&mdash;<i><b>School Library Journal <br><br></b></i>&ldquo;It&rsquo;s not often that you see class addressed in picture books in ways that are subtle and seamless, but Last Stop on Market Street, the affectionate story of a young boy and his grandmother, does just that&hellip;This ode to gratitude is 2015&rsquo;s first must-read picture book.&rdquo;&mdash;<b><i>BookPage<br></i><br></b>&ldquo;If Robinson doesn&#8217;t win this year&#8217;s Caldecott, then next year could be the one with his name on it. His remarkable Last Stop on Market Street (with Matt de la Pe&ntilde;a), is an early favorite for the best picture book of 2015.&rdquo;&mdash;<b><i>Huffington Post Books<br></i><br></b>&ldquo;With the precision of a poet, Matt de la Pe&ntilde;a chronicles a boy&#8217;s heartwarming Sunday morning routine with his nana.&#160;Christian Robinson&#8217;s uplifting palette and culturally diverse cast brightens the rainy-day backdrop.&rdquo;&mdash;<b><i>Shelf Awareness</i>, starred review<br><br></b>&#8220;Bright colors and streamlined shapes keep the urban setting and its denizens cheerful, emphasizing the positive message.&rdquo;&mdash;<b><i>Bulletin of the Center for Children&#8217;s Books</i><br><br></b>&ldquo;This story is full of figurative language and the art provides a distinct contemporary feel to support this urban story.&rdquo;&mdash;<b><i>SLC</i> <br><br><br><br></b></p><p><p>&#160;</p><p>&#160;</p></p>			</p>
+		    </div>
+		            <!-- /praises -->
+
+        <!-- table of contents -->
+		            <!-- /table of contents -->
+
+        <!-- author spotlights -->
+                    <a name="#author" id="author"></a>
+		                        <div class="slot product-author-info isbn-related 9780399257742 show">
+		      <h4 class="slot-header">About Matt de la Peña</h4>
+		      <p class="clearfix">Matt de la Pe&ntilde;a is the author of five critically acclaimed young adult novels: Ball Don&#8217;t Lie, Mexican WhiteBoy, We Were Here, I Will Save You and The Living. He&#8217;s also the author of the picture books&#160;Last Stop on Market&#8230; <a href="/authors/2025886/matt-de-la-pena">More about Matt de la Peña</a></p>
+		    </div>
+		            <!-- /author spotlights -->
+
+        <!-- author Q & A's -->
+		            <!-- /author Q & A's -->
+
+        <!-- video related links -->
+		            <!-- /video related links -->
+
+		<!-- audio extras -->
+		    <a name="#more" id="more"></a>
+		    		<!-- / audio extras -->
+		
+		<!-- author essays -->    
+		    		<!-- / author essays -->
+		
+		<!-- slideshow promo images and slideshow related links -->
+			            	<div class="slot media-slideshow-promo-images">
+	                <h4 class="slot-header">Media</h4>
+						                	<section class="carousel multi">
+	                		<a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+				            <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+	                    	<div class="viewport">
+	                    		<div class="slider">
+		                            		                              <div class="item">
+		                                <div class="img"><a href="javascript:;"><img alt="" src="http://www.randomhouse.com/catalog/promo_image/9780399257742_2880.pdf" class="img-responsive" /></a></div>
+		                                <div class="title"><a href="javascript:;"></a></div>
+		                                <div class="contributor">&copy;2015 </div>
+		                              </div>
+		                            		                              <div class="item">
+		                                <div class="img"><a href="javascript:;"><img alt="" src="http://www.randomhouse.com/catalog/promo_image/9780399257742_2881.pdf" class="img-responsive" /></a></div>
+		                                <div class="title"><a href="javascript:;"></a></div>
+		                                <div class="contributor">&copy;2015 </div>
+		                              </div>
+		                            		                              <div class="item">
+		                                <div class="img"><a href="javascript:;"><img alt="" src="http://www.randomhouse.com/catalog/promo_image/9780399257742_2882.pdf" class="img-responsive" /></a></div>
+		                                <div class="title"><a href="javascript:;"></a></div>
+		                                <div class="contributor">&copy;2015 </div>
+		                              </div>
+		                            	                          	</div> <!-- slider --> 
+	                        </div><!-- viewport -->
+						</section>
+											  
+									</div>
+					<!-- / slideshow promo images and slideshow related links -->
+		  <!-- 2nd prod detail -->
+          <div class="slot scnd-prod-detail">
+                <div class="product-author-also-by" id="scnd-detail">
+                    <h4 class="slot-header">Product Details</h4>
+               </div>
+               			  	<p class="clearfix isbn-related 9780399257742 show">
+			  				  	Hardcover<br />
+			  					Published by G.P. Putnam&#8217;s Sons Books for Young Readers<br />
+				<span class="ws-nw">Jan 08, 2015</span>
+									<span class="ws-nw">| 32 Pages</span> 
+																	<span class="ws-nw">| 8-1/2 x 10-1/2</span>
+													<span class="ws-nw">| 3-5 years</span>
+													<span class="ws-nw">| ISBN 9780399257742</span>
+							  	</p>
+		  			           </div>
+	      <!-- / 2nd prod detail -->
+	      <!-- share -->
+	      <div class="slot mobile-share" id="share-links-wrap-mobile">
+			<div class="share-links" id="share-collapse"><ul class="share-items" data-sharemessageservice="http://services.penguin.com/rest/v1/json/socialmedia/sharemessage/get" data-siteid="301" data-sharetypeid="1" data-booktitle="Last Stop on Market Street"><li class="header">Share:</li><li data-socialmediaid="1" data-fbappid="350479041816117"><a class="facebook"><div class="fa fa-facebook"><span>Share on Facebook</span></div></a></li><li data-socialmediaid="2"><a class="twitter"><div class="fa fa-twitter"><span>Tweet</span></div></a></li><li data-socialmediaid="6"><a class="pinterest"><div class="fa fa-pinterest"><span>Pin it</span></div></a></li><li data-socialmediaid="7"><a class="google-plus"><div class="fa fa-google-plus"><span>Share on G+</span></div></a></li><li data-socialmediaid="3"><a class="tumblr"><div class="fa fa-tumblr"><span>Share on Tumblr</span></div></a></li><li data-socialmediaid="9"><a class="sms-share"><span>SMS</span></a></li><li data-socialmediaid="8"><a class="envelope"><div class="fa fa-envelope"><span>Email</span></div></a></li></ul></div>        </div>
+        <!-- / share -->
+
+       <!-- Also by author -->
+        <div class="slot author-also-by">
+          <div class="product-author-also-by" id="by-author" data-work-author-list="2025886,156886">
+            <h4 class="slot-header">Also by <a href="/authors/2025886/matt-de-la-pena">Matt de la Peña</a></h4>
+          </div>
+        </div>
+       <!-- / Also by author -->
+
+       <!-- people who read -->
+              <div class="slot product-recommended">
+         <h4 class="slot-header">People Who Read <span>Last Stop on Market Street</span> Also Read</h4>
+         <section class="carousel recommended">
+           <a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+           <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+
+           <div class="viewport">
+              <div class="slider">
+                               <div class="item">
+                  <div class="img">
+                    <a href="/books/101949/swimmy-by-leo-lionni"><img alt="Swimmy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399555503?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/101949/swimmy-by-leo-lionni" title="Swimmy">Swimmy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17763/leo-lionni" title="Leo Lionni">Leo Lionni</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/305281/make-way-for-ducklings-by-robert-mccloskey"><img alt="Make Way for Ducklings" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101997956?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/305281/make-way-for-ducklings-by-robert-mccloskey" title="Make Way for Ducklings">Make Way for Ducklings</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/238237/robert-mccloskey" title="Robert McCloskey">Robert McCloskey</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/258441/mango-abuela-and-me-by-meg-medina"><img alt="Mango, Abuela, and Me" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763669003?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/258441/mango-abuela-and-me-by-meg-medina" title="Mango, Abuela, and Me">Mango, Abuela, and Me</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/142746/meg-medina" title="Meg Medina">Meg Medina</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/315987/the-story-about-ping-by-marjorie-flack-illustrated-by-kurt-wiese"><img alt="The Story About Ping" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780448482330?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/315987/the-story-about-ping-by-marjorie-flack-illustrated-by-kurt-wiese" title="The Story About Ping">The Story About Ping</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/8816/marjorie-flack" title="Marjorie Flack">Marjorie Flack</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/323302/pp-snowy-day--dwf-acct-only-by-ezra-jack-keats"><img alt="PP Snowy Day -DWF Acct ONLY" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670012701?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/323302/pp-snowy-day--dwf-acct-only-by-ezra-jack-keats" title="PP Snowy Day -DWF Acct ONLY">PP Snowy Day -DWF Acct ONLY</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/15261/ezra-jack-keats" title="Ezra Jack Keats">Ezra Jack Keats</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/309318/the-story-of-ferdinand-by-munro-leaf-illustrated-by-robert-lawson"><img alt="The Story of Ferdinand" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780448456942?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/309318/the-story-of-ferdinand-by-munro-leaf-illustrated-by-robert-lawson" title="The Story of Ferdinand">The Story of Ferdinand</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/63202/munro-leaf" title="Munro Leaf">Munro Leaf</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/101807/bringing-in-the-new-year-by-grace-lin"><img alt="Bringing In the New Year" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375866050?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/101807/bringing-in-the-new-year-by-grace-lin" title="Bringing In the New Year">Bringing In the New Year</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17673/grace-lin" title="Grace Lin">Grace Lin</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/204840/mirror-by-jeannie-baker"><img alt="Mirror" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763648480?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/204840/mirror-by-jeannie-baker" title="Mirror">Mirror</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/121477/jeannie-baker" title="Jeannie Baker">Jeannie Baker</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/305491/the-mitten-by-jan-brett"><img alt="The Mitten" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399252969?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/305491/the-mitten-by-jan-brett" title="The Mitten">The Mitten</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/3201/jan-brett" title="Jan Brett">Jan Brett</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/15504/those-shoes-by-maribeth-boelts"><img alt="Those Shoes" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763642846?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/15504/those-shoes-by-maribeth-boelts" title="Those Shoes">Those Shoes</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110200/maribeth-boelts" title="Maribeth Boelts">Maribeth Boelts</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/294992/listen-to-the-wind-by-greg-mortenson-illustrated-by-susan-roth"><img alt="Listen to the Wind" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803730588?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/294992/listen-to-the-wind-by-greg-mortenson-illustrated-by-susan-roth" title="Listen to the Wind">Listen to the Wind</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/103467/greg-mortenson" title="Greg Mortenson">Greg Mortenson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/31138/full-full-full-of-love-by-trish-cooke"><img alt="Full, Full, Full of Love" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763638832?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/31138/full-full-full-of-love-by-trish-cooke" title="Full, Full, Full of Love">Full, Full, Full of Love</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110261/trish-cooke" title="Trish Cooke">Trish Cooke</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/198182/yesterday-i-had-the-blues-by-jeron-ashford-frame"><img alt="Yesterday I Had the Blues" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781582462608?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/198182/yesterday-i-had-the-blues-by-jeron-ashford-frame" title="Yesterday I Had the Blues">Yesterday I Had the Blues</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/105798/jeron-ashford-frame" title="Jeron Ashford Frame">Jeron Ashford Frame</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/314447/corduroy-by-don-freeman"><img alt="Corduroy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670063369?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/314447/corduroy-by-don-freeman" title="Corduroy">Corduroy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/227570/don-freeman" title="Don Freeman">Don Freeman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238845/lola-en-la-biblioteca-by-anna-mcquinn-author-rosalind-beardshaw-illustrator"><img alt="Lola en la biblioteca" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781580892148?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238845/lola-en-la-biblioteca-by-anna-mcquinn-author-rosalind-beardshaw-illustrator" title="Lola en la biblioteca">Lola en la biblioteca</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/188112/anna-mcquinn" title="Anna McQuinn">Anna McQuinn</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/292150/celia-cruz-queen-of-salsa-by-veronica-chambers"><img alt="Celia Cruz, Queen of Salsa" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142407790?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/292150/celia-cruz-queen-of-salsa-by-veronica-chambers" title="Celia Cruz, Queen of Salsa">Celia Cruz, Queen of Salsa</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/36139/veronica-chambers" title="Veronica Chambers">Veronica Chambers</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/322425/the-hundred-penny-box-by-sharon-mathis-illustrated-by-diane-dillon"><img alt="The Hundred Penny Box" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142407028?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/322425/the-hundred-penny-box-by-sharon-mathis-illustrated-by-diane-dillon" title="The Hundred Penny Box">The Hundred Penny Box</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/244602/sharon-bell-mathis" title="Sharon Bell Mathis">Sharon Bell Mathis</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/288459/hes-got-the-whole-world-in-his-hands-by-kadir-nelson-illustrated-by-kadir-nelson"><img alt="He's Got the Whole World in His Hands" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803728509?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/288459/hes-got-the-whole-world-in-his-hands-by-kadir-nelson-illustrated-by-kadir-nelson" title="He's Got the Whole World in His Hands">He&#8217;s Got the Whole World in His Hands</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/97787/kadir-nelson" title="Kadir Nelson">Kadir Nelson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/286782/coming-on-home-soon-by-jacqueline-woodson-illustrated-by-e-b-lewis"><img alt="Coming on Home Soon" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399237485?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/286782/coming-on-home-soon-by-jacqueline-woodson-illustrated-by-e-b-lewis" title="Coming on Home Soon">Coming on Home Soon</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33705/jacqueline-woodson" title="Jacqueline Woodson">Jacqueline Woodson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/35773/bud-not-buddy-by-christopher-paul-curtis"><img alt="Bud, Not Buddy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780553494105?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/35773/bud-not-buddy-by-christopher-paul-curtis" title="Bud, Not Buddy">Bud, Not Buddy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/6203/christopher-paul-curtis" title="Christopher Paul Curtis">Christopher Paul Curtis</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor"><img alt="Roll of Thunder, Hear My Cry" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142401125?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor" title="Roll of Thunder, Hear My Cry">Roll of Thunder, Hear My Cry</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/30681/mildred-d-taylor" title="Mildred D. Taylor">Mildred D. Taylor</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/291836/dancing-in-the-wings-by-debbie-allen-illustrated-by-kadir-nelson"><img alt="Dancing in the Wings" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142501412?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/291836/dancing-in-the-wings-by-debbie-allen-illustrated-by-kadir-nelson" title="Dancing in the Wings">Dancing in the Wings</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/231542/debbie-allen" title="Debbie Allen">Debbie Allen</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/27340/the-name-jar-by-yangsook-choi-illustrated-by-the-author"><img alt="The Name Jar" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780440417996?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/27340/the-name-jar-by-yangsook-choi-illustrated-by-the-author" title="The Name Jar">The Name Jar</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/4876/yangsook-choi" title="Yangsook Choi">Yangsook Choi</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch"><img alt="When Jessie Came Across the Sea" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763612740?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch" title="When Jessie Came Across the Sea">When Jessie Came Across the Sea</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109941/amy-hest" title="Amy Hest">Amy Hest</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/194487/something-beautiful-by-sharon-dennis-wyeth-illustrated-by-chris-k-soentpiet"><img alt="Something Beautiful" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780440412106?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/194487/something-beautiful-by-sharon-dennis-wyeth-illustrated-by-chris-k-soentpiet" title="Something Beautiful">Something Beautiful</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33850/sharon-dennis-wyeth" title="Sharon Dennis Wyeth">Sharon Dennis Wyeth</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238393/the-ugly-vegetables-by-grace-lin-authorillustrator"><img alt="The Ugly Vegetables" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781570914911?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238393/the-ugly-vegetables-by-grace-lin-authorillustrator" title="The Ugly Vegetables">The Ugly Vegetables</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220544/grace-lin" title="Grace Lin">Grace Lin</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/300847/madeline-by-ludwig-bemelmans"><img alt="Madeline" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140564396?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/300847/madeline-by-ludwig-bemelmans" title="Madeline">Madeline</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/1912/ludwig-bemelmans" title="Ludwig Bemelmans">Ludwig Bemelmans</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/328277/alphabet-city-by-stephen-t-johnson-illustrated-by-stephen-johnson"><img alt="Alphabet City" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140559040?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/328277/alphabet-city-by-stephen-t-johnson-illustrated-by-stephen-johnson" title="Alphabet City">Alphabet City</a>
+                 </div>
+                 <div class="contributor"></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/79124/nappy-hair-by-carolivia-herron"><img alt="Nappy Hair" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679894452?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/79124/nappy-hair-by-carolivia-herron" title="Nappy Hair">Nappy Hair</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/12758/carolivia-herron" title="Carolivia Herron">Carolivia Herron</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/353866/chicken-sunday-by-patricia-polacco"><img alt="Chicken Sunday" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698116153?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/353866/chicken-sunday-by-patricia-polacco" title="Chicken Sunday">Chicken Sunday</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24173/patricia-polacco" title="Patricia Polacco">Patricia Polacco</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319521/abuela-by-arthur-dorros-illustrated-by-elisa-kleven"><img alt="Abuela" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140562255?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319521/abuela-by-arthur-dorros-illustrated-by-elisa-kleven" title="Abuela">Abuela</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/228412/arthur-dorros" title="Arthur Dorros">Arthur Dorros</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/112090/mirandy-and-brother-wind-by-patricia-mckissack-illustrated-by-jerry-pinkney"><img alt="Mirandy and Brother Wind" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679883333?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/112090/mirandy-and-brother-wind-by-patricia-mckissack-illustrated-by-jerry-pinkney" title="Mirandy and Brother Wind">Mirandy and Brother Wind</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/20049/patricia-mckissack" title="Patricia McKissack">Patricia McKissack</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/154450/tar-beach-by-faith-ringgold"><img alt="Tar Beach" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517885444?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/154450/tar-beach-by-faith-ringgold" title="Tar Beach">Tar Beach</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/25610/faith-ringgold" title="Faith Ringgold">Faith Ringgold</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/336157/too-many-tamales-by-gary-soto-illus-by-ed-martinez"><img alt="Too Many Tamales" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698114128?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/336157/too-many-tamales-by-gary-soto-illus-by-ed-martinez" title="Too Many Tamales">Too Many Tamales</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/29154/gary-soto" title="Gary Soto">Gary Soto</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/355100/legend-of-the-bluebonnet-by-tomie-depaola"><img alt="Legend of the Bluebonnet" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698113596?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/355100/legend-of-the-bluebonnet-by-tomie-depaola" title="Legend of the Bluebonnet">Legend of the Bluebonnet</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/6889/tomie-depaola" title="Tomie dePaola">Tomie dePaola</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/335927/lon-po-po-by-ed-young"><img alt="Lon Po Po" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698113824?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/335927/lon-po-po-by-ed-young" title="Lon Po Po">Lon Po Po</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/43928/ed-young" title="Ed Young">Ed Young</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319591/jambo-means-hello-by-muriel-feelings"><img alt="Jambo Means Hello" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140546521?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319591/jambo-means-hello-by-muriel-feelings" title="Jambo Means Hello">Jambo Means Hello</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/64270/muriel-feelings" title="Muriel Feelings">Muriel Feelings</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon"><img alt="Ashanti to Zulu" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140546040?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon" title="Ashanti to Zulu">Ashanti to Zulu</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/239971/margaret-musgrove" title="Margaret Musgrove">Margaret Musgrove</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320373/amazing-grace-by-mary-hoffman-illustrated-by-caroline-binch"><img alt="Amazing Grace" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803710405?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320373/amazing-grace-by-mary-hoffman-illustrated-by-caroline-binch" title="Amazing Grace">Amazing Grace</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/13239/mary-hoffman" title="Mary Hoffman">Mary Hoffman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320354/the-talking-eggs-by-robert-san-souci-illustrated-by-jerry-pinkney"><img alt="The Talking Eggs" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803706194?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320354/the-talking-eggs-by-robert-san-souci-illustrated-by-jerry-pinkney" title="The Talking Eggs">The Talking Eggs</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/26813/robert-d-san-souci" title="Robert D. San Souci">Robert D. San Souci</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/305282/miss-rumphius-by-barbara-cooney"><img alt="Miss Rumphius" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140505399?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/305282/miss-rumphius-by-barbara-cooney" title="Miss Rumphius">Miss Rumphius</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/5634/barbara-cooney" title="Barbara Cooney">Barbara Cooney</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319600/the-patchwork-quilt-by-valerie-flournoy-illustrated-by-jerry-pinkney"><img alt="The Patchwork Quilt" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780803700970?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319600/the-patchwork-quilt-by-valerie-flournoy-illustrated-by-jerry-pinkney" title="The Patchwork Quilt">The Patchwork Quilt</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/255780/valerie-flournoy" title="Valerie Flournoy">Valerie Flournoy</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/323553/crow-boy-by-taro-yashima"><img alt="Crow Boy" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140501728?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/323553/crow-boy-by-taro-yashima" title="Crow Boy">Crow Boy</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/241267/taro-yashima" title="Taro Yashima">Taro Yashima</a></div>
+
+		</div>
+	                   </div> <!-- slider -->
+           </div> <!-- viewport -->
+         </section>
+       </div>
+              <!-- / people who read -->
+		
+       <!-- recommended for you products -->
+       <div class="slot product-recommended selected-for-you loading">
+         <h4 class="slot-header">Inspired by Your Browsing History</h4>
+       </div>
+       <!-- / recommended products -->
+
+       <!-- Also in [category] -->
+              <!-- / Also in [category] -->
+
+		<!-- Related Links -->
+		    		<!-- / Related Links -->
+		<!-- Reader and Teacher Guides -->
+					<!-- / Reader and Teacher Guides -->
+		
+		<!-- Related Articles -->	
+			<!-- Asynchronous Loading Required:  PRHCS-31 - AC #9 -->
+			
+			<div id="product-articles-wrap-mobile">
+				<div class="slot product-articles product-related articles" data-work="feedTagValue:9780399257742^20 OR title_workid:310757^10 OR author_authorId:2025886 OR author_authorid_display_group:/2025886\:[AI].*/^9 OR author_authorid_display_group:/156886\:[AI].*/^9">
+					<h2 class="slot-header">Related Articles</h2>
+				</div>
+			</div>
+		<!-- / Related Articles -->
+		
+		<!-- Promo Tiles -->
+			<div id="product-promo-tiles-wrap-mobile">
+				<div class="slot promo-tiles">
+			 				</div>
+			</div>
+		<!-- / Promo Tiles -->
+</div>
+<!-- / End Main Content -->
+
+<!-- Right Rail - visible on desktop -->
+	<div class="right-rail">
+		<div id="product-related-wrap-desktop"></div>
+		<div id="product-guides-wrap-desktop"></div>
+		<div id="product-articles-wrap-desktop"></div>
+		<div id="product-promo-tiles-wrap-desktop"></div>
+	</div>
+<!-- / Right Rail -->
+
+<div class="modal fade product-image" id="modal-product-image" style="display:none;">
+  <div class="modal-dialog product-image">
+    <div class="modal-content">
+      <div class="modal-header product-image">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+      </div>
+
+      <div class="modal-body">
+        <img>
+        <div class="btn product-image download"><span class="fa fa-download"></span>Download Hi Res</div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- excerpts -->
+
+
+<script>
+
+var excerpt_embed_html_list = [];
+var excerpt_text_list = [];
+
+</script>
+
+<div class="modal fade" id="modal-excerpt">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+        <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+
+          <div class="book">
+            <div class="cover">
+            	<img src />
+            </div>
+            <div class="book-meta">
+            	<div class="book-name">Last Stop on Market Street</div>
+		                <h2 class="contributors"><span class="ws-nw">
+                    		</span></h2>
+
+		<div class="buttons">
+                    <button type="button" class="btn buy2" rel="popover">Buy</button>
+		</div>
+            
+		<h4 class="isbn-related 9780399257742">Category: <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>
+        <!-- newsletter -->
+        <div id="excerpt-newsletter-wrap-desktop">
+          <div class="slot newsletter-signup excerpt" acq-code="PRH_EXCERPT_STATIC_ONGOING" workid="310757"></div>        </div>
+
+        <!-- MOBILE EXCERPT SUBSCRIBE MOVED TO SECOND PARAGRAPH OF EXCERPT ITSELF -->
+
+        <!-- /newsletter -->
+
+            </div>
+
+          </div>
+      </div>
+      <div class="modal-body scrolling"></div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade embedded" id="modal-excerpt-embedded">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+          <span class="sr-only">Close</span>
+	</button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+	</div>
+    <!-- End Scaffolding -->
+</div> <!-- container END -->
+<!-- end product info bottom -->
+<!-- product extended carousel -->
+<div class="extendwrap">
+		<div class="extended-carousel" id="extended-read-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">People Who Read <span>Last Stop on Market Street</span> Also Read</h4></div>
+		<div id="extended-read-carousel" class="extended-carousel-div loading">
+					<div class="item" ttl="Swimmy" url="/books/101949/swimmy-by-leo-lionni">
+				<div class="img">
+					<a href="/books/101949/swimmy-by-leo-lionni"><img alt="Swimmy" src="http://images.penguinrandomhouse.com/cover/9780399555503?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Make Way for Ducklings" url="/books/305281/make-way-for-ducklings-by-robert-mccloskey">
+				<div class="img">
+					<a href="/books/305281/make-way-for-ducklings-by-robert-mccloskey"><img alt="Make Way for Ducklings" src="http://images.penguinrandomhouse.com/cover/9781101997956?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mango, Abuela, and Me" url="/books/258441/mango-abuela-and-me-by-meg-medina">
+				<div class="img">
+					<a href="/books/258441/mango-abuela-and-me-by-meg-medina"><img alt="Mango, Abuela, and Me" src="http://images.penguinrandomhouse.com/cover/9780763669003?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Story About Ping" url="/books/315987/the-story-about-ping-by-marjorie-flack-illustrated-by-kurt-wiese">
+				<div class="img">
+					<a href="/books/315987/the-story-about-ping-by-marjorie-flack-illustrated-by-kurt-wiese"><img alt="The Story About Ping" src="http://images.penguinrandomhouse.com/cover/9780448482330?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="PP Snowy Day -DWF Acct ONLY" url="/books/323302/pp-snowy-day--dwf-acct-only-by-ezra-jack-keats">
+				<div class="img">
+					<a href="/books/323302/pp-snowy-day--dwf-acct-only-by-ezra-jack-keats"><img alt="PP Snowy Day -DWF Acct ONLY" src="http://images.penguinrandomhouse.com/cover/9780670012701?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Story of Ferdinand" url="/books/309318/the-story-of-ferdinand-by-munro-leaf-illustrated-by-robert-lawson">
+				<div class="img">
+					<a href="/books/309318/the-story-of-ferdinand-by-munro-leaf-illustrated-by-robert-lawson"><img alt="The Story of Ferdinand" src="http://images.penguinrandomhouse.com/cover/9780448456942?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Bringing In the New Year" url="/books/101807/bringing-in-the-new-year-by-grace-lin">
+				<div class="img">
+					<a href="/books/101807/bringing-in-the-new-year-by-grace-lin"><img alt="Bringing In the New Year" src="http://images.penguinrandomhouse.com/cover/9780375866050?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mirror" url="/books/204840/mirror-by-jeannie-baker">
+				<div class="img">
+					<a href="/books/204840/mirror-by-jeannie-baker"><img alt="Mirror" src="http://images.penguinrandomhouse.com/cover/9780763648480?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Mitten" url="/books/305491/the-mitten-by-jan-brett">
+				<div class="img">
+					<a href="/books/305491/the-mitten-by-jan-brett"><img alt="The Mitten" src="http://images.penguinrandomhouse.com/cover/9780399252969?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Those Shoes" url="/books/15504/those-shoes-by-maribeth-boelts">
+				<div class="img">
+					<a href="/books/15504/those-shoes-by-maribeth-boelts"><img alt="Those Shoes" src="http://images.penguinrandomhouse.com/cover/9780763642846?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Listen to the Wind" url="/books/294992/listen-to-the-wind-by-greg-mortenson-illustrated-by-susan-roth">
+				<div class="img">
+					<a href="/books/294992/listen-to-the-wind-by-greg-mortenson-illustrated-by-susan-roth"><img alt="Listen to the Wind" src="http://images.penguinrandomhouse.com/cover/9780803730588?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Full, Full, Full of Love" url="/books/31138/full-full-full-of-love-by-trish-cooke">
+				<div class="img">
+					<a href="/books/31138/full-full-full-of-love-by-trish-cooke"><img alt="Full, Full, Full of Love" src="http://images.penguinrandomhouse.com/cover/9780763638832?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Yesterday I Had the Blues" url="/books/198182/yesterday-i-had-the-blues-by-jeron-ashford-frame">
+				<div class="img">
+					<a href="/books/198182/yesterday-i-had-the-blues-by-jeron-ashford-frame"><img alt="Yesterday I Had the Blues" src="http://images.penguinrandomhouse.com/cover/9781582462608?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Corduroy" url="/books/314447/corduroy-by-don-freeman">
+				<div class="img">
+					<a href="/books/314447/corduroy-by-don-freeman"><img alt="Corduroy" src="http://images.penguinrandomhouse.com/cover/9780670063369?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Lola en la biblioteca" url="/books/238845/lola-en-la-biblioteca-by-anna-mcquinn-author-rosalind-beardshaw-illustrator">
+				<div class="img">
+					<a href="/books/238845/lola-en-la-biblioteca-by-anna-mcquinn-author-rosalind-beardshaw-illustrator"><img alt="Lola en la biblioteca" src="http://images.penguinrandomhouse.com/cover/9781580892148?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Celia Cruz, Queen of Salsa" url="/books/292150/celia-cruz-queen-of-salsa-by-veronica-chambers">
+				<div class="img">
+					<a href="/books/292150/celia-cruz-queen-of-salsa-by-veronica-chambers"><img alt="Celia Cruz, Queen of Salsa" src="http://images.penguinrandomhouse.com/cover/9780142407790?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Hundred Penny Box" url="/books/322425/the-hundred-penny-box-by-sharon-mathis-illustrated-by-diane-dillon">
+				<div class="img">
+					<a href="/books/322425/the-hundred-penny-box-by-sharon-mathis-illustrated-by-diane-dillon"><img alt="The Hundred Penny Box" src="http://images.penguinrandomhouse.com/cover/9780142407028?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="He's Got the Whole World in His Hands" url="/books/288459/hes-got-the-whole-world-in-his-hands-by-kadir-nelson-illustrated-by-kadir-nelson">
+				<div class="img">
+					<a href="/books/288459/hes-got-the-whole-world-in-his-hands-by-kadir-nelson-illustrated-by-kadir-nelson"><img alt="He's Got the Whole World in His Hands" src="http://images.penguinrandomhouse.com/cover/9780803728509?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Coming on Home Soon" url="/books/286782/coming-on-home-soon-by-jacqueline-woodson-illustrated-by-e-b-lewis">
+				<div class="img">
+					<a href="/books/286782/coming-on-home-soon-by-jacqueline-woodson-illustrated-by-e-b-lewis"><img alt="Coming on Home Soon" src="http://images.penguinrandomhouse.com/cover/9780399237485?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Bud, Not Buddy" url="/books/35773/bud-not-buddy-by-christopher-paul-curtis">
+				<div class="img">
+					<a href="/books/35773/bud-not-buddy-by-christopher-paul-curtis"><img alt="Bud, Not Buddy" src="http://images.penguinrandomhouse.com/cover/9780553494105?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Roll of Thunder, Hear My Cry" url="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor">
+				<div class="img">
+					<a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor"><img alt="Roll of Thunder, Hear My Cry" src="http://images.penguinrandomhouse.com/cover/9780142401125?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Dancing in the Wings" url="/books/291836/dancing-in-the-wings-by-debbie-allen-illustrated-by-kadir-nelson">
+				<div class="img">
+					<a href="/books/291836/dancing-in-the-wings-by-debbie-allen-illustrated-by-kadir-nelson"><img alt="Dancing in the Wings" src="http://images.penguinrandomhouse.com/cover/9780142501412?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Name Jar" url="/books/27340/the-name-jar-by-yangsook-choi-illustrated-by-the-author">
+				<div class="img">
+					<a href="/books/27340/the-name-jar-by-yangsook-choi-illustrated-by-the-author"><img alt="The Name Jar" src="http://images.penguinrandomhouse.com/cover/9780440417996?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="When Jessie Came Across the Sea" url="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch">
+				<div class="img">
+					<a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch"><img alt="When Jessie Came Across the Sea" src="http://images.penguinrandomhouse.com/cover/9780763612740?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Something Beautiful" url="/books/194487/something-beautiful-by-sharon-dennis-wyeth-illustrated-by-chris-k-soentpiet">
+				<div class="img">
+					<a href="/books/194487/something-beautiful-by-sharon-dennis-wyeth-illustrated-by-chris-k-soentpiet"><img alt="Something Beautiful" src="http://images.penguinrandomhouse.com/cover/9780440412106?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Ugly Vegetables" url="/books/238393/the-ugly-vegetables-by-grace-lin-authorillustrator">
+				<div class="img">
+					<a href="/books/238393/the-ugly-vegetables-by-grace-lin-authorillustrator"><img alt="The Ugly Vegetables" src="http://images.penguinrandomhouse.com/cover/9781570914911?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Madeline" url="/books/300847/madeline-by-ludwig-bemelmans">
+				<div class="img">
+					<a href="/books/300847/madeline-by-ludwig-bemelmans"><img alt="Madeline" src="http://images.penguinrandomhouse.com/cover/9780140564396?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Alphabet City" url="/books/328277/alphabet-city-by-stephen-t-johnson-illustrated-by-stephen-johnson">
+				<div class="img">
+					<a href="/books/328277/alphabet-city-by-stephen-t-johnson-illustrated-by-stephen-johnson"><img alt="Alphabet City" src="http://images.penguinrandomhouse.com/cover/9780140559040?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Nappy Hair" url="/books/79124/nappy-hair-by-carolivia-herron">
+				<div class="img">
+					<a href="/books/79124/nappy-hair-by-carolivia-herron"><img alt="Nappy Hair" src="http://images.penguinrandomhouse.com/cover/9780679894452?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Chicken Sunday" url="/books/353866/chicken-sunday-by-patricia-polacco">
+				<div class="img">
+					<a href="/books/353866/chicken-sunday-by-patricia-polacco"><img alt="Chicken Sunday" src="http://images.penguinrandomhouse.com/cover/9780698116153?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Abuela" url="/books/319521/abuela-by-arthur-dorros-illustrated-by-elisa-kleven">
+				<div class="img">
+					<a href="/books/319521/abuela-by-arthur-dorros-illustrated-by-elisa-kleven"><img alt="Abuela" src="http://images.penguinrandomhouse.com/cover/9780140562255?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Mirandy and Brother Wind" url="/books/112090/mirandy-and-brother-wind-by-patricia-mckissack-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/112090/mirandy-and-brother-wind-by-patricia-mckissack-illustrated-by-jerry-pinkney"><img alt="Mirandy and Brother Wind" src="http://images.penguinrandomhouse.com/cover/9780679883333?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Tar Beach" url="/books/154450/tar-beach-by-faith-ringgold">
+				<div class="img">
+					<a href="/books/154450/tar-beach-by-faith-ringgold"><img alt="Tar Beach" src="http://images.penguinrandomhouse.com/cover/9780517885444?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Too Many Tamales" url="/books/336157/too-many-tamales-by-gary-soto-illus-by-ed-martinez">
+				<div class="img">
+					<a href="/books/336157/too-many-tamales-by-gary-soto-illus-by-ed-martinez"><img alt="Too Many Tamales" src="http://images.penguinrandomhouse.com/cover/9780698114128?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Legend of the Bluebonnet" url="/books/355100/legend-of-the-bluebonnet-by-tomie-depaola">
+				<div class="img">
+					<a href="/books/355100/legend-of-the-bluebonnet-by-tomie-depaola"><img alt="Legend of the Bluebonnet" src="http://images.penguinrandomhouse.com/cover/9780698113596?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Lon Po Po" url="/books/335927/lon-po-po-by-ed-young">
+				<div class="img">
+					<a href="/books/335927/lon-po-po-by-ed-young"><img alt="Lon Po Po" src="http://images.penguinrandomhouse.com/cover/9780698113824?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Jambo Means Hello" url="/books/319591/jambo-means-hello-by-muriel-feelings">
+				<div class="img">
+					<a href="/books/319591/jambo-means-hello-by-muriel-feelings"><img alt="Jambo Means Hello" src="http://images.penguinrandomhouse.com/cover/9780140546521?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ashanti to Zulu" url="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon">
+				<div class="img">
+					<a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon"><img alt="Ashanti to Zulu" src="http://images.penguinrandomhouse.com/cover/9780140546040?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Amazing Grace" url="/books/320373/amazing-grace-by-mary-hoffman-illustrated-by-caroline-binch">
+				<div class="img">
+					<a href="/books/320373/amazing-grace-by-mary-hoffman-illustrated-by-caroline-binch"><img alt="Amazing Grace" src="http://images.penguinrandomhouse.com/cover/9780803710405?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Talking Eggs" url="/books/320354/the-talking-eggs-by-robert-san-souci-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/320354/the-talking-eggs-by-robert-san-souci-illustrated-by-jerry-pinkney"><img alt="The Talking Eggs" src="http://images.penguinrandomhouse.com/cover/9780803706194?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Miss Rumphius" url="/books/305282/miss-rumphius-by-barbara-cooney">
+				<div class="img">
+					<a href="/books/305282/miss-rumphius-by-barbara-cooney"><img alt="Miss Rumphius" src="http://images.penguinrandomhouse.com/cover/9780140505399?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Patchwork Quilt" url="/books/319600/the-patchwork-quilt-by-valerie-flournoy-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/319600/the-patchwork-quilt-by-valerie-flournoy-illustrated-by-jerry-pinkney"><img alt="The Patchwork Quilt" src="http://images.penguinrandomhouse.com/cover/9780803700970?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Crow Boy" url="/books/323553/crow-boy-by-taro-yashima">
+				<div class="img">
+					<a href="/books/323553/crow-boy-by-taro-yashima"><img alt="Crow Boy" src="http://images.penguinrandomhouse.com/cover/9780140501728?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+				</div>
+	</div>
+	
+	<div class="extended-carousel hide" id="extended-recommended-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Inspired by Your Browsing History</h4></div>
+		<div id="extended-recommended-carousel" class="extended-carousel-div loading"></div>
+	</div>
+
+	</div>
+<!-- end product extended carousel -->
+<script type="text/javascript">
+var specific_to_signup = {"specific_to_type":"product","signup":{"type":"author","id":2025886},"message":"Sign me up for news about Matt de la Pe\u00f1a and more from Penguin Random House"};
+</script>
+
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":522,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

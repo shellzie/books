@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>Friendship and Junk by Cartoon Network Books | PenguinRandomHouse.com</title>
+<meta itemprop="name" content="Friendship and Junk by Cartoon Network Books | PenguinRandomHouse.com"/>
+<meta property="og:title" content="Friendship and Junk by Cartoon Network Books | PenguinRandomHouse.com"/>
+<meta name="twitter:text:title" content="Friendship and Junk by Cartoon Network Books | PenguinRandomHouse.com"/>
+<meta name="description" content="This Adventure Time ode to friendship is the perfect gift to show your favorite homies how much they mean to you!Finn and Jake know a few things about..."/>
+<meta itemprop="description" content="This Adventure Time ode to friendship is the perfect gift to show your favorite homies how much they mean to you!Finn and Jake know a few things about being best bros! This little book celebrates all the..."/>
+<meta property="og:description" content="This Adventure Time ode to friendship is the perfect gift to show your favorite homies how much they mean to you!Finn and Jake know a few things about being best bros! This little book celebrates all the..."/>
+<meta name="twitter:text:description" content="This Adventure Time ode to friendship is the perfect gift to show your favorite homies how much they mean to you!Finn and Jake know a few things about being best bros! This little book celebrates..."/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/"/>
+<meta itemprop="image" content="http://images.penguinrandomhouse.com/cover/9780515158021"/>
+<meta property="og:image" content="http://images.penguinrandomhouse.com/cover/9780515158021"/>
+<meta name="twitter:image" content="http://images.penguinrandomhouse.com/cover/9780515158021"/>
+<meta itemprop="price" content="8.99"/>
+<meta itemprop="priceCurrency" content="USD"/>
+<meta property="og:price:currency" content="USD"/>
+<meta property="og:price:amount" content="8.99"/>
+<meta property="og:type" content="book"/>
+<meta name="twitter:url" content="http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/#excerpt"/>
+<meta name="twitter:url:preview" content="http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/#excerpt"/>
+<meta name="twitter:text:isbn" content="9780515158021"/>
+<meta name="twitter:text:cta" content="Start reading"/>
+<meta name="Tealium" content="Tealium meta values" data-book-title="Friendship and Junk" data-book-authors="Cartoon Network Books" data-book-isbn="9780515158021" data-book-imprint="Cartoon Network Books" data-book-division="" data-book-format="Hardcover" data-page-type="product"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F549498%2Ffriendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F549498%2Ffriendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/9780515158021/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"549498"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"Friendship and Junk by Cartoon Network Books | PenguinRandomHouse.com","code_release_version":"cb20170213032739","product_list_price":[8.99],"product_isbn":[9780515158021],"product_title":["Friendship and Junk"],"product_author":["Cartoon Network Books"],"product_author_id":["2028193"],"page_type":"Product Detail Page","product_imprint":["Cartoon Network Books"],"product_format":["Hardcover"],"product_work_id":["549498"],"product_category":["Childrens Media Tie-In Books | Children's Middle Grade Books | Children's Picture Books | Children's Books"],"product_division":["Penguin Young Readers"],"age_range":"Middle Grade (8-12)"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<!--html from front end -->
+<!-- product info top -->
+<a name="#home" id="home"></a>
+<div id="tmpl-indc" class="tmpl-product" data-id="9780515158021"></div>
+<div class="inner-facade">
+  <div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+      <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+                <div class="product-header clearfix">
+                    <div class="slot product-title">
+                        <div class="panel-body">
+                            <h1>Friendship and Junk</h1>
+                			    <h2 class="contributors isbn-related 9780515158021 show">By <span class="ws-nw"><a href="/authors/2028193/cartoon-network-books" >Cartoon Network Books</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/2134040/jj-harrison" >JJ Harrison</a></span><br/></h2>                <h4 class="isbn-related 9780515158021">Part of <a href="/series/DK9/adventure-time">Adventure Time</a></h4>                <h4 class="isbn-related 9780515158021">Category: <a href="/books/media-tie-in-childrens">Childrens Media Tie-In Books</a> | <a href="/books/middle-grade-books-childrens">Children&#8217;s Middle Grade Books</a> | <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>                        </div>
+                    </div>
+
+                    <div class="slot product-jacket">
+                        <div class="book-detail">
+                            <div class="cover-wrapper">
+                            <div class="bs-seal">Best Seller</div>
+			      <img src="http://images.penguinrandomhouse.com/cover/9780515158021" id="coverFormat" class="cover img-responsive" alt="Friendship and Junk by Cartoon Network Books" />
+                            </div><!-- /.cover-wrapper -->
+
+						            <p class="excerpt-link isbn-related 9780515158021"><a href="#" data-workid="" data-isbn="9780515158021" data-title="Friendship and Junk" data-author="Cartoon Network Books" class="insight">Look Inside</a> | <a href="#" class="enlarge">Enlarge Cover</a></p>
+
+                        </div>
+                    </div>
+                    <div class="slot product-format">
+                    	<div class="product-format-mobile">
+		                                  <div class="curr-ttl-mobile active show 9780515158021">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$8.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Feb 28, 2017</span>
+                                                                        <span class="ws-nw">| 32 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 5-3/4 x 7</span>-->
+                                    				    								    				<span class="ws-nw">| Middle Grade (8-12)</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780515158021</span>-->
+                                                                        																			<button type="button" class="btn buy2 preorder 9780515158021" rel="popover">Pre-Order</button>
+																	</p>
+                            </div>
+												</div>
+						                        <div class="panel-group" id="accordion">
+														<div class="panel">
+							    <div class="panel-heading selected">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					  					Hardcover <span class="countDiv0"></span>
+					  					<div class="pl_mn_format">&#8211;</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse1" class="panel-collapse collapse in">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="active">
+					    <a href="#9780515158021" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Cartoon Network Books" primaryauthids="2028193" best-seller=""
+					        age_segment="Middle Grade (8-12)"  merchandise="false"  series-code="DK9" series-ttl="Adventure Time" isbn="9780515158021" format="HC" format-name="Hardcover" categories="Childrens Media Tie-In Books | Children's Middle Grade Books | Children's Picture Books | Children's Books" imprint="Cartoon Network Books" division="Penguin Young Readers" price="8.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 preorder 9780515158021" rel="popover">Pre-Order</button>
+												       	<span class="us-price">$8.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Feb 28, 2017</span>
+															<span class="ws-nw">| 32 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| Middle Grade (8-12)</span>
+																						<!--<span class="ws-nw">| ISBN 9780515158021</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                
+                				<div class="default-retailer">
+                	<h4 class="buy">Buy the Hardcover:</h4>
+                	<ul>         
+                    	<li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/2/trackingcode/PRHEFFDF5A7F1" target="_blank">Barnes &amp; Noble</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/4/trackingcode/PRHEFFDF5A7F1" target="_blank">Walmart</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/5/trackingcode/PRHEFFDF5A7F1" target="_blank">Books A Million</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/6/trackingcode/penguinrandom" target="_blank">IndieBound</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/7/trackingcode/randohouseinc7986-20" target="_blank">Amazon</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/9/trackingcode/PRHEFFDF5A7F1" target="_blank">Powell&#8217;s</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780515158021/siteId/301/retailerid/23/trackingcode/PRHEFFDF5A7F1" target="_blank">Target</a></li>                    </ul>
+                </div>
+                                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div> <!-- inner-facade END -->
+<!-- end product info top -->
+<!-- buy options -->     
+ <div class="sticky-buy">
+   <div id="buy-options">
+     <ul>
+		            <li class="isbn-related 9780515158021 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780515158021" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/9780515158021" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/549498/friendship-and-junk-by-cartoon-network-books-illustrated-by-jj-harrison/9780515158021" />
+             </form>
+           </li>
+	     </ul>
+   </div>
+ </div>
+<!-- end buy options -->
+<div id="share-links-wrap-desktop"></div>
+<!-- product info bottom -->        
+<div class="container">
+  <div class="scaffolding row">
+    <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+      <div class="product-body clearfix">
+
+	<!-- newsletter -->
+	<div id="newsletter-wrap-mobile">
+	  <div class="slot newsletter-signup product" ></div>	</div>
+	<!-- /newsletter -->
+
+	<!-- about the book -->
+        <a name="#aboutthebook" id="aboutthebook"></a>
+	
+	<div class="slot product-about 9780515158021 isbn-related seemoreenable show">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>Friendship and Junk</span></h4>
+    			<p><b>This Adventure Time ode to friendship is the perfect gift to show your favorite homies how much they mean to you!<br><br></b>Finn and Jake know a few things about being best bros! This little book celebrates all the things that make friendship awesome: dancing, hugging it out, going on adventures, or just chilling. It&#8217;s the perfect gift to thank a friend for good times past, and to look forward to the fun yet to come. <i>Adventure Time</i> fans of all ages will love this sweet and sincere tribute to friendship.</p>	 	</section>
+     </div>
+
+	        <!-- /about the book -->
+    <div id="newsletter-wrap-desktop" class="grayab">
+    	<div class="graybox">
+    		<div class="newcoppy">Get the news you want from Penguin Random House</div>
+    	</div>
+    </div>
+        <!-- book awards -->
+		        <!-- /book awards -->
+
+        <!-- praises -->
+		            <!-- /praises -->
+
+        <!-- table of contents -->
+		            <!-- /table of contents -->
+
+        <!-- author spotlights -->
+                    <a name="#author" id="author"></a>
+		                        <div class="slot product-author-info isbn-related 9780515158021 show">
+		      <h4 class="slot-header">About Cartoon Network Books</h4>
+		      <p class="clearfix">Cartoon Network Books launched in Summer 2015 as the official imprint for children&#8217;s books based on Cartoon Network&#8217;s original programming. The imprint includes titles from hit shows such as Adventure Time, Regular Show, The Amazing World of Gumball, Steven Universe,&#8230; <a href="/authors/2028193/cartoon-network-books">More about Cartoon Network Books</a></p>
+		    </div>
+		            <!-- /author spotlights -->
+
+        <!-- author Q & A's -->
+		            <!-- /author Q & A's -->
+
+        <!-- video related links -->
+		            <!-- /video related links -->
+
+		<!-- audio extras -->
+		    <a name="#more" id="more"></a>
+		    		<!-- / audio extras -->
+		
+		<!-- author essays -->    
+		    		<!-- / author essays -->
+		
+		<!-- slideshow promo images and slideshow related links -->
+					<!-- / slideshow promo images and slideshow related links -->
+		  <!-- 2nd prod detail -->
+          <div class="slot scnd-prod-detail">
+                <div class="product-author-also-by" id="scnd-detail">
+                    <h4 class="slot-header">Product Details</h4>
+               </div>
+               			  	<p class="clearfix isbn-related 9780515158021 show">
+			  				  	Hardcover<br />
+			  					Published by Cartoon Network Books<br />
+				<span class="ws-nw">Feb 28, 2017</span>
+									<span class="ws-nw">| 32 Pages</span> 
+																	<span class="ws-nw">| 5-3/4 x 7</span>
+													<span class="ws-nw">| Middle Grade (8-12)</span>
+													<span class="ws-nw">| ISBN 9780515158021</span>
+							  	</p>
+		  			           </div>
+	      <!-- / 2nd prod detail -->
+	      <!-- share -->
+	      <div class="slot mobile-share" id="share-links-wrap-mobile">
+			<div class="share-links" id="share-collapse"><ul class="share-items" data-sharemessageservice="http://services.penguin.com/rest/v1/json/socialmedia/sharemessage/get" data-siteid="301" data-sharetypeid="1" data-booktitle="Friendship and Junk"><li class="header">Share:</li><li data-socialmediaid="1" data-fbappid="350479041816117"><a class="facebook"><div class="fa fa-facebook"><span>Share on Facebook</span></div></a></li><li data-socialmediaid="2"><a class="twitter"><div class="fa fa-twitter"><span>Tweet</span></div></a></li><li data-socialmediaid="6"><a class="pinterest"><div class="fa fa-pinterest"><span>Pin it</span></div></a></li><li data-socialmediaid="7"><a class="google-plus"><div class="fa fa-google-plus"><span>Share on G+</span></div></a></li><li data-socialmediaid="3"><a class="tumblr"><div class="fa fa-tumblr"><span>Share on Tumblr</span></div></a></li><li data-socialmediaid="9"><a class="sms-share"><span>SMS</span></a></li><li data-socialmediaid="8"><a class="envelope"><div class="fa fa-envelope"><span>Email</span></div></a></li></ul></div>        </div>
+        <!-- / share -->
+
+       <!-- Also by author -->
+        <div class="slot author-also-by">
+          <div class="product-author-also-by" id="by-author" data-work-author-list="2028193,2134040">
+            <h4 class="slot-header">Also by <a href="/authors/2028193/cartoon-network-books">Cartoon Network Books</a></h4>
+          </div>
+        </div>
+       <!-- / Also by author -->
+
+       <!-- people who read -->
+              <!-- / people who read -->
+		
+       <!-- recommended for you products -->
+       <div class="slot product-recommended selected-for-you loading">
+         <h4 class="slot-header">Inspired by Your Browsing History</h4>
+       </div>
+       <!-- / recommended products -->
+
+       <!-- Also in [category] -->
+              <div class="slot product-recommended">
+         <h4 class="slot-header">Also in Childrens Media Tie-In Books</h4>
+         <section class="carousel recommended">
+           <a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+           <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+
+           <div class="viewport">
+              <div class="slider">
+                               <div class="item">
+                  <div class="img">
+                    <a href="/books/545534/mlb-ultimate-fan-playbook-by-michael-t-riley-illustrated-by-dave-bardin"><img alt="MLB Ultimate Fan Playbook" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780451533951?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/545534/mlb-ultimate-fan-playbook-by-michael-t-riley-illustrated-by-dave-bardin" title="MLB Ultimate Fan Playbook">MLB Ultimate Fan Playbook</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2133935/michael-t-riley" title="Michael T. Riley">Michael T. Riley</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/552402/power-rangers-mad-libs-by-gabriel-cooper"><img alt="Power Rangers Mad Libs" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780515159592?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/552402/power-rangers-mad-libs-by-gabriel-cooper" title="Power Rangers Mad Libs">Power Rangers Mad Libs</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2148760/gabriel-p-cooper" title="Gabriel P. Cooper">Gabriel P. Cooper</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/555361/power-rangers-official-movie-poster-book-by-penguin-young-readers"><img alt="Power Rangers Official Movie Poster Book" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781524784416?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/555361/power-rangers-official-movie-poster-book-by-penguin-young-readers" title="Power Rangers Official Movie Poster Book">Power Rangers Official Movie Poster Book</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2026405/penguin-young-readers" title="Penguin Young Readers">Penguin Young Readers</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541575/we-bare-bears-mad-libs-by-hannah-s-campbell"><img alt="We Bare Bears Mad Libs" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780451533036?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541575/we-bare-bears-mad-libs-by-hannah-s-campbell" title="We Bare Bears Mad Libs">We Bare Bears Mad Libs</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2088275/hannah-s-campbell" title="Hannah S. Campbell">Hannah S. Campbell</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/548774/the-lego-batman-movie-the-making-of-the-movie-by-dk"><img alt="The LEGO® Batman Movie: The Making of the Movie" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781465456618?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/548774/the-lego-batman-movie-the-making-of-the-movie-by-dk" title="The LEGO® Batman Movie: The Making of the Movie">The LEGO® Batman Movie: The Making of the Movie</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2008292/tracey-miller-zarneke" title="Tracey Miller-Zarneke">Tracey Miller-Zarneke</a> and <a href="/authors/2060357/dk" title="DK">DK</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/554169/before-ever-after-disney-tangled-the-series-by-stacia-deutsch-illustrated-by-rh-disney"><img alt="Before Ever After (Disney Tangled: The Series)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736438247?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/554169/before-ever-after-disney-tangled-the-series-by-stacia-deutsch-illustrated-by-rh-disney" title="Before Ever After (Disney Tangled: The Series)">Before Ever After (Disney Tangled: The Series)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/244899/stacia-deutsch" title="Stacia Deutsch">Stacia Deutsch</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319173/charlie-and-the-chocolate-factory-by-roald-dahl-illustrated-by-michael-foreman"><img alt="Charlie and the Chocolate Factory" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780147512956?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319173/charlie-and-the-chocolate-factory-by-roald-dahl-illustrated-by-michael-foreman" title="Charlie and the Chocolate Factory">Charlie and the Chocolate Factory</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/6284/roald-dahl" title="Roald Dahl">Roald Dahl</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/545472/happy-birthday-kate-and-mim-mim-by-lana-jacobs"><img alt="Happy Birthday, Kate and Mim-Mim!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780451533937?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/545472/happy-birthday-kate-and-mim-mim-by-lana-jacobs" title="Happy Birthday, Kate and Mim-Mim!">Happy Birthday, Kate and Mim-Mim!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/238646/lana-jacobs" title="Lana Jacobs">Lana Jacobs</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/545533/make-believe-with-kate-and-mim-mim-by-grosset-and-dunlap"><img alt="Make-Believe with Kate and Mim-Mim" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780451533944?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/545533/make-believe-with-kate-and-mim-mim-by-grosset-and-dunlap" title="Make-Believe with Kate and Mim-Mim">Make-Believe with Kate and Mim-Mim</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2034385/grosset-and-dunlap" title="Grosset &amp; Dunlap">Grosset &amp; Dunlap</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/548942/the-amazing-book-of-disney-princess-by-eleanor-rose"><img alt="The Amazing Book of Disney Princess" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781465458667?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/548942/the-amazing-book-of-disney-princess-by-eleanor-rose" title="The Amazing Book of Disney Princess">The Amazing Book of Disney Princess</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2147298/eleanor-rose" title="Eleanor Rose">Eleanor Rose</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/552116/ultimate-sticker-book-disney-tsum-tsum-stick-and-stack-by-dk"><img alt="Ultimate Sticker Book: Disney Tsum Tsum Stick and Stack!" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781465462411?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/552116/ultimate-sticker-book-disney-tsum-tsum-stick-and-stack-by-dk" title="Ultimate Sticker Book: Disney Tsum Tsum Stick and Stack!">Ultimate Sticker Book: Disney Tsum Tsum Stick and Stack!</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2060357/dk" title="DK">DK</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/532734/phonics-fun-sesame-street-by-jodie-shepherd-illustrated-by-tom-brannon"><img alt="Phonics Fun! (Sesame Street)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101937556?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/532734/phonics-fun-sesame-street-by-jodie-shepherd-illustrated-by-tom-brannon" title="Phonics Fun! (Sesame Street)">Phonics Fun! (Sesame Street)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2144780/jodie-shepherd" title="Jodie Shepherd">Jodie Shepherd</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/548877/dk-readers-l3-star-wars-rebel-heroes-by-shari-last"><img alt="DK Readers L3: Star Wars: Rebel Heroes" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781465455826?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/548877/dk-readers-l3-star-wars-rebel-heroes-by-shari-last" title="DK Readers L3: Star Wars: Rebel Heroes">DK Readers L3: Star Wars: Rebel Heroes</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/273577/shari-last" title="Shari Last">Shari Last</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/258355/school-of-dragons-3-storm-approaching-dreamworks-dragons-by-kathleen-weidner-zoehfeld-illustrated-by-random-house"><img alt="School of Dragons #3: Storm Approaching! (DreamWorks Dragons)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101933435?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/258355/school-of-dragons-3-storm-approaching-dreamworks-dragons-by-kathleen-weidner-zoehfeld-illustrated-by-random-house" title="School of Dragons #3: Storm Approaching! (DreamWorks Dragons)">School of Dragons #3: Storm Approaching! (DreamWorks Dragons)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/38814/kathleen-weidner-zoehfeld" title="Kathleen Weidner Zoehfeld">Kathleen Weidner Zoehfeld</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/258404/anna-and-elsa-9-anna-takes-charge-disney-frozen-by-erica-david-illustrated-by-william-robinson-francesco-legramandi-manuela-razzi-and-gabriella-matta"><img alt="Anna &amp; Elsa #9: Anna Takes Charge (Disney Frozen)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736434805?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/258404/anna-and-elsa-9-anna-takes-charge-disney-frozen-by-erica-david-illustrated-by-william-robinson-francesco-legramandi-manuela-razzi-and-gabriella-matta" title="Anna &amp; Elsa #9: Anna Takes Charge (Disney Frozen)">Anna &#038; Elsa #9: Anna Takes Charge (Disney Frozen)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/166789/erica-david" title="Erica David">Erica David</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/532111/heart-of-a-ninja-teenage-mutant-ninja-turtles-by-random-house-illustrated-by-random-house"><img alt="Heart of a Ninja (Teenage Mutant Ninja Turtles)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101936962?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/532111/heart-of-a-ninja-teenage-mutant-ninja-turtles-by-random-house-illustrated-by-random-house" title="Heart of a Ninja (Teenage Mutant Ninja Turtles)">Heart of a Ninja (Teenage Mutant Ninja Turtles)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56786/random-house" title="Random House">Random House</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/532735/thomas-color-book-thomas-and-friends-by-random-house-illustrated-by-richard-courtney"><img alt="Thomas' Color Book (Thomas &amp; Friends)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101937235?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/532735/thomas-color-book-thomas-and-friends-by-random-house-illustrated-by-richard-courtney" title="Thomas' Color Book (Thomas &amp; Friends)">Thomas&#8217; Color Book (Thomas &#038; Friends)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56786/random-house" title="Random House">Random House</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/533338/doctor-strange-little-golden-book-marvel-doctor-strange-by-arie-kaplan-illustrated-by-michael-atiyeh-and-michael-borkowski"><img alt="Doctor Strange Little Golden Book (Marvel: Doctor Strange)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101938652?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/533338/doctor-strange-little-golden-book-marvel-doctor-strange-by-arie-kaplan-illustrated-by-michael-atiyeh-and-michael-borkowski" title="Doctor Strange Little Golden Book (Marvel: Doctor Strange)">Doctor Strange Little Golden Book (Marvel: Doctor Strange)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/228355/arie-kaplan" title="Arie Kaplan">Arie Kaplan</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/533507/5-wild-creature-adventures-wild-kratts-by-martin-kratt-and-chris-kratt-illustrated-by-random-house"><img alt="5 Wild Creature Adventures! (Wild Kratts)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101939000?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/533507/5-wild-creature-adventures-wild-kratts-by-martin-kratt-and-chris-kratt-illustrated-by-random-house" title="5 Wild Creature Adventures! (Wild Kratts)">5 Wild Creature Adventures! (Wild Kratts)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/222927/chris-kratt" title="Chris Kratt">Chris Kratt</a> and <a href="/authors/222928/martin-kratt" title="Martin Kratt">Martin Kratt</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/534184/elmos-mother-goose-rhymes-sesame-street-by-constance-allen-illustrated-by-maggie-swanson"><img alt="Elmo's Mother Goose Rhymes (Sesame Street)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781101939949?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/534184/elmos-mother-goose-rhymes-sesame-street-by-constance-allen-illustrated-by-maggie-swanson" title="Elmo's Mother Goose Rhymes (Sesame Street)">Elmo&#8217;s Mother Goose Rhymes (Sesame Street)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/383/constance-allen" title="Constance Allen">Constance Allen</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/535415/merida-4-the-secret-spell-disney-princess-by-sudipta-bardan-quallen-illustrated-by-gurihiru"><img alt="Merida #4: The Secret Spell (Disney Princess)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736436168?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/535415/merida-4-the-secret-spell-disney-princess-by-sudipta-bardan-quallen-illustrated-by-gurihiru" title="Merida #4: The Secret Spell (Disney Princess)">Merida #4: The Secret Spell (Disney Princess)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/237525/sudipta-bardhan-quallen" title="Sudipta Bardhan-Quallen">Sudipta Bardhan-Quallen</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/537900/flight-of-the-jaquins-disney-elena-of-avalor-by-silvia-olivas-illustrated-by-rh-disney"><img alt="Flight of the Jaquins (Disney Elena of Avalor)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435529?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/537900/flight-of-the-jaquins-disney-elena-of-avalor-by-silvia-olivas-illustrated-by-rh-disney" title="Flight of the Jaquins (Disney Elena of Avalor)">Flight of the Jaquins (Disney Elena of Avalor)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2154332/silvia-olivas" title="Silvia Olivas">Silvia Olivas</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/538144/chases-super-sniffer-paw-patrol-by-random-house-illustrated-by-mj-illustrations"><img alt="Chase's Super Sniffer! (PAW Patrol)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399553738?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/538144/chases-super-sniffer-paw-patrol-by-random-house-illustrated-by-mj-illustrations" title="Chase's Super Sniffer! (PAW Patrol)">Chase&#8217;s Super Sniffer! (PAW Patrol)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56786/random-house" title="Random House">Random House</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/539742/stick-with-stampy-sticker-book-by-stampy-joseph-garrett"><img alt="Stick with Stampy! Sticker Book" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399556333?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/539742/stick-with-stampy-sticker-book-by-stampy-joseph-garrett" title="Stick with Stampy! Sticker Book">Stick with Stampy! Sticker Book</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2137664/stampy-joseph-garrett" title="Stampy (Joseph Garrett)">Stampy (Joseph Garrett)</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541051/baboons-disney-junior-the-lion-guard-by-apple-jordan-illustrated-by-francesco-legramandi-and-gabriella-matta"><img alt="Baboons! (Disney Junior: The Lion Guard)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435635?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541051/baboons-disney-junior-the-lion-guard-by-apple-jordan-illustrated-by-francesco-legramandi-and-gabriella-matta" title="Baboons! (Disney Junior: The Lion Guard)">Baboons! (Disney Junior: The Lion Guard)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/14814/apple-jordan" title="Apple Jordan">Apple Jordan</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541214/baby-mcstuffins-disney-junior-doc-mcstuffins-by-jennifer-liberts-illustrated-by-alan-batson"><img alt="Baby McStuffins (Disney Junior: Doc McStuffins)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435673?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541214/baby-mcstuffins-disney-junior-doc-mcstuffins-by-jennifer-liberts-illustrated-by-alan-batson" title="Baby McStuffins (Disney Junior: Doc McStuffins)">Baby McStuffins (Disney Junior: Doc McStuffins)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/17598/jennifer-liberts" title="Jennifer Liberts">Jennifer Liberts</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541215/space-race-disney-junior-miles-from-tomorrowland-by-lauren-forte-illustrated-by-jason-fruchter"><img alt="Space Race (Disney Junior: Miles From Tomorrowland)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435697?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541215/space-race-disney-junior-miles-from-tomorrowland-by-lauren-forte-illustrated-by-jason-fruchter" title="Space Race (Disney Junior: Miles From Tomorrowland)">Space Race (Disney Junior: Miles From Tomorrowland)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2134128/lauren-forte" title="Lauren Forte">Lauren Forte</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541217/walt-disneys-the-ugly-duckling-disney-classic-the-ugly-duckling-by-annie-north-bedford-illustrated-by-the-walt-disney-studio"><img alt="Walt Disney's The Ugly Duckling (Disney Classic: The Ugly Duckling)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435710?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541217/walt-disneys-the-ugly-duckling-disney-classic-the-ugly-duckling-by-annie-north-bedford-illustrated-by-the-walt-disney-studio" title="Walt Disney's The Ugly Duckling (Disney Classic: The Ugly Duckling)">Walt Disney&#8217;s The Ugly Duckling (Disney Classic: The Ugly Duckling)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/38611/annie-north-bedford" title="Annie North Bedford">Annie North Bedford</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541423/power-up-barbie-video-game-hero-by-golden-books"><img alt="Power Up! (Barbie Video Game Hero)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399556975?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541423/power-up-barbie-video-game-hero-by-golden-books" title="Power Up! (Barbie Video Game Hero)">Power Up! (Barbie Video Game Hero)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56899/golden-books" title="Golden Books">Golden Books</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541424/barbie-my-book-of-bunnies-barbie-by-golden-books-illustrated-by-artful-doodlers"><img alt="Barbie: My Book of Bunnies (Barbie)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399556951?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541424/barbie-my-book-of-bunnies-barbie-by-golden-books-illustrated-by-artful-doodlers" title="Barbie: My Book of Bunnies (Barbie)">Barbie: My Book of Bunnies (Barbie)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56899/golden-books" title="Golden Books">Golden Books</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541445/beauty-and-the-beast-big-golden-book-disney-beauty-and-the-beast-by-melissa-lagonegro-illustrated-by-rh-disney"><img alt="Beauty and the Beast Big Golden Book (Disney Beauty and the Beast)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435758?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541445/beauty-and-the-beast-big-golden-book-disney-beauty-and-the-beast-by-melissa-lagonegro-illustrated-by-rh-disney" title="Beauty and the Beast Big Golden Book (Disney Beauty and the Beast)">Beauty and the Beast Big Golden Book (Disney Beauty and the Beast)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/46377/melissa-lagonegro" title="Melissa Lagonegro">Melissa Lagonegro</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541704/i-am-a-stormtrooper-star-wars-by-golden-books-illustrated-by-chris-kennett"><img alt="I Am a Stormtrooper (Star Wars)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435765?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541704/i-am-a-stormtrooper-star-wars-by-golden-books-illustrated-by-chris-kennett" title="I Am a Stormtrooper (Star Wars)">I Am a Stormtrooper (Star Wars)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56899/golden-books" title="Golden Books">Golden Books</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/541829/thomas-and-the-buzzy-bees-thomas-and-friends-by-christy-webster"><img alt="Thomas and the Buzzy Bees (Thomas &amp; Friends)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557705?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/541829/thomas-and-the-buzzy-bees-thomas-and-friends-by-christy-webster" title="Thomas and the Buzzy Bees (Thomas &amp; Friends)">Thomas and the Buzzy Bees (Thomas &#038; Friends)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/71854/christy-webster" title="Christy Webster">Christy Webster</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544574/disney-princess-beginnings-cinderella-takes-the-stage-disney-princess-by-tessa-roehl-illustrated-by-rh-disney"><img alt="Disney Princess Beginnings: Cinderella Takes the Stage (Disney Princess)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435789?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544574/disney-princess-beginnings-cinderella-takes-the-stage-disney-princess-by-tessa-roehl-illustrated-by-rh-disney" title="Disney Princess Beginnings: Cinderella Takes the Stage (Disney Princess)">Disney Princess Beginnings: Cinderella Takes the Stage (Disney Princess)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2152154/tessa-roehl" title="Tessa Roehl">Tessa Roehl</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544575/disney-princess-beginnings-belles-discovery-disney-princess-by-tessa-roehl-illustrated-by-rh-disney"><img alt="Disney Princess Beginnings: Belle's Discovery (Disney Princess)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780736435796?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544575/disney-princess-beginnings-belles-discovery-disney-princess-by-tessa-roehl-illustrated-by-rh-disney" title="Disney Princess Beginnings: Belle's Discovery (Disney Princess)">Disney Princess Beginnings: Belle&#8217;s Discovery (Disney Princess)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56961/rh-disney" title="RH Disney">RH Disney</a> and <a href="/authors/2152154/tessa-roehl" title="Tessa Roehl">Tessa Roehl</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544615/percys-promise-thomas-and-friends-by-the-rev-w-awdry"><img alt="Percy's Promise (Thomas &amp; Friends)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557743?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544615/percys-promise-thomas-and-friends-by-the-rev-w-awdry" title="Percy's Promise (Thomas &amp; Friends)">Percy&#8217;s Promise (Thomas &#038; Friends)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2002054/rev-w-awdry" title="Rev. W. Awdry">Rev. W. Awdry</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544663/a-is-for-awful-a-grumpy-cat-abc-book-grumpy-cat-by-christy-webster-illustrated-by-steph-laberis"><img alt="A Is for Awful: A Grumpy Cat ABC Book (Grumpy Cat)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557835?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544663/a-is-for-awful-a-grumpy-cat-abc-book-grumpy-cat-by-christy-webster-illustrated-by-steph-laberis" title="A Is for Awful: A Grumpy Cat ABC Book (Grumpy Cat)">A Is for Awful: A Grumpy Cat ABC Book (Grumpy Cat)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/71854/christy-webster" title="Christy Webster">Christy Webster</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544664/here-comes-peter-cottontail-big-golden-book-peter-cottontail-by-golden-books-illustrated-by-golden-books"><img alt="Here Comes Peter Cottontail Big Golden Book (Peter Cottontail)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557859?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544664/here-comes-peter-cottontail-big-golden-book-peter-cottontail-by-golden-books-illustrated-by-golden-books" title="Here Comes Peter Cottontail Big Golden Book (Peter Cottontail)">Here Comes Peter Cottontail Big Golden Book (Peter Cottontail)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56899/golden-books" title="Golden Books">Golden Books</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544665/hooray-for-easter-peter-cottontail-by-random-house-illustrated-by-linda-karl"><img alt="Hooray for Easter! (Peter Cottontail)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557880?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544665/hooray-for-easter-peter-cottontail-by-random-house-illustrated-by-linda-karl" title="Hooray for Easter! (Peter Cottontail)">Hooray for Easter! (Peter Cottontail)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/38256/linda-karl" title="Linda Karl">Linda Karl</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544983/treasure-twins-shimmer-and-shine-by-mary-tillworth-illustrated-by-cartobaleno"><img alt="Treasure Twins! (Shimmer and Shine)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557927?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544983/treasure-twins-shimmer-and-shine-by-mary-tillworth-illustrated-by-cartobaleno" title="Treasure Twins! (Shimmer and Shine)">Treasure Twins! (Shimmer and Shine)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/145687/mary-tillworth" title="Mary Tillworth">Mary Tillworth</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544985/fabulous-friends-shimmer-and-shine-by-random-house-illustrated-by-random-house"><img alt="Fabulous Friends! (Shimmer and Shine)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557903?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544985/fabulous-friends-shimmer-and-shine-by-random-house-illustrated-by-random-house" title="Fabulous Friends! (Shimmer and Shine)">Fabulous Friends! (Shimmer and Shine)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56786/random-house" title="Random House">Random House</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544986/color-magic-shimmer-and-shine-by-random-house-illustrated-by-random-house"><img alt="Color Magic! (Shimmer and Shine)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557897?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544986/color-magic-shimmer-and-shine-by-random-house-illustrated-by-random-house" title="Color Magic! (Shimmer and Shine)">Color Magic! (Shimmer and Shine)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/56786/random-house" title="Random House">Random House</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544987/skate-like-a-ninja-teenage-mutant-ninja-turtles-by-mary-tillworth-illustrated-by-steve-lambe"><img alt="Skate Like a Ninja! (Teenage Mutant Ninja Turtles)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557965?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544987/skate-like-a-ninja-teenage-mutant-ninja-turtles-by-mary-tillworth-illustrated-by-steve-lambe" title="Skate Like a Ninja! (Teenage Mutant Ninja Turtles)">Skate Like a Ninja! (Teenage Mutant Ninja Turtles)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/145687/mary-tillworth" title="Mary Tillworth">Mary Tillworth</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544988/dino-parade-blaze-and-the-monster-machines-by-mary-tillworth-illustrated-by-heather-martinez"><img alt="Dino Parade! (Blaze and the Monster Machines)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557958?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544988/dino-parade-blaze-and-the-monster-machines-by-mary-tillworth-illustrated-by-heather-martinez" title="Dino Parade! (Blaze and the Monster Machines)">Dino Parade! (Blaze and the Monster Machines)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/145687/mary-tillworth" title="Mary Tillworth">Mary Tillworth</a></div>
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/544989/better-together-shimmer-and-shine-by-rachel-chlebowski-illustrated-by-marcela-cespedes-alicea"><img alt="Better Together! (Shimmer and Shine)" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399557934?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/544989/better-together-shimmer-and-shine-by-rachel-chlebowski-illustrated-by-marcela-cespedes-alicea" title="Better Together! (Shimmer and Shine)">Better Together! (Shimmer and Shine)</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/2138424/rachel-chlebowski" title="Rachel Chlebowski">Rachel Chlebowski</a></div>
+		</div>
+	                   </div> <!-- slider -->
+           </div> <!-- viewport -->
+         </section>
+       </div>
+              <!-- / Also in [category] -->
+
+		<!-- Related Links -->
+		    		<!-- / Related Links -->
+		<!-- Reader and Teacher Guides -->
+					<!-- / Reader and Teacher Guides -->
+		
+		<!-- Related Articles -->	
+			<!-- Asynchronous Loading Required:  PRHCS-31 - AC #9 -->
+			
+			<div id="product-articles-wrap-mobile">
+				<div class="slot product-articles product-related articles" data-work="feedTagValue:9780515158021^20 OR title_workid:549498^10 OR author_authorId:2028193 OR author_authorid_display_group:/2028193\:[AI].*/^9 OR author_authorid_display_group:/2134040\:[AI].*/^9">
+					<h2 class="slot-header">Related Articles</h2>
+				</div>
+			</div>
+		<!-- / Related Articles -->
+		
+		<!-- Promo Tiles -->
+			<div id="product-promo-tiles-wrap-mobile">
+				<div class="slot promo-tiles">
+			 				</div>
+			</div>
+		<!-- / Promo Tiles -->
+</div>
+<!-- / End Main Content -->
+
+<!-- Right Rail - visible on desktop -->
+	<div class="right-rail">
+		<div id="product-related-wrap-desktop"></div>
+		<div id="product-guides-wrap-desktop"></div>
+		<div id="product-articles-wrap-desktop"></div>
+		<div id="product-promo-tiles-wrap-desktop"></div>
+	</div>
+<!-- / Right Rail -->
+
+<div class="modal fade product-image" id="modal-product-image" style="display:none;">
+  <div class="modal-dialog product-image">
+    <div class="modal-content">
+      <div class="modal-header product-image">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+      </div>
+
+      <div class="modal-body">
+        <img>
+        <div class="btn product-image download"><span class="fa fa-download"></span>Download Hi Res</div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- excerpts -->
+
+
+<script>
+
+var excerpt_embed_html_list = [];
+var excerpt_text_list = [];
+
+</script>
+
+<div class="modal fade" id="modal-excerpt">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+        <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+
+          <div class="book">
+            <div class="cover">
+            	<img src />
+            </div>
+            <div class="book-meta">
+            	<div class="book-name">Friendship and Junk</div>
+		                <h2 class="contributors"><span class="ws-nw">
+                    		</span></h2>
+
+		<div class="buttons">
+                    <button type="button" class="btn buy2" rel="popover">Buy</button>
+		</div>
+            
+		<h4 class="isbn-related 9780515158021">Category: <a href="/books/media-tie-in-childrens">Childrens Media Tie-In Books</a> | <a href="/books/middle-grade-books-childrens">Children&#8217;s Middle Grade Books</a> | <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>
+        <!-- newsletter -->
+        <div id="excerpt-newsletter-wrap-desktop">
+          <div class="slot newsletter-signup excerpt" acq-code="PRH_EXCERPT_STATIC_ONGOING" workid="549498"></div>        </div>
+
+        <!-- MOBILE EXCERPT SUBSCRIBE MOVED TO SECOND PARAGRAPH OF EXCERPT ITSELF -->
+
+        <!-- /newsletter -->
+
+            </div>
+
+          </div>
+      </div>
+      <div class="modal-body scrolling"></div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade embedded" id="modal-excerpt-embedded">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+          <span class="sr-only">Close</span>
+	</button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+	</div>
+    <!-- End Scaffolding -->
+</div> <!-- container END -->
+<!-- end product info bottom -->
+<!-- product extended carousel -->
+<div class="extendwrap">
+	
+	<div class="extended-carousel hide" id="extended-recommended-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Inspired by Your Browsing History</h4></div>
+		<div id="extended-recommended-carousel" class="extended-carousel-div loading"></div>
+	</div>
+
+		<div class="extended-carousel" id="extended-alsoin-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Also in Childrens Media Tie-In Books</h4></div>
+		<div id="extended-read-carousel" class="extended-carousel-div loading">
+					<div class="item" ttl="MLB Ultimate Fan Playbook" url="/books/545534/mlb-ultimate-fan-playbook-by-michael-t-riley-illustrated-by-dave-bardin">
+				<div class="img">
+					<a href="/books/545534/mlb-ultimate-fan-playbook-by-michael-t-riley-illustrated-by-dave-bardin"><img alt="MLB Ultimate Fan Playbook" src="http://images.penguinrandomhouse.com/cover/9780451533951?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Power Rangers Mad Libs" url="/books/552402/power-rangers-mad-libs-by-gabriel-cooper">
+				<div class="img">
+					<a href="/books/552402/power-rangers-mad-libs-by-gabriel-cooper"><img alt="Power Rangers Mad Libs" src="http://images.penguinrandomhouse.com/cover/9780515159592?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Power Rangers Official Movie Poster Book" url="/books/555361/power-rangers-official-movie-poster-book-by-penguin-young-readers">
+				<div class="img">
+					<a href="/books/555361/power-rangers-official-movie-poster-book-by-penguin-young-readers"><img alt="Power Rangers Official Movie Poster Book" src="http://images.penguinrandomhouse.com/cover/9781524784416?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="We Bare Bears Mad Libs" url="/books/541575/we-bare-bears-mad-libs-by-hannah-s-campbell">
+				<div class="img">
+					<a href="/books/541575/we-bare-bears-mad-libs-by-hannah-s-campbell"><img alt="We Bare Bears Mad Libs" src="http://images.penguinrandomhouse.com/cover/9780451533036?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The LEGO® Batman Movie: The Making of the Movie" url="/books/548774/the-lego-batman-movie-the-making-of-the-movie-by-dk">
+				<div class="img">
+					<a href="/books/548774/the-lego-batman-movie-the-making-of-the-movie-by-dk"><img alt="The LEGO® Batman Movie: The Making of the Movie" src="http://images.penguinrandomhouse.com/cover/9781465456618?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Before Ever After (Disney Tangled: The Series)" url="/books/554169/before-ever-after-disney-tangled-the-series-by-stacia-deutsch-illustrated-by-rh-disney">
+				<div class="img">
+					<a href="/books/554169/before-ever-after-disney-tangled-the-series-by-stacia-deutsch-illustrated-by-rh-disney"><img alt="Before Ever After (Disney Tangled: The Series)" src="http://images.penguinrandomhouse.com/cover/9780736438247?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Charlie and the Chocolate Factory" url="/books/319173/charlie-and-the-chocolate-factory-by-roald-dahl-illustrated-by-michael-foreman">
+				<div class="img">
+					<a href="/books/319173/charlie-and-the-chocolate-factory-by-roald-dahl-illustrated-by-michael-foreman"><img alt="Charlie and the Chocolate Factory" src="http://images.penguinrandomhouse.com/cover/9780147512956?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Happy Birthday, Kate and Mim-Mim!" url="/books/545472/happy-birthday-kate-and-mim-mim-by-lana-jacobs">
+				<div class="img">
+					<a href="/books/545472/happy-birthday-kate-and-mim-mim-by-lana-jacobs"><img alt="Happy Birthday, Kate and Mim-Mim!" src="http://images.penguinrandomhouse.com/cover/9780451533937?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Make-Believe with Kate and Mim-Mim" url="/books/545533/make-believe-with-kate-and-mim-mim-by-grosset-and-dunlap">
+				<div class="img">
+					<a href="/books/545533/make-believe-with-kate-and-mim-mim-by-grosset-and-dunlap"><img alt="Make-Believe with Kate and Mim-Mim" src="http://images.penguinrandomhouse.com/cover/9780451533944?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Amazing Book of Disney Princess" url="/books/548942/the-amazing-book-of-disney-princess-by-eleanor-rose">
+				<div class="img">
+					<a href="/books/548942/the-amazing-book-of-disney-princess-by-eleanor-rose"><img alt="The Amazing Book of Disney Princess" src="http://images.penguinrandomhouse.com/cover/9781465458667?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ultimate Sticker Book: Disney Tsum Tsum Stick and Stack!" url="/books/552116/ultimate-sticker-book-disney-tsum-tsum-stick-and-stack-by-dk">
+				<div class="img">
+					<a href="/books/552116/ultimate-sticker-book-disney-tsum-tsum-stick-and-stack-by-dk"><img alt="Ultimate Sticker Book: Disney Tsum Tsum Stick and Stack!" src="http://images.penguinrandomhouse.com/cover/9781465462411?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Phonics Fun! (Sesame Street)" url="/books/532734/phonics-fun-sesame-street-by-jodie-shepherd-illustrated-by-tom-brannon">
+				<div class="img">
+					<a href="/books/532734/phonics-fun-sesame-street-by-jodie-shepherd-illustrated-by-tom-brannon"><img alt="Phonics Fun! (Sesame Street)" src="http://images.penguinrandomhouse.com/cover/9781101937556?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="DK Readers L3: Star Wars: Rebel Heroes" url="/books/548877/dk-readers-l3-star-wars-rebel-heroes-by-shari-last">
+				<div class="img">
+					<a href="/books/548877/dk-readers-l3-star-wars-rebel-heroes-by-shari-last"><img alt="DK Readers L3: Star Wars: Rebel Heroes" src="http://images.penguinrandomhouse.com/cover/9781465455826?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="School of Dragons #3: Storm Approaching! (DreamWorks Dragons)" url="/books/258355/school-of-dragons-3-storm-approaching-dreamworks-dragons-by-kathleen-weidner-zoehfeld-illustrated-by-random-house">
+				<div class="img">
+					<a href="/books/258355/school-of-dragons-3-storm-approaching-dreamworks-dragons-by-kathleen-weidner-zoehfeld-illustrated-by-random-house"><img alt="School of Dragons #3: Storm Approaching! (DreamWorks Dragons)" src="http://images.penguinrandomhouse.com/cover/9781101933435?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Anna &amp; Elsa #9: Anna Takes Charge (Disney Frozen)" url="/books/258404/anna-and-elsa-9-anna-takes-charge-disney-frozen-by-erica-david-illustrated-by-william-robinson-francesco-legramandi-manuela-razzi-and-gabriella-matta">
+				<div class="img">
+					<a href="/books/258404/anna-and-elsa-9-anna-takes-charge-disney-frozen-by-erica-david-illustrated-by-william-robinson-francesco-legramandi-manuela-razzi-and-gabriella-matta"><img alt="Anna &amp; Elsa #9: Anna Takes Charge (Disney Frozen)" src="http://images.penguinrandomhouse.com/cover/9780736434805?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Heart of a Ninja (Teenage Mutant Ninja Turtles)" url="/books/532111/heart-of-a-ninja-teenage-mutant-ninja-turtles-by-random-house-illustrated-by-random-house">
+				<div class="img">
+					<a href="/books/532111/heart-of-a-ninja-teenage-mutant-ninja-turtles-by-random-house-illustrated-by-random-house"><img alt="Heart of a Ninja (Teenage Mutant Ninja Turtles)" src="http://images.penguinrandomhouse.com/cover/9781101936962?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Thomas' Color Book (Thomas &amp; Friends)" url="/books/532735/thomas-color-book-thomas-and-friends-by-random-house-illustrated-by-richard-courtney">
+				<div class="img">
+					<a href="/books/532735/thomas-color-book-thomas-and-friends-by-random-house-illustrated-by-richard-courtney"><img alt="Thomas' Color Book (Thomas &amp; Friends)" src="http://images.penguinrandomhouse.com/cover/9781101937235?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Doctor Strange Little Golden Book (Marvel: Doctor Strange)" url="/books/533338/doctor-strange-little-golden-book-marvel-doctor-strange-by-arie-kaplan-illustrated-by-michael-atiyeh-and-michael-borkowski">
+				<div class="img">
+					<a href="/books/533338/doctor-strange-little-golden-book-marvel-doctor-strange-by-arie-kaplan-illustrated-by-michael-atiyeh-and-michael-borkowski"><img alt="Doctor Strange Little Golden Book (Marvel: Doctor Strange)" src="http://images.penguinrandomhouse.com/cover/9781101938652?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="5 Wild Creature Adventures! (Wild Kratts)" url="/books/533507/5-wild-creature-adventures-wild-kratts-by-martin-kratt-and-chris-kratt-illustrated-by-random-house">
+				<div class="img">
+					<a href="/books/533507/5-wild-creature-adventures-wild-kratts-by-martin-kratt-and-chris-kratt-illustrated-by-random-house"><img alt="5 Wild Creature Adventures! (Wild Kratts)" src="http://images.penguinrandomhouse.com/cover/9781101939000?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Elmo's Mother Goose Rhymes (Sesame Street)" url="/books/534184/elmos-mother-goose-rhymes-sesame-street-by-constance-allen-illustrated-by-maggie-swanson">
+				<div class="img">
+					<a href="/books/534184/elmos-mother-goose-rhymes-sesame-street-by-constance-allen-illustrated-by-maggie-swanson"><img alt="Elmo's Mother Goose Rhymes (Sesame Street)" src="http://images.penguinrandomhouse.com/cover/9781101939949?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Merida #4: The Secret Spell (Disney Princess)" url="/books/535415/merida-4-the-secret-spell-disney-princess-by-sudipta-bardan-quallen-illustrated-by-gurihiru">
+				<div class="img">
+					<a href="/books/535415/merida-4-the-secret-spell-disney-princess-by-sudipta-bardan-quallen-illustrated-by-gurihiru"><img alt="Merida #4: The Secret Spell (Disney Princess)" src="http://images.penguinrandomhouse.com/cover/9780736436168?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Flight of the Jaquins (Disney Elena of Avalor)" url="/books/537900/flight-of-the-jaquins-disney-elena-of-avalor-by-silvia-olivas-illustrated-by-rh-disney">
+				<div class="img">
+					<a href="/books/537900/flight-of-the-jaquins-disney-elena-of-avalor-by-silvia-olivas-illustrated-by-rh-disney"><img alt="Flight of the Jaquins (Disney Elena of Avalor)" src="http://images.penguinrandomhouse.com/cover/9780736435529?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Chase's Super Sniffer! (PAW Patrol)" url="/books/538144/chases-super-sniffer-paw-patrol-by-random-house-illustrated-by-mj-illustrations">
+				<div class="img">
+					<a href="/books/538144/chases-super-sniffer-paw-patrol-by-random-house-illustrated-by-mj-illustrations"><img alt="Chase's Super Sniffer! (PAW Patrol)" src="http://images.penguinrandomhouse.com/cover/9780399553738?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Stick with Stampy! Sticker Book" url="/books/539742/stick-with-stampy-sticker-book-by-stampy-joseph-garrett">
+				<div class="img">
+					<a href="/books/539742/stick-with-stampy-sticker-book-by-stampy-joseph-garrett"><img alt="Stick with Stampy! Sticker Book" src="http://images.penguinrandomhouse.com/cover/9780399556333?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Baboons! (Disney Junior: The Lion Guard)" url="/books/541051/baboons-disney-junior-the-lion-guard-by-apple-jordan-illustrated-by-francesco-legramandi-and-gabriella-matta">
+				<div class="img">
+					<a href="/books/541051/baboons-disney-junior-the-lion-guard-by-apple-jordan-illustrated-by-francesco-legramandi-and-gabriella-matta"><img alt="Baboons! (Disney Junior: The Lion Guard)" src="http://images.penguinrandomhouse.com/cover/9780736435635?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Baby McStuffins (Disney Junior: Doc McStuffins)" url="/books/541214/baby-mcstuffins-disney-junior-doc-mcstuffins-by-jennifer-liberts-illustrated-by-alan-batson">
+				<div class="img">
+					<a href="/books/541214/baby-mcstuffins-disney-junior-doc-mcstuffins-by-jennifer-liberts-illustrated-by-alan-batson"><img alt="Baby McStuffins (Disney Junior: Doc McStuffins)" src="http://images.penguinrandomhouse.com/cover/9780736435673?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Space Race (Disney Junior: Miles From Tomorrowland)" url="/books/541215/space-race-disney-junior-miles-from-tomorrowland-by-lauren-forte-illustrated-by-jason-fruchter">
+				<div class="img">
+					<a href="/books/541215/space-race-disney-junior-miles-from-tomorrowland-by-lauren-forte-illustrated-by-jason-fruchter"><img alt="Space Race (Disney Junior: Miles From Tomorrowland)" src="http://images.penguinrandomhouse.com/cover/9780736435697?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Walt Disney's The Ugly Duckling (Disney Classic: The Ugly Duckling)" url="/books/541217/walt-disneys-the-ugly-duckling-disney-classic-the-ugly-duckling-by-annie-north-bedford-illustrated-by-the-walt-disney-studio">
+				<div class="img">
+					<a href="/books/541217/walt-disneys-the-ugly-duckling-disney-classic-the-ugly-duckling-by-annie-north-bedford-illustrated-by-the-walt-disney-studio"><img alt="Walt Disney's The Ugly Duckling (Disney Classic: The Ugly Duckling)" src="http://images.penguinrandomhouse.com/cover/9780736435710?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Power Up! (Barbie Video Game Hero)" url="/books/541423/power-up-barbie-video-game-hero-by-golden-books">
+				<div class="img">
+					<a href="/books/541423/power-up-barbie-video-game-hero-by-golden-books"><img alt="Power Up! (Barbie Video Game Hero)" src="http://images.penguinrandomhouse.com/cover/9780399556975?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Barbie: My Book of Bunnies (Barbie)" url="/books/541424/barbie-my-book-of-bunnies-barbie-by-golden-books-illustrated-by-artful-doodlers">
+				<div class="img">
+					<a href="/books/541424/barbie-my-book-of-bunnies-barbie-by-golden-books-illustrated-by-artful-doodlers"><img alt="Barbie: My Book of Bunnies (Barbie)" src="http://images.penguinrandomhouse.com/cover/9780399556951?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Beauty and the Beast Big Golden Book (Disney Beauty and the Beast)" url="/books/541445/beauty-and-the-beast-big-golden-book-disney-beauty-and-the-beast-by-melissa-lagonegro-illustrated-by-rh-disney">
+				<div class="img">
+					<a href="/books/541445/beauty-and-the-beast-big-golden-book-disney-beauty-and-the-beast-by-melissa-lagonegro-illustrated-by-rh-disney"><img alt="Beauty and the Beast Big Golden Book (Disney Beauty and the Beast)" src="http://images.penguinrandomhouse.com/cover/9780736435758?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="I Am a Stormtrooper (Star Wars)" url="/books/541704/i-am-a-stormtrooper-star-wars-by-golden-books-illustrated-by-chris-kennett">
+				<div class="img">
+					<a href="/books/541704/i-am-a-stormtrooper-star-wars-by-golden-books-illustrated-by-chris-kennett"><img alt="I Am a Stormtrooper (Star Wars)" src="http://images.penguinrandomhouse.com/cover/9780736435765?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Thomas and the Buzzy Bees (Thomas &amp; Friends)" url="/books/541829/thomas-and-the-buzzy-bees-thomas-and-friends-by-christy-webster">
+				<div class="img">
+					<a href="/books/541829/thomas-and-the-buzzy-bees-thomas-and-friends-by-christy-webster"><img alt="Thomas and the Buzzy Bees (Thomas &amp; Friends)" src="http://images.penguinrandomhouse.com/cover/9780399557705?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Disney Princess Beginnings: Cinderella Takes the Stage (Disney Princess)" url="/books/544574/disney-princess-beginnings-cinderella-takes-the-stage-disney-princess-by-tessa-roehl-illustrated-by-rh-disney">
+				<div class="img">
+					<a href="/books/544574/disney-princess-beginnings-cinderella-takes-the-stage-disney-princess-by-tessa-roehl-illustrated-by-rh-disney"><img alt="Disney Princess Beginnings: Cinderella Takes the Stage (Disney Princess)" src="http://images.penguinrandomhouse.com/cover/9780736435789?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Disney Princess Beginnings: Belle's Discovery (Disney Princess)" url="/books/544575/disney-princess-beginnings-belles-discovery-disney-princess-by-tessa-roehl-illustrated-by-rh-disney">
+				<div class="img">
+					<a href="/books/544575/disney-princess-beginnings-belles-discovery-disney-princess-by-tessa-roehl-illustrated-by-rh-disney"><img alt="Disney Princess Beginnings: Belle's Discovery (Disney Princess)" src="http://images.penguinrandomhouse.com/cover/9780736435796?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Percy's Promise (Thomas &amp; Friends)" url="/books/544615/percys-promise-thomas-and-friends-by-the-rev-w-awdry">
+				<div class="img">
+					<a href="/books/544615/percys-promise-thomas-and-friends-by-the-rev-w-awdry"><img alt="Percy's Promise (Thomas &amp; Friends)" src="http://images.penguinrandomhouse.com/cover/9780399557743?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="A Is for Awful: A Grumpy Cat ABC Book (Grumpy Cat)" url="/books/544663/a-is-for-awful-a-grumpy-cat-abc-book-grumpy-cat-by-christy-webster-illustrated-by-steph-laberis">
+				<div class="img">
+					<a href="/books/544663/a-is-for-awful-a-grumpy-cat-abc-book-grumpy-cat-by-christy-webster-illustrated-by-steph-laberis"><img alt="A Is for Awful: A Grumpy Cat ABC Book (Grumpy Cat)" src="http://images.penguinrandomhouse.com/cover/9780399557835?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Here Comes Peter Cottontail Big Golden Book (Peter Cottontail)" url="/books/544664/here-comes-peter-cottontail-big-golden-book-peter-cottontail-by-golden-books-illustrated-by-golden-books">
+				<div class="img">
+					<a href="/books/544664/here-comes-peter-cottontail-big-golden-book-peter-cottontail-by-golden-books-illustrated-by-golden-books"><img alt="Here Comes Peter Cottontail Big Golden Book (Peter Cottontail)" src="http://images.penguinrandomhouse.com/cover/9780399557859?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Hooray for Easter! (Peter Cottontail)" url="/books/544665/hooray-for-easter-peter-cottontail-by-random-house-illustrated-by-linda-karl">
+				<div class="img">
+					<a href="/books/544665/hooray-for-easter-peter-cottontail-by-random-house-illustrated-by-linda-karl"><img alt="Hooray for Easter! (Peter Cottontail)" src="http://images.penguinrandomhouse.com/cover/9780399557880?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Treasure Twins! (Shimmer and Shine)" url="/books/544983/treasure-twins-shimmer-and-shine-by-mary-tillworth-illustrated-by-cartobaleno">
+				<div class="img">
+					<a href="/books/544983/treasure-twins-shimmer-and-shine-by-mary-tillworth-illustrated-by-cartobaleno"><img alt="Treasure Twins! (Shimmer and Shine)" src="http://images.penguinrandomhouse.com/cover/9780399557927?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Fabulous Friends! (Shimmer and Shine)" url="/books/544985/fabulous-friends-shimmer-and-shine-by-random-house-illustrated-by-random-house">
+				<div class="img">
+					<a href="/books/544985/fabulous-friends-shimmer-and-shine-by-random-house-illustrated-by-random-house"><img alt="Fabulous Friends! (Shimmer and Shine)" src="http://images.penguinrandomhouse.com/cover/9780399557903?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Color Magic! (Shimmer and Shine)" url="/books/544986/color-magic-shimmer-and-shine-by-random-house-illustrated-by-random-house">
+				<div class="img">
+					<a href="/books/544986/color-magic-shimmer-and-shine-by-random-house-illustrated-by-random-house"><img alt="Color Magic! (Shimmer and Shine)" src="http://images.penguinrandomhouse.com/cover/9780399557897?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Skate Like a Ninja! (Teenage Mutant Ninja Turtles)" url="/books/544987/skate-like-a-ninja-teenage-mutant-ninja-turtles-by-mary-tillworth-illustrated-by-steve-lambe">
+				<div class="img">
+					<a href="/books/544987/skate-like-a-ninja-teenage-mutant-ninja-turtles-by-mary-tillworth-illustrated-by-steve-lambe"><img alt="Skate Like a Ninja! (Teenage Mutant Ninja Turtles)" src="http://images.penguinrandomhouse.com/cover/9780399557965?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Dino Parade! (Blaze and the Monster Machines)" url="/books/544988/dino-parade-blaze-and-the-monster-machines-by-mary-tillworth-illustrated-by-heather-martinez">
+				<div class="img">
+					<a href="/books/544988/dino-parade-blaze-and-the-monster-machines-by-mary-tillworth-illustrated-by-heather-martinez"><img alt="Dino Parade! (Blaze and the Monster Machines)" src="http://images.penguinrandomhouse.com/cover/9780399557958?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Better Together! (Shimmer and Shine)" url="/books/544989/better-together-shimmer-and-shine-by-rachel-chlebowski-illustrated-by-marcela-cespedes-alicea">
+				<div class="img">
+					<a href="/books/544989/better-together-shimmer-and-shine-by-rachel-chlebowski-illustrated-by-marcela-cespedes-alicea"><img alt="Better Together! (Shimmer and Shine)" src="http://images.penguinrandomhouse.com/cover/9780399557934?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+				</div>
+	</div>
+	</div>
+<!-- end product extended carousel -->
+<script type="text/javascript">
+var specific_to_signup = {"specific_to_type":"product","signup":{"type":"author","id":2028193},"message":"Sign me up for news about Cartoon Network Books and more from Penguin Random House"};
+</script>
+
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":707,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

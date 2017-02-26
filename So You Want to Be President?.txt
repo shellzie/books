@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1,width=device-width,height=device-height" />
+
+        
+<meta property="og:site_name" content="PenguinRandomhouse.com"/>
+<meta property="fb:app_id" content="356679881167712"/>
+<meta property="twitter:card" content="14360757:summary"/>
+<meta property="twitter:site" content="@penguinrandomhouse"/>
+<meta property="twitter:text:title" content="Penguin Random House"/>
+<title>So You Want to Be President? by Judith St. George | PenguinRandomHouse.com</title>
+<meta itemprop="name" content="So You Want to Be President? by Judith St. George | PenguinRandomHouse.com"/>
+<meta property="og:title" content="So You Want to Be President? by Judith St. George | PenguinRandomHouse.com"/>
+<meta name="twitter:text:title" content="So You Want to Be President? by Judith St. George | PenguinRandomHouse.com"/>
+<meta name="description" content="This new version of the Caldecott-winning classic by illustrator David Small and author Judith St. George is updated with current facts and new illustrations..."/>
+<meta itemprop="description" content="This new version of the Caldecott-winning classic by illustrator David Small and author Judith St. George is updated with current facts and new illustrations to include our forty-second president, George..."/>
+<meta property="og:description" content="This new version of the Caldecott-winning classic by illustrator David Small and author Judith St. George is updated with current facts and new illustrations to include our forty-second president, George..."/>
+<meta name="twitter:text:description" content="This new version of the Caldecott-winning classic by illustrator David Small and author Judith St. George is updated with current facts and new illustrations to include our forty-second president,..."/>
+<meta property="og:url" content="http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/"/>
+<meta itemprop="image" content="http://images.penguinrandomhouse.com/cover/9780399243172"/>
+<meta property="og:image" content="http://images.penguinrandomhouse.com/cover/9780399243172"/>
+<meta name="twitter:image" content="http://images.penguinrandomhouse.com/cover/9780399243172"/>
+<meta itemprop="price" content="17.99"/>
+<meta itemprop="priceCurrency" content="USD"/>
+<meta property="og:price:currency" content="USD"/>
+<meta property="og:price:amount" content="17.99"/>
+<meta property="og:type" content="book"/>
+<meta name="twitter:url" content="http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/#excerpt"/>
+<meta name="twitter:url:preview" content="http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/#excerpt"/>
+<meta name="twitter:text:isbn" content="9780399243172"/>
+<meta name="twitter:text:cta" content="Start reading"/>
+<meta name="Tealium" content="Tealium meta values" data-book-title="So You Want to Be President?" data-book-authors="Judith St. George" data-book-isbn="9780399243172" data-book-imprint="Philomel Books" data-book-division="" data-book-format="Hardcover" data-page-type="product"/>
+
+	
+	<!--[if lt IE 9]>
+	<script src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/ie.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<link rel='stylesheet' id='global-ie9-css' href='/wp-content/themes/penguinrandomhouse/css/ie9.min.css' type='text/css' media='all' />
+	<![endif]-->
+
+  <script>
+  var images_url_pattern = "http:\/\/images.penguinrandomhouse.com%s",  images_url_buckets = 1;
+ var series_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/series-images\/", readdown_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/the-read-down-images\/", category_images_url_dir = "http:\/\/assets.penguinrandomhouse.com\/category-images\/";
+</script>
+
+        <style> html.fouc-factor{ opacity:0; filter:alpha(opacity=0); } </style>
+	
+	<script> var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" ); document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /no-js/, "fouc-factor" ) ); </script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.penguinrandomhouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/style.css?ver=cb20170213032739' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/ie.css?ver=cb20170213032739' type='text/css' media='all' />
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.penguinrandomhouse.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F294636%2Fso-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.penguinrandomhouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.penguinrandomhouse.com%2Fbooks%2F294636%2Fso-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small&#038;format=xml" />
+<link rel='canonical' href='http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/9780399243172/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- WP_Route:  content_product_details_4_1_2 --><script>var GLOBAL_routeUrl = 'http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/';</script>
+	<link rel="stylesheet" href="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/css/product.min.css?vers=cb20170213032739" media="all" />
+<script><!-- 
+	var GLOBAL_newslettersSignupObject = {"acquisition_code":"PRH_BOOKPAGE_STATIC_ONGOING","workId":"294636"};
+ 
+--></script>		<script type="text/javascript" src="//cdn.optimizely.com/js/3147651132.js"></script>
+	<noscript><link rel='stylesheet' id='no-js-global-css' href='/wp-content/themes/penguinrandomhouse/styles-nojs.min.css' type='text/css' media='all' /></noscript>
+    <link rel='stylesheet' id='global-print-css' href='/wp-content/themes/penguinrandomhouse/styles-print.min.css' type='text/css' media='print' />
+</head>
+
+<body class="single single-wp_router_page postid-5 group-blog masthead-fixed full-width singular">
+	<!-- Start Tealium tag -->
+	<script type="text/javascript">
+        
+var utag_data={"page_name":"So You Want to Be President? by Judith St. George | PenguinRandomHouse.com","code_release_version":"cb20170213032739","product_list_price":[17.99],"product_isbn":[9780399243172],"product_title":["So You Want to Be President?"],"product_author":["Judith St. George"],"product_author_id":["29388"],"page_type":"Product Detail Page","product_imprint":["Philomel Books"],"product_format":["Hardcover"],"product_work_id":["294636"],"product_category":["Children's Middle Grade Books | Children's Picture Books | Children's Books"],"product_division":["Penguin Young Readers"],"age_range":"7-10 years"};
+	</script>
+	    <script type="text/javascript">
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/random/rhcorp-prh/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+	<!-- / End Tealium tag -->
+		<div id="exit_int_post">
+		<div class="before_link">Before you go...</div>
+		<div class="line1">Browse through these chilling novels</div>		<div class="line2">14 Visions of a Dystopian America, from Orwell to Atwood</div>		<a href="/the-read-down/from-orwell-to-atwood-12-visions-of-a-dystopian-america/" class="ei_link">View the List</a>	</div>
+		<div class="container">
+	<div class="row">
+    
+    
+		<header class="main-header">
+			<!-- Start Mobile Header -->
+			<div class="mobile hidden-sm hidden-md hidden-lg">
+				<div class="mobile-nav notransition" id="mobile-nav">
+                    <a href="/" class="logo">Penguin Random House</a>
+					<a href="javascript:;" class="open-menu" id="hamburger"><i class="fa fa-bars"></i></a>
+					<a href="javascript:;" class="search-menu" id="search"><i class="fa fa-search"></i></a>
+										<a href="https://cart.penguinrandomhouse.com/cart.php" class="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="circle">
+							<div class="item-count">2</div>
+						</div>
+					</a>
+									</div>
+				<form role="search" method="get" class="mobile-search-form" action="/search/site">
+					<div class="search-box" id="mobile-searchbox">
+					<noscript>
+						<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>					</noscript>
+					</div>
+				</form>
+			</div>
+			<!-- / End Mobile Header -->
+
+			<!-- Start Desktop Header -->
+			<div class="desktop container">
+				<div class="row">
+	  				<div class="logo hidden-xs"><a href="/"><img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo.png" alt="Penguin Random House" /></a></div>
+					<div id="toolbar-nav" class="toolbar-nav">
+						<div id="social-nav" class="social">
+							<div class="connect">Connect With Us</div>
+							<ul>
+							<li><a class="sprite social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><span>Facebook</span></a></li><li><a class="sprite social twitter" href="https://twitter.com/penguinrandom" target="_blank"><span>Twitter</span></a></li><li><a class="sprite social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><span>Google+</span></a></li><li><a class="sprite social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><span>Tumblr</span></a></li><li><a class="sprite social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><span>Pinterest</span></a></li><li><a class="sprite social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><span>Instagram</span></a></li>							</ul>
+						</div>
+																		<div class="cart hidden-xs">
+							<a href="https://cart.penguinrandomhouse.com/cart.php">Cart: <i class="fa fa-shopping-cart"></i></a>
+							<span class="item-count">12</span>
+						</div>
+											</div>
+				</div>
+				<div class="main-nav">
+					<nav id="main-nav" role="navigation">
+						<ul>
+                           <li><a class="nav-books" href="/books">Books</a></li><li><a class="nav-authors" href="/authors">Authors</a></li><li><a class="nav-blog" href="/series">Series</a></li><li><a class="nav-aboutus" href="/about-us">About Us</a></li>								<li class="search-box">
+									<form id="seachformglobal" role="search" method="get" class="search-form" action="/search/site">
+		<div class="search-controls">
+			<input id="search-box" type="search" class="search-field" placeholder="SEARCH BY TITLE, AUTHOR, OR KEYWORD" value="" name="q" autocomplete="off" />
+			<input type="submit" class="search-submit" value="&#xf002;" />
+		</div>
+	</form>								</li>
+							</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- / End Desktop Header -->
+		</header>
+	</div>
+	</div> <!-- container END -->
+
+	<!-- Start Main Page Wrap -->
+	<div id="main" class="page-wrap notransition">
+		<!-- Start Mobile Sidebar -->
+		<div class="side-nav notransition" id="side-nav">
+			<img class="logo" src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/prh-logo-sm.png" width="100" height="49" border="0" alt="Penguin Random House">
+		</div>
+		<!-- / End Mobile Sidebar -->
+		<div class="mq-view"></div>
+<!--html from front end -->
+<!-- product info top -->
+<a name="#home" id="home"></a>
+<div id="tmpl-indc" class="tmpl-product" data-id="9780399243172"></div>
+<div class="inner-facade">
+  <div class="container">
+    <!-- Start Scaffolding -->
+    <div class="scaffolding row">
+      <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+            <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+                <div class="product-header clearfix">
+                    <div class="slot product-title">
+                        <div class="panel-body">
+                            <h1>So You Want to Be President?</h1>
+                <h2 class="subtitle isbn-related 9780399243172">The Revised and Updated Edition</h2>			    <h2 class="contributors isbn-related 9780399243172 show">By <span class="ws-nw"><a href="/authors/29388/judith-st-george" >Judith St. George</a></span><br/>Illustrated by <span class="ws-nw"><a href="/authors/28746/david-small" >David Small</a></span><br/></h2>                                <h4 class="isbn-related 9780399243172">Category: <a href="/books/middle-grade-books-childrens">Children&#8217;s Middle Grade Books</a> | <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>                        </div>
+                    </div>
+
+                    <div class="slot product-jacket">
+                        <div class="book-detail">
+                            <div class="cover-wrapper">
+                            <div class="bs-seal">Best Seller</div>
+			      <img src="http://images.penguinrandomhouse.com/cover/9780399243172" id="coverFormat" class="cover img-responsive" alt="So You Want to Be President? by Judith St. George" />
+                            </div><!-- /.cover-wrapper -->
+
+			
+			            <p class="excerpt-link isbn-related 9780399243172"><a href="#" class="enlarge">Enlarge Cover</a></p>
+
+                        </div>
+                    </div>
+                    <div class="slot product-format">
+                    	<div class="product-format-mobile">
+		                                  <div class="curr-ttl-mobile active show 9780399243172">
+                            	<!-- this is for the active isbn set by PHP -->
+                            	<a href="#">Hardcover</a>
+				                            	    <span class="us-price">$17.99</span>
+								<p class="title-details">
+                	<span>				                                        <span class="ws-nw">Aug 19, 2004</span>
+                                                                        <span class="ws-nw">| 56 Pages</span> 
+                                                                                                                                                <!--<span class="ws-nw">| 9 x 11-1/2</span>-->
+                                    				    								    				<span class="ws-nw">| 7-10 years</span>
+                                                                                                            <!--<span class="ws-nw">| ISBN 9780399243172</span>-->
+                                                                        																			<button type="button" class="btn buy2 9780399243172" rel="popover">Buy</button>
+																	</p>
+                            </div>
+												</div>
+						                        <div class="panel-group" id="accordion">
+														<div class="panel">
+							    <div class="panel-heading selected">
+	                              <h4 class="panel-title">
+	                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					  					Hardcover <span class="countDiv0"></span>
+					  					<div class="pl_mn_format">&#8211;</div>
+	                                </a>
+	                              </h4>
+	                            </div>
+	                            <div id="collapse1" class="panel-collapse collapse in">
+                              	      <div class="panel-body">
+		                        <ul class="ttl-data">
+					  					  <li class="active">
+					    <a href="#9780399243172" class="isbnttl" rel="popover" data-original-title="" title="" insight="" primaryauthors="Judith St. George" primaryauthids="29388" best-seller=""
+					        age_segment="7-10 years"  merchandise="false"  isbn="9780399243172" format="HC" format-name="Hardcover" categories="Children's Middle Grade Books | Children's Picture Books | Children's Books" imprint="Philomel Books" division="Penguin Young Readers" price="17.99">Hardcover</a>
+					       																<button type="button" class="btn buy2 9780399243172" rel="popover">Buy</button>
+												       	<span class="us-price">$17.99</span>							
+							<p class="title-details">
+															<span class="ws-nw">Aug 19, 2004</span>
+															<span class="ws-nw">| 56 Pages</span> 
+																													<!--<span class="ws-nw">| </span>-->
+																						<span class="ws-nw">| 7-10 years</span>
+																						<!--<span class="ws-nw">| ISBN 9780399243172</span>-->
+														</p></li>
+                                       </ul>
+                                     </div>
+                                   </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                
+                				<div class="default-retailer">
+                	<h4 class="buy">Buy the Hardcover:</h4>
+                	<ul>         
+                    	<li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/2/trackingcode/PRHEFFDF5A7F1" target="_blank">Barnes &amp; Noble</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/4/trackingcode/PRHEFFDF5A7F1" target="_blank">Walmart</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/5/trackingcode/PRHEFFDF5A7F1" target="_blank">Books A Million</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/6/trackingcode/penguinrandom" target="_blank">IndieBound</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/7/trackingcode/randohouseinc7986-20" target="_blank">Amazon</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/9/trackingcode/PRHEFFDF5A7F1" target="_blank">Powell&#8217;s</a></li><li><a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399243172/siteId/301/retailerid/23/trackingcode/PRHEFFDF5A7F1" target="_blank">Target</a></li>                    </ul>
+                </div>
+                                
+            </div> <!-- main-content -->
+            <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+        </div> <!-- scaffolding row -->
+    </div> <!-- container -->
+</div> <!-- inner-facade END -->
+<!-- end product info top -->
+<!-- buy options -->     
+ <div class="sticky-buy">
+   <div id="buy-options">
+     <ul>
+		            <li class="isbn-related 9780399243172 last">
+             <form action="https://cart.penguinrandomhouse.com/cart.php" method="post">
+               <img src="http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/images/logo.gif" class="logo" /><button type="submit" class="btn buy">Add to Cart</button>
+               <input id="itemISBN" type="hidden" name="itemISBN" value="9780399243172" />
+               <input id="itemQuantity" type="hidden" name="itemQuantity" value="1" />
+               <input id="siteName" type="hidden" name="siteName" value="prh" />
+               <input id="referringSite" type="hidden" name="referringSite" value="prh" />
+               <input id="siteReturnURL" type="hidden" name="siteReturnURL" value="http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/9780399243172" />
+               <input id="itemReturnURL" type="hidden" name="itemReturnURL" value="http://www.penguinrandomhouse.com/books/294636/so-you-want-to-be-president-by-judith-st-george-illustrated-by-david-small/9780399243172" />
+             </form>
+           </li>
+	     </ul>
+   </div>
+ </div>
+<!-- end buy options -->
+<div id="share-links-wrap-desktop"></div>
+<!-- product info bottom -->        
+<div class="container">
+  <div class="scaffolding row">
+    <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+    <div class="main-content col-xs-14 col-sm-16 col-md-16 col-lg-16">
+      <div class="product-body clearfix">
+
+	<!-- newsletter -->
+	<div id="newsletter-wrap-mobile">
+	  <div class="slot newsletter-signup product" ></div>	</div>
+	<!-- /newsletter -->
+
+	<!-- about the book -->
+        <a name="#aboutthebook" id="aboutthebook"></a>
+	
+	<div class="slot product-about 9780399243172 isbn-related seemoreenable show">
+    	<section class="overview">
+            <h4 class="slot-header">About <span>So You Want to Be President?</span></h4>
+    			<p>This new version of the Caldecott-winning classic by illustrator David Small and author Judith St. George is updated with current facts and new illustrations to include our forty-second president, George W. Bush. There are now three Georges in the catalog of presidential names, a Bush alongside the presidential family tree, and a new face on the endpaper portraiture.<br> Hilariously illustrated by Small, this celebration by St. George shows us the foibles, quirks and humanity of forty-two men who have risen to one of the most powerful positions in the world. Perfect for this election year&#8211;and every year!</p>	 	</section>
+     </div>
+
+	        <!-- /about the book -->
+    <div id="newsletter-wrap-desktop" class="grayab">
+    	<div class="graybox">
+    		<div class="newcoppy">Get the news you want from Penguin Random House</div>
+    	</div>
+    </div>
+        <!-- book awards -->
+				  		    	              	                <div class="slot product-awards seemoreenable">
+	                  <h4 class="slot-header">Awards</h4>
+	              						                  <p class="clearfix">
+			    <span class="left">Caldecott Medal Winner</span>
+			    <span class="right">WINNER </span>
+			  </p>
+						            		  	          	            </div>
+		  		        <!-- /book awards -->
+
+        <!-- praises -->
+		            <!-- /praises -->
+
+        <!-- table of contents -->
+		            <!-- /table of contents -->
+
+        <!-- author spotlights -->
+                    <a name="#author" id="author"></a>
+		                        <div class="slot product-author-info isbn-related 9780399243172 show">
+		      <h4 class="slot-header">About Judith St. George</h4>
+		      <p class="clearfix">Judith St. George has published dozens of successful nonfiction books for children, including the Caldecott Medal-winning&#160;So You Want to Be President?&#160;and the historical Turning Point series, including&#160;You&rsquo;re On Your Way, Teddy Roosevelt;&#160;Stand Tall, Abe Lincoln; and&#160;Take the Lead, George Washington&#8230;. <a href="/authors/29388/judith-st-george">More about Judith St. George</a></p>
+		    </div>
+		            <!-- /author spotlights -->
+
+        <!-- author Q & A's -->
+		            <!-- /author Q & A's -->
+
+        <!-- video related links -->
+		            <!-- /video related links -->
+
+		<!-- audio extras -->
+		    <a name="#more" id="more"></a>
+		    		<!-- / audio extras -->
+		
+		<!-- author essays -->    
+		    		<!-- / author essays -->
+		
+		<!-- slideshow promo images and slideshow related links -->
+					<!-- / slideshow promo images and slideshow related links -->
+		  <!-- 2nd prod detail -->
+          <div class="slot scnd-prod-detail">
+                <div class="product-author-also-by" id="scnd-detail">
+                    <h4 class="slot-header">Product Details</h4>
+               </div>
+               			  	<p class="clearfix isbn-related 9780399243172 show">
+			  				  	Hardcover<br />
+			  					Published by Philomel Books<br />
+				<span class="ws-nw">Aug 19, 2004</span>
+									<span class="ws-nw">| 56 Pages</span> 
+																	<span class="ws-nw">| 9 x 11-1/2</span>
+													<span class="ws-nw">| 7-10 years</span>
+													<span class="ws-nw">| ISBN 9780399243172</span>
+							  	</p>
+		  			           </div>
+	      <!-- / 2nd prod detail -->
+	      <!-- share -->
+	      <div class="slot mobile-share" id="share-links-wrap-mobile">
+			<div class="share-links" id="share-collapse"><ul class="share-items" data-sharemessageservice="http://services.penguin.com/rest/v1/json/socialmedia/sharemessage/get" data-siteid="301" data-sharetypeid="1" data-booktitle="So You Want to Be President?"><li class="header">Share:</li><li data-socialmediaid="1" data-fbappid="350479041816117"><a class="facebook"><div class="fa fa-facebook"><span>Share on Facebook</span></div></a></li><li data-socialmediaid="2"><a class="twitter"><div class="fa fa-twitter"><span>Tweet</span></div></a></li><li data-socialmediaid="6"><a class="pinterest"><div class="fa fa-pinterest"><span>Pin it</span></div></a></li><li data-socialmediaid="7"><a class="google-plus"><div class="fa fa-google-plus"><span>Share on G+</span></div></a></li><li data-socialmediaid="3"><a class="tumblr"><div class="fa fa-tumblr"><span>Share on Tumblr</span></div></a></li><li data-socialmediaid="9"><a class="sms-share"><span>SMS</span></a></li><li data-socialmediaid="8"><a class="envelope"><div class="fa fa-envelope"><span>Email</span></div></a></li></ul></div>        </div>
+        <!-- / share -->
+
+       <!-- Also by author -->
+        <div class="slot author-also-by">
+          <div class="product-author-also-by" id="by-author" data-work-author-list="29388,28746">
+            <h4 class="slot-header">Also by <a href="/authors/29388/judith-st-george">Judith St. George</a></h4>
+          </div>
+        </div>
+       <!-- / Also by author -->
+
+       <!-- people who read -->
+              <div class="slot product-recommended">
+         <h4 class="slot-header">People Who Read <span>So You Want to Be President?</span> Also Read</h4>
+         <section class="carousel recommended">
+           <a class="control left" href="javascript:;"><span class="arrow">&lsaquo;</span></a>
+           <a class="control right" href="javascript:;"><span class="arrow">&rsaquo;</span></a>
+
+           <div class="viewport">
+              <div class="slider">
+                               <div class="item">
+                  <div class="img">
+                    <a href="/books/9802/our-countrys-presidents-by-ann-bausum"><img alt="Our Country's Presidents" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781426326851?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/9802/our-countrys-presidents-by-ann-bausum" title="Our Country's Presidents">Our Country&#8217;s Presidents</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/69368/ann-bausum" title="Ann Bausum">Ann Bausum</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/82709/abe-lincoln-crosses-a-creek-by-deborah-hopkinson-illustrated-by-john-hendrix"><img alt="Abe Lincoln Crosses a Creek" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781524701581?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/82709/abe-lincoln-crosses-a-creek-by-deborah-hopkinson-illustrated-by-john-hendrix" title="Abe Lincoln Crosses a Creek">Abe Lincoln Crosses a Creek</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/13493/deborah-hopkinson" title="Deborah Hopkinson">Deborah Hopkinson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/249446/voice-of-freedom-fannie-lou-hamer-by-carole-boston-weatherford"><img alt="Voice of Freedom: Fannie Lou Hamer" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763665319?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/249446/voice-of-freedom-fannie-lou-hamer-by-carole-boston-weatherford" title="Voice of Freedom: Fannie Lou Hamer">Voice of Freedom: Fannie Lou Hamer</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/259310/carole-boston-weatherford" title="Carole Boston Weatherford">Carole Boston Weatherford</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/90805/john-henry-an-american-legend-by-ezra-jack-keats"><img alt="John Henry: An American Legend" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780553513073?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/90805/john-henry-an-american-legend-by-ezra-jack-keats" title="John Henry: An American Legend">John Henry: An American Legend</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/15261/ezra-jack-keats" title="Ezra Jack Keats">Ezra Jack Keats</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/123907/of-thee-i-sing-by-barack-obama"><img alt="Of Thee I Sing" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375835278?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/123907/of-thee-i-sing-by-barack-obama" title="Of Thee I Sing">Of Thee I Sing</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/22627/barack-obama" title="Barack Obama">Barack Obama</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/120445/our-white-house-by-national-childrens-book-and-literacy-alliance"><img alt="Our White House" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763646097?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/120445/our-white-house-by-national-childrens-book-and-literacy-alliance" title="Our White House">Our White House</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109922/various" title="Various">Various</a> and <a href="/authors/88508/ncbla" title="N.C.B.L.A.">N.C.B.L.A.</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/75440/abe-lincoln-goes-to-washington-by-cheryl-harness"><img alt="Abe Lincoln Goes to Washington" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781426304361?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/75440/abe-lincoln-goes-to-washington-by-cheryl-harness" title="Abe Lincoln Goes to Washington">Abe Lincoln Goes to Washington</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110522/cheryl-harness" title="Cheryl Harness">Cheryl Harness</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/288025/my-teacher-for-president-by-kay-winters-illustrated-by-denise-brunkus"><img alt="My Teacher For President" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142411704?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/288025/my-teacher-for-president-by-kay-winters-illustrated-by-denise-brunkus" title="My Teacher For President">My Teacher For President</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33507/kay-winters" title="Kay Winters">Kay Winters</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/192386/follow-the-drinking-gourd-by-jeanette-winter"><img alt="Follow the Drinking Gourd" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394896946?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/192386/follow-the-drinking-gourd-by-jeanette-winter" title="Follow the Drinking Gourd">Follow the Drinking Gourd</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33497/jeanette-winter" title="Jeanette Winter">Jeanette Winter</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/292647/george-did-it-by-suzanne-jurmain-illustrated-by-larry-day"><img alt="George Did It" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142408957?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/292647/george-did-it-by-suzanne-jurmain-illustrated-by-larry-day" title="George Did It">George Did It</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/238672/suzanne-tripp-jurmain" title="Suzanne Tripp Jurmain">Suzanne Tripp Jurmain</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/161637/george-vs-george-by-rosalyn-schanzer"><img alt="George vs. George" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9781426300424?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/161637/george-vs-george-by-rosalyn-schanzer" title="George vs. George">George vs. George</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110535/rosalyn-schanzer" title="Rosalyn Schanzer">Rosalyn Schanzer</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/289992/show-way-by-jacqueline-woodson-illustrated-by-hudson-talbott"><img alt="Show Way" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399237492?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/289992/show-way-by-jacqueline-woodson-illustrated-by-hudson-talbott" title="Show Way">Show Way</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/33705/jacqueline-woodson" title="Jacqueline Woodson">Jacqueline Woodson</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/290848/we-the-kids-by-david-catrow-illustrated-by-david-catrow"><img alt="We the Kids" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142402764?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/290848/we-the-kids-by-david-catrow-illustrated-by-david-catrow" title="We the Kids">We the Kids</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/227298/david-catrow" title="David Catrow">David Catrow</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/180655/the-presidents-house-by-margaret-truman"><img alt="The President's House" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780345472489?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/180655/the-presidents-house-by-margaret-truman" title="The President's House">The President&#8217;s House</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/31478/margaret-truman" title="Margaret Truman">Margaret Truman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/292100/smart-about-the-presidents-by-jon-buller-illustrated-by-jill-weber"><img alt="Smart About the Presidents" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780448433721?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/292100/smart-about-the-presidents-by-jon-buller-illustrated-by-jill-weber" title="Smart About the Presidents">Smart About the Presidents</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/3722/jon-buller" title="Jon Buller">Jon Buller</a>, <a href="/authors/5206/maryann-cocca-leffler" title="Maryann Cocca-Leffler">Maryann Cocca-Leffler</a>, <a href="/authors/26969/susan-saunders" title="Susan Saunders">Susan Saunders</a> and <a href="/authors/38776/dana-regan" title="Dana Regan">Dana Regan</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/108220/i-pledge-allegiance-by-bill-martin-jr"><img alt="I Pledge Allegiance" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763625276?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/108220/i-pledge-allegiance-by-bill-martin-jr" title="I Pledge Allegiance">I Pledge Allegiance</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/68035/michael-sampson" title="Michael Sampson">Michael Sampson</a> and <a href="/authors/2080980/bill-martin-jr" title="Bill Martin, Jr.">Bill Martin, Jr.</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor"><img alt="Roll of Thunder, Hear My Cry" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780142401125?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor" title="Roll of Thunder, Hear My Cry">Roll of Thunder, Hear My Cry</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/30681/mildred-d-taylor" title="Mildred D. Taylor">Mildred D. Taylor</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch"><img alt="When Jessie Came Across the Sea" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780763612740?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch" title="When Jessie Came Across the Sea">When Jessie Came Across the Sea</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/109941/amy-hest" title="Amy Hest">Amy Hest</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/168056/follow-the-dream-by-peter-sis"><img alt="Follow The Dream" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679806288?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/168056/follow-the-dream-by-peter-sis" title="Follow The Dream">Follow The Dream</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/28596/peter-sis" title="Peter Sis">Peter Sis</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/286815/america-the-beautiful-by-katharine-bates-illustrated-by-wendell-minor"><img alt="America the Beautiful" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399238857?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/286815/america-the-beautiful-by-katharine-bates-illustrated-by-wendell-minor" title="America the Beautiful">America the Beautiful</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/246554/katharine-bates" title="Katharine Bates">Katharine Bates</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/465/song-and-dance-man-by-karen-ackerman-illustrated-by-stephen-gammell"><img alt="Song and Dance Man" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394893303?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/465/song-and-dance-man-by-karen-ackerman-illustrated-by-stephen-gammell" title="Song and Dance Man">Song and Dance Man</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/82/karen-ackerman" title="Karen Ackerman">Karen Ackerman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/118891/george-washington-and-the-generals-dog-by-frank-murphy-illustrated-by-richard-walz"><img alt="George Washington and the General's Dog" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780375810152?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/118891/george-washington-and-the-generals-dog-by-frank-murphy-illustrated-by-richard-walz" title="George Washington and the General's Dog">George Washington and the General&#8217;s Dog</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/21624/frank-murphy" title="Frank Murphy">Frank Murphy</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/103416/the-midnight-ride-of-paul-revere-by-henry-w-longfellow"><img alt="The Midnight Ride Of Paul Revere" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780792265580?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/103416/the-midnight-ride-of-paul-revere-by-henry-w-longfellow" title="The Midnight Ride Of Paul Revere">The Midnight Ride Of Paul Revere</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/110638/henry-w-longfellow" title="Henry W. Longfellow">Henry W. Longfellow</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/125118/revolutionary-war-on-wednesday-by-mary-pope-osborne-illustrated-by-sal-murdocca"><img alt="Revolutionary War on Wednesday" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679890683?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/125118/revolutionary-war-on-wednesday-by-mary-pope-osborne-illustrated-by-sal-murdocca" title="Revolutionary War on Wednesday">Revolutionary War on Wednesday</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/22894/mary-pope-osborne" title="Mary Pope Osborne">Mary Pope Osborne</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/238431/the-flag-we-love-by-pam-munoz-ryan-author-ralph-masiello-illustrator"><img alt="The Flag We Love" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780881068443?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/238431/the-flag-we-love-by-pam-munoz-ryan-author-ralph-masiello-illustrator" title="The Flag We Love">The Flag We Love</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/220463/pam-munoz-ryan" title="Pam Munoz Ryan">Pam Munoz Ryan</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/329811/i-am-rosa-parks-by-rosa-parks"><img alt="I Am Rosa Parks" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780141307107?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/329811/i-am-rosa-parks-by-rosa-parks" title="I Am Rosa Parks">I Am Rosa Parks</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/12196/jim-haskins" title="Jim Haskins">Jim Haskins</a> and <a href="/authors/243895/rosa-parks" title="Rosa Parks">Rosa Parks</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/324291/john-henry-by-julius-lester-illustrated-by-jerry-pinkney"><img alt="John Henry" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140566222?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/324291/john-henry-by-julius-lester-illustrated-by-jerry-pinkney" title="John Henry">John Henry</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/42341/julius-lester" title="Julius Lester">Julius Lester</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/333865/geo-washinton-bkft-gb-by-jean-fritz"><img alt="Geo Washinton Bkft Gb" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698116115?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/333865/geo-washinton-bkft-gb-by-jean-fritz" title="Geo Washinton Bkft Gb">Geo Washinton Bkft Gb</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/9423/jean-fritz" title="Jean Fritz">Jean Fritz</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/335864/casey-at-the-bat-by-ernest-l-thayer"><img alt="Casey At The Bat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780698115576?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/335864/casey-at-the-bat-by-ernest-l-thayer" title="Casey At The Bat">Casey At The Bat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/232989/ernest-l-thayer" title="Ernest L. Thayer">Ernest L. Thayer</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/154450/tar-beach-by-faith-ringgold"><img alt="Tar Beach" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517885444?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/154450/tar-beach-by-faith-ringgold" title="Tar Beach">Tar Beach</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/25610/faith-ringgold" title="Faith Ringgold">Faith Ringgold</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/293562/johnny-appleseed-by-patricia-brennan-demuth"><img alt="Johnny Appleseed" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780448411309?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/293562/johnny-appleseed-by-patricia-brennan-demuth" title="Johnny Appleseed">Johnny Appleseed</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/233603/patricia-brennan-demuth" title="Patricia Brennan Demuth">Patricia Brennan Demuth</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/319555/immigrant-kids-by-russell-freedman"><img alt="Immigrant Kids" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140375947?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/319555/immigrant-kids-by-russell-freedman" title="Immigrant Kids">Immigrant Kids</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/78133/russell-freedman" title="Russell Freedman">Russell Freedman</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/129345/the-statue-of-liberty-by-lucille-recht-penner"><img alt="The Statue of Liberty" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679869283?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/129345/the-statue-of-liberty-by-lucille-recht-penner" title="The Statue of Liberty">The Statue of Liberty</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/23600/lucille-recht-penner" title="Lucille Recht Penner">Lucille Recht Penner</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/354567/pink-and-say-by-patricia-polacco"><img alt="Pink and Say" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780399226717?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/354567/pink-and-say-by-patricia-polacco" title="Pink and Say">Pink and Say</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24173/patricia-polacco" title="Patricia Polacco">Patricia Polacco</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/18006/abe-lincolns-hat-by-martha-brenner-illustrated-by-donald-cook"><img alt="Abe Lincoln's Hat" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780679849773?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/18006/abe-lincolns-hat-by-martha-brenner-illustrated-by-donald-cook" title="Abe Lincoln's Hat">Abe Lincoln&#8217;s Hat</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/3183/martha-brenner" title="Martha Brenner">Martha Brenner</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/171771/children-of-the-dust-bowl-the-true-story-of-the-school-at-weedpatch-camp-by-jerry-stanley"><img alt="Children of the Dust Bowl: The True Story of the School at Weedpatch Camp" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780517880944?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/171771/children-of-the-dust-bowl-the-true-story-of-the-school-at-weedpatch-camp-by-jerry-stanley" title="Children of the Dust Bowl: The True Story of the School at Weedpatch Camp">Children of the Dust Bowl: The True Story of the School at Weedpatch Camp</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/29499/jerry-stanley" title="Jerry Stanley">Jerry Stanley</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320157/when-i-was-young-in-the-mountains-by-cynthia-rylant-illustrated-by-diane-goode"><img alt="When I Was Young in the Mountains" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140548754?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320157/when-i-was-young-in-the-mountains-by-cynthia-rylant-illustrated-by-diane-goode" title="When I Was Young in the Mountains">When I Was Young in the Mountains</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/26605/cynthia-rylant" title="Cynthia Rylant">Cynthia Rylant</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/171105/noahs-ark-by-peter-spier"><img alt="Noah's Ark" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780440406938?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/171105/noahs-ark-by-peter-spier" title="Noah's Ark">Noah&#8217;s Ark</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/29293/peter-spier" title="Peter Spier">Peter Spier</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon"><img alt="Ashanti to Zulu" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140546040?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon" title="Ashanti to Zulu">Ashanti to Zulu</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/239971/margaret-musgrove" title="Margaret Musgrove">Margaret Musgrove</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/322937/the-glorious-flight-by-alice-provensen"><img alt="The Glorious Flight" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140507294?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/322937/the-glorious-flight-by-alice-provensen" title="The Glorious Flight">The Glorious Flight</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/24617/alice-provensen" title="Alice Provensen">Alice Provensen</a> and <a href="/authors/44805/martin-provensen" title="Martin Provensen">Martin Provensen</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/320517/ox-cart-man-by-donald-hall-illustrated-by-barbara-cooney"><img alt="Ox-Cart Man" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780140504415?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/320517/ox-cart-man-by-donald-hall-illustrated-by-barbara-cooney" title="Ox-Cart Man">Ox-Cart Man</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/11579/donald-hall" title="Donald Hall">Donald Hall</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/69770/north-american-indians-by-douglas-gorsline"><img alt="North American Indians" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780394837024?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/69770/north-american-indians-by-douglas-gorsline" title="North American Indians">North American Indians</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/10640/douglas-gorsline" title="Douglas Gorsline">Douglas Gorsline</a></div>
+
+		</div>
+	                      <div class="item">
+                  <div class="img">
+                    <a href="/books/323479/they-were-strong-and-good-by-robert-lawson"><img alt="They Were Strong and Good" src="/wp-content/themes/penguinrandomhouse/images/tmp.gif" data-src="http://images.penguinrandomhouse.com/cover/9780670699490?height=284&amp;alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+                 </div>
+                 <div class="title">
+                    <a href="/books/323479/they-were-strong-and-good-by-robert-lawson" title="They Were Strong and Good">They Were Strong and Good</a>
+                 </div>
+                 <div class="contributor"><a href="/authors/16927/robert-lawson" title="Robert Lawson">Robert Lawson</a></div>
+
+		</div>
+	                   </div> <!-- slider -->
+           </div> <!-- viewport -->
+         </section>
+       </div>
+              <!-- / people who read -->
+		
+       <!-- recommended for you products -->
+       <div class="slot product-recommended selected-for-you loading">
+         <h4 class="slot-header">Inspired by Your Browsing History</h4>
+       </div>
+       <!-- / recommended products -->
+
+       <!-- Also in [category] -->
+              <!-- / Also in [category] -->
+
+		<!-- Related Links -->
+		    		<!-- / Related Links -->
+		<!-- Reader and Teacher Guides -->
+					<!-- / Reader and Teacher Guides -->
+		
+		<!-- Related Articles -->	
+			<!-- Asynchronous Loading Required:  PRHCS-31 - AC #9 -->
+			
+			<div id="product-articles-wrap-mobile">
+				<div class="slot product-articles product-related articles" data-work="feedTagValue:9780399243172^20 OR title_workid:294636^10 OR author_authorId:29388 OR author_authorid_display_group:/29388\:[AI].*/^9 OR author_authorid_display_group:/28746\:[AI].*/^9">
+					<h2 class="slot-header">Related Articles</h2>
+				</div>
+			</div>
+		<!-- / Related Articles -->
+		
+		<!-- Promo Tiles -->
+			<div id="product-promo-tiles-wrap-mobile">
+				<div class="slot promo-tiles">
+			 				</div>
+			</div>
+		<!-- / Promo Tiles -->
+</div>
+<!-- / End Main Content -->
+
+<!-- Right Rail - visible on desktop -->
+	<div class="right-rail">
+		<div id="product-related-wrap-desktop"></div>
+		<div id="product-guides-wrap-desktop"></div>
+		<div id="product-articles-wrap-desktop"></div>
+		<div id="product-promo-tiles-wrap-desktop"></div>
+	</div>
+<!-- / Right Rail -->
+
+<div class="modal fade product-image" id="modal-product-image" style="display:none;">
+  <div class="modal-dialog product-image">
+    <div class="modal-content">
+      <div class="modal-header product-image">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+      </div>
+
+      <div class="modal-body">
+        <img>
+        <div class="btn product-image download"><span class="fa fa-download"></span>Download Hi Res</div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- excerpts -->
+
+
+<script>
+
+var excerpt_embed_html_list = [];
+var excerpt_text_list = [];
+
+</script>
+
+<div class="modal fade" id="modal-excerpt">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+        <span class="fa fa-times">&nbsp;</span>
+        <span class="sr-only">Close</span></button>
+
+          <div class="book">
+            <div class="cover">
+            	<img src />
+            </div>
+            <div class="book-meta">
+            	<div class="book-name">So You Want to Be President?</div>
+		                <h2 class="contributors"><span class="ws-nw">
+                    		</span></h2>
+
+		<div class="buttons">
+                    <button type="button" class="btn buy2" rel="popover">Buy</button>
+		</div>
+            
+		<h4 class="isbn-related 9780399243172">Category: <a href="/books/middle-grade-books-childrens">Children&#8217;s Middle Grade Books</a> | <a href="/books/picture-books-childrens">Children&#8217;s Picture Books</a></h4>
+        <!-- newsletter -->
+        <div id="excerpt-newsletter-wrap-desktop">
+          <div class="slot newsletter-signup excerpt" acq-code="PRH_EXCERPT_STATIC_ONGOING" workid="294636"></div>        </div>
+
+        <!-- MOBILE EXCERPT SUBSCRIBE MOVED TO SECOND PARAGRAPH OF EXCERPT ITSELF -->
+
+        <!-- /newsletter -->
+
+            </div>
+
+          </div>
+      </div>
+      <div class="modal-body scrolling"></div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade embedded" id="modal-excerpt-embedded">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+	  <span class="fa fa-times">&nbsp;</span>
+          <span class="sr-only">Close</span>
+	</button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	</div>
+        <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0"></div>
+	</div>
+    <!-- End Scaffolding -->
+</div> <!-- container END -->
+<!-- end product info bottom -->
+<!-- product extended carousel -->
+<div class="extendwrap">
+		<div class="extended-carousel" id="extended-read-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">People Who Read <span>So You Want to Be President?</span> Also Read</h4></div>
+		<div id="extended-read-carousel" class="extended-carousel-div loading">
+					<div class="item" ttl="Our Country's Presidents" url="/books/9802/our-countrys-presidents-by-ann-bausum">
+				<div class="img">
+					<a href="/books/9802/our-countrys-presidents-by-ann-bausum"><img alt="Our Country's Presidents" src="http://images.penguinrandomhouse.com/cover/9781426326851?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Abe Lincoln Crosses a Creek" url="/books/82709/abe-lincoln-crosses-a-creek-by-deborah-hopkinson-illustrated-by-john-hendrix">
+				<div class="img">
+					<a href="/books/82709/abe-lincoln-crosses-a-creek-by-deborah-hopkinson-illustrated-by-john-hendrix"><img alt="Abe Lincoln Crosses a Creek" src="http://images.penguinrandomhouse.com/cover/9781524701581?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Voice of Freedom: Fannie Lou Hamer" url="/books/249446/voice-of-freedom-fannie-lou-hamer-by-carole-boston-weatherford">
+				<div class="img">
+					<a href="/books/249446/voice-of-freedom-fannie-lou-hamer-by-carole-boston-weatherford"><img alt="Voice of Freedom: Fannie Lou Hamer" src="http://images.penguinrandomhouse.com/cover/9780763665319?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="John Henry: An American Legend" url="/books/90805/john-henry-an-american-legend-by-ezra-jack-keats">
+				<div class="img">
+					<a href="/books/90805/john-henry-an-american-legend-by-ezra-jack-keats"><img alt="John Henry: An American Legend" src="http://images.penguinrandomhouse.com/cover/9780553513073?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Of Thee I Sing" url="/books/123907/of-thee-i-sing-by-barack-obama">
+				<div class="img">
+					<a href="/books/123907/of-thee-i-sing-by-barack-obama"><img alt="Of Thee I Sing" src="http://images.penguinrandomhouse.com/cover/9780375835278?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Our White House" url="/books/120445/our-white-house-by-national-childrens-book-and-literacy-alliance">
+				<div class="img">
+					<a href="/books/120445/our-white-house-by-national-childrens-book-and-literacy-alliance"><img alt="Our White House" src="http://images.penguinrandomhouse.com/cover/9780763646097?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Abe Lincoln Goes to Washington" url="/books/75440/abe-lincoln-goes-to-washington-by-cheryl-harness">
+				<div class="img">
+					<a href="/books/75440/abe-lincoln-goes-to-washington-by-cheryl-harness"><img alt="Abe Lincoln Goes to Washington" src="http://images.penguinrandomhouse.com/cover/9781426304361?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="My Teacher For President" url="/books/288025/my-teacher-for-president-by-kay-winters-illustrated-by-denise-brunkus">
+				<div class="img">
+					<a href="/books/288025/my-teacher-for-president-by-kay-winters-illustrated-by-denise-brunkus"><img alt="My Teacher For President" src="http://images.penguinrandomhouse.com/cover/9780142411704?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Follow the Drinking Gourd" url="/books/192386/follow-the-drinking-gourd-by-jeanette-winter">
+				<div class="img">
+					<a href="/books/192386/follow-the-drinking-gourd-by-jeanette-winter"><img alt="Follow the Drinking Gourd" src="http://images.penguinrandomhouse.com/cover/9780394896946?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="George Did It" url="/books/292647/george-did-it-by-suzanne-jurmain-illustrated-by-larry-day">
+				<div class="img">
+					<a href="/books/292647/george-did-it-by-suzanne-jurmain-illustrated-by-larry-day"><img alt="George Did It" src="http://images.penguinrandomhouse.com/cover/9780142408957?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="George vs. George" url="/books/161637/george-vs-george-by-rosalyn-schanzer">
+				<div class="img">
+					<a href="/books/161637/george-vs-george-by-rosalyn-schanzer"><img alt="George vs. George" src="http://images.penguinrandomhouse.com/cover/9781426300424?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Show Way" url="/books/289992/show-way-by-jacqueline-woodson-illustrated-by-hudson-talbott">
+				<div class="img">
+					<a href="/books/289992/show-way-by-jacqueline-woodson-illustrated-by-hudson-talbott"><img alt="Show Way" src="http://images.penguinrandomhouse.com/cover/9780399237492?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="We the Kids" url="/books/290848/we-the-kids-by-david-catrow-illustrated-by-david-catrow">
+				<div class="img">
+					<a href="/books/290848/we-the-kids-by-david-catrow-illustrated-by-david-catrow"><img alt="We the Kids" src="http://images.penguinrandomhouse.com/cover/9780142402764?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The President's House" url="/books/180655/the-presidents-house-by-margaret-truman">
+				<div class="img">
+					<a href="/books/180655/the-presidents-house-by-margaret-truman"><img alt="The President's House" src="http://images.penguinrandomhouse.com/cover/9780345472489?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Smart About the Presidents" url="/books/292100/smart-about-the-presidents-by-jon-buller-illustrated-by-jill-weber">
+				<div class="img">
+					<a href="/books/292100/smart-about-the-presidents-by-jon-buller-illustrated-by-jill-weber"><img alt="Smart About the Presidents" src="http://images.penguinrandomhouse.com/cover/9780448433721?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="I Pledge Allegiance" url="/books/108220/i-pledge-allegiance-by-bill-martin-jr">
+				<div class="img">
+					<a href="/books/108220/i-pledge-allegiance-by-bill-martin-jr"><img alt="I Pledge Allegiance" src="http://images.penguinrandomhouse.com/cover/9780763625276?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Roll of Thunder, Hear My Cry" url="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor">
+				<div class="img">
+					<a href="/books/320401/roll-of-thunder-hear-my-cry-by-mildred-d-taylor"><img alt="Roll of Thunder, Hear My Cry" src="http://images.penguinrandomhouse.com/cover/9780142401125?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="When Jessie Came Across the Sea" url="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch">
+				<div class="img">
+					<a href="/books/79338/when-jessie-came-across-the-sea-by-amy-hest-illustrated-by-p-lynch"><img alt="When Jessie Came Across the Sea" src="http://images.penguinrandomhouse.com/cover/9780763612740?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Follow The Dream" url="/books/168056/follow-the-dream-by-peter-sis">
+				<div class="img">
+					<a href="/books/168056/follow-the-dream-by-peter-sis"><img alt="Follow The Dream" src="http://images.penguinrandomhouse.com/cover/9780679806288?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="America the Beautiful" url="/books/286815/america-the-beautiful-by-katharine-bates-illustrated-by-wendell-minor">
+				<div class="img">
+					<a href="/books/286815/america-the-beautiful-by-katharine-bates-illustrated-by-wendell-minor"><img alt="America the Beautiful" src="http://images.penguinrandomhouse.com/cover/9780399238857?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Song and Dance Man" url="/books/465/song-and-dance-man-by-karen-ackerman-illustrated-by-stephen-gammell">
+				<div class="img">
+					<a href="/books/465/song-and-dance-man-by-karen-ackerman-illustrated-by-stephen-gammell"><img alt="Song and Dance Man" src="http://images.penguinrandomhouse.com/cover/9780394893303?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="George Washington and the General's Dog" url="/books/118891/george-washington-and-the-generals-dog-by-frank-murphy-illustrated-by-richard-walz">
+				<div class="img">
+					<a href="/books/118891/george-washington-and-the-generals-dog-by-frank-murphy-illustrated-by-richard-walz"><img alt="George Washington and the General's Dog" src="http://images.penguinrandomhouse.com/cover/9780375810152?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Midnight Ride Of Paul Revere" url="/books/103416/the-midnight-ride-of-paul-revere-by-henry-w-longfellow">
+				<div class="img">
+					<a href="/books/103416/the-midnight-ride-of-paul-revere-by-henry-w-longfellow"><img alt="The Midnight Ride Of Paul Revere" src="http://images.penguinrandomhouse.com/cover/9780792265580?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Revolutionary War on Wednesday" url="/books/125118/revolutionary-war-on-wednesday-by-mary-pope-osborne-illustrated-by-sal-murdocca">
+				<div class="img">
+					<a href="/books/125118/revolutionary-war-on-wednesday-by-mary-pope-osborne-illustrated-by-sal-murdocca"><img alt="Revolutionary War on Wednesday" src="http://images.penguinrandomhouse.com/cover/9780679890683?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Flag We Love" url="/books/238431/the-flag-we-love-by-pam-munoz-ryan-author-ralph-masiello-illustrator">
+				<div class="img">
+					<a href="/books/238431/the-flag-we-love-by-pam-munoz-ryan-author-ralph-masiello-illustrator"><img alt="The Flag We Love" src="http://images.penguinrandomhouse.com/cover/9780881068443?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="I Am Rosa Parks" url="/books/329811/i-am-rosa-parks-by-rosa-parks">
+				<div class="img">
+					<a href="/books/329811/i-am-rosa-parks-by-rosa-parks"><img alt="I Am Rosa Parks" src="http://images.penguinrandomhouse.com/cover/9780141307107?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="John Henry" url="/books/324291/john-henry-by-julius-lester-illustrated-by-jerry-pinkney">
+				<div class="img">
+					<a href="/books/324291/john-henry-by-julius-lester-illustrated-by-jerry-pinkney"><img alt="John Henry" src="http://images.penguinrandomhouse.com/cover/9780140566222?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Geo Washinton Bkft Gb" url="/books/333865/geo-washinton-bkft-gb-by-jean-fritz">
+				<div class="img">
+					<a href="/books/333865/geo-washinton-bkft-gb-by-jean-fritz"><img alt="Geo Washinton Bkft Gb" src="http://images.penguinrandomhouse.com/cover/9780698116115?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Casey At The Bat" url="/books/335864/casey-at-the-bat-by-ernest-l-thayer">
+				<div class="img">
+					<a href="/books/335864/casey-at-the-bat-by-ernest-l-thayer"><img alt="Casey At The Bat" src="http://images.penguinrandomhouse.com/cover/9780698115576?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Tar Beach" url="/books/154450/tar-beach-by-faith-ringgold">
+				<div class="img">
+					<a href="/books/154450/tar-beach-by-faith-ringgold"><img alt="Tar Beach" src="http://images.penguinrandomhouse.com/cover/9780517885444?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Johnny Appleseed" url="/books/293562/johnny-appleseed-by-patricia-brennan-demuth">
+				<div class="img">
+					<a href="/books/293562/johnny-appleseed-by-patricia-brennan-demuth"><img alt="Johnny Appleseed" src="http://images.penguinrandomhouse.com/cover/9780448411309?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Immigrant Kids" url="/books/319555/immigrant-kids-by-russell-freedman">
+				<div class="img">
+					<a href="/books/319555/immigrant-kids-by-russell-freedman"><img alt="Immigrant Kids" src="http://images.penguinrandomhouse.com/cover/9780140375947?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Statue of Liberty" url="/books/129345/the-statue-of-liberty-by-lucille-recht-penner">
+				<div class="img">
+					<a href="/books/129345/the-statue-of-liberty-by-lucille-recht-penner"><img alt="The Statue of Liberty" src="http://images.penguinrandomhouse.com/cover/9780679869283?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Pink and Say" url="/books/354567/pink-and-say-by-patricia-polacco">
+				<div class="img">
+					<a href="/books/354567/pink-and-say-by-patricia-polacco"><img alt="Pink and Say" src="http://images.penguinrandomhouse.com/cover/9780399226717?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Abe Lincoln's Hat" url="/books/18006/abe-lincolns-hat-by-martha-brenner-illustrated-by-donald-cook">
+				<div class="img">
+					<a href="/books/18006/abe-lincolns-hat-by-martha-brenner-illustrated-by-donald-cook"><img alt="Abe Lincoln's Hat" src="http://images.penguinrandomhouse.com/cover/9780679849773?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Children of the Dust Bowl: The True Story of the School at Weedpatch Camp" url="/books/171771/children-of-the-dust-bowl-the-true-story-of-the-school-at-weedpatch-camp-by-jerry-stanley">
+				<div class="img">
+					<a href="/books/171771/children-of-the-dust-bowl-the-true-story-of-the-school-at-weedpatch-camp-by-jerry-stanley"><img alt="Children of the Dust Bowl: The True Story of the School at Weedpatch Camp" src="http://images.penguinrandomhouse.com/cover/9780517880944?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="When I Was Young in the Mountains" url="/books/320157/when-i-was-young-in-the-mountains-by-cynthia-rylant-illustrated-by-diane-goode">
+				<div class="img">
+					<a href="/books/320157/when-i-was-young-in-the-mountains-by-cynthia-rylant-illustrated-by-diane-goode"><img alt="When I Was Young in the Mountains" src="http://images.penguinrandomhouse.com/cover/9780140548754?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Noah's Ark" url="/books/171105/noahs-ark-by-peter-spier">
+				<div class="img">
+					<a href="/books/171105/noahs-ark-by-peter-spier"><img alt="Noah's Ark" src="http://images.penguinrandomhouse.com/cover/9780440406938?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ashanti to Zulu" url="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon">
+				<div class="img">
+					<a href="/books/320177/ashanti-to-zulu-by-margaret-musgrove-illustrated-by-diane-dillon"><img alt="Ashanti to Zulu" src="http://images.penguinrandomhouse.com/cover/9780140546040?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="The Glorious Flight" url="/books/322937/the-glorious-flight-by-alice-provensen">
+				<div class="img">
+					<a href="/books/322937/the-glorious-flight-by-alice-provensen"><img alt="The Glorious Flight" src="http://images.penguinrandomhouse.com/cover/9780140507294?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="Ox-Cart Man" url="/books/320517/ox-cart-man-by-donald-hall-illustrated-by-barbara-cooney">
+				<div class="img">
+					<a href="/books/320517/ox-cart-man-by-donald-hall-illustrated-by-barbara-cooney"><img alt="Ox-Cart Man" src="http://images.penguinrandomhouse.com/cover/9780140504415?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="North American Indians" url="/books/69770/north-american-indians-by-douglas-gorsline">
+				<div class="img">
+					<a href="/books/69770/north-american-indians-by-douglas-gorsline"><img alt="North American Indians" src="http://images.penguinrandomhouse.com/cover/9780394837024?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+					<div class="item" ttl="They Were Strong and Good" url="/books/323479/they-were-strong-and-good-by-robert-lawson">
+				<div class="img">
+					<a href="/books/323479/they-were-strong-and-good-by-robert-lawson"><img alt="They Were Strong and Good" src="http://images.penguinrandomhouse.com/cover/9780670699490?alt=cover_coming_soon.jpg" class="deferred-view img-responsive"></a>
+				</div>
+			</div>
+				</div>
+	</div>
+	
+	<div class="extended-carousel hide" id="extended-recommended-carousel-div">
+		<div class="line-div"></div>
+		<div class="container"><h4 class="slot-header">Inspired by Your Browsing History</h4></div>
+		<div id="extended-recommended-carousel" class="extended-carousel-div loading"></div>
+	</div>
+
+	</div>
+<!-- end product extended carousel -->
+<script type="text/javascript">
+var specific_to_signup = {"specific_to_type":"product","signup":{"type":"author","id":29388},"message":"Sign me up for news about Judith St. George and more from Penguin Random House"};
+</script>
+
+		<!-- Start sticky arrow -->
+		<a href="#top" id="stickyarrow"><span>Back to Top</span></a>
+		<!-- / End sticky arrow -->
+		
+		<div class="inner-facade-footer">
+            <!-- Start Footer -->
+            <footer class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-footer clearfix">
+                            <ul class="footer-links">
+                                <span class="dsktop-right">
+                                <li>Connect</li>
+                                <p class="sgn-mssg">Sign up for news about books, authors, and more from Penguin Random House</p>
+                                <button type="button" class="btn share" rel="popover" title=""><i class="fa fa-envelope"></i> Stay in touch</button>
+                                <ul class="socialft">
+                                <li><a class="fttr social facebook" href="https://www.facebook.com/PenguinRandomHouse" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="fttr social twitter" href="https://twitter.com/penguinrandom" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a class="fttr social google-plus" href="https://plus.google.com/+PenguinRandomHouse/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li><li><a class="fttr social tumblr" href="http://penguinrandomhouse.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li><li><a class="fttr social pinterest" href="http://pinterest.com/penguinrandom/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li><li><a class="fttr social instagram" href="http://instagram.com/penguinrandomhouse" target="_blank"><i class="fa fa-instagram"></i></a></li>                                </ul>
+                                </span>
+                                <span>
+                                                                	<li>About</li>
+                                                                	<li><a href="/about-us/news/" title="" rel="nofollow">News</a></li>
+                                                                	<li><a href="http://careers.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Careers</a></li>
+                                                                	<li><a href="/about-us/contact-us/" title="" rel="nofollow">Contact Us</a></li>
+                                                                	<li><a href="/faqs/" title="" rel="nofollow">FAQ</a></li>
+                                                                	<li><a href="/preferences" title="" rel="nofollow">Email Preferences</a></li>
+                                                                	<li><a href="/terms" title="" rel="nofollow">Terms of Use</a></li>
+                                                                	<li><a href="/privacy" title="" rel="nofollow">Privacy Policy</a></li>
+                                								</span>
+                                <span>	
+								                                	<li>Resources</li>
+                                                                	<li><a href="/faqs/#shopping" title="" rel="nofollow">Shopping & Shipping FAQ</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/educators/" title="" target="_blank" rel="nofollow">For Educators</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/" title="" rel="nofollow">penguinrandomhouse.biz</a></li>
+                                                                	<li><a href="/media-queries/" title="" rel="nofollow">Media Queries</a></li>
+                                                                	<li><a href="http://www.penguinrandomhouse.biz/rights/" title="" target="_blank" rel="nofollow">Subrights</a></li>
+                                                                	<li><a href="https://permissions.penguinrandomhouse.com/" title="" target="_blank" rel="nofollow">Permissions</a></li>
+                                                                	<li><a href="http://www.prhspeakers.com/" title="" target="_blank" rel="nofollow">Speakers Bureau</a></li>
+                                                                </span>
+                                <span class="dsktop-left">
+                                    <li><a href="/"><div class="footer-logo"></div></a></li>
+                                    <li><a href="http://global.penguinrandomhouse.com" target="_blank">global.penguinrandomhouse.com</a></li>
+                                    <li class="ft-cr">© 2017 Penguin Random House</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / End  Footer -->
+        </div> <!-- inner-facade END -->
+        <div class="container">
+            <p class="footer-bttm-links-visit">Visit other sites in the Penguin Random House Network</p>
+            <div class="footer-bttm-links">
+            				<div>
+                    <a href="http://www.booksforbetterliving.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/06/01075641/books-2.jpg" alt="">
+                                        </a>
+                    <h4>Books for Better Living</h4>
+                    Inspiration for the best you                </div>
+							<div>
+                    <a href="http://www.readbrightly.com/?ref=822975591A1E" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2015/04/01075801/thumbnail.png" alt="">
+                                        </a>
+                    <h4>Brightly</h4>
+                    Reading is just the beginning                </div>
+							<div>
+                    <a href="http://www.tastebook.com/?ref=E8C77968C21F" title="Tastebook img" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075104/taste.jpg" alt="Tastebook img">
+                                        </a>
+                    <h4>Tastebook</h4>
+                    Your resource for recipes, cooking advice, cookbooks & more                </div>
+							<div>
+                    <a href="http://www.signature-reads.com/?ref=E40ED6C7794C" title="" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/01/01075111/sign1.png" alt="">
+                                        </a>
+                    <h4>Signature</h4>
+                    Making Well-Read Sense of the World                </div>
+							<div>
+                    <a href="http://www.litflash.com/" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/08/01074758/litflashlogo68x68.jpg" alt="">
+                                        </a>
+                    <h4>LitFlash</h4>
+                    The eBooks you want at the lowest prices                </div>
+							<div>
+                    <a href="http://readitforward.com" title="" class="footer-bttm-link" target="" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/05/01074912/riflogonew.jpg" alt="">
+                                        </a>
+                    <h4>Read it Forward</h4>
+                    Read it first. Pass it on!                </div>
+							<div>
+                    <a href="http://www.firsttoread.com/?ref=AC30300CF2D7" title="First to Read" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2014/09/01075817/btm_nav_firstread.jpg" alt="First to Read">
+                                        </a>
+                    <h4>First to Read</h4>
+                    Early access to Penguin Random House’s hottest new titles                </div>
+							<div>
+                    <a href="http://www.unboundworlds.com?ref=PRHA889C6496229" title="Unbound Worlds" class="footer-bttm-link" target="_blank" rel="nofollow">
+                                        <img src="http://assets.penguinrandomhouse.com/wp-content/uploads/2016/09/13122953/UW-PRH-footer-68x68.jpg" alt="Unbound Worlds">
+                                        </a>
+                    <h4>Unbound Worlds</h4>
+                    Exploring the science fiction and fantasy universe                </div>
+			            </div>
+        </div>
+	</div>
+    <div id="ftr-signup" style="display:none;">
+        <span class="close"></span>
+        <p class="hdr">Stay in Touch</p>
+        <form name="newsletter-subform" class="ftr-newsletter-subform" id="ftr-newsletter-subform" action="/ajax/newsletters-sub">
+            <input type="hidden" name="acquisition_code" value="PRH_FOOTER_STATIC_ONGOING">
+            <input class="newsletter-pref" type="hidden" name="general" id="news-pref1" value="true">
+            <div class="email-wrap-div">
+                <input type="email" autocomplete="off" title="Email address" name="_email" value="" placeholder="Enter Email" class="email-box" id="newsletter-email-box">
+                <button class="btn subscribe">Sign up</button>
+            </div>
+            <div class="fielderr _email hidden">Please enter a valid email address</div>
+            <div class="fielderr processing hidden">We are experiencing technical difficulties.  Please try again later.</div>
+            <p class="terms">By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random House's <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+        </form>
+    </div>
+	<!-- / End Main Page Wrap -->
+    
+    <script>var blankPageFix = setTimeout(function(){ try{ var htmlClass = document.getElementsByTagName( "html" )[0].getAttribute( "class" );	if( htmlClass.indexOf( "fouc-factor" ) > -1 ){ document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }} catch( e ) { document.getElementsByTagName( "html" )[0].setAttribute( "class", htmlClass.replace( /fouc-factor/, "" ) ); }}, 3000 );</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://www.penguinrandomhouse.com/wp-content/themes/penguinrandomhouse/js/global.min.js?ver=cb20170213032739'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aff351d92f","applicationID":"27454819","transactionName":"M1ADMhNUD0FSARBfWgoaIAUVXA5cHBIFUVBJWBcF","queueTime":0,"applicationTime":506,"atts":"HxcARFtOHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
