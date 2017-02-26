@@ -6,17 +6,43 @@ require 'date'
 class BooksController < ApplicationController
 
   @@local_img_path = '/Users/mkam/books/app/assets/images/'
+  @@local_file_path = '/Users/mkam/books/app/static_html/'
   @@agent = Mechanize.new
 
   def show
-    # scrape_bn
-    scrape_rh
+    download_hmh
     render text: "OK"
   end
 
   private
 
-  def scrape_rh
+  def prepare_request
+    @@agent.user_agent_alias = random_user_agent
+    random_delay
+  end
+
+  def download_hmh
+    @@agent.pluggable_parser.default = Mechanize::Download
+    @@agent.request_headers = {"Referer" => "http://www.hmhco.com/at-home", "accept-charset" => nil}
+    for i in 1..10
+      prepare_request
+      page = @@agent.get('http://www.hmhco.com/at-home/shop-by-age/3-5/page=' + i.to_s)
+      doc = Nokogiri::HTML(page.content)
+      rows = doc.css('section#body1_0_rightsectiondata_5_sectionProductWidget > div > ul')
+      rows.each do |row|
+        items_in_row = row.css('li')
+        items_in_row.each do |item|
+          url = item.css('a')[0]['href']
+          title = item.css('a h3').text.strip
+          prepare_request
+          @@agent.get('http://www.hmhco.com' + url).save(@@local_file_path + 'hmh/' + title + '.txt')
+        end
+      end
+    end
+  end
+
+
+  def download_rh
     @@agent.user_agent_alias = random_user_agent
     @@agent.pluggable_parser.default = Mechanize::Download
 
@@ -28,13 +54,9 @@ class BooksController < ApplicationController
       url = book.css('div.img > a')[0]['href']
       @@agent.user_agent_alias = random_user_agent
       title = book.css('div.title > a').text
-      details_page = @@agent.get('http://www.penguinrandomhouse.com' + url).save(title + ".txt")
-
-
+      details_page = @@agent.get('http://www.penguinrandomhouse.com' + url).save(@@local_file_path + 'random_house/' + title + '.txt')
     end
   end
-
-
 
   def scrape_bn
 

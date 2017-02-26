@@ -1,0 +1,2416 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta property="og:image" content="http://www.hmhco.com/Sites/HMH/Images/global/headerLogo.png" /><meta property="og:site_name" content="Houghton Mifflin Harcourt" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta name="skype_toolbar" content="skype_toolbar_parser_compatible" /><meta name="format-detection" content="telephone=yes" /><link rel="apple-touch-icon" sizes="144x144" href="/hmh-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="114x114" href="/hmh-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="72x72" href="/hmh-touch-icon-72x72.png" /><link rel="apple-touch-icon" href="/hmh-touch-icon.png" /><link href="/Sites/HMH/StyleSheets/foundation.min.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/app.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/header.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/left-nav.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/flexslider.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/hero-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/breadcrumbs.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/article-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/featured-content.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/product-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/footer.css" rel="stylesheet" /><link rel="stylesheet" media="screen" type="text/css" href="/Sites/HMH/stylesheets/jquery-ui-autocomplete.css?20170125024747000" /><meta name="robots" content="index,follow" /> <meta name="thumbnailImage" content="" />
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "http://www.hmhco.com/",
+      "logo": "http://www.hmhco.com/Sites/HMH/Images/Global/headerLogo.png"
+      }
+    </script>
+    <script src="/Sites/HMH/Javascript/modernizr.foundation.js"></script>
+    <script src="/Sites/HMH/javascript/picturefill.min.js" async></script>
+    
+        <script src='//assets.adobedtm.com/5d599bba477bad3ce4973aeb5c0a8c11709abbb4/satelliteLib-0e2519e72ac99bf1903363af66591539e99b077e.js'></script>
+    <script type="text/javascript"> adroll_custom_data = {product_id:9780544227842, product_group:'Individual'};</script>
+<script type="text/javascript">
+    var __st_loadLate = true;
+</script>
+<script type="text/javascript">var switchTo5x = true;</script>
+<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({ publisher: "db14f118-ed4d-4b16-92a8-30a27aed5702", publisherGA: "UA-17416443-2", doNotHash: true, doNotCopy: false, hashAddressBar: true, onhover: false });</script>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.dummy.js" ></script>
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframeworkdummy.js" ></script>
+<link rel="Stylesheet" href="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.css" />
+<title>
+	The Mantle of Command
+</title></head>
+<body id="bdyMaster" class="off-canvas hide-extras neutral">
+    <form method="post" action="/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882" id="frmMain">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNzUzODc5NzcPFgYeD19fQW50aVhzcmZUb2tlbgUgZTE4Y2VjOWRmMWQ1NDgyZGIwMjYxMjJmNmQwMzQwNWIeEl9fQW50aVhzcmZVc2VyTmFtZQUSZXh0cmFuZXRcQW5vbnltb3VzHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWBAIBD2QWAgIaDxYCHgRUZXh0BXU8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+IGFkcm9sbF9jdXN0b21fZGF0YSA9IHtwcm9kdWN0X2lkOjk3ODA1NDQyMjc4NDIsIHByb2R1Y3RfZ3JvdXA6J0luZGl2aWR1YWwnfTs8L3NjcmlwdD5kAgMPFgIeBWNsYXNzBR5vZmYtY2FudmFzIGhpZGUtZXh0cmFzIG5ldXRyYWwWAgIBEGRkFgoCAQ9kFgJmD2QWAmYPZBYIZg8WAh4HVmlzaWJsZWgWAgIBDxYCHwNlZAICD2QWAmYPZBYCZg9kFgICAQ8WAh4LXyFJdGVtQ291bnQCAhYEZg9kFgICAQ8WAh8EBR10b3AtYmFyLWJ1dHRvbiBwYXJlbnRzLWJ1dHRvbhYCAgEPD2QWBh8EBQpjb29raWUtdmFsHg9kYXRhLWNvb2tpZS12YWwFBkF0SG9tZR4Nb25jb250ZXh0bWVudQUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWhlYXJ0ZAIBD2QWAgIBDxYCHwQFH3RvcC1iYXItYnV0dG9uIGVkdWNhdG9ycy1idXR0b24WAgIBDw9kFgYfBAUKY29va2llLXZhbB8HBQlDbGFzc3Jvb20fCAUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWFwcGxlZAIGD2QWBgIDDxYCHgRocmVmBaABL2FjY291bnQvQ3JlYXRlQWNjb3VudD9pbkNoZWNrb3V0PWZhbHNlJlJldHVyblVybD0lMmZzaG9wJTJmYm9va3MlMmZKb3JnZS1lbC1jdXJpb3NvLXNpZW1icmEtdW5hLXNlbWlsbGFDdXJpb3VzLUdlb3JnZS1QbGFudHMtYS1TZWVkLUNHVFYtUmVhZGVyJTJmOTc4MDYxODg5Njg4MmQCBQ8WAh8JBZoBL2FjY291bnQvc2lnbi1pbj9pbkNoZWNrb3V0PWZhbHNlJlJldHVyblVybD0lMmZzaG9wJTJmYm9va3MlMmZKb3JnZS1lbC1jdXJpb3NvLXNpZW1icmEtdW5hLXNlbWlsbGFDdXJpb3VzLUdlb3JnZS1QbGFudHMtYS1TZWVkLUNHVFYtUmVhZGVyJTJmOTc4MDYxODg5Njg4MmQCBw8WAh8JBaABL2FjY291bnQvQ3JlYXRlQWNjb3VudD9pbkNoZWNrb3V0PWZhbHNlJlJldHVyblVybD0lMmZzaG9wJTJmYm9va3MlMmZKb3JnZS1lbC1jdXJpb3NvLXNpZW1icmEtdW5hLXNlbWlsbGFDdXJpb3VzLUdlb3JnZS1QbGFudHMtYS1TZWVkLUNHVFYtUmVhZGVyJTJmOTc4MDYxODg5Njg4MmQCCg9kFgICAQ8WAh8DZWQCAw9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgJmD2QWAgIBDxYCHwYCAhYEZg9kFgICAQ8WAh8EBRhhdGhvbWUtbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUGQXRIb21lHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1oZWFydGQCAQ9kFgICAQ8WAh8EBRtjbGFzc3Jvb20tbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUJQ2xhc3Nyb29tHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1hcHBsZWQCBw9kFgJmD2QWAmYPZBYCZg9kFgpmD2QWBAIBD2QWAgIBDw8WBB4ISW1hZ2VVcmwFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDQyMjc4NDIuZ2lmHg1BbHRlcm5hdGVUZXh0BSNUaGUgTWFudGxlIG9mIENvbW1hbmQtOTc4MDU0NDIyNzg0MmRkAgUPZBYCZg9kFgJmD2QWAmYPFgIfBWdkAgEPZBYeAgEPZBYCZg8WAh8DBS5UaGUgTWFudGxlIG9mIENvbW1hbmQ6IEZEUiBhdCBXYXIsIDE5NDHigJMxOTQyZAIFDxYCHwVoZAIHDxYCHwMFhwE8RElWPjxESVY+PEI+QSBkcmFtYXRpYywgZXllLW9wZW5pbmcgYWNjb3VudCBvZiBob3cgRkRSIHRvb2sgcGVyc29uYWwgY2hhcmdlIG9mIHRoZSBtaWxpdGFyeSBkaXJlY3Rpb24gb2YgV29ybGQgV2FyIElJLjwvQj48L0RJVj48L0RJVj5kAgkPZBYCZg8WAh8DBRFGb3JtYXQ6IFBhcGVyYmFja2QCCw9kFgJmDxYCHwMFG0lTQk4tMTMvIEVBTjogOTc4MDU0NDIyNzg0MmQCDQ9kFgJmDxYCHwMFE0lTQk4tMTA6IDA1NDQyMjc4NDBkAg8PZBYCZg8WAh8DBQpQYWdlczogNTQ0ZAIRD2QWAmYPFgIfAwUcUHVibGljYXRpb24gRGF0ZTogMDUvMTkvMjAxNWQCEw8WAh8FaGQCFQ9kFgJmDxYCHwMFE0NhcnRvbiBRdWFudGl0eTogMjRkAhcPFgIfBWhkAhkPFgIfBWhkAhsPFgIfBWhkAh0PZBYCAgMPZBYCAgEPFgIfBgIBFgJmD2QWBAIBDw8WAh4LTmF2aWdhdGVVcmwFLy9zaG9wL2Jvb2tzL1RoZS1NYW50bGUtb2YtQ29tbWFuZC85NzgwNTQ3Nzc1MjU4ZBYCZg8WAh8DBQVlQm9va2QCAw8WAh8GAgEWAmYPZBYCAgEPFgIfAwUGJDE2Ljk1ZAIfDxYCHwVoZAICD2QWAgIBD2QWBmYPFgIfBWgWAgIBDxYCHwVoZAIBDxYCHwMFBiQxNi45NWQCBA8WAh8DBQtBZGQgVG8gQ2FydGQCAw9kFgwCAw8WAh4JaW5uZXJodG1sBUA8YSBpZD0iYXV0aG9yQW5jaG9yIiBocmVmPSIjQWJvdXRUaGVBdXRob3IiPkFib3V0IHRoZSBBdXRob3I8L2E+ZAIFDxYCHwVoZAIJD2QWAgIBD2QWBAIBDxYCHwMFiAo8RElWPjxCPjxJPkxvbmdsaXN0ZWQgZm9yIHRoZSBOYXRpb25hbCBCb29rIEF3YXJkPC9JPjwvQj4mbmJzcDs8cD4mbmJzcDs8cD48Qj4mbGRxdW87VGhpcyBib2xkIGFyZ3VtZW50IC4gLiAuIHdpbGwgdW5kb3VidGVkbHkgY2hhbmdlIHRoZSB3YXkgd2Ugc2VlIEZyYW5rbGluIFJvb3NldmVsdC4mcmRxdW87Jm5ic3A7PHA+ICZtZGFzaDs8ST5DaHJpc3RpYW4gU2NpZW5jZSBNb25pdG9yPC9JPiZuYnNwOzxwPiZuYnNwOzxwPiAmbGRxdW87TWFzdGVybHkuJnJkcXVvOyAmbWRhc2g7IDxJPldhbGwgU3RyZWV0IEpvdXJuYWw8L0k+PC9CPiZuYnNwOzxwPiZuYnNwOzxwPjxCPkEgZHJhbWF0aWMsIGV5ZS1vcGVuaW5nIGFjY291bnQgb2YgaG93IEZEUiB0b29rIHBlcnNvbmFsIGNoYXJnZSBvZiB0aGUgbWlsaXRhcnkgZGlyZWN0aW9uIG9mIFdvcmxkIFdhciBJSTwvQj4mbmJzcDs8cD4mbmJzcDs8cD4gQmFzZWQgb24geWVhcnMgb2YgYXJjaGl2YWwgcmVzZWFyY2ggYW5kIGludGVydmlld3Mgd2l0aCB0aGUgbGFzdCBzdXJ2aXZpbmcgUm9vc2V2ZWx0IGFpZGVzIGFuZCBmYW1pbHkgbWVtYmVycywgPEk+VGhlIE1hbnRsZSBvZiBDb21tYW5kPC9JPiBvZmZlcnMgYSByYWRpY2FsIG5ldyBwZXJzcGVjdGl2ZSBvbiBGcmFua2xpbiBEZWxhbm8gUm9vc2V2ZWx0JnJzcXVvO3MgbWFzdGVyZnVsICZtZGFzaDsgYW5kIHVuZGVyYXBwcmVjaWF0ZWQgJm1kYXNoOyBsZWFkZXJzaGlwIG9mIHRoZSBBbGxpZWQgd2FyIGVmZm9ydC4gQWZ0ZXIgdGhlIGRpc2FzdGVyIG9mIFBlYXJsIEhhcmJvciwgd2Ugc2VlIFJvb3NldmVsdCBkZXZpc2luZyBhIGdsb2JhbCBzdHJhdGVneSB0aGF0IHdpbGwgZGVmZWF0IEhpdGxlciBhbmQgdGhlIEphcGFuZXNlLCByZXNjdWUgQ2h1cmNoaWxsIGFuZCB0aGUgQnJpdGlzaCBwZW9wbGUsIGFuZCBxdWVsbCBhIG5lYXIgaW5zdXJyZWN0aW9uIG9mIGhpcyBvd24gQW1lcmljYW4gZ2VuZXJhbHMgYW5kIFdhciBEZXBhcnRtZW50LiBBbGwgdGhlIHdoaWxlLCBIYW1pbHRvbiZyc3F1bztzIGFjY291bnQgZHJpdmVzIHRvd2FyZCBPcGVyYXRpb24gVG9yY2ggJm1kYXNoOyB0aGUgaW52YXNpb24gb2YgRnJlbmNoIE5vcnRod2VzdCBBZnJpY2EgJm1kYXNoOyBhbmQgdGhlIG91dGNvbWUgb2YgdGhlIHdhciBoYW5ncyBpbiB0aGUgYmFsYW5jZS4gPEk+VGhlIE1hbnRsZSBvZiBDb21tYW5kPC9JPiBpcyBhbiBpbnRpbWF0ZSwgc3dlZXBpbmcgbG9vayBhdCBhIGdyZWF0IFByZXNpZGVudCBpbiBoaXN0b3J5JnJzcXVvO3MgZ3JlYXRlc3QgY29uZmxpY3QuPC9ESVY+ZAIDD2QWBgIBD2QWAgIBDxYCHwYCAmQCAw9kFgICAQ8WAh8GAgJkAgUPFgIfBWgWEAIBDxYCHwVoZAIDDxYCHwVoZAIFDxYCHwVoZAIHDxYCHwVoZAIJDxYCHwVoZAILDxYCHwVoZAINDxYCHwVoZAIPDxYCHwVoZAILD2QWAgIBD2QWBAIBDxYCHwYCARYCZg9kFggCAQ8PFgIfCgUxL3Nob3AvYm9va3MvYXNzZXRzL2NvbnRyaWJ1dG9yL2hhbWlsdG9uJG5pZ2VsLmdpZmRkAgMPFgIfAwUOTmlnZWwgSGFtaWx0b25kAgUPFgIfAwXcA05JR0VMIEhBTUlMVE9OIGlzIGEgYmVzdC1zZWxsaW5nIGFuZCBhd2FyZC13aW5uaW5nIGJpb2dyYXBoZXIgb2YgUHJlc2lkZW50IEpvaG4gRi4gS2VubmVkeSwgR2VuZXJhbCBCZXJuYXJkICZxdW90O01vbnR5JnF1b3Q7IE1vbnRnb21lcnksIGFuZCBQcmVzaWRlbnQgQmlsbCBDbGludG9uLCBhbW9uZyBvdGhlciBzdWJqZWN0cy4gSGlzIG1vc3QgcmVjZW50IGJvb2ssIFRoZSBNYW50bGUgb2YgQ29tbWFuZDogRkRSIGF0IFdhciwgMTk0MSZuZGFzaDsxOTQyLCB3YXMgbG9uZy1saXN0ZWQgZm9yIHRoZSBOYXRpb25hbCBCb29rIEF3YXJkLiBIZSBpcyBhIHNlbmlvciBmZWxsb3cgYXQgdGhlIE1jQ29ybWFjayBHcmFkdWF0ZSBTY2hvb2wsIFVuaXZlcnNpdHkgb2YgTWFzc2FjaHVzZXR0cywgQm9zdG9uIGFuZCBzcGxpdHMgaGlzIHRpbWUgYmV0d2VlbiBCb3N0b24sIE1hc3NhY2h1c2V0dHMgYW5kIE5ldyBPcmxlYW5zLCBMb3Vpc2lhbmEuZAIHDw8WAh8MBSkvYm9va3N0b3JlL2F1dGhvcnMvTmlnZWwtSGFtaWx0b24vOTk1MTk2NGRkAgMPZBYCAgEPFgIfBgICFgRmD2QWBGYPFQENOTc4MDU0Nzc3NTI1OGQCAQ8PFgIfDAUvL3Nob3AvYm9va3MvVGhlLU1hbnRsZS1vZi1Db21tYW5kLzk3ODA1NDc3NzUyNThkFgYCAQ8PFgIfCgUsL3Nob3AvYm9va3MvYXNzZXRzL3Byb2R1Y3QvOTc4MDU0NDIyNzg0Mi5naWZkZAIDDxYCHwMFFVRoZSBNYW50bGUgb2YgQ29tbWFuZGQCBQ8WAh8GAv////8PZAIBD2QWBGYPFQENOTc4MDU0NDI3OTExN2QCAQ8PFgIfDAUsL3Nob3AvYm9va3MvQ29tbWFuZGVyLWluLUNoaWVmLzk3ODA1NDQyNzkxMTdkFgYCAQ8PFgIfCgUsL3Nob3AvYm9va3MvYXNzZXRzL3Byb2R1Y3QvOTc4MDU0NDI3OTExNy5naWZkZAIDDxYCHwMFEkNvbW1hbmRlciBpbiBDaGllZmQCBQ8WAh8GAv////8PZAINDxYCHwQFBGhpZGVkAg8PZBYCAgEPZBYCAgEPFgIfAwX3HDxESVY+PFA+JnF1b3Q7PEk+VGhlIE1hbnRsZSBvZiBDb21tYW5kPC9JPiBpcyBzcGxlbmRpZDogSXQmcnNxdW87cyB0aGUgbWVtb2lyIFJvb3NldmVsdCBkaWRuJnJzcXVvO3QgZ2V0IHRvIHdyaXRlLiZxdW90OyZuYnNwOzxwPiZtZGFzaDs8ST5OZXcgWW9yayBUaW1lcyBCb29rIFJldmlldzwvST48L1A+PFA+JnF1b3Q7TWFzdGVybHkuJnF1b3Q7Jm5ic3A7PHA+PEk+Jm1kYXNoO1dhbGwgU3RyZWV0IEpvdXJuYWw8L0k+PC9QPjxQPiZxdW90O0EgZGVmaW5pdGl2ZSB2b2x1bWUgb24gdGhpcyBhc3BlY3Qgb2YgUm9vc2V2ZWx0JnJzcXVvO3MgY2FyZWVyIGFuZCBlc3NlbnRpYWwgcmVhZGluZyBmb3IgYW55b25lIGludGVyZXN0ZWQgaW4gV1dJSSwgdGhlIFJvb3NldmVsdCBQcmVzaWRlbmN5LCBhbmQgcHJlc2lkZW50aWFsIGxlYWRlcnNoaXAuJnF1b3Q7Jm5ic3A7PHA+PEk+Jm1kYXNoO1B1Ymxpc2hlcnMgV2Vla2x5PC9JPjwvUD48UD4mcXVvdDtUaGlzIGNvbnZpbmNpbmdseSB3cml0dGVuIGFuZCBncmlwcGluZyB2b2x1bWUgaXMgZXNzZW50aWFsIGZvciBoaXN0b3JpYW5zLCBwb2xpdGljYWwgc2NpZW50aXN0cywgYW5kIGhpc3RvcnkgYnVmZnMsIGZvciBhIGRlZXBlciB1bmRlcnN0YW5kaW5nIG9mIHRoZSBwcmluY2lwbGUgb2YgY2l2aWxpYW4gc3VwcmVtYWN5IG9mIHRoZSBtaWxpdGFyeSBpbiB0aGUgVS5TLiBwb2xpdGljYWwgc3lzdGVtLiZxdW90OyZuYnNwOzxwPjxJPiZtZGFzaDtMaWJyYXJ5IEpvdXJuYWwsPC9JPiBTVEFSUkVEIDwvUD48UD4mcXVvdDtBIGRlZXBseSBlbmdyb3NzaW5nIHN0dWR5IG9mIHRoZSBmaXJzdCB5ZWFyIG9mIEZyYW5rbGluIFJvb3NldmVsdCZyc3F1bztzIHByZXNjaWVudCBtaWxpdGFyeSBsZWFkZXJzaGlwIGluIFdvcmxkIFdhciBJSS4uLkxpdmVseSwgZWx1Y2lkYXRpbmcsIGVsZWdhbnQgYW5kIGhpZ2hseSBrbm93bGVkZ2VhYmxlLiZxdW90OyZuYnNwOzxwPjxJPiZtZGFzaDtLaXJrdXM8L0k+LCBTVEFSUkVEPC9QPjxQPiZxdW90O0hhbWlsdG9uIGlzIHRhbnRhbW91bnQgdG8gdGhlIGFtYW51ZW5zaXMgZm9yIHRoZSBtZW1vaXIgRkRSIG5ldmVyIHdyb3RlLi4ud2VsbCByZXNlYXJjaGVkIGFuZCBjb25maWRlbnQgaW4gaXRzIGNvbmNsdXNpb25zLCBIYW1pbHRvbiZyc3F1bztzIHN0dWR5IGFibHkgYXVnbWVudHMgdGhlIGdhbGxlcnkgb2YgV1dJSSBsZWFkZXJzLiZxdW90OyZuYnNwOzxwPjxJPiZtZGFzaDtCb29rbGlzdDwvST48L1A+PFA+JnF1b3Q7TmlnZWwgSGFtaWx0b24mcnNxdW87cyBNYW50bGUgb2YgQ29tbWFuZCBpcyBhIHN0aXJyaW5nIGFuZCBub3Rld29ydGh5IGJvb2sgYWJvdXQgUm9vc2V2ZWx0JnJzcXVvO3MgY3J1Y2lhbCByb2xlIGFzIGNvbW1hbmRlci1pbi1jaGllZiBkdXJpbmcgV29ybGQgV2FyIElJLiBIYW1pbHRvbiB3cml0ZXMgd2l0aCBpbnNpZ2h0LCBwYXNzaW9uLCBhbmQgYSBncmVhdCBncmFzcCBvZiBoaXN0b3J5LiBJIGJlbGlldmUgdGhpcyBib29rIHdpbGwgYmVjb21lIHRoZSBzdGFuZGFyZCBieSB3aGljaCBvdGhlciBib29rcyBhYm91dCBGRFImcnNxdW87cyByb2xlIGluIFdvcmxkIFdhciBJSSB3aWxsIGJlIG1lYXN1cmVkLiZxdW90OyAmbmJzcDs8cD4mbWRhc2g7Q2FybG8gRCZyc3F1bztFc3RlLCBhdXRob3Igb2YgPEk+UGF0dG9uOiBBIEdlbml1cyBmb3IgV2FyIGFuZCBXYXJsb3JkOiBBIExpZmUgb2YgQ2h1cmNoaWxsIGF0IFdhciwgMTg3NCZuZGFzaDsxOTQ1PC9JPjwvUD48UD4mcXVvdDtUaGlzIGlzIG5vdCB0aGUgUm9vc2V2ZWx0IChvciBDaHVyY2hpbGwpIHlvdSYjMzk7ZCBleHBlY3QuIEZyb20gdGhlIHN0YXJ0LCBhbiBhZ2dyZXNzaXZlLCBpbi1jaGFyZ2UgRkRSIGVtZXJnZXMgZnJvbSBhIHdvbmRlcmZ1bCB3ZWF2aW5nIG9mIGVzdGFibGlzaGVkIHNjaG9sYXJzaGlwIGFuZCB0aGUgZmFzY2luYXRpbmcgYml0cyBhbmQgcGllY2VzIHRoYXQgbWFrZSBoaXN0b3J5IGxpdmUuIENodXJjaGlsbCBpcyBhbiBpbnNwaXJhdGlvbmFsIG5hZywgd2l0aCBhIGJ1c3ksIHVuZm9jdXNlZCBzdHJhdGVnaWMgdmlzaW9uLiBBIGtleSBlbnRyeSBpbnRvIHRoZSBvbmdvaW5nIGRlYmF0ZSBvdmVyIHdobyBtYWRlIGdyYW5kIHN0cmF0ZWd5IGluIHRoZSBlYXJseSB3YXIgeWVhcnMgJm1kYXNoOyBSb29zZXZlbHQgb3IgQ2h1cmNoaWxsPyZxdW90OyZuYnNwOzxwPiAmbWRhc2g7V2FycmVuIEYuIEtpbWJhbGwsIGF1dGhvciBvZiA8ST5Gb3JnZWQgaW4gV2FyOiBSb29zZXZlbHQsIENodXJjaGlsbCwgYW5kIHRoZSBTZWNvbmQgV29ybGQgV2FyPC9JPjwvUD48UD4mcXVvdDtOaWdlbCBIYW1pbHRvbiBpbiBNYW50bGUgb2YgQ29tbWFuZCBwcmVzZW50cyBhIHZlcnkgZGlmZmVyZW50IHdhcnRpbWUgRnJhbmtsaW4gRGVsYW5vIFJvb3NldmVsdCB0aGFuIHRoZSBvbmUgd2UgYXJlIHVzZWQgdG8gc2VlaW5nLiBXaGV0aGVyIG9yIG5vdCBvbmUgYWdyZWVzIHdpdGggYWxsIGhpcyBjb25jbHVzaW9ucywgSGFtaWx0b24gY2xlYXJseSBzaG93cyB0aGF0IEZEUiB3YXMgYW4gZXh0cmVtZWx5IHN0cm9uZyBhbmQgZWZmZWN0aXZlIGNvbW1hbmRlci1pbi1jaGllZi4gVGhpcyB2b2x1bWUgc2hvdWxkIGdvIGEgbG9uZyB3YXkgdG8gZGlzcGVsbGluZyBwb3B1bGFyIG15dGhzIGFib3V0IFJvb3NldmVsdCBhcyBhIG5hJml1bWw7dmUgYW5kIHdlYWsgd2FyIGxlYWRlci4mcXVvdDsmbmJzcDs8cD4gJm1kYXNoO01hcmsgU3RvbGVyLCBlZGl0b3Igb2YgdGhlIEdlb3JnZSBDLiBNYXJzaGFsbCBQYXBlcnMgJmFtcDsgUHJvZmVzc29yIEVtZXJpdHVzIG9mIEhpc3RvcnksIFVuaXZlcnNpdHkgb2YgVmVybW9udDwvUD48UD4mcXVvdDtOaWdlbCBIYW1pbHRvbiBoYXMgd3JpdHRlbiBhIHNwaXJpdGVkIGFuZCB0aG91Z2h0ZnVsICZsc3F1bztyZXZpc2lvbmlzdCZyc3F1bzsgc3R1ZHkgb2YgRnJhbmtsaW4gRGVsYW5vIFJvb3NldmVsdCBhcyBjb21tYW5kZXItaW4tY2hpZWYgZHVyaW5nIHRoZSBmaXJzdCBwaGFzZSBvZiBVLlMuIGludm9sdmVtZW50IGluIHRoZSBTZWNvbmQgV29ybGQgV2FyLiBIYW1pbHRvbiZyc3F1bztzIG5hcnJhdGl2ZSBza2lsbCBicmluZ3MgYWxpdmUgdGhlIGh1bWFuIGRyYW1hcywgbG9naXN0aWMgaHVyZGxlcywgYW5kIHN0cmF0ZWdpYyBkZWJhdGVzIHRvIHNob3cgaG93IEZEUiZyc3F1bztzIGluZGlzcGVuc2FibGUgZHJpdmUgYW5kIGZvcndhcmQtbG9va2luZyBsZWFkZXJzaGlwIHRhbWVkIGhpcyBvd24gJmxzcXVvO3RlYW0gb2Ygcml2YWxzJnJzcXVvOyBhbmQgc2V0IHRoZSBVbml0ZWQgU3RhdGVzIGFuZCBpdHMgQWxsaWVzIG9uIHRoZSByb2FkIHRvIHZpY3Rvcnkgb3ZlciB0aGUgQXhpcy4gVGhlIGJvb2tzIGVubGl2ZW5zIHRoZSBvZnRlbiBtdXJreSB3b3JsZHMgb2YgYnVyZWF1Y3JhdGljIHN0cnVnZ2xlIGFuZCBtaWxpdGFyeSBkZXRhaWwgdG8gZGVtb25zdHJhdGUgaG93IGltcG9ydGFudCBpdCB3YXMgZm9yIHRoZSBVbml0ZWQgU3RhdGVzIHRvICZsc3F1bztnZXQgaXQgcmlnaHQmcnNxdW87IGVhcmx5IGluIHRoZSB3YXIgYW5kIGhvdyBGRFIgYWNjb21wbGlzaGVkIHRoaXMuJnF1b3Q7Jm5ic3A7PHA+ICZtZGFzaDtNaWNoYWVsIFNjaGFsbGVyLCBhdXRob3Igb2YgPEk+RG91Z2xhcyBNYWNBcnRodXI8L0k+ICZhbXA7IFJlZ2VudHMgUHJvZmVzc29yIG9mIEhpc3RvcnksIFVuaXZlcnNpdHkgb2YgQXJpem9uYTwvUD48L0RJVj5kAgQPZBYCAgEPFgIfBgIDFgZmD2QWBGYPFQENOTc4MDU0NDgxMTkwNGQCAQ8PFgIfDAUiL3Nob3AvYm9va3MvUm9zZW1hcnkvOTc4MDU0NDgxMTkwNGQWCAIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0ODExOTA0LmdpZmRkAgMPFgIfAwUIUm9zZW1hcnlkAgUPFgIfBgIBFgJmD2QWAgIBDxYCHwMFC0thdGUgTGFyc29uZAIHDxYCHwMFCVBhcGVyYmFja2QCAQ9kFgRmDxUBDTk3ODA1NDQ0ODM4NzNkAgEPDxYCHwwFMi9zaG9wL2Jvb2tzL1RoZS1BcnNlbmFsLW9mLURlbW9jcmFjeS85NzgwNTQ0NDgzODczZBYIAgEPDxYCHwoFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDQ0ODM4NzMuZ2lmZGQCAw8WAh8DBRhUaGUgQXJzZW5hbCBvZiBEZW1vY3JhY3lkAgUPFgIfBgIBFgJmD2QWAgIBDxYCHwMFC0EuIEouIEJhaW1lZAIHDxYCHwMFCVBhcGVyYmFja2QCAg9kFgRmDxUBDTk3ODA1NDQ1NzA0MDVkAgEPDxYCHwwFMC9zaG9wL2Jvb2tzL1doZW4tQm9va3MtV2VudC10by1XYXIvOTc4MDU0NDU3MDQwNWQWCAIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0NTcwNDA1LmdpZmRkAgMPFgIfAwUWV2hlbiBCb29rcyBXZW50IHRvIFdhcmQCBQ8WAh8GAgEWAmYPZBYCAgEPFgIfAwUNTW9sbHkgTWFubmluZ2QCBw8WAh8DBQlQYXBlcmJhY2tkAg8PZBYCAgIPDxYCHwVnZGQCEw9kFgICAg8PFgIfBWdkZGTdNbUQd4eVG65eHTNdGD8r/w1FyQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="004CDBBC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIKEqaWjFiMyCq1E2XDXmajTyKPhRYzLqVFdOV50m1tKeznxVoBt1MrjYk9HRi72R/AcsTn" />
+</div>
+        <div class="container">
+            <!--New-->
+            <section>
+                    
+    <header class="header-nav darkgray" id="top-header">
+        <nav class="header-top-bar row">
+            
+<ul>
+    
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_0" class="top-bar-button parents-button">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_0" class="icon-heart"></i>
+                    <span class="hide-for-small">
+                        At Home
+                    </span>
+                </a>
+
+            </li>
+        
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_1" class="top-bar-button educators-button">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_1" class="icon-apple"></i>
+                    <span class="hide-for-small">
+                        Classroom
+                    </span>
+                </a>
+
+            </li>
+        
+</ul>
+
+            <section>
+                
+                <ul class="right right-links-bar" id="signedOut">
+                    
+                        <li class="account-link icon-user-account has-dropdown"><a href="#"><i class="icon-user"></i></a>
+                            <div class="dropdown dropdown-animated dropdown-margin">
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><a href="/account/sign-in?inCheckout=false" id="greyheaderbar_0_signMobileLink">Sign In</a></li>
+                                        <li><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fJorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader%2f9780618896882" id="greyheaderbar_0_A1">Sign Up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="account-link signin"><a href="/account/sign-in?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fJorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader%2f9780618896882" id="greyheaderbar_0_signLink"><span>Sign In </span></a></li>
+                        <li class="account-link"><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fJorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader%2f9780618896882" id="greyheaderbar_0_signUpLink"><span>Sign Up</span></a></li>
+                    
+                    
+                    
+                        <li id="cartButton" class="cart cartButton has-dropdown"><a href="/hmhstorefront/cart" class="icon-cart"><span class="cart-counter cartCount" id="cartCounter">
+                            </span></a>
+                            <section class="mini-cart dropdown dropdown-animated cart items whitebg" id="cart">
+
+
+                                
+                                
+                            </section>
+                        </li>
+                    
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+  
+
+
+                <section id="main" role="main" class="lightgray">
+                    <!--New-->
+                    
+<header class="header-nav">
+    <nav class="header-sub-bar row">
+        <ul class="logo-section">
+            <li>
+                <a href="#" id="sidebarButton">
+                    <i class="icon-hamburger"></i>
+                </a>
+            </li>
+            <li class="hmh-logo">
+                <!-- make ie8 happy -->
+                <a href="//www.hmhco.com/">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(min-width: 1151px)" id="ImgHeaderLarge" srcset="/Sites/HMH/Images/Global/hmh-logo.png" />
+                        <source media="(min-width: 320px)" id="ImgHeaderSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo.png" />
+                        <!--[if IE 9]></video><![endif]-->
+                        <img src="/Sites/HMH/Images/Global/hmh-logo.png" alt="HMH LOGO" />
+                    </picture>
+                </a>                    
+            </li>
+            <li class="hmh-tagline">
+                <img src="/Sites/HMH/Images/Global/splash-header_w-secondary.png" />
+            </li>
+        </ul>
+        <section id="header_0_sectionSearch" class="search-bar">
+            <a href="#" class="search-toggle show-for-small hide-for-medium">
+                <i class="icon-magnifying"></i>
+            </a>
+            <div class="search-form">
+                <label class="search-input" for="searchEntry">
+                    <i class="icon-magnifying"></i>
+                    <input type="search" id="searchEntry" placeholder="Search by Keyword or ISBN" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                </label>
+                <input type="submit" value="Search" class="searchIconButton" />
+                <!-- <a href="#" class="submit-magnifying icon-magnifying"></a> //-->
+            </div>
+        </section>
+        <div class="button-container">
+            
+<ul class="neutral-buttons">
+    
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_0" class="athome-link has-dropdown">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_0" class="icon-heart"></i>
+                    At Home
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/at-home/shop-by-age" class="cookie-val" data-cookie-val="AtHome" >Shop by Age</a></li><li><a oncontextmenu="return false" href="/at-home/shop-by-category" class="cookie-val" data-cookie-val="AtHome" >Shop by Category</a></li><li><a oncontextmenu="return false" href="/at-home/featured-shops" class="cookie-val" data-cookie-val="AtHome" >Featured Shops</a></li><li><a oncontextmenu="return false" href="/at-home/homeschool" class="cookie-val" data-cookie-val="AtHome" >Homeschool</a></li><li><a oncontextmenu="return false" href="/at-home/family-learning-center" class="cookie-val" data-cookie-val="AtHome" >Family Learning Center</a></li></ul></div></div>
+            </li>
+        
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_1" class="classroom-link has-dropdown">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_1" class="icon-apple"></i>
+                    Classroom
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/classroom/shop-by-grade" class="cookie-val" data-cookie-val="Classroom" >Shop by Grade</a></li><li><a oncontextmenu="return false" href="/classroom/shop-by-subject" class="cookie-val" data-cookie-val="Classroom" >Shop by Subject</a></li><li><a oncontextmenu="return false" href="/classroom/featured-programs" class="cookie-val" data-cookie-val="Classroom" >Products</a></li><li><a oncontextmenu="return false" href="/classroom/classroom-solutions" class="cookie-val" data-cookie-val="Classroom" >Classroom Solutions</a></li><li><a oncontextmenu="return false" href="/classroom/evaluate-and-sample" class="cookie-val" data-cookie-val="Classroom" >Evaluate & Sample</a></li></ul></div></div>
+            </li>
+        
+    
+</ul>
+
+
+        </div>
+    </nav>
+</header>
+
+
+
+
+<script type="text/javascript">
+
+    var xRf = xRf || { initialized: false };
+    if (!xRf.initialized) {
+        xRf.searchMenuData = [{
+"menu" :
+[  {
+"value" : "?segment=All;mm=all" ,
+"label" : "Entire Site",
+"path" : "?segment=All;mm=all;i=1;m_SiteSection=Entire+Site"
+},  {
+"value" : "?segment=Programs;mm=programs" ,
+"label" : "Education Programs",
+"path" : "?segment=Programs;mm=programs;i=1;m_SiteSection=Education+Programs"
+},  {
+"value" : "?segment=Components;mm=components" ,
+"label" : "Education Program Components",
+"path" : "?segment=Components;mm=components;i=1;m_SiteSection=Education+Program+Components"
+},  {
+"value" : "?segment=RiversidePrograms;mm=riversideprograms" ,
+"label" : "Assessment Products",
+"path" : "?segment=RiversidePrograms;mm=riversideprograms;i=1;m_SiteSection=Assessment+Products"
+},  {
+"value" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components" ,
+"label" : "Common Core",
+"path" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components;i=1;m_SiteSection=Common+Core"
+},  {
+"value" : "?segment=Products;mm=trade" ,
+"label" : "Popular Books",
+"path" : "?segment=Products;mm=trade;i=1;m_SiteSection=Popular+Books"
+},  {
+"value" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth" ,
+"label" : "Books for Kids & Teens",
+"path" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth;i=1;m_SiteSection=Books+for+Kids+%26+Teens"
+},  {
+"value" : "?segment=Content;mm=content" ,
+"label" : "Articles & Content",
+"path" : "?segment=Content;mm=content;i=1;m_SiteSection=Articles+%26+Content"
+},  {
+"value" : "?segment=MediaCenter;mm=mediacenter" ,
+"label" : "Media Center",
+"path" : "?segment=MediaCenter;mm=mediacenter;i=1;m_SiteSection=Media+Center"
+} 
+]
+}];
+
+        xRf.cookieBelowMinAge = 'submittedTooMuch';
+        xRf.searchPath = '/search';
+        xRf.mediacentersearchPath = '/media-center/search';
+        xRf.blogsPath = '/media-center/blogs';
+        xRf.pressreleasePath = '/media-center/press-releases';
+        xRf.newsPath = '/media-center/in-the-news';
+        xRf.searchMiscExtraFmt = '';
+        xRf.assetLibraryPath = '/booksellers/asset-library?q=';
+        xRf.autoCompleteAccount = "sp1004efe8";
+        xRf.autoCompleteDomain = "http://hmh.guided.ss-omtrdc.net";
+        xRf.autoCompleteInputSelector = "input#searchEntry";
+        xRf.menuAssetLibraryOption = '<option value="Asset Library">Asset Library</option>'
+    }
+</script>
+
+
+                    
+                    <section class="body-content row">
+                        <div class="twelve columns nopadding">
+                            
+<!--Begin Structure-->
+<!-- Content -->
+<section class="row headline whitebg">
+    <div class="twelve columns nopadding productDetailsContainer">
+    	<section class="twelve columns">
+        	<aside id="_2310708db40f3f_productDetailsLeft" class="leftside three columns product-details-leftside">
+                <div class="product-item product-item-details twelve columns nopadding">
+                    <figure id="_2310708db40f3f_productGraphicDiv">
+                        <img id="_2310708db40f3f_bookImage" src="/shop/books/assets/product/9780544227842.gif" alt="The Mantle of Command-9780544227842" />
+                    </figure>
+                    <!-- End Product Image -->
+                    <div id="_2310708db40f3f_downloadImageDiv" class="row ctaarea">
+                        <div class="twelve columns">
+                           <script type="text/javascript" src="//www.google.com/jsapi"></script>
+                           <script type="text/javascript">
+                               google.load("books", "0");
+                               function initialize() {
+                                   var display_options = { showLinkChrome: false };
+                                   var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'), display_options);
+
+                                   viewer.load('ISBN:9780544227842', bookNotFound, removePreviewFooter);
+                               }
+                               function bookNotFound() {
+                                   document.getElementById('viewerCanvas').innerHTML = "<h1>No Preview!</h1>";
+                               }
+                               function removePreviewFooter() {
+                                   $('#viewerCanvas > div > div:nth-child(2)').css('display', 'none');
+                               }
+                               google.setOnLoadCallback(initialize);
+                            </script>
+                            <p><a href="javascript:showDownloadImages('//www.hmhbooks.com/catalog/downloadresultsa.cfm?adv=y&ean=9780544227842'); Om_ShowProductImages('9780544227842','Paperback');">Download Images</a></p>
+                            <p><a class="preview" data-isbn="ISBN:9780544227842"><img src="/Sites/HMH/Images/Global/gbs_preview_button1.gif" alt="Google Preview" /></a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Social Icons -->
+                <div class="social_icons">
+                    
+<div class="shareThis">
+    
+        <span class="st_facebook"></span>
+	    <span class="st_twitter"></span>
+        <span class="st_linkedin"></span>
+	    <span class="st_pinterest"></span>
+	    <span class="st_email"></span>
+    
+</div>
+
+
+                </div>
+                <!-- End Social Icons -->
+                <!-- Start product data listing -->
+                <div class="productDataListingContDup"></div>
+                <!-- End product data listing -->
+            </aside>
+            <article id="_2310708db40f3f_productDetailsMain" class="rightside six columns product-details">
+            	<h1 id="_2310708db40f3f_headerText">The Mantle of Command: FDR at War, 1941–1942</h1>
+                <p class="writer">by <a href="/bookstore/authors/Nigel-Hamilton/9951964">Nigel Hamilton</a></p>
+                <!-- Start Product Information Block -->
+                <div class="productInformationBlock">
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescrip">
+                        
+                        <div class="outOfStock">
+                            <p>
+                                <span class="error"></span>
+                            </p>
+                        </div>
+                        <p>
+                            <DIV><DIV><B>A dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II.</B></DIV></DIV>
+                        </p>
+                    </div>
+                    <!-- end Product Description -->
+                    <!-- Start product data listing -->
+                    <div class="productDataListingCont" id="productDataListing">
+                        <ul class="productDataListing">
+                            <li id="_2310708db40f3f_formatSpan">Format: Paperback</li>
+                            <li id="_2310708db40f3f_isbn13Span">ISBN-13/ EAN: 9780544227842</li>
+                            <li id="_2310708db40f3f_isbn10Span">ISBN-10: 0544227840</li>
+                            <li id="_2310708db40f3f_noOfPagesSpan">Pages: 544</li>
+                            <li id="_2310708db40f3f_publicationDateSpan">Publication Date: 05/19/2015</li>
+                            
+                            <li id="_2310708db40f3f_cartonQtySpan">Carton Quantity: 24</li>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                    <!-- End product data listing -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailable">
+                        <div id="_2310708db40f3f_relatedComponentDiv" class="row">
+                            <div class="twelve columns">
+                                <p id="_2310708db40f3f_formatHeader">Also available in:</p>
+                                <ul id="_2310708db40f3f_formatList">
+                                    
+                                            <li>
+                                                <a id="_2310708db40f3f_otherFormatItemsRepeater_otherFormatHyperlink_0" href="/shop/books/The-Mantle-of-Command/9780547775258">eBook</a>
+                                                
+                                                        -
+									                        $16.95
+                                                    
+                                                </li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- End also available -->
+                </div>
+                <!-- End Product Information Block -->
+            </article>
+            <aside id="_2310708db40f3f_productcartAside" class="right three columns product-details-rightside panel">
+                <div class="product-item product-item-details twelve columns">
+                    <div id="_2310708db40f3f_productcartDiv" class="product-items-full-details">
+                        <p class="product-item-price">
+                            
+                            <span>
+                                $16.95</span><br />
+                            <span>
+                                </span>
+                        </p>
+                        <div id="_2310708db40f3f_quantitySpan" class="quantity-container">
+                            <p>
+                                <a class="increment item-quantity-down" data-item-id='1563715' data-page="search">-</a>
+                                <input type="text" name="cartItemsForm[1563715].quantity" id='item_1563715_quantity'
+                                    class="item-quantity" data-price="" data-item-id='1563715' maxlength="4" value="1" />
+                                <a class="increment item-quantity-up" data-page="search" data-item-id='1563715'>+</a>
+                            </p>
+                        </div>
+                        <p>
+                            <a id="addToCartButtonInline" class="shopnow addToCartButton button" data-productid='1563715' data-title='The Mantle of Command'
+                                data-metatitle='The-Mantle-of-Command' data-isbn13='9780544227842' data-inventorystatus='' data-producttype="component">
+                                Add To Cart</a>
+                        </p>
+                        <div class="dynamic_box_content special_detail">
+                            <p><a class="bulkView">Bulk purchasing &amp; Other Options</a></p>
+                        </div>
+                    </div>
+                </div>
+                <section class="twelve columns">
+                    <!-- Start product data listing -->
+                    <div class="productDataListingContDup"></div>
+                    <!-- End product data listing -->
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescripDup"></div>
+                    <!-- end Product Description -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailableDup"></div>
+                    <!-- End also available -->
+                </section>  
+            </aside>
+        </section>
+        <div class="twelve columns nopadding productDetailsContainer">
+            <article class="rightside twelve columns product-details">
+                <!-- Start Tabbed Section -->
+                <div id="_2310708db40f3f_productdetailDiv">
+         		    <section class="row article-widget whitebg transparent">
+    				    <dl id="tabsdd" class="tabs tall tabs-module-4 hide-for-small">
+                            <dd id="tabProductInfo" class="active"><a target="" href="#ProductInfo">About the Book</a></dd>
+                            <dd id="tabAboutTheAuthor"><a id="authorAnchor" href="#AboutTheAuthor">About the Author</a></dd>
+                            
+                            <dd id="tabReviews"><a target="" href="#Reviews">Reviews</a></dd>
+    			        </dl>
+                        <ul class="accordion tabs-content centered">
+                            <li id="ProductInfoTab" class="accordion-tab active">
+                                <div class="title accordion-tab-title ProductInfoTab ProductInfo-accordion show-for-small" data-hash="ProductInfo-accordion" data-parent-tab-content="ProductInfoTab" data-parent-tab="tabProductInfo">
+                                    <h5>About the Book</h5>
+                                </div>
+                                <div id="ProductInfoTabContent" class="content accordion-tab-content active more-block">
+                                    <div id="book_more" class="book_more">
+                                        <DIV><B><I>Longlisted for the National Book Award</I></B>&nbsp;<p>&nbsp;<p><B>&ldquo;This bold argument . . . will undoubtedly change the way we see Franklin Roosevelt.&rdquo;&nbsp;<p> &mdash;<I>Christian Science Monitor</I>&nbsp;<p>&nbsp;<p> &ldquo;Masterly.&rdquo; &mdash; <I>Wall Street Journal</I></B>&nbsp;<p>&nbsp;<p><B>A dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II</B>&nbsp;<p>&nbsp;<p> Based on years of archival research and interviews with the last surviving Roosevelt aides and family members, <I>The Mantle of Command</I> offers a radical new perspective on Franklin Delano Roosevelt&rsquo;s masterful &mdash; and underappreciated &mdash; leadership of the Allied war effort. After the disaster of Pearl Harbor, we see Roosevelt devising a global strategy that will defeat Hitler and the Japanese, rescue Churchill and the British people, and quell a near insurrection of his own American generals and War Department. All the while, Hamilton&rsquo;s account drives toward Operation Torch &mdash; the invasion of French Northwest Africa &mdash; and the outcome of the war hangs in the balance. <I>The Mantle of Command</I> is an intimate, sweeping look at a great President in history&rsquo;s greatest conflict.</DIV>
+                                    </div>
+                                    <!--Begin Subjects-->
+                                    <div id="_2310708db40f3f_subjectParentDiv" class="additional-assets">
+                                        <div id="subjectParentContent">
+                                            <div id="_2310708db40f3f_subjectDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/general-interest/biography-autobiography/presidents-heads-of-state">Presidents & Heads of State</a></li>     
+                                                        
+                                                        <li><a href="/shop/general-interest/history/militaryworld-war-ii">Military/World War II</a></li>     
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="_2310708db40f3f_relatedSubjectsDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Related Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/m/military/">Military</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/history/">History</a></li>    
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!--Begin links to other assets-->
+                                            
+                                            <!--End links to other assets-->
+                                        </div>
+                                    </div>
+                                    <!--End Subjects-->
+                                </div>
+                            </li>
+                            <li id="AboutTheAuthorTab" class="accordion-tab">
+                                <div class="title accordion-tab-title AboutTheAuthorTab AboutTheAuthor-accordion show-for-small" data-hash="AboutTheAuthor-accordion" data-parent-tab-content="AboutTheAuthorTab" data-parent-tab="tabAboutTheAuthor">
+                                    <h5>About the Author</h5>
+                                </div>
+                                <div id="AboutTheAuthorTabContent" class="content accordion-tab-content more-block">
+                                    
+                                            <section class="row featured-content nine-column blurb">
+                                                <div class="three columns image-wrap">
+                                                    <figure class="image-wrap">
+                                                        <img id="_2310708db40f3f_authorRepeater_authorImageUrl_0" class="itemImage" src="/shop/books/assets/contributor/hamilton$nigel.gif" />
+                                                    </figure>
+                                                </div>
+                                                <div class="nine columns text-box">
+                                                    <h2>
+                                                        Nigel Hamilton</h2>
+                                                    <p>
+                                                        NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard &quot;Monty&quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941&ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.
+                                                        <!--<a id="_2310708db40f3f_authorRepeater_authorReadMoreHyperlink_0" class="arrow" href="/bookstore/authors/Nigel-Hamilton/9951964">Read More</a>-->
+                                                    </p>
+                                                </div>
+                                            </section>
+                                        
+                                    <!--Begin Other Books By the Author Slider-->
+                                    <!--<div id="_2310708db40f3f_otherBooksDiv">
+                                        <div id="otherBooksSliderContainer">
+                                            <h3>Other Books By <span>The Author</span></h3>
+                                            <hr />
+                                            <div id="booksSlider" class="flexslider">
+                                                <ul class="slides">
+                                                    
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780547775258'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_0" href="/shop/books/The-Mantle-of-Command/9780547775258">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_0" class="itemImage" src="/shop/books/assets/product/9780544227842.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            The Mantle of Command</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544279117'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_1" href="/shop/books/Commander-in-Chief/9780544279117">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_1" class="itemImage" src="/shop/books/assets/product/9780544279117.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Commander in Chief</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!--End Other Books By the Author Slider-->
+                                </div>
+                            </li>
+                            <li id="ExcerptsTab" class="hide">
+                                <div class="title accordion-tab-title ExcerptsTab Excerpts-accordion show-for-small" data-hash="Excerpts-accordion" data-parent-tab-content="ExcerptsTab" data-parent-tab="tabExcerpts">
+                                    <h5>Excerpts</h5>
+                                </div>
+                                <div id="ExcerptsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="excerptsDiv">
+                                        <div id="excerpts_more" class="excerpts_more">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="ReviewsTab" class="accordion-tab">
+                                <div class="title accordion-tab-title ReviewsTab Reviews-accordion show-for-small" data-hash="Reviews-accordion" data-parent-tab-content="ReviewsTab" data-parent-tab="tabReviews">
+                                    <h5>Reviews</h5>
+                                </div>
+                                <div id="ReviewsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="reviewsDiv">
+                                        <div id="reviews_more" class="reviews_more">
+                                            <DIV><P>&quot;<I>The Mantle of Command</I> is splendid: It&rsquo;s the memoir Roosevelt didn&rsquo;t get to write.&quot;&nbsp;<p>&mdash;<I>New York Times Book Review</I></P><P>&quot;Masterly.&quot;&nbsp;<p><I>&mdash;Wall Street Journal</I></P><P>&quot;A definitive volume on this aspect of Roosevelt&rsquo;s career and essential reading for anyone interested in WWII, the Roosevelt Presidency, and presidential leadership.&quot;&nbsp;<p><I>&mdash;Publishers Weekly</I></P><P>&quot;This convincingly written and gripping volume is essential for historians, political scientists, and history buffs, for a deeper understanding of the principle of civilian supremacy of the military in the U.S. political system.&quot;&nbsp;<p><I>&mdash;Library Journal,</I> STARRED </P><P>&quot;A deeply engrossing study of the first year of Franklin Roosevelt&rsquo;s prescient military leadership in World War II...Lively, elucidating, elegant and highly knowledgeable.&quot;&nbsp;<p><I>&mdash;Kirkus</I>, STARRED</P><P>&quot;Hamilton is tantamount to the amanuensis for the memoir FDR never wrote...well researched and confident in its conclusions, Hamilton&rsquo;s study ably augments the gallery of WWII leaders.&quot;&nbsp;<p><I>&mdash;Booklist</I></P><P>&quot;Nigel Hamilton&rsquo;s Mantle of Command is a stirring and noteworthy book about Roosevelt&rsquo;s crucial role as commander-in-chief during World War II. Hamilton writes with insight, passion, and a great grasp of history. I believe this book will become the standard by which other books about FDR&rsquo;s role in World War II will be measured.&quot; &nbsp;<p>&mdash;Carlo D&rsquo;Este, author of <I>Patton: A Genius for War and Warlord: A Life of Churchill at War, 1874&ndash;1945</I></P><P>&quot;This is not the Roosevelt (or Churchill) you&#39;d expect. From the start, an aggressive, in-charge FDR emerges from a wonderful weaving of established scholarship and the fascinating bits and pieces that make history live. Churchill is an inspirational nag, with a busy, unfocused strategic vision. A key entry into the ongoing debate over who made grand strategy in the early war years &mdash; Roosevelt or Churchill?&quot;&nbsp;<p> &mdash;Warren F. Kimball, author of <I>Forged in War: Roosevelt, Churchill, and the Second World War</I></P><P>&quot;Nigel Hamilton in Mantle of Command presents a very different wartime Franklin Delano Roosevelt than the one we are used to seeing. Whether or not one agrees with all his conclusions, Hamilton clearly shows that FDR was an extremely strong and effective commander-in-chief. This volume should go a long way to dispelling popular myths about Roosevelt as a na&iuml;ve and weak war leader.&quot;&nbsp;<p> &mdash;Mark Stoler, editor of the George C. Marshall Papers &amp; Professor Emeritus of History, University of Vermont</P><P>&quot;Nigel Hamilton has written a spirited and thoughtful &lsquo;revisionist&rsquo; study of Franklin Delano Roosevelt as commander-in-chief during the first phase of U.S. involvement in the Second World War. Hamilton&rsquo;s narrative skill brings alive the human dramas, logistic hurdles, and strategic debates to show how FDR&rsquo;s indispensable drive and forward-looking leadership tamed his own &lsquo;team of rivals&rsquo; and set the United States and its Allies on the road to victory over the Axis. The books enlivens the often murky worlds of bureaucratic struggle and military detail to demonstrate how important it was for the United States to &lsquo;get it right&rsquo; early in the war and how FDR accomplished this.&quot;&nbsp;<p> &mdash;Michael Schaller, author of <I>Douglas MacArthur</I> &amp; Regents Professor of History, University of Arizona</P></DIV>
+                                        </div>
+                                    </div>
+                                </div>
+   		                     </li>
+       			         </ul>
+			        </section>
+                </div>
+                <!-- End Tabbed Section -->
+            </article>
+        </div>
+     </div>
+</section>
+<!--Start You May Also Enjoy Slider-->
+<section id="_2310708db40f3f_youMayAlsoLikeItDiv" class="row article-widget product-widget whitebg productDetailsContainer">
+    <div id="authorContentDiv">
+        <header class="block-grid-header">
+            <h2>You May Also Enjoy</h2>
+        </header>
+        <ul class="block-grid six-up mobile-two-up">
+            
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544811904' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_0" href="/shop/books/Rosemary/9780544811904">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_0" class="itemImage" src="/shop/books/assets/product/9780544811904.gif" /></figure>
+                            <h3>Rosemary</h3>
+                            <p class="flex-caption">
+                                
+                                        Kate Larson
+                                    
+                            </p>
+                            <p class="flex-caption">Paperback</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544483873' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_1" href="/shop/books/The-Arsenal-of-Democracy/9780544483873">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_1" class="itemImage" src="/shop/books/assets/product/9780544483873.gif" /></figure>
+                            <h3>The Arsenal of Democracy</h3>
+                            <p class="flex-caption">
+                                
+                                        A. J. Baime
+                                    
+                            </p>
+                            <p class="flex-caption">Paperback</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544570405' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_2" href="/shop/books/When-Books-Went-to-War/9780544570405">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_2" class="itemImage" src="/shop/books/assets/product/9780544570405.gif" /></figure>
+                            <h3>When Books Went to War</h3>
+                            <p class="flex-caption">
+                                
+                                        Molly Manning
+                                    
+                            </p>
+                            <p class="flex-caption">Paperback</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+        </ul>
+    </div>        
+</section>
+<div id="modals" class="reveal-modal viewer">
+    <div id="viewerCanvas"></div>
+    <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+</div>
+<!--End You May Also Enjoy Slider-->
+<!-- WP-364 -->
+<script type="text/javascript">
+    var add_to_cart_data = document.getElementById("addToCartButtonInline").getAttribute("data-productid");
+    sc_products = ';' + add_to_cart_data + ':' + "The Mantle of Command";
+</script>
+<!-- WP-364 -->
+
+
+                        </div>
+                    </section>
+                    
+                    
+<noindex>
+    <footer role="contentinfo">
+    
+    <section class="darkblack">
+        <div class="row">
+            <div class="twelve columns">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source media="(min-width: 1151px)" id="ImgLarge" srcset="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" />
+                    <source media="(min-width: 320px)" id="ImgSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo-white.png" />
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" alt="HMH LOGO" />
+                </picture>          
+                <!-- <div class="footer_logo"></div> //-->
+                <!--<h3>
+                     <span id="_67e175d82ad36a_footerTitle"></span>
+                </h3>-->
+                <h6>
+                    <span id="_67e175d82ad36a_description"><h6>Changing people's lives by fostering passionate, curious learners.</h6></span>
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="row">
+                    
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        HMH CORPORATE
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/about-hmh">Company Overview</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/executive-leadership">Executive Leadership</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/board-of-directors">Board of Directors</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Investor Relations" href="http://ir.hmhco.com" target="_blank">Investor Relations</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/partner-with-hmh">Partner with HMH</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center">Media Center</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center/blogs">HMH Blog: The Spark</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/corporate-and-social-responsibility">Corporate Social Responsibility</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/our-offices">Our Offices</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Careers" href="http://careers.hmhco.com/" target="_blank">Careers</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        TRADE PUBLISHING
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/trade-publishing">Home</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/asset-library">Asset Library</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/trade-catalogs">Trade Catalogs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/bookseller-faqs">Bookseller FAQs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/backlist-order-forms">Backlist Order Forms</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        Need Help?
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/csrportal/orderTrackingValidateUser.do" target="_blank">Track Your Order</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/index.html" target="_blank">HMH Customer Care</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/product/techsupport/CCTechSupportLandingPage.html" target="_blank">Technical & Software Support</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://hmhco.force.com/replocator" target="_blank">Find Your Sales Rep</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/contactus/contact_us.html">Contact Us</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/customer-care/faqs">FAQs</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lightblack">
+        <div class="row">
+            <div class="nine columns centered">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="miniform">
+                            <div class="row">
+                                <div class="twelve columns">
+                                    <fieldset>
+                                        <legend>Stay Connected With Us!</legend>
+                                        <div class="row">
+                                            <div class="eight mobile-three columns">
+                                                <input type="Email" placeholder="Enter Your Email" id="emailAddressFooter" name="emailAddressFooter" required="" />
+                                            </div>
+                                            <div class="four mobile-one columns connectWithUs">
+                                                <a href="#" id="showform" class="button">Sign Up</a>
+                                            </div>
+                                        </div>
+                                        <div class="row errors hide">
+                                            <div class="twelve mobile-four columns errors"></div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <!-- Start Footer Social Media Icons -->
+                        <div id="footerSocialMedia">
+                            <div class="socialLinksContainer">
+                                <div class="button_tw" id="socialTwitter">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_fb" id="socialFacebook">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_in">
+                                    <a href="http://instagram.com/hmhbooks" target="_blank"></a>
+                                </div>
+                                <div class="button_li">
+                                    <a href="http://www.linkedin.com/company/3980?trk=tyah" target="_blank"></a>
+                                </div>
+                                <div class="button_pin" id="socialPinterest">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_yt" id="socialYouTube">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Slide Up Menus for Twitter and Facebook on Hover -->
+        <!-- Twitter -->
+        <div id="socialTwitterContainer" class="socialContainer">
+            <div class="socialContainer--details-tw">
+                <a href="https://twitter.com/HMHCo" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/HMHKids" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Twitter -->
+
+        <!-- Facebook -->
+        <div id="socialFacebookContainer" class="socialContainer">
+            <div class="socialContainer--details-fb">
+                <a href="https://www.facebook.com/HoughtonMifflinHarcourt?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="http://www.facebook.com/HMHTeen#!/HMHtrade?fref=ts" target="_blank">
+                    <div class="socialSet">
+
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/HMHKids/?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Teens &amp; Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Facebook -->
+
+        <!-- Pinterest -->
+        <div id="socialPinterestContainer" class="socialContainer">
+            <div class="socialContainer--details-pin">
+                <a href="https://www.pinterest.com/HMHLearning" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMHCo</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhbooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+                <a href="https://www.pinterest.com/GoMathAcademy/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">Go Math! Academy</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhcooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Cooks</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Pinterest -->
+
+        <!-- YouTube -->
+        <div id="socialYouTubeContainer" class="socialContainer">
+            <div class="socialContainer--details-yt">
+                <a href="https://www.youtube.com/user/HMHCoTV" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/user/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End YouTube -->
+
+        <!-- End Social Media Icon Slide Up on Hover -->
+
+        <div class="row">
+            <div class="twelve columns">
+                <p class="copyright text-center">
+                    ©2017 Houghton Mifflin Harcourt. All rights reserved.<br class="show-for-small">
+<a href="/common/terms-of-use">Terms of Use</a>
+<a href="/common/privacy-policy">Privacy Policy</a>
+<a href="/common/privacy-policy#AL28">Children’s Privacy Policy</a>
+<a href="/common/privacy-policy-for-k-12-learning-platforms">Student (K-12) Privacy Policy</a>
+<a href="/common/intervention-privacy-policy">Intervention Technology Products Privacy Policy</a>
+<a href="/sitemap">Sitemap</a>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</footer>
+</noindex>
+<!-- Reveal Modals begin -->
+<div id="stayModal" class="reveal-modal stay-connected" data-reveal aria-labelledby="stayModalTitle" aria-hidden="true" role="dialog">
+    <div class="row">
+        <div class="twelve columns">
+            <h6 id="stayModalTitle">Stay Connected with Houghton Mifflin Harcourt!</h6>
+            <iframe id="frameID" class="stayConnect-iframe"></iframe>
+        </div>
+    </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+<!-- Reveal Modals end -->
+
+                    <!--New-->
+                </section>
+                <section id="sidebar" role="complementary">
+                    <nav class="slide-nav">
+                        
+                    </nav>
+                </section>
+            </section>
+        </div>
+        <!--New-->
+        <!-- START : BULK Modal -->
+        <div id="bulkModal" class="reveal-modal bulk full-screen">
+            <div id="bulkModalContainer">
+                <div class="modalMessage">
+                    <h3>Bulk Purchasing Information</h3>
+                    <p>For inquiries concerning bulk purchases for corporate use, sales incentives, or nonprofit sales, please email our Special Sales department at <a href="mailto:tradesales@hmhco.com">TradeSales@hmhco.com</a></p>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <!-- END : BULK Modal -->
+        <!-- START : BUY NOW Modal -->
+        <div id="buyNowModal" class="reveal-modal large full-screen">
+            <div id="buyNowModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="buyNowImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <p class="product-meta">
+                            <span class="title buyNowTitle"></span>
+                            <br />
+                            <span class="author buyNowAuthor"></span>
+                            <br />
+                            <span class="type buyNowFormat"></span>
+                        </p>
+                        <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                        <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="buyNow" class="inline-list">
+                            <li id="amazon"><a target="_blank">
+                                <img id="Img2" /></a></li>
+                            <li id="apple"><a target="_blank">
+                                <img id="Img3" /></a></li>
+                            <li id="barnesNobel"><a target="_blank">
+                                <img id="Img4" /></a></li>
+                            <li id="google"><a target="_blank">
+                                <img id="Img5" /></a></li>
+                            <li id="kobo"><a target="_blank">
+                                <img id="Img6" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : BUY NOW Modal -->
+        <!-- START : POD Modal -->
+        <div id="podModal" class="reveal-modal pod full-screen">
+            <div id="podModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="podImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="title">
+                                <span class="podTitle"></span>
+                            </h3>
+                            <p class="podPrice"></p>
+                            <p class="author podAuthor"></p>
+                            <p class="type podFormat"></p>
+                            <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                            <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="pod" class="inline-list">
+                            <li id="amazonPOD"><a target="_blank">
+                                <img id="Img8" alt="Amazon.com" /></a></li>
+                            <li id="bookaMillionPOD"><a target="_blank">
+                                <img id="Img9" alt="Books A Million" /></a></li>
+                            <li id="barnesNoblePOD"><a target="_blank">
+                                <img id="Img10" alt="Barnes &amp; Noble" /></a></li>
+                            <li id="indieBoundPOD"><a target="_blank">
+                                <img id="Img11" alt="Indie Bound" /></a></li>
+                            <li id="powellsBooksPOD"><a target="_blank">
+                                <img id="Img12" alt="Powell&#39;s Books" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : POD Modal -->
+        <!-- START : Relogin Modal -->
+        <div id="relogin" class="reveal-modal full-screen">
+            
+        <div id="ReloginModal_ReloginSignIn">
+	
+           
+            <h3>We&rsquo;re sorry</h3>
+<p>You have selected a product that is available for purchase only by a customer with an institutional account. If you have an institutional account, please sign out and sign back in using an institutional account email address and password.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882&LogintoInstOrAss=true">Create an Institutional Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <div id="invalidQualification" class="reveal-modal full-screen">
+            <div id="ProductinvalidQualification_ReloginSignOut">
+	
+    
+    <h2>We're Sorry,</h2>
+<p>the product you have selected does not match your qualification level.</p>
+    
+    <div class="modal-links">
+        <ul>
+
+            <li><a href="/customer-care/faqs">Learn More</a></li>
+            <li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="reloginIndividualAssessment" class="reveal-modal full-screen">
+            
+<div id="ReloginModalIndividual_ReloginSignIn">
+	
+           
+    <h3>We're sorry. </h3>
+<p>You have selected a product that is available for purchase only by a customer with an Institutional/ Assessment Professional account.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882">Create an Institutional/ Assessment Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="modal" class="reveal-modal large full-screen">
+            <div id="modal_content"></div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- Added for Hybris Pop up WP 818-->
+        <div id="dialog" class="reveal-modal small many-items" style="height: auto;">
+            <div id="Div1" class="text-center">&nbsp;</div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="spinnerModal" class="reveal-modal spinner">
+            <img src="/sites/HMH/images/Global/hmh-spinner.gif" />
+        </div>
+        <div id="cartMobileModal" class="reveal-modal cartModal">
+            <div class="panel callout radius text-center">
+                <p><i class="icon-cart"></i></p>
+                <h5>Added to Cart</h5>
+            </div>
+        </div>
+        <div data-reveal="" class="reveal-modal large" id="firstModal">
+            <div class="popcontent"></div>
+            <a class="close-reveal-modal">×</a>
+        </div>
+        <div id="backgroundDiv" style="width: 100%; height: 100%; display: none; background: #000; position: fixed; top: 0; opacity: 0.55; z-index: 999;">
+        </div>
+        <div id="bulkPurchase" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;">
+        </div>
+        <div id="authorImagesOverlay" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;"></div>
+        
+        
+
+<script src="/Sites/HMH/Javascript/jquery.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/foundation.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.ui.tooltip.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.mobile-events.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/app.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/minicart.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/top-bar.js"></script>
+<script src="/Sites/HMH/Javascript/sub-header.js"></script>
+<script src="/hmhstorefront/_ui/desktop/common/js/hybris/commonCart.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/searchbar.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.validate.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/custom.validation.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/full-header-footer-fxns.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/chosen.jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="/Sites/HMH/javascript/jquery.adobe.autocomplete.js?20170125024744000"></script>
+<script src="/Sites/HMH/Javascript/jquery.offcanvas.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.slide-nav.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframework.js"></script>
+
+
+<!--[if lt IE 9]>
+  <script src="/Sites/HMH/Javascript/selectivizr.min.js"></script>
+  <script src="/Sites/HMH/Javascript/respond.min.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var newCookieVal;
+        $(document.body).on('click touchstart', '.cookie-val', function () {
+            var currentCookieVal = $(this).attr('data-cookie-val');
+            var cookieName = 'cookiepersona';
+            var cookiedomain = '.hmhco.com';
+            newCookieVal = currentCookieVal;
+            document.cookie = cookieName + "=" + newCookieVal + ";domain=" + cookiedomain + ";path=/";
+            // alert(document.cookie + " new cookie value");
+        });
+       
+    });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        if ($('#datapull-slider').length) {
+            $('#datapull-slider').flexslider({
+                animation: "slide",
+                directionNav: "horizontal",
+                easing: "linear",
+                animationLoop: true,
+                itemWidth: 175, // we set this to avoid complications, but to have a dynamic slider the width should be set to auto
+                itemMargin: 0,
+                minItems: 1,
+                prevText: "",
+                nextText: "",
+                touch: true,
+                slideshow: false,
+                video: false,
+                startAt: 0,
+                selector: ".slides > dd",
+                start: function (slider) {
+                }
+            });
+        }
+    });
+</script>
+<script>
+
+    equalheight = function (container) {
+
+        var currentTallest = 0,
+             currentRowStart = 0,
+             rowDivs = new Array(),
+             $el,
+             topPosition = 0;
+        $(container).each(function () {
+
+            $el = $(this);
+            $($el).height('auto')
+            topPostion = $el.position().top;
+
+            if (currentRowStart != topPostion) {
+                for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+                rowDivs.length = 0; // empty the array
+                currentRowStart = topPostion;
+                currentTallest = $el.height();
+                rowDivs.push($el);
+            } else {
+                rowDivs.push($el);
+                currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+            }
+            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                rowDivs[currentDiv].height(currentTallest);
+            }
+        });
+    }
+    $(window).load(function () {
+        if ($('.fixed-grid').length >= 0) {
+            equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.account-types li section');
+        }
+        if ($('.fluid-grid').length <= 0) {
+            equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        }
+        if ($('.bkgdLightGray').length >= 0) {
+            equalheight('.bkgdLightGray .padding10');
+            resizeA();
+            equalheight('.bkgdLightGray .padding10 h6');
+            equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        }
+        if ($('.eachAddressCol').length >= 0) {
+            equalheight('.eachAddressCol');
+        }
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    /*if ($('.bkgdLightGray').length >= 0) {
+        $('.bkgdLightGray .padding10 img').on('load', function () {
+            alert($(this).height());
+        });
+    }*/
+    $(window).resize(function () {
+        equalheight('.bkgdLightGray .padding10');
+        equalheight('.bkgdLightGray .padding10 h6');
+        resizeA();
+        equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+        equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    $(document).ready(function () {
+        resizeA();
+    });
+    function resizeA() {
+        if ($('.bkgdLightGray').length >= 0) {
+            var maxHeight = -1;
+
+            $('.bkgdLightGray .padding10 a img').each(function () {
+                maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+            });
+
+            $('.bkgdLightGray .padding10 a:first-child:not(".button")').each(function () {
+                $(this).height(maxHeight);
+            });
+        }
+    }
+</script>
+
+
+
+
+
+
+<script type="text/javascript" src="/Sites/HMH/Javascript/add-to-cart.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/productdetail.js"></script>
+
+
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function () {
+                $('.modal').click(function (e) {
+                    e.preventDefault();
+                    var urlValue = $(this).data('href');
+                    setTimeout(function () {
+                        $('#modal #modal_content').load(urlValue); // Load its linked page into the div
+                        $("#modal").reveal({
+                            closeOnBackgroundClick: true,
+                            dismissModalClass: 'close-reveal-modal'
+                        });
+                    }, 500);
+                });
+                $('.close-reveal-modal').click(function () {
+                    $("#modal").trigger("reveal:close");
+                });
+                ////For accordion default opening on viewind seperatly
+                //var hashurl = window.location.hash.replace('#', '');
+                ////var parenttabcontent = $('li[id="' + hashurl + '"]');
+                //var datahash = $('.title.' + hashurl);
+                //var datahashparentcontentparenttab = $(datahash).attr('data-parent-tab-content');
+                ////var datatab = $('.title[data-parent-tab="tab-' + hashurl + '"]');
+                ////var parenttab = $('dd[id="tab-' + hashurl + '"]');
+                //var parenttab = $(datahash).attr('data-parent-tab');
+                //if (hashurl != '') {
+                //    //alert("parent tab is " + datahashparentcontentparenttab);
+                //    //alert("grand parent tab is " + parenttab);
+                //    $('dd[id="' + parenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + datahashparentcontentparenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + hashurl + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //}
+
+            });
+        </script>
+        
+<script type="text/javascript">
+    var dl = new Object;
+
+    /************************** FUNCTION SECTION **************************/
+
+    function Om_InitialSetup() {
+        
+        dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_AssetLibrarySearch() {
+       
+        
+        dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.searches = 'yes';
+        dl.internalsearchterm = '';
+        dl.internalsearchscope = '';
+        dl.channel = 'Asset Library Search Results';
+        dl.level2 = '';
+        dl.level3 = '';
+        dl.hier1 = 'Asset Library Search Results::';
+        dl.pageName = 'ALSR::';
+        dl.contentcategory = 'Asset Library Search Results';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+   
+
+    function Om_AssetLibrary() {
+        
+        
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.channel = 'Asset Library';
+        dl.hier = 'Asset Library';
+        dl.pageName = 'AL:Landing Page';
+        dl.contentcategory = 'Landing Page';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_MigrateAccount() {
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            oConvert.prop11 = 'Institution-Converted';
+            oConvert.eVar2 = 'Institution-Converted';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_NoSearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.nullsearch = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_SignIn() {
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+           
+            dl.pageName = 'MA:Create Account';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.contentcategory = 'Account';
+            dl.visits = 'yes';
+            
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_CreateInstitutional() {
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.membershiptype = 'Institution-New';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_ProductViewed(isbn) {
+            var oView = GetOmObj();
+
+            oView.pageName = "Quick View";
+            oView.events = "prodView";
+            oView.products = ';' + isbn + ';;;;eVar1=' + oView.pageName;
+            oView.prop16 = isbn;
+            oView.hier1 = dl.hier1;
+            oView.prop5 = "Quick View";
+            oView.linkTrackEvents = "prodView";
+            oView.linkTrackVars += ",products,eVar1,prop16,hier1,prop5";
+            oView.tl(true, 'o', 'Quick View');
+
+            if (DEBUG_CLICK)
+                alert('Quickview Click complete');
+        }
+
+        function Om_AddProductToCart(title, currentCartCount, quantity, productCode, isProductDetail) {
+            var oAdd = GetOmObj();
+
+            if (currentCartCount == 1) {
+                oAdd.events = "scAdd,scOpen";
+                oAdd.linkTrackEvents = "scAdd,scOpen";
+            }
+            else {
+                oAdd.events = "scAdd";
+                oAdd.linkTrackEvents = "scAdd";
+            }
+
+            oAdd.pageName = dl.pageName;
+            oAdd.eVar1 = '';
+            oAdd.products = ';' + productCode + ':' + title;
+            oAdd.hier1 = dl.hier1;
+
+            oAdd.linkTrackVars += ",products,eVar1,hier1,events";
+            oAdd.tl(true, 'o', 'Add to Cart');
+
+            if (DEBUG_CLICK)
+                alert('Add to Cart complete');
+        }
+
+        function Om_ShareThis(medium) {
+            var oShare = GetOmObj();
+            oShare.prop17 = dl.pageName;
+            oShare.prop18 = medium;
+            oShare.linkTrackVars += ",prop17,prop18";
+            oShare.tl(true, 'o', 'Share This Share');
+
+            if (DEBUG_CLICK)
+                alert('Share This Click complete');
+        }
+
+
+        function Om_SearchShare() {
+            var oSShare = GetOmObj();
+
+            oSShare.prop26 = dl.prop6;
+            oSShare.linkTrackVars += ",prop26";
+            oSShare.tl(true, 'o', 'Search Results Share');
+
+            if (DEBUG_CLICK)
+                alert('Search Results Click complete');
+        }
+
+
+        function Om_LookInside(isbn) {
+            var oLook = GetOmObj();
+
+            oLook.prop15 = isbn;
+            oLook.linkTrackVars += ",prop15";
+            oLook.tl(true, 'o', 'Look Inside');
+
+            if (DEBUG_CLICK)
+                alert('Look Inside Click complete');
+        }
+
+        function Om_ShowProductImages(isbn, format) {
+            var oShow = GetOmObj();
+
+            oShow.events = "event11";
+            oShow.prop31 = isbn;
+            oShow.prop32 = format;
+
+
+            oShow.linkTrackVars += ",prop31,prop32";
+            oShow.linkTrackEvents = "event11";
+
+            oShow.tl(true, 'o', 'Download Images');
+
+            if (DEBUG_CLICK)
+                alert('Download Images Click complete');
+        }
+
+        function Om_CartFunction(action, isbn) {
+            var oCart = GetOmObj();
+
+            oCart.prop19 = action;
+            oCart.linkTrackVars += ",prop19,products";
+
+            //By default, we need to set the ISBN here. It may get overridden at a later place
+            if (isbn != '')
+                oCart.products = ';' + isbn;
+
+            if (action == 'checkout') {
+                oCart.events = 'scCheckout';
+                oCart.linkTrackEvents = 'scCheckout';
+
+                for (var i = 0; i < currentCartItems.length; i++) {
+                    if (i == 0) {
+                        oCart.products = ";" + currentCartItems[i];
+                    }
+                    else {
+                        oCart.products += ",;" + currentCartItems[i];
+                    }
+                }
+            }
+            else if (action == 'remove') {
+                oCart.events = 'scRemove';
+                oCart.linkTrackEvents = 'scRemove';
+            }
+            else if (action == 'viewcart') {
+                oCart.events = 'scView';
+                oCart.linkTrackEvents = 'scView';
+            }
+
+            oCart.tl(true, 'o', 'Cart Function: ' + action);
+
+            if (DEBUG_CLICK)
+                alert('Cart Function Click (' + action + ') complete');
+        }
+
+        function Om_AssetLibDownload(isbn) {
+            var oAssetD = GetOmObj();
+
+            oAssetD.prop21 = isbn;
+            oAssetD.linkTrackVars += ",prop21";
+            oAssetD.tl(true, 'o', 'Asset Library Image Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Image Download Click complete');
+        }
+
+        function Om_AssetLibExcerptView(isbn) {
+            var oAssetV = GetOmObj();
+            oAssetV.prop22 = isbn;
+            oAssetV.linkTrackVars += ",prop22";
+            oAssetV.tl(true, 'o', 'Asset Library Excerpt Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Exceprt Download Click complete');
+        }
+
+        function Om_AssetLibActivitySheet(isbn) {
+            var oAssetS = GetOmObj();
+
+            oAssetS.prop23 = isbn;
+            oAssetS.linkTrackVars += ",prop23";
+            oAssetS.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Activity Sheet Download Click complete');
+        }
+
+        function Om_DoLogin(acctType) {
+            var oLogin = GetOmObj();
+
+            // oLogin.eVar2 =  ;
+
+            oLogin.eVar2 = acctType;
+
+            oLogin.linkTrackVars += ",eVar2";
+            oLogin.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Login track complete');
+        }
+
+
+
+
+        // tracks go math keyword search widget go click
+        function Om_SearchKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop34 = keyword;
+                oGoClick.eVar18 = keyword;
+
+                oGoClick.linkTrackVars += ",prop34,eVar18";
+                oGoClick.tl(true, 'o', 'Go Math Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks go math grade/topic search widget go click
+        function Om_SearchGradeTopicGoClick(grade, topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop35 = grade;
+                oGoClick.prop36 = topic;
+                oGoClick.eVar19 = grade;
+                oGoClick.eVar20 = topic;
+
+                oGoClick.linkTrackVars += ",prop35,prop36,eVar19,eVar20";
+                oGoClick.tl(true, 'o', 'Go Math Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks search widget go click
+        function Om_SearchGoClick(selectedValue) {
+            var oGoClick = GetOmObj();
+            oGoClick.eVar27 = selectedValue;
+            oGoClick.prop44 = selectedValue;
+            oGoClick.linkTrackVars += ",eVar27,prop44";
+            oGoClick.tl(true, 'o', "search widget go click " + selectedValue);
+            // debug
+            if (DEBUG_CLICK) {
+                alert("search widget go click " + selectedValue);
+            }
+        }
+
+        // tracks video title click
+        function Om_VideoTitleClick(videoTitle) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop37 = videoTitle;
+            oVideoClick.eVar21 = videoTitle;
+            oVideoClick.events = 'event6';
+
+
+            oVideoClick.linkTrackVars += ",eVar21,prop37,events";
+            oVideoClick.linkTrackEvents = "event6";
+            oVideoClick.tl(true, 'o', videoTitle + ' - GoMath video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - GoMath video click.');
+            }
+        }
+
+        // tracks video play
+        function Om_VideoPlay(videoId) {
+            var oVideo = GetOmObj();
+
+            oVideo.prop38 = videoId;
+            oVideo.eVar22 = videoId;
+            oVideo.linkTrackVars += ",eVar22,prop38";
+            oVideo.tl(true, 'o', videoId + ' - GoMath video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoId + ' - GoMath video play.');
+            }
+        }
+
+        // tracks Culinary keyword search widget go click
+        function Om_SearchCulinaryKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop39 = keyword;
+                oGoClick.eVar23 = keyword;
+
+                oGoClick.linkTrackVars += ",prop39,eVar23";
+                oGoClick.tl(true, 'o', 'Culinary Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks Culinary topic search widget go click
+        function Om_SearchCulinaryTopicGoClick(topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop40 = topic;
+                oGoClick.eVar24 = topic;
+                oGoClick.linkTrackVars += ",prop40,eVar24";
+                oGoClick.tl(true, 'o', 'Culinary Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks video title click
+        function Om_CulinaryVideoTitleClick(videoTitle, videoId) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop41 = videoTitle;
+            oVideoClick.eVar25 = videoTitle;
+            oVideoClick.prop42 = videoId;
+            oVideoClick.eVar26 = videoId;
+            oVideoClick.linkTrackVars += ",eVar25,eVar26,prop41,prop42";
+            oVideoClick.tl(true, 'o', videoTitle + ' ' + videoId + ' - Culinary video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - Culinary video click.');
+            }
+        }
+
+
+        // tracks video play
+        function Om_CulinaryVideoPlay() {
+            var oVideo = GetOmObj();
+
+            oVideo.events = 'event7';
+            oVideo.linkTrackEvents = "event7";
+            oVideo.tl(true, 'o', 'Culinary video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Culinary video play.');
+            }
+        }
+
+        // tracks image click
+        function Om_ImgClick(bannerFilename) {
+            var oClick = GetOmObj();
+            oClick.list1 = bannerFilename;
+            oClick.eVar7 = bannerFilename;
+            oClick.events = 'event5';
+
+            oClick.linkTrackVars += ",list1,eVar7,events";
+            oClick.linkTrackEvents = "event5";
+            oClick.tl(true, 'o', 'Image Click');
+            // debug
+            if (DEBUG_CLICK) {
+                alert(banner + '`s <a> tag <img> click.');
+            }
+        }
+
+        // a is the a tag clicked
+        function trackImgClick($a, parent) {
+            parent = parent || $a.parent();
+            try {
+                // get <a>'s inner img's src
+                var filename = ($a.find('img').attr('src') || '')
+                    // get last token of /
+                    .split('/').pop()
+                    // get first token of ?
+                    .split('?').shift();
+                var banner = parent;
+                // only filename required, banner name is not
+                var result = filename;
+                console.log(result);
+                // omniture
+                Om_ImgClick(result);
+
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        function Om_SetFeaturedItem(isbn13) {
+            var oFeatureItem = GetOmObj();
+
+            oFeatureItem.prop43 = isbn13;
+            oFeatureItem.eVar7 = isbn13;
+            oFeatureItem.events = 'event5';
+
+            oFeatureItem.linkTrackVars += ",eVar7,prop43";
+            oFeatureItem.linkTrackVars += ",prop43";
+            oFeatureItem.linkTrackEvents = "event5";
+            oFeatureItem.tl(true, 'o', isbn13 + ' - Feature Item Click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(isbn13 + ' - Feature Item Click.');
+            }
+        }
+
+        //tracking succesful registration - gomath registration
+        function Om_RegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "GMA";
+            oRegister.eVar6 = email;
+            oRegister.events = "event9,event3";
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event9,event3";
+            oRegister.tl(true, 'o', 'GMA Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('GMA Successful registration for ' + email);
+            }
+        }
+
+        //tracking succesful registration - culinary registration
+        function Om_CulinaryRegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "Culinary";
+            oRegister.eVar6 = email;
+            oRegister.events = "event8,event3";
+
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event8,event3";
+            oRegister.tl(true, 'o', 'Culinary Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('Culinary Successful registration for ' + email);
+            }
+        }
+
+
+        function Om_ItemClick(item) {
+            var oItemClick = GetOmObj();
+            var itemAttr = item.attr('data-section');
+            var itemText = item.text();
+
+            if (itemAttr == 't.t2') //category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop49 = itemText;
+            }
+            if (itemAttr == 't.t3') //sub-category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop50 = itemText;
+            }
+            else if (itemAttr == 'topic') {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop51 = itemText;
+            }
+
+            if (itemAttr == 'paging') {
+                oItemClick.pageName = 'Search Results:' + item.text();
+                //oItemClick.linkTrackVars += ",pageName";
+                //oItemClick.tl(true, 'o', 'PageName: ' + item.text());
+            }
+            else if (itemAttr == 'pagingprev' || itemAttr == 'pagingnext') {
+                itemSearch = item[0].search;
+                var items = itemSearch.split(';');
+                var pageNumber = '';
+                var hasPageNumber = false;
+                for (var i = 0; i < items.length; i++) {
+                    var kvp = items[i].split('=');
+                    if (kvp[0] == "page") {
+                        pageNumber = kvp[1];
+                        hasPageNumber = true;
+                        break;
+                    }
+                }
+                if (hasPageNumber == false)
+                    pageNumber = 1;
+
+                oItemClick.pageName = ' Search Results:' + pageNumber;
+                oItemClick.linkTrackVars += ",pageName";
+                oItemClick.tl(true, 'o', 'PageName: ' + pageNumber);
+            }
+
+            if (DEBUG_CLICK) {
+                alert('Item Click: ' + item.text());
+            }
+        }
+
+        function Om_InstitutionalSignInPopUp(isbn13) {
+            var oItemClick = GetOmObj();
+            oItemClick.prop45 = isbn13;
+            oItemClick.linkTrackVars += ",prop45";
+            oItemClick.tl(true, 'o', 'Instituational Sign In required for ISBN : ' + isbn13);
+            if (DEBUG_CLICK) {
+                alert('Instituational Sign In required for ISBN : ' + isbn13);
+            }
+        }
+
+        function Om_TrackSearchTerm(searchTerm) {
+            var oSearchEntryClick = GetOmObj();
+            oSearchEntryClick.events = "event1";
+            oSearchEntryClick.prop6 = searchTerm;
+            oSearchEntryClick.eVar4 = searchTerm;
+            oSearchEntryClick.pageName = ' Search Results:1';
+            oSearchEntryClick.linkTrackVars += ",prop6,eVar4";
+            oSearchEntryClick.linkTrackEvents += ",event1";
+            oSearchEntryClick.tl(true, 'o', 'Search term : ' + searchTerm);
+            if (DEBUG_CLICK) {
+                alert('Search term : ' + searchTerm);
+            }
+        }
+
+        function Om_ProgramName(programName) {
+           // var oProgram = GetOmObj();
+           // oProgram.pageName = 'Program Home Page:' + programName;
+           // oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramSampleNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop45 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop45";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramShopNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop46 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop46";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        /*Returning customers - SignIn page */
+        function Om_SignUp(signUpType) {
+            var oReturnCustomer = GetOmObj();
+            oReturnCustomer.events = 'event29'; // Returning customer login page 
+            oReturnCustomer.prop56 = signUpType;
+            oReturnCustomer.eVar38 = "D=c56";
+            oReturnCustomer.linkTrackVars = 'eVar38,prop56,events';
+            oReturnCustomer.linkTrackEvents = 'event29';
+            oReturnCustomer.tl(this, 'o', signUpType);
+            if (DEBUG_CLICK) {
+                alert(signUpType);
+            }
+        }
+
+        function Om_SetPageName(pageName, pageTitle) {
+            var oGoMath = GetOmObj();
+
+            oGoMath.pageName = pageName;
+            oGoMath.pageTitle = pageTitle;
+            oGoMath.linkTrackVars += ',pageName,pageTitle';
+
+            oGoMath.t(true, 'o', pageName + ':' + pageTitle);
+
+            if (DEBUG_CLICK)
+                alert(pageName + ':' + pageTitle + ' complete');
+        }
+
+        function Om_StructureProgramComponents(gradeSelect, stateSelect, sortSelect) {
+            var oProgram = GetOmObj();
+
+            oProgram.prop47 = gradeSelect;
+            oProgram.prop48 = stateSelect;
+            oProgram.prop46 = sortSelect;
+
+            oProgram.linkTrackVars += 'prop47,prop48,prop46';
+            oProgram.t(true, 'o', 'Structure Program Components');
+
+            if (DEBUG_CLICK)
+                alert('Structure Program Components complete');
+        }
+
+        function Om_SetNoSearchResultsTerm(searchTerm) {
+            var oSearch = GetOmObj();
+
+            oSearch.prop8 = searchTerm;
+
+            oSearch.linkTrackVars += 'prop8';
+            oSearch.t(true, 'o', 'No Search Results Term Tracking');
+
+            if (DEBUG_CLICK)
+                alert('No Search Results Term Tracking complete');
+        }
+
+
+        function om_SearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.searches = 'yes';
+            dl.internalsearchterm = '';
+            dl.internasearchscope = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+            dl.level3 = ' results;';
+            dl.hier1 = 'Search Results: Results:';
+            dl.pageName = 'Search Results::';
+            dl.contentcategory = 'Search Results';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Search Results');
+            }
+        }
+
+        //Function to capture analytics for Product Detail Page//
+        function Om_ProductDetailViewed(productCode) {
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            // WP-364, WP - 2210
+            var jsonresp = '[{\"ActivityGuideUrl\":null,\"Age\":null,\"AudioUrl\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"AwardList\":[],\"BisacSubjects\":[{\"Code\":\"BIO011000\",\"Description\":null,\"DisplayName\":\"Presidents \u0026 Heads of State\",\"Name\":\"Presidents \u0026 Heads of State\",\"Parent\":{\"Code\":\"BIO\",\"Description\":null,\"DisplayName\":\"BIOGRAPHY \u0026 AUTOBIOGRAPHY\",\"Name\":\"BIOGRAPHY \u0026 AUTOBIOGRAPHY\",\"Parent\":null}},{\"Code\":\"HIS027100\",\"Description\":null,\"DisplayName\":\"Military/World War II\",\"Name\":\"Military/World War II\",\"Parent\":{\"Code\":\"HIS\",\"Description\":null,\"DisplayName\":\"HISTORY\",\"Name\":\"HISTORY\",\"Parent\":null}}],\"BookUrl1\":null,\"CartonQty\":\"24\",\"ChokeHazardInd\":\"N\",\"ColoringPagesUrl\":null,\"Cpsia\":\"N\",\"Description\":\"\u003cDIV\u003e\u003cB\u003e\u003cI\u003eLonglisted for the National Book Award\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003e\u0026ldquo;This bold argument . . . will undoubtedly change the way we see Franklin Roosevelt.\u0026rdquo;\u0026nbsp;\u003cdiv\u003e \u0026mdash;\u003cI\u003eChristian Science Monitor\u003c/I\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e \u0026ldquo;Masterly.\u0026rdquo; \u0026mdash; \u003cI\u003eWall Street Journal\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Based on years of archival research and interviews with the last surviving Roosevelt aides and family members, \u003cI\u003eThe Mantle of Command\u003c/I\u003e offers a radical new perspective on Franklin Delano Roosevelt\u0026rsquo;s masterful \u0026mdash; and underappreciated \u0026mdash; leadership of the Allied war effort. After the disaster of Pearl Harbor, we see Roosevelt devising a global strategy that will defeat Hitler and the Japanese, rescue Churchill and the British people, and quell a near insurrection of his own American generals and War Department. All the while, Hamilton\u0026rsquo;s account drives toward Operation Torch \u0026mdash; the invasion of French Northwest Africa \u0026mdash; and the outcome of the war hangs in the balance. \u003cI\u003eThe Mantle of Command\u003c/I\u003e is an intimate, sweeping look at a great President in history\u0026rsquo;s greatest conflict.\u003c/DIV\u003e\",\"EducatorsUrl\":null,\"EventKitsUrl\":null,\"Excerpts\":null,\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544227840\",\"Isbn13\":\"9780544227842\",\"JacketUrl\":\"/assets/product/9780544227842.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1563715\",\"MetaTitle\":\"The-Mantle-of-Command\",\"OtherProducts\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003e\u003cB\u003e\u003cI\u003eLonglisted for the National Book Award\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003e\u0026ldquo;This bold argument . . . will undoubtedly change the way we see Franklin Roosevelt.\u0026rdquo;\u0026nbsp;\u003cdiv\u003e \u0026mdash;\u003cI\u003eChristian Science Monitor\u003c/I\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e \u0026ldquo;Masterly.\u0026rdquo; \u0026mdash; \u003cI\u003eWall Street Journal\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Based on years of archival research and interviews with the last surviving Roosevelt aides and family members, \u003cI\u003eThe Mantle of Command\u003c/I\u003e offers a radical new perspective on Franklin Delano Roosevelt\u0026rsquo;s masterful \u0026mdash; and underappreciated \u0026mdash; leadership of the Allied war effort. After the disaster of Pearl Harbor, we see Roosevelt devising a global strategy that will defeat Hitler and the Japanese, rescue Churchill and the British people, and quell a near insurrection of his own American generals and War Department. All the while, Hamilton\u0026rsquo;s account drives toward Operation Torch \u0026mdash; the invasion of French Northwest Africa \u0026mdash; and the outcome of the war hangs in the balance. \u003cI\u003eThe Mantle of Command\u003c/I\u003e is an intimate, sweeping look at a great President in history\u0026rsquo;s greatest conflict.\u003c/DIV\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547775253\",\"Isbn13\":\"9780547775258\",\"JacketUrl\":\"/assets/product/9780544227842.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1491289\",\"MetaTitle\":\"The-Mantle-of-Command\",\"OtherProducts\":null,\"Pages\":\"512\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$16.95\",\"FormattedValue\":\"$16.95\",\"From\":\"\",\"ListPriceValue\":\"16.95\",\"Price\":\"$16.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":16.95}],\"Promotions\":[],\"PublicationDate\":\"1399957200000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II.\u003c/B\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"The Mantle of Command\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"544\",\"PressReleaseUrl\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$16.95\",\"FormattedValue\":\"$16.95\",\"From\":\"\",\"ListPriceValue\":\"16.95\",\"Price\":\"$16.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":16.95}],\"ProductGroup\":\"Individual\",\"Promotions\":[],\"PublicationDate\":\"1432011600000\",\"PublicationStatus\":null,\"ReadersGuideUrl\":null,\"ReadingLevel\":null,\"RelatedProducts\":[],\"RelatedProductsByAuthor\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003e\u003cB\u003e\u003cI\u003eLonglisted for the National Book Award\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003e\u0026ldquo;This bold argument . . . will undoubtedly change the way we see Franklin Roosevelt.\u0026rdquo;\u0026nbsp;\u003cdiv\u003e \u0026mdash;\u003cI\u003eChristian Science Monitor\u003c/I\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e \u0026ldquo;Masterly.\u0026rdquo; \u0026mdash; \u003cI\u003eWall Street Journal\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Based on years of archival research and interviews with the last surviving Roosevelt aides and family members, \u003cI\u003eThe Mantle of Command\u003c/I\u003e offers a radical new perspective on Franklin Delano Roosevelt\u0026rsquo;s masterful \u0026mdash; and underappreciated \u0026mdash; leadership of the Allied war effort. After the disaster of Pearl Harbor, we see Roosevelt devising a global strategy that will defeat Hitler and the Japanese, rescue Churchill and the British people, and quell a near insurrection of his own American generals and War Department. All the while, Hamilton\u0026rsquo;s account drives toward Operation Torch \u0026mdash; the invasion of French Northwest Africa \u0026mdash; and the outcome of the war hangs in the balance. \u003cI\u003eThe Mantle of Command\u003c/I\u003e is an intimate, sweeping look at a great President in history\u0026rsquo;s greatest conflict.\u003c/DIV\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547775253\",\"Isbn13\":\"9780547775258\",\"JacketUrl\":\"/assets/product/9780544227842.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1491289\",\"MetaTitle\":\"The-Mantle-of-Command\",\"OtherProducts\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"Description\":\"\u003cDIV\u003e\u003cB\u003e\u003cI\u003eLonglisted for the National Book Award\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003e\u0026ldquo;This bold argument . . . will undoubtedly change the way we see Franklin Roosevelt.\u0026rdquo;\u0026nbsp;\u003cdiv\u003e \u0026mdash;\u003cI\u003eChristian Science Monitor\u003c/I\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e \u0026ldquo;Masterly.\u0026rdquo; \u0026mdash; \u003cI\u003eWall Street Journal\u003c/I\u003e\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Based on years of archival research and interviews with the last surviving Roosevelt aides and family members, \u003cI\u003eThe Mantle of Command\u003c/I\u003e offers a radical new perspective on Franklin Delano Roosevelt\u0026rsquo;s masterful \u0026mdash; and underappreciated \u0026mdash; leadership of the Allied war effort. After the disaster of Pearl Harbor, we see Roosevelt devising a global strategy that will defeat Hitler and the Japanese, rescue Churchill and the British people, and quell a near insurrection of his own American generals and War Department. All the while, Hamilton\u0026rsquo;s account drives toward Operation Torch \u0026mdash; the invasion of French Northwest Africa \u0026mdash; and the outcome of the war hangs in the balance. \u003cI\u003eThe Mantle of Command\u003c/I\u003e is an intimate, sweeping look at a great President in history\u0026rsquo;s greatest conflict.\u003c/DIV\u003e\",\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544227840\",\"Isbn13\":\"9780544227842\",\"JacketUrl\":\"/assets/product/9780544227842.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1563715\",\"MetaTitle\":\"The-Mantle-of-Command\",\"OtherProducts\":null,\"Pages\":\"544\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$16.95\",\"FormattedValue\":\"$16.95\",\"From\":\"\",\"ListPriceValue\":\"16.95\",\"Price\":\"$16.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":16.95}],\"Promotions\":[],\"PublicationDate\":\"1432011600000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II.\u003c/B\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"The Mantle of Command\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"512\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$16.95\",\"FormattedValue\":\"$16.95\",\"From\":\"\",\"ListPriceValue\":\"16.95\",\"Price\":\"$16.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":16.95}],\"Promotions\":[],\"PublicationDate\":\"1399957200000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II.\u003c/B\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"The Mantle of Command\",\"Type\":null},{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"12\",\"Description\":\"\u003cDIV\u003e\u003cB\u003eIn the next installment of the \u0026quot;splendid memoir Roosevelt didn\u0026#39;t get to write\u0026quot; (\u003cI\u003eNew York Times\u003c/I\u003e),\u003cI\u003e\u0026#160;\u003c/I\u003e\u0026#160;Nigel Hamilton tells the astonishing story of FDR\u0026#39;s year-long, defining battle with Churchill, as the war raged in Africa and Italy.\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Nigel Hamilton\u0026#39;s\u0026#160;\u003cI\u003eMantle of Command,\u0026#160;\u003c/I\u003elong-listed for the National Book Award, drew on years of archival research and interviews to portray FDR in a tight close up, as he determined Allied strategy in the crucial initial phases of World War II. \u003cI\u003eCommander in Chief\u0026#160;\u003c/I\u003ereveals the astonishing sequel \u0026mdash; suppressed by Winston Churchill in his memoirs \u0026mdash; of Roosevelt\u0026#39;s battles with Churchill to maintain that strategy. \u0026#160;Roosevelt knew that the Allies should take Sicily but avoid a wider battle in southern Europe, building experience but saving strength to invade France in early 1944. Churchill seemed to agree at Casablanca \u0026mdash; only to undermine his own generals and the Allied command, testing Roosevelt\u0026rsquo;s patience to the limit. Churchill was afraid of the invasion planned for Normandy, and pushed instead for disastrous fighting in Italy, thereby almost losing the war for the Allies. In a dramatic showdown, FDR finally set the ultimate course for victory by making the ultimate threat. \u003cI\u003eCommander in Chief\u0026#160;\u003c/I\u003eshows FDR in top form at a crucial time in the modern history of the West.\u003c/DIV\u003e\",\"Format\":\"Hardcover\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544279115\",\"Isbn13\":\"9780544279117\",\"JacketUrl\":\"/assets/product/9780544279117.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1570393\",\"MetaTitle\":\"Commander-in-Chief\",\"OtherProducts\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003e\u003cB\u003eIn the next installment of the \u0026quot;splendid memoir Roosevelt didn\u0026#39;t get to write\u0026quot; (\u003cI\u003eNew York Times\u003c/I\u003e),\u003cI\u003e\u0026#160;\u003c/I\u003e\u0026#160;Nigel Hamilton tells the astonishing story of FDR\u0026#39;s year-long, defining battle with Churchill, as the war raged in Africa and Italy.\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Nigel Hamilton\u0026#39;s\u0026#160;\u003cI\u003eMantle of Command,\u0026#160;\u003c/I\u003elong-listed for the National Book Award, drew on years of archival research and interviews to portray FDR in a tight close up, as he determined Allied strategy in the crucial initial phases of World War II. \u003cI\u003eCommander in Chief\u0026#160;\u003c/I\u003ereveals the astonishing sequel \u0026mdash; suppressed by Winston Churchill in his memoirs \u0026mdash; of Roosevelt\u0026#39;s battles with Churchill to maintain that strategy. \u0026#160;Roosevelt knew that the Allies should take Sicily but avoid a wider battle in southern Europe, building experience but saving strength to invade France in early 1944. Churchill seemed to agree at Casablanca \u0026mdash; only to undermine his own generals and the Allied command, testing Roosevelt\u0026rsquo;s patience to the limit. Churchill was afraid of the invasion planned for Normandy, and pushed instead for disastrous fighting in Italy, thereby almost losing the war for the Allies. In a dramatic showdown, FDR finally set the ultimate course for victory by making the ultimate threat. \u003cI\u003eCommander in Chief\u0026#160;\u003c/I\u003eshows FDR in top form at a crucial time in the modern history of the West.\u003c/DIV\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544277449\",\"Isbn13\":\"9780544277441\",\"JacketUrl\":\"/assets/product/9780544279117.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1570436\",\"MetaTitle\":\"Commander-in-Chief\",\"OtherProducts\":null,\"Pages\":\"496\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$30.00\",\"FormattedValue\":\"$30.00\",\"From\":\"\",\"ListPriceValue\":\"30\",\"Price\":\"$30.00\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":30.0}],\"Promotions\":[],\"PublicationDate\":\"1465275600000\",\"ShortDescription\":\"\u003cDIV\u003eIn the sequel to the National Book Award\u0026ndash;longlisted\u0026#160;\u003cI\u003eMantle of Command\u003c/I\u003e,\u0026#160;Nigel Hamilton continues\u0026#160;\u0026quot;the memoir that Roosevelt didn\u0026#39;t get to write\u0026quot;\u0026#160;(\u003cI\u003eNew York Times Book Review\u003c/I\u003e)\u003cI\u003e\u0026#160;\u003c/I\u003ewith the story of FDR\u0026#39;s battles with Churchill throughout 1943.\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Commander in Chief\",\"Type\":\"OTHER_FORMATS\"},{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/hamilton$nigel.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"NIGEL HAMILTON is a best-selling and award-winning biographer of President John F. Kennedy, General Bernard \u0026quot;Monty\u0026quot; Montgomery, and President Bill Clinton, among other subjects. His most recent book, The Mantle of Command: FDR at War, 1941\u0026ndash;1942, was long-listed for the National Book Award. He is a senior fellow at the McCormack Graduate School, University of Massachusetts, Boston and splits his time between Boston, Massachusetts and New Orleans, Louisiana.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"9951964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nigel-Hamilton\",\"MiddleName\":null,\"Name\":\"Nigel Hamilton\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"Description\":\"\u003cDIV\u003e\u003cB\u003e\u0026quot;A solid inside view of the strategic thinking that went into the campaign against Hitler as America laid the groundwork for the D-Day invasion the following year.\u0026quot; \u0026mdash;\u003cI\u003eKirkus Reviews,\u003c/I\u003e starred review\u003c/B\u003e\u0026nbsp;\u003cdiv\u003e\u0026nbsp;\u003cdiv\u003e Drawing on years of archival research and interviews, \u003cI\u003eCommander in Chief\u003c/I\u003e reveals the gripping story\u0026mdash;suppressed by Winston Churchill in his memoirs\u0026mdash;of FDR\u0026rsquo;s battles with Churchill to hold fast to Allied strategy.\u0026#160; \u003cDIV\u003e\u0026#160;\u0026#160;\u003cDIV\u003eRoosevelt knew that the Allies should take Sicily but avoid a wider battle in southern Europe, building experience but saving strength to invade France in early 1944. At the Casablanca Conference, Churchill seemed to agree\u0026mdash;only to undermine his own generals and the Allied command, testing Roosevelt\u0026rsquo;s patience to the limit. Afraid of the invasion planned for Normandy, Churchill pushed instead for disastrous fighting in Italy, thereby almost losing the war for the Allies. In a dramatic showdown, FDR finally set the ultimate course for victory by making the ultimate threat.\u0026#160;\u003cDIV\u003e\u0026#160;\u0026#160;\u003cDIV\u003eIn \u003cI\u003eCommander in Chief\u003c/I\u003e\u003cI\u003e,\u003c/I\u003e Hamilton masterfully chronicles the clash of nations\u0026mdash;and of two titanic personalities\u0026mdash;at a crucial moment in modern history.\u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Not Yet Published\",\"Isbn10\":\"0544944461\",\"Isbn13\":\"9780544944466\",\"JacketUrl\":\"/assets/product/9780544944466.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1659306\",\"MetaTitle\":\"Commander-in-Chief\",\"OtherProducts\":null,\"Pages\":\"496\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$16.99\",\"FormattedValue\":\"$16.99\",\"From\":\"\",\"ListPriceValue\":\"16.99\",\"Price\":\"$16.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":16.99}],\"Promotions\":[],\"PublicationDate\":\"1497330000000\",\"ShortDescription\":\"\u003cDIV\u003eFrom Nigel Hamilton\u0026#39;s acclaimed World War II saga, the astonishing story of FDR\u0026#39;s yearlong, defining battle with Churchill in 1943, as the war raged in Africa and Italy\u003c/DIV\u003e\",\"Status\":\"Not Yet Published\",\"Title\":\"Commander in Chief\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"480\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$30.00\",\"FormattedValue\":\"$30.00\",\"From\":\"\",\"ListPriceValue\":\"30\",\"Price\":\"$30.00\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":30.0}],\"Promotions\":[],\"PublicationDate\":\"1465275600000\",\"ShortDescription\":\"\u003cDIV\u003eIn the sequel to the National Book Award\u0026ndash;longlisted\u0026#160;\u003cI\u003eMantle of Command\u003c/I\u003e,\u0026#160;Nigel Hamilton continues\u0026#160;\u0026quot;the memoir that Roosevelt didn\u0026#39;t get to write\u0026quot;\u0026#160;(\u003cI\u003eNew York Times Book Review\u003c/I\u003e)\u003cI\u003e\u0026#160;\u003c/I\u003ewith the story of FDR\u0026#39;s battles with Churchill throughout 1943.\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Commander in Chief\",\"Type\":null}],\"RelatedSubjects\":[{\"Code\":\"AMI\",\"Description\":null,\"DisplayName\":\"Military\",\"Name\":\"Military\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"AHS\",\"Description\":null,\"DisplayName\":\"History\",\"Name\":\"History\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}}],\"ReleaseDate\":null,\"Reviews\":\"\u003cDIV\u003e\u003cP\u003e\u0026quot;\u003cI\u003eThe Mantle of Command\u003c/I\u003e is splendid: It\u0026rsquo;s the memoir Roosevelt didn\u0026rsquo;t get to write.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u0026mdash;\u003cI\u003eNew York Times Book Review\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;Masterly.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u003cI\u003e\u0026mdash;Wall Street Journal\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;A definitive volume on this aspect of Roosevelt\u0026rsquo;s career and essential reading for anyone interested in WWII, the Roosevelt Presidency, and presidential leadership.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u003cI\u003e\u0026mdash;Publishers Weekly\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;This convincingly written and gripping volume is essential for historians, political scientists, and history buffs, for a deeper understanding of the principle of civilian supremacy of the military in the U.S. political system.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u003cI\u003e\u0026mdash;Library Journal,\u003c/I\u003e STARRED \u003c/P\u003e\u003cP\u003e\u0026quot;A deeply engrossing study of the first year of Franklin Roosevelt\u0026rsquo;s prescient military leadership in World War II...Lively, elucidating, elegant and highly knowledgeable.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u003cI\u003e\u0026mdash;Kirkus\u003c/I\u003e, STARRED\u003c/P\u003e\u003cP\u003e\u0026quot;Hamilton is tantamount to the amanuensis for the memoir FDR never wrote...well researched and confident in its conclusions, Hamilton\u0026rsquo;s study ably augments the gallery of WWII leaders.\u0026quot;\u0026nbsp;\u003cdiv\u003e\u003cI\u003e\u0026mdash;Booklist\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;Nigel Hamilton\u0026rsquo;s Mantle of Command is a stirring and noteworthy book about Roosevelt\u0026rsquo;s crucial role as commander-in-chief during World War II. Hamilton writes with insight, passion, and a great grasp of history. I believe this book will become the standard by which other books about FDR\u0026rsquo;s role in World War II will be measured.\u0026quot; \u0026nbsp;\u003cdiv\u003e\u0026mdash;Carlo D\u0026rsquo;Este, author of \u003cI\u003ePatton: A Genius for War and Warlord: A Life of Churchill at War, 1874\u0026ndash;1945\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;This is not the Roosevelt (or Churchill) you\u0026#39;d expect. From the start, an aggressive, in-charge FDR emerges from a wonderful weaving of established scholarship and the fascinating bits and pieces that make history live. Churchill is an inspirational nag, with a busy, unfocused strategic vision. A key entry into the ongoing debate over who made grand strategy in the early war years \u0026mdash; Roosevelt or Churchill?\u0026quot;\u0026nbsp;\u003cdiv\u003e \u0026mdash;Warren F. Kimball, author of \u003cI\u003eForged in War: Roosevelt, Churchill, and the Second World War\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026quot;Nigel Hamilton in Mantle of Command presents a very different wartime Franklin Delano Roosevelt than the one we are used to seeing. Whether or not one agrees with all his conclusions, Hamilton clearly shows that FDR was an extremely strong and effective commander-in-chief. This volume should go a long way to dispelling popular myths about Roosevelt as a na\u0026iuml;ve and weak war leader.\u0026quot;\u0026nbsp;\u003cdiv\u003e \u0026mdash;Mark Stoler, editor of the George C. Marshall Papers \u0026amp; Professor Emeritus of History, University of Vermont\u003c/P\u003e\u003cP\u003e\u0026quot;Nigel Hamilton has written a spirited and thoughtful \u0026lsquo;revisionist\u0026rsquo; study of Franklin Delano Roosevelt as commander-in-chief during the first phase of U.S. involvement in the Second World War. Hamilton\u0026rsquo;s narrative skill brings alive the human dramas, logistic hurdles, and strategic debates to show how FDR\u0026rsquo;s indispensable drive and forward-looking leadership tamed his own \u0026lsquo;team of rivals\u0026rsquo; and set the United States and its Allies on the road to victory over the Axis. The books enlivens the often murky worlds of bureaucratic struggle and military detail to demonstrate how important it was for the United States to \u0026lsquo;get it right\u0026rsquo; early in the war and how FDR accomplished this.\u0026quot;\u0026nbsp;\u003cdiv\u003e \u0026mdash;Michael Schaller, author of \u003cI\u003eDouglas MacArthur\u003c/I\u003e \u0026amp; Regents Professor of History, University of Arizona\u003c/P\u003e\u003c/DIV\u003e\",\"SearchProducts\":[{\"Age\":\"\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"3233339\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Kate-Larson\",\"MiddleName\":null,\"Name\":\"Kate Larson\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"ChokeHazardIng\":null,\"Copyright\":\"2015\",\"Cpsia\":\"\",\"Description\":\" One of People \u0026#8217;s Top Ten Books of 2015 \u0026quot;[Larson] succeeds in providing a well-rounded portrait of a woman who, until now, has never been viewed in full.\u0026quot; \u0026#8212;Boston Globe ?\u0026#8220;A biography that chronicles her life with fresh details . . . By making Rosemary the central character, [Larson] has produced a... \",\"Format\":\"Paperback\",\"Grade\":null,\"GradeMax\":\"\",\"GradeMin\":\"\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544811909\",\"Isbn13\":\"9780544811904\",\"JacketUrl\":\"/assets/product/9780544811904.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1641716\",\"MetaTitle\":\"Rosemary\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547617954\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Rosemary\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"336\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 18 Oct 2016 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" One of People \u0026#8217;s Top Ten Books of 2015 \u0026quot;[Larson] succeeds in providing a well-rounded portrait of a woman who, until now, has never been viewed in full.\u0026quot; \u0026#8212;Boston Globe ?\u0026#8220;A biography that chronicles her life with fresh details . . . By making Rosemary the central character, [Larson] has produced a... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"The Hidden Kennedy Daughter\",\"Title\":\"Rosemary\",\"Url\":\"index:TradeFeed?key=1641716\"},{\"Age\":\"\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"2222805\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"A-J-Baime\",\"MiddleName\":null,\"Name\":\"A. J. Baime\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"ChokeHazardIng\":null,\"Copyright\":\"2015\",\"Cpsia\":\"\",\"Description\":\" \u0026#8220;A touching and absorbing portrait of one of the forgotten heroes of World War II . . . A. J. Baime has given us a memorable portrait not just of an industry going to war but of a remarkable figure who helped to make victory possible.\u0026#8221;\u0026#8212; Wall Street Journal As the United States entered World War ... \",\"Format\":\"Paperback\",\"Grade\":null,\"GradeMax\":\"\",\"GradeMin\":\"\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544483871\",\"Isbn13\":\"9780544483873\",\"JacketUrl\":\"/assets/product/9780544483873.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1597700\",\"MetaTitle\":\"The-Arsenal-of-Democracy\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547834443\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"The-Arsenal-of-Democracy\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"14.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null},{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"Hardcover\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547719283\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"The-Arsenal-of-Democracy\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"27.00\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"400\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"14.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 05 May 2015 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" \u0026#8220;A touching and absorbing portrait of one of the forgotten heroes of World War II . . . A. J. Baime has given us a memorable portrait not just of an industry going to war but of a remarkable figure who helped to make victory possible.\u0026#8221;\u0026#8212; Wall Street Journal As the United States entered World War ... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"FDR, Detroit, and an Epic Quest to Arm an America at War\",\"Title\":\"The Arsenal of Democracy\",\"Url\":\"index:TradeFeed?key=1597700\"},{\"Age\":\"\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"21106550\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Molly-Manning\",\"MiddleName\":null,\"Name\":\"Molly Manning\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"ChokeHazardIng\":null,\"Copyright\":\"2014\",\"Cpsia\":\"\",\"Description\":\" NEW YORK TIMES BESTSELLER \u0026#8220;Heartwarming.\u0026#8221; \u0026#8212; New York Times \u0026#8220;Whether or not you\u0026#8217;re a book lover, you\u0026#8217;ll be moved.\u0026#8221; \u0026#8212; Entertainment Weekly \u0026#8220;A readable, accessible addition to World War II literature [and] a book that will be enjoyed by lovers of books about books.\u0026#8221; \u0026#8212; Boston Globe \u0026#8220;Four stars [out ... \",\"Format\":\"Paperback\",\"Grade\":null,\"GradeMax\":\"\",\"GradeMin\":\"\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544570405\",\"Isbn13\":\"9780544570405\",\"JacketUrl\":\"/assets/product/9780544570405.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1612553\",\"MetaTitle\":\"When-Books-Went-to-War\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"Hardcover\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780544535022\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"When-Books-Went-to-War\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"25.00\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null},{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780544535176\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"When-Books-Went-to-War\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"304\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 27 Oct 2015 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" NEW YORK TIMES BESTSELLER \u0026#8220;Heartwarming.\u0026#8221; \u0026#8212; New York Times \u0026#8220;Whether or not you\u0026#8217;re a book lover, you\u0026#8217;ll be moved.\u0026#8221; \u0026#8212; Entertainment Weekly \u0026#8220;A readable, accessible addition to World War II literature [and] a book that will be enjoyed by lovers of books about books.\u0026#8221; \u0026#8212; Boston Globe \u0026#8220;Four stars [out ... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"The Stories That Helped Us Win World War II\",\"Title\":\"When Books Went to War\",\"Url\":\"index:TradeFeed?key=1612553\"}],\"Segment\":null,\"ShelfTalkerUrl\":null,\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003e\u003cB\u003eA dramatic, eye-opening account of how FDR took personal charge of the military direction of World War II.\u003c/B\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"SubTitle\":\"FDR at War, 1941–1942\",\"Subjects\":null,\"Title\":\"The Mantle of Command\",\"Url\":null,\"VideoUrl\":null}]';
+            var resp = JSON.parse(jsonresp);
+            // WP-364, WP - 2210
+
+            sc_products = ';' + $(".addToCartButton").attr("data-productid") + ':' + resp[0]['Title'];
+            
+            //Derived fields
+            dl.pageName = '9780544227842:' + resp[0]['Title'];
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.customprodview = 'yes';
+            dl.prodView = 'yes';
+            dl.hier1 = 'Shop:Product Detail Page';
+            dl.level2 = 'Product Detail Page';
+            dl.contentcategory = 'Product Detail';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Product Detail Page for ' + productCode);
+            }
+        }
+
+        function om_ComponentBrowse() {
+
+            var gradeSelect = jQuery('.Grade_dropdown_div option:selected').text();
+            gradeSelect = gradeSelect.substring(0, gradeSelect.indexOf('(') - 1);
+            var stateSelect = jQuery('.State_dropdown_div option:selected').text();
+            stateSelect = stateSelect.substring(0, stateSelect.indexOf('(') - 1);
+            var sortSelect = jQuery('#sortSelect option:selected').text();
+			var sortMobileSelect = jQuery('#sortMobileSelect option:selected').text();
+
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader";
+dl.level4 = "9780618896882";
+dl.pageName = "/shop/books/Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader/9780618896882";
+dl.hier1 = "shop:books:Jorge-el-curioso-siembra-una-semillaCurious-George-Plants-a-Seed-CGTV-Reader:9780618896882";
+dl.membershiptype = "Unregistered";
+
+
+            //Analytics Variables which replaces omniture/ComponentBrowse
+            dl.contentcategory = 'Browse';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.programhpvideoplay = gradeSelect;
+            dl.paymenttype = stateSelect;
+            dl.programhpshopnow = sortSelect;
+
+            if (DEBUG_CLICK)
+                alert('Category Browse complete');
+        }
+
+        // Omniture tracking script for Carousel Image tracking
+        function carouselTracking(imgName) {
+
+            var oCarousel = GetOmObj();
+            oCarousel.linkTrackVars = "eVar40,events";
+            oCarousel.linkTrackEvents = "event43";
+            oCarousel.events = "event43";
+            oCarousel.eVar40 = imgName;
+            oCarousel.tl(true, 'o', 'Carousel tracking');
+        }
+
+        // Omniture tracking script for Callout Image tracking
+        function calloutTracking(imgName) {
+            var oCallout = GetOmObj();
+            oCallout.linkTrackVars = "prop58";
+            oCallout.prop58 = imgName;
+            oCallout.tl(true, 'o', 'Sub-Box Tracking');
+        }
+
+        //Tracking scripts for GoMath Landing Pages
+
+        function gomathLoginTracking(pageName) {
+            var oGoMathLogin = GetOmObj();
+            oGoMathLogin.linkTrackVars = "eVar41";
+            oGoMathLogin.eVar41 = "GMA Login -" + pageName;
+            oGoMathLogin.tl(true, 'o', 'GMA Login Button tracking');
+        }
+
+        function gomathPriceTracking(price,pageName) {
+            var oGoMathPrice = GetOmObj();
+            oGoMathPrice.linkTrackVars = "eVar44";
+            oGoMathPrice.eVar44 = price + ' -' + pageName;
+            oGoMathPrice.tl(true, 'o', 'Try it Free Button Tracking');
+        }
+
+        function gomathTakeTourTracking(pageName) {
+            var oGoMathTakeTour = GetOmObj();
+            oGoMathTakeTour.linkTrackVars = "eVar43";
+            oGoMathTakeTour.eVar43 = "Take Video Tour - " + pageName;
+            oGoMathTakeTour.tl(true, 'o', 'Video Tour Tracking');
+        }
+
+        function gomathVideoPlayTracking(gomathPage, VideoName) {
+            var oVideoTrack = GetOmObj();
+            oVideoTrack.linkTrackVars = "eVar45,events";
+            oVideoTrack.events = "event48";
+            oVideoTrack.eVar45 = VideoName + "-" + gomathPage;
+            oVideoTrack.tl(true, 'o', 'GMA Video Play');
+        }
+</script>
+
+    <!-- SiteCatalyst code version: H.25.2.Copyright 1996-2012 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
+    <script type="text/javascript">
+
+        var curPageName = 'Product Detail Page';
+        var dl = new Object;
+
+        if (curPageName == 'Search') {
+            if (typeof om_SearchResults == 'function') {
+                om_SearchResults();
+            }
+        }
+        else if (curPageName == 'Product Detail Page') {
+            if (typeof Om_ProductDetailViewed == 'function') {
+                Om_ProductDetailViewed(jQuery(".addToCartButton").attr("data-productid"));
+            }
+        }
+        else if (curPageName == 'ComponentBrowse') {
+            if (typeof om_ComponentBrowse == 'function') {
+                om_ComponentBrowse();
+            }
+        }
+        else if (curPageName == "SignIn") {
+            if (typeof Om_SignIn == 'function') {
+                Om_SignIn();
+            }
+        }
+        else if (curPageName == "CreateInstitutional") {
+            if (typeof Om_CreateInstitutional == 'function') {
+                Om_CreateInstitutional();
+            }
+        }
+        else if (curPageName == 'NoSearch') {
+            if (typeof Om_NoSearchResults == 'function') {
+                Om_NoSearchResults();
+            }
+        }
+        else if (curPageName == 'Asset') {
+            if (typeof Om_AssetLibrary == 'function') {
+                Om_AssetLibrary();
+            }
+        }
+        else if (curPageName == 'AssetLibrarySearch') {
+            if (typeof Om_AssetLibrarySearch == 'function') {
+                Om_AssetLibrarySearch();
+            }
+        }
+        else if (curPageName == 'Migrate') {
+            if (typeof Om_MigrateAccount == 'function') {
+                Om_MigrateAccount();
+            }
+        }
+        else {
+            if (typeof Om_InitialSetup == 'function') {
+                Om_InitialSetup();
+            }
+        }
+
+
+        var DEBUG_CLICK = false;
+
+        
+
+       
+    </script>
+
+    <!-- Ominture Holder -->
+    
+<script type="text/javascript">
+
+    // tracks read more/less
+    function Om_ReadMoreOrLess(newLink) {
+        var oLink = GetOmObj();
+        isbn13Val = '9780544227842';
+        if (newLink == "moreLink") {
+            oLink.prop10 = isbn13Val;
+            oLink.linkTrackVars += ",prop10";
+        }
+        else {
+            oLink.prop9 = isbn13Val;
+            oLink.linkTrackVars += ",prop9";
+        }
+
+        oLink.tl(true, 'o', newLink);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert(newLink);
+        }
+    }
+
+    // Omniture tracking for product detail view
+    function Om_ProductDetailViewed_Old(productCode) {
+        var gca = GetOmObj();
+
+        gca.products = ';' + productCode + ':' + 'the-mantle-of-command';
+        gca.events = 'prodView,event19';
+        gca.pageName = '9780544227842:the-mantle-of-command';
+        gca.hier1 = 'Shop:Product Detail Page';
+        gca.prop1 = 'Product Detail Page';
+        gca.prop5 = 'Product Detail';
+
+        gca.linkTrackEvents = 'prodView,event19';
+        gca.linkTrackVars += ",products,hier1,prop1,prop5,events";
+        gca.t(true, 'o', 'Product Detail Page for ' + productCode);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert('Product Detail Page for ' + productCode);
+        }
+    }
+
+</script>
+    <!-- End Ominture Holder -->
+
+        
+        <script type="text/javascript">
+            $(window).load(function () {
+                var url = window.location.search;
+                if (url.indexOf("isSignIn=true") > -1) {
+                    if (typeof Om_SignUp == 'function') {
+                        Om_SignUp('Returning User Login');
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript">_satellite.pageBottom();</script>
+    <input type="hidden" name="MediaFramework_ItemId" id="MediaFramework_ItemId" value="FAC8B622AA9349998CE5EE28CA2209E3" /></form>
+</body>
+</html>

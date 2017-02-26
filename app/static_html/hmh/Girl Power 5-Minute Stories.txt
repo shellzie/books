@@ -1,0 +1,2566 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta property="og:image" content="http://www.hmhco.com/Sites/HMH/Images/global/headerLogo.png" /><meta property="og:site_name" content="Houghton Mifflin Harcourt" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta name="skype_toolbar" content="skype_toolbar_parser_compatible" /><meta name="format-detection" content="telephone=yes" /><link rel="apple-touch-icon" sizes="144x144" href="/hmh-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="114x114" href="/hmh-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="72x72" href="/hmh-touch-icon-72x72.png" /><link rel="apple-touch-icon" href="/hmh-touch-icon.png" /><link href="/Sites/HMH/StyleSheets/foundation.min.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/app.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/header.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/left-nav.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/flexslider.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/hero-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/breadcrumbs.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/article-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/featured-content.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/product-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/footer.css" rel="stylesheet" /><link rel="stylesheet" media="screen" type="text/css" href="/Sites/HMH/stylesheets/jquery-ui-autocomplete.css?20170125024747000" /><meta name="robots" content="index,follow" /> <meta name="thumbnailImage" content="" />
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "http://www.hmhco.com/",
+      "logo": "http://www.hmhco.com/Sites/HMH/Images/Global/headerLogo.png"
+      }
+    </script>
+    <script src="/Sites/HMH/Javascript/modernizr.foundation.js"></script>
+    <script src="/Sites/HMH/javascript/picturefill.min.js" async></script>
+    
+        <script src='//assets.adobedtm.com/5d599bba477bad3ce4973aeb5c0a8c11709abbb4/satelliteLib-0e2519e72ac99bf1903363af66591539e99b077e.js'></script>
+    <script type="text/javascript"> adroll_custom_data = {product_id:9780544339255, product_group:'Individual'};</script>
+<script type="text/javascript">
+    var __st_loadLate = true;
+</script>
+<script type="text/javascript">var switchTo5x = true;</script>
+<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({ publisher: "db14f118-ed4d-4b16-92a8-30a27aed5702", publisherGA: "UA-17416443-2", doNotHash: true, doNotCopy: false, hashAddressBar: true, onhover: false });</script>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.dummy.js" ></script>
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframeworkdummy.js" ></script>
+<link rel="Stylesheet" href="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.css" />
+<title>
+	Girl Power 5-Minute Stories
+</title></head>
+<body id="bdyMaster" class="off-canvas hide-extras neutral">
+    <form method="post" action="/shop/books/Girl-Power-5Minute-Stories/9780544339255" id="frmMain">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNzUzODc5NzcPFgYeD19fQW50aVhzcmZUb2tlbgUgZTE4Y2VjOWRmMWQ1NDgyZGIwMjYxMjJmNmQwMzQwNWIeEl9fQW50aVhzcmZVc2VyTmFtZQUSZXh0cmFuZXRcQW5vbnltb3VzHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWBAIBD2QWAgIaDxYCHgRUZXh0BXU8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+IGFkcm9sbF9jdXN0b21fZGF0YSA9IHtwcm9kdWN0X2lkOjk3ODA1NDQzMzkyNTUsIHByb2R1Y3RfZ3JvdXA6J0luZGl2aWR1YWwnfTs8L3NjcmlwdD5kAgMPFgIeBWNsYXNzBR5vZmYtY2FudmFzIGhpZGUtZXh0cmFzIG5ldXRyYWwWAgIBEGRkFgoCAQ9kFgJmD2QWAmYPZBYIZg8WAh4HVmlzaWJsZWgWAgIBDxYCHwNlZAICD2QWAmYPZBYCZg9kFgICAQ8WAh4LXyFJdGVtQ291bnQCAhYEZg9kFgICAQ8WAh8EBR10b3AtYmFyLWJ1dHRvbiBwYXJlbnRzLWJ1dHRvbhYCAgEPD2QWBh8EBQpjb29raWUtdmFsHg9kYXRhLWNvb2tpZS12YWwFBkF0SG9tZR4Nb25jb250ZXh0bWVudQUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWhlYXJ0ZAIBD2QWAgIBDxYCHwQFH3RvcC1iYXItYnV0dG9uIGVkdWNhdG9ycy1idXR0b24WAgIBDw9kFgYfBAUKY29va2llLXZhbB8HBQlDbGFzc3Jvb20fCAUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWFwcGxlZAIGD2QWBgIDDxYCHgRocmVmBW4vYWNjb3VudC9DcmVhdGVBY2NvdW50P2luQ2hlY2tvdXQ9ZmFsc2UmUmV0dXJuVXJsPSUyZnNob3AlMmZib29rcyUyZkdpcmwtUG93ZXItNU1pbnV0ZS1TdG9yaWVzJTJmOTc4MDU0NDMzOTI1NWQCBQ8WAh8JBWgvYWNjb3VudC9zaWduLWluP2luQ2hlY2tvdXQ9ZmFsc2UmUmV0dXJuVXJsPSUyZnNob3AlMmZib29rcyUyZkdpcmwtUG93ZXItNU1pbnV0ZS1TdG9yaWVzJTJmOTc4MDU0NDMzOTI1NWQCBw8WAh8JBW4vYWNjb3VudC9DcmVhdGVBY2NvdW50P2luQ2hlY2tvdXQ9ZmFsc2UmUmV0dXJuVXJsPSUyZnNob3AlMmZib29rcyUyZkdpcmwtUG93ZXItNU1pbnV0ZS1TdG9yaWVzJTJmOTc4MDU0NDMzOTI1NWQCCg9kFgICAQ8WAh8DZWQCAw9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgJmD2QWAgIBDxYCHwYCAhYEZg9kFgICAQ8WAh8EBRhhdGhvbWUtbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUGQXRIb21lHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1oZWFydGQCAQ9kFgICAQ8WAh8EBRtjbGFzc3Jvb20tbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUJQ2xhc3Nyb29tHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1hcHBsZWQCBw9kFgJmD2QWAmYPZBYCZg9kFgpmD2QWBAIBD2QWAgIBDw8WBB4ISW1hZ2VVcmwFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDQzMzkyNTUuZ2lmHg1BbHRlcm5hdGVUZXh0BSlHaXJsIFBvd2VyIDUtTWludXRlIFN0b3JpZXMtOTc4MDU0NDMzOTI1NWRkAgUPZBYCZg9kFgJmD2QWAmYPFgIfBWdkAgEPZBYeAgEPZBYCZg8WAh8DBRtHaXJsIFBvd2VyIDUtTWludXRlIFN0b3JpZXNkAgUPFgIfBWhkAgcPFgIfAwXMATxESVY+R2V0IHlvdXIgZGFpbHkgZG9zZSBvZiBnaXJsIHBvd2VyIHdpdGgmIzE2MDt0aGlzJiMxNjA7aW5zcGlyaW5nIHRyZWFzdXJ5JiMxNjA7YnVyc3Rpbmcgd2l0aCYjMTYwO3RlbiBzdG9yaWVzIGFib3V0JiMxNjA7dGVuIGFtYXppbmcgZ2lybHMgdGhhdCBjYW4gZWFjaCBiZSByZWFkIGFsb3VkIGluIGZpdmUgbWludXRlcyBmbGF0ISYjMTYwOzwvRElWPmQCCQ9kFgJmDxYCHwMFEUZvcm1hdDogSGFyZGNvdmVyZAILD2QWAmYPFgIfAwUbSVNCTi0xMy8gRUFOOiA5NzgwNTQ0MzM5MjU1ZAIND2QWAmYPFgIfAwUTSVNCTi0xMDogMDU0NDMzOTI1OGQCDw9kFgJmDxYCHwMFClBhZ2VzOiAyMjRkAhEPZBYCZg8WAh8DBRxQdWJsaWNhdGlvbiBEYXRlOiAwMS8yNy8yMDE1ZAITDxYCHwVoZAIVD2QWAmYPFgIfAwUTQ2FydG9uIFF1YW50aXR5OiAxNmQCFw9kFgJmDxYCHwMFFkdyYWRlIExldmVsOiBQLEssMSwyLDNkAhkPZBYCZg8WAh8DBRJBZ2UgUmFuZ2U6IDQsNSw2LDdkAhsPFgIfBWhkAh0PZBYEAgEPFgIfBWhkAgMPFgIfBWhkAh8PFgIfBWhkAgIPZBYCAgEPZBYGZg8WAh8FaBYCAgEPFgIfBWhkAgEPFgIfAwUGJDEyLjk5ZAIEDxYCHwMFC0FkZCBUbyBDYXJ0ZAIDD2QWDgIDDxYCHglpbm5lcmh0bWwFQDxhIGlkPSJhdXRob3JBbmNob3IiIGhyZWY9IiNBYm91dFRoZUF1dGhvciI+QWJvdXQgdGhlIEF1dGhvcjwvYT5kAgUPFgIfBWhkAgcPFgIfBWhkAgkPZBYCAgEPZBYEAgEPFgIfAwWKCTxESVY+VGhlIGdpcmxzIGFyZSBpbiBjaGFyZ2UmIzE2MDtpbiB0aGlzIGZ1bGwtdG8tdGhlLWJyaW0gY29sbGVjdGlvbiYjMTYwO2ZlYXR1cmluZyB0ZW4gc3RvcmllcyB0aGF0IGNhbiBlYWNoIGJlIHJlYWQgYWxvdWQgaW4gZml2ZSBtaW51dGVzIGZsYXQuIEZlYXJsZXNzLCBmdW4sIGRldGVybWluZWQsIGRhcmluZywga2luZCwgYW5kIGNvbmZpZGVudCAuIC4gLiB0aGVzZSBnaXJscyBydWxlISBXaGV0aGVyIHlvdSdyZSBsb29raW5nIGZvciBhIHN0cm9uZyByb2xlIG1vZGVsLCBhIHF1aWNrIHBpY2stbWUtdXAsIGEgam9sdCBvZiBpbnNwaXJhdGlvbiwgb3IganVzdCBhIGdpZ2dsZSwgdGhpcyB0cmVhc3VyeSBoYXMgYWxsIHRoYXQgYW5kIG1vcmUhIEEgcGFkZGVkIGNvdmVyIHdpdGggcGxlbnR5IG9mIGdsaXR6IGFuZCBnbG9zcyBtYWtlcyB0aGlzIHRoZSBwZXJmZWN0IGJvb2sgZm9yIGdpZnRpbmcuJiMxNjA7JiMxNjA7IDwvRElWPjxESVY+JiMxNjA7JiMxNjA7JiMxNjA7JiMxNjA7IEdldCBhIGdvb2QgZG9zZSBvZiBnaXJsIHBvd2VyIHdpdGggdGhlc2UgdGVuJiMxNjA7dGl0bGVzOiBLYXJlbiBCZWF1bW9udCBhbmQgRGF2ZSBDYXRyb3cncyA8ST5JIExpa2UgTXlzZWxmITs8L0k+IEJldGggQ2FkZW5hIGFuZCBGcmFuayBEb3JtZXIncyA8ST5TdXBlcnNpc3Rlcjs8L0k+IE1hcmlseW4gU2luZ2VyIGFuZCBBbGV4YW5kcmEgQm9pZ2VyJ3MgPEk+VGFsbHVsYWgmIzgyMTc7cyBUdXR1OyA8L0k+SmVhbm5lIEJpcmRzYWxsIGFuZCBNYXR0IFBoZWxhbidzIDxJPkZsb3JhJiM4MjE3O3MgVmVyeSBXaW5keSBEYXk7PC9JPiBUYW1taSBTYXVlciBhbmQgSm9lIEJlcmdlcidzIDxJPlByaW5jZXNzIGluIFRyYWluaW5nOzwvST4gTW9uaWNhIEJyb3duIGFuZCBNYWdhbHkgTW9yYWxlcydzIDxJPkNoYXZlbGEgYW5kIHRoZSBNYWdpYyBCdWJibGU7PC9JPiBKZXNzaWNhIE1lc2VydmUncyA8ST5TbWFsbCBTaXN0ZXI7PC9JPiBNYXJnYXJldCBDaG9kb3MtSXJ2aW5lJ3MgPEk+RWxsYSBTYXJhaCBHZXRzIERyZXNzZWQ7IDwvST5FcmljYSBTaWx2ZXJtYW4gYW5kIEJldHN5IExld2luJ3MgPEk+Q293Z2lybCBLYXRlIGFuZCBDb2NvYTsgPC9JPkN5bnRoaWEgSmFiYXIncyA8ST5Xb3csIEl0IFN1cmUgaXMgR29vZCB0byBCZSBZb3UhPC9JPiA8L0RJVj5kAgMPZBYGAgEPZBYCAgEPFgIfBgIGZAIDD2QWAgIBDxYCHwYCBmQCBQ8WAh8FaBYQAgEPFgIfBWhkAgMPFgIfBWhkAgUPFgIfBWhkAgcPFgIfBWhkAgkPFgIfBWhkAgsPFgIfBWhkAg0PFgIfBWhkAg8PFgIfBWhkAgsPZBYCAgEPZBYEAgEPFgIfBgIBFgJmD2QWBgIBDw8WAh8KBS4vc2l0ZXMvaG1oL2ltYWdlcy9nbG9iYWwvaWNvbk5vSW1hZ2VBdXRob3IucG5nZGQCAw8WAh8DBRlIb3VnaHRvbiBNaWZmbGluIEhhcmNvdXJ0ZAIHDw8WAh4LTmF2aWdhdGVVcmwFNS9ib29rc3RvcmUvYXV0aG9ycy9Ib3VnaHRvbi1NaWZmbGluLUhhcmNvdXJ0LzEzMDE3OTY0ZGQCAw9kFgICAQ8WAh8GAgoWFGYPZBYEZg8VAQ05NzgwNTQ0MDUyMDAwZAIBDw8WAh8NBWsvc2hvcC9ib29rcy9SZWFkZXItYW5kLUVkdWNhdG9yLUd1aWRlLXRvLXF1b3RUaGUtSG9iYml0cXVvdC1hbmQtcXVvdFRoZS1Mb3JkLW9mLXRoZS1SaW5nc3F1b3QvOTc4MDU0NDA1MjAwMGQWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0MDUyMDAwLmdpZmRkAgMPFgIfAwVZUmVhZGVyIGFuZCBFZHVjYXRvciBHdWlkZSB0byAmcXVvdDtUaGUgSG9iYml0JnF1b3Q7IGFuZCAmcXVvdDtUaGUgTG9yZCBvZiB0aGUgUmluZ3MmcXVvdDtkAgUPFgIfBgL/////D2QCAQ9kFgRmDxUBDTk3ODA1NDQwOTI0OTVkAgEPDxYCHw0FVi9zaG9wL2Jvb2tzL1RoZS1GYW1pbHktQ2hyaXN0bWFzLVRyZWFzdXJ5LXdpdGgtQ0QtYW5kLWRvd25sb2FkYWJsZS1hdWRpby85NzgwNTQ0MDkyNDk1ZBYGAgEPDxYCHwoFMS9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDQwOTI0OTVfbHJlcy5naWZkZAIDDxYCHwMFPFRoZSBGYW1pbHkgQ2hyaXN0bWFzIFRyZWFzdXJ5IHdpdGggQ0QgYW5kIGRvd25sb2FkYWJsZSBhdWRpb2QCBQ8WAh8GAv////8PZAICD2QWBGYPFQENOTc4MDU0NzkwMTk4NWQCAQ8PFgIfDQVRL3Nob3AvYm9va3MvVGhlLUhvYmJpdC1UaGUtRGVzb2xhdGlvbi1vZi1TbWF1Zy0tVGhlLU1vdmllLVN0b3J5Ym9vay85NzgwNTQ3OTAxOTg1ZBYGAgEPDxYCHwoFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDc5MDE5ODUuZ2lmZGQCAw8WAh8DBTpUaGUgSG9iYml0OiBUaGUgRGVzb2xhdGlvbiBvZiBTbWF1ZyAtLSBUaGUgTW92aWUgU3Rvcnlib29rZAIFDxYCHwYC/////w9kAgMPZBYEZg8VAQ05NzgwNTQ0MzAxNzg4ZAIBDw8WAh8NBT4vc2hvcC9ib29rcy9Td2VldC1EcmVhbXMtNU1pbnV0ZS1CZWR0aW1lLVN0b3JpZXMvOTc4MDU0NDMwMTc4OGQWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0MzAxNzg4LmdpZmRkAgMPFgIfAwUlU3dlZXQgRHJlYW1zIDUtTWludXRlIEJlZHRpbWUgU3Rvcmllc2QCBQ8WAh8GAv////8PZAIED2QWBGYPFQENOTc4MDU0NDUzODgzMmQCAQ8PFgIfDQUoL3Nob3AvYm9va3MvVGhpbmdzLVRoYXQtR28vOTc4MDU0NDUzODgzMmQWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0NTM4ODMyLmdpZmRkAgMPFgIfAwUPVGhpbmdzIFRoYXQgR28hZAIFDxYCHwYC/////w9kAgUPZBYEZg8VAQ05NzgwNTQ0NTM4ODU2ZAIBDw8WAh8NBSMvc2hvcC9ib29rcy9EaW5vc2F1cnMvOTc4MDU0NDUzODg1NmQWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0NTM4ODU2LmdpZmRkAgMPFgIfAwUJRGlub3NhdXJzZAIFDxYCHwYC/////w9kAgYPZBYEZg8VAQ05NzgwNTQ0NTM4ODg3ZAIBDw8WAh8NBSkvc2hvcC9ib29rcy9DbGFzc2ljLVN0b3JpZXMvOTc4MDU0NDUzODg4N2QWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0NTM4ODg3LmdpZmRkAgMPFgIfAwUPQ2xhc3NpYyBTdG9yaWVzZAIFDxYCHwYC/////w9kAgcPZBYEZg8VAQ05NzgwNTQ0NTM4ODk0ZAIBDw8WAh8NBSEvc2hvcC9ib29rcy9GcmllbmRzLzk3ODA1NDQ1Mzg4OTRkFgYCAQ8PFgIfCgUsL3Nob3AvYm9va3MvYXNzZXRzL3Byb2R1Y3QvOTc4MDU0NDUzODg5NC5naWZkZAIDDxYCHwMFCEZyaWVuZHMhZAIFDxYCHwYC/////w9kAggPZBYEZg8VAQ05NzgwNTQ0NTM4OTYyZAIBDw8WAh8NBTAvc2hvcC9ib29rcy9NeS1GYXZvcml0ZS1DaGFyYWN0ZXJzLzk3ODA1NDQ1Mzg5NjJkFgYCAQ8PFgIfCgUsL3Nob3AvYm9va3MvYXNzZXRzL3Byb2R1Y3QvOTc4MDU0NDUzODk2Mi5naWZkZAIDDxYCHwMFFk15IEZhdm9yaXRlIENoYXJhY3RlcnNkAgUPFgIfBgL/////D2QCCQ9kFgRmDxUBDTk3ODA1NDQ1Mzg5NzlkAgEPDxYCHw0FJy9zaG9wL2Jvb2tzL1VuZGVyLXRoZS1TZWEvOTc4MDU0NDUzODk3OWQWBgIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0NTM4OTc5LmdpZmRkAgMPFgIfAwUNVW5kZXIgdGhlIFNlYWQCBQ8WAh8GAv////8PZAINDxYCHwQFBGhpZGVkAg8PFgIfBAUEaGlkZWQCBA9kFgICAQ8WAh8GAgMWBmYPZBYEZg8VAQ05NzgwNTQ0NzE2MTI0ZAIBDw8WAh8NBScvc2hvcC9ib29rcy9NdWRkbGUtYW1wLU1vLzk3ODA1NDQ3MTYxMjRkFggCAQ8PFgIfCgUsL3Nob3AvYm9va3MvYXNzZXRzL3Byb2R1Y3QvOTc4MDU0NDcxNjEyNC5naWZkZAIDDxYCHwMFD011ZGRsZSAmYW1wOyBNb2QCBQ8WAh8GAgEWAmYPZBYCAgEPFgIfAwUOTmlra2kgUm9iaW5zb25kAgcPFgIfAwUJSGFyZGNvdmVyZAIBD2QWBGYPFQENOTc4MDU0NDk0OTc1MWQCAQ8PFgIfDQUlL3Nob3AvYm9va3MvV2hvc2UtSG91c2UvOTc4MDU0NDk0OTc1MWQWCAIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0OTQ5NzUxLmdpZmRkAgMPFgIfAwUMV2hvc2UgSG91c2U/ZAIFDxYCHwYCARYCZg9kFgICAQ8WAh8DBQlILiBBLiBSZXlkAgcPFgIfAwUJSGFyZGNvdmVyZAICD2QWBGYPFQENOTc4MDU0NDk0OTA3MmQCAQ8PFgIfDQUlL3Nob3AvYm9va3MvRmFybS1CYWJpZXMvOTc4MDU0NDk0OTA3MmQWCAIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0OTQ5MDcyLmdpZmRkAgMPFgIfAwULRmFybSBCYWJpZXNkAgUPFgIfBgIBFgJmD2QWAgIBDxYCHwMFCUguIEEuIFJleWQCBw8WAh8DBQlIYXJkY292ZXJkAg8PZBYCAgIPDxYCHwVnZGQCEw9kFgICAg8PFgIfBWdkZGQ6KG+M3L1wOYOE0Sc7Ciy/PqJLRA==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="004CDBBC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJIhpHRQsEHSdYqgCd1gAq+TyKPhRYzLqVFdOV50m1tKW8IiA6u3nJRZrbtxMxZwGpdIFpt" />
+</div>
+        <div class="container">
+            <!--New-->
+            <section>
+                    
+    <header class="header-nav darkgray" id="top-header">
+        <nav class="header-top-bar row">
+            
+<ul>
+    
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_0" class="top-bar-button parents-button">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_0" class="icon-heart"></i>
+                    <span class="hide-for-small">
+                        At Home
+                    </span>
+                </a>
+
+            </li>
+        
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_1" class="top-bar-button educators-button">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_1" class="icon-apple"></i>
+                    <span class="hide-for-small">
+                        Classroom
+                    </span>
+                </a>
+
+            </li>
+        
+</ul>
+
+            <section>
+                
+                <ul class="right right-links-bar" id="signedOut">
+                    
+                        <li class="account-link icon-user-account has-dropdown"><a href="#"><i class="icon-user"></i></a>
+                            <div class="dropdown dropdown-animated dropdown-margin">
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><a href="/account/sign-in?inCheckout=false" id="greyheaderbar_0_signMobileLink">Sign In</a></li>
+                                        <li><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fGirl-Power-5Minute-Stories%2f9780544339255" id="greyheaderbar_0_A1">Sign Up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="account-link signin"><a href="/account/sign-in?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fGirl-Power-5Minute-Stories%2f9780544339255" id="greyheaderbar_0_signLink"><span>Sign In </span></a></li>
+                        <li class="account-link"><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fGirl-Power-5Minute-Stories%2f9780544339255" id="greyheaderbar_0_signUpLink"><span>Sign Up</span></a></li>
+                    
+                    
+                    
+                        <li id="cartButton" class="cart cartButton has-dropdown"><a href="/hmhstorefront/cart" class="icon-cart"><span class="cart-counter cartCount" id="cartCounter">
+                            </span></a>
+                            <section class="mini-cart dropdown dropdown-animated cart items whitebg" id="cart">
+
+
+                                
+                                
+                            </section>
+                        </li>
+                    
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+  
+
+
+                <section id="main" role="main" class="lightgray">
+                    <!--New-->
+                    
+<header class="header-nav">
+    <nav class="header-sub-bar row">
+        <ul class="logo-section">
+            <li>
+                <a href="#" id="sidebarButton">
+                    <i class="icon-hamburger"></i>
+                </a>
+            </li>
+            <li class="hmh-logo">
+                <!-- make ie8 happy -->
+                <a href="//www.hmhco.com/">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(min-width: 1151px)" id="ImgHeaderLarge" srcset="/Sites/HMH/Images/Global/hmh-logo.png" />
+                        <source media="(min-width: 320px)" id="ImgHeaderSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo.png" />
+                        <!--[if IE 9]></video><![endif]-->
+                        <img src="/Sites/HMH/Images/Global/hmh-logo.png" alt="HMH LOGO" />
+                    </picture>
+                </a>                    
+            </li>
+            <li class="hmh-tagline">
+                <img src="/Sites/HMH/Images/Global/splash-header_w-secondary.png" />
+            </li>
+        </ul>
+        <section id="header_0_sectionSearch" class="search-bar">
+            <a href="#" class="search-toggle show-for-small hide-for-medium">
+                <i class="icon-magnifying"></i>
+            </a>
+            <div class="search-form">
+                <label class="search-input" for="searchEntry">
+                    <i class="icon-magnifying"></i>
+                    <input type="search" id="searchEntry" placeholder="Search by Keyword or ISBN" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                </label>
+                <input type="submit" value="Search" class="searchIconButton" />
+                <!-- <a href="#" class="submit-magnifying icon-magnifying"></a> //-->
+            </div>
+        </section>
+        <div class="button-container">
+            
+<ul class="neutral-buttons">
+    
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_0" class="athome-link has-dropdown">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_0" class="icon-heart"></i>
+                    At Home
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/at-home/shop-by-age" class="cookie-val" data-cookie-val="AtHome" >Shop by Age</a></li><li><a oncontextmenu="return false" href="/at-home/shop-by-category" class="cookie-val" data-cookie-val="AtHome" >Shop by Category</a></li><li><a oncontextmenu="return false" href="/at-home/featured-shops" class="cookie-val" data-cookie-val="AtHome" >Featured Shops</a></li><li><a oncontextmenu="return false" href="/at-home/homeschool" class="cookie-val" data-cookie-val="AtHome" >Homeschool</a></li><li><a oncontextmenu="return false" href="/at-home/family-learning-center" class="cookie-val" data-cookie-val="AtHome" >Family Learning Center</a></li></ul></div></div>
+            </li>
+        
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_1" class="classroom-link has-dropdown">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_1" class="icon-apple"></i>
+                    Classroom
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/classroom/shop-by-grade" class="cookie-val" data-cookie-val="Classroom" >Shop by Grade</a></li><li><a oncontextmenu="return false" href="/classroom/shop-by-subject" class="cookie-val" data-cookie-val="Classroom" >Shop by Subject</a></li><li><a oncontextmenu="return false" href="/classroom/featured-programs" class="cookie-val" data-cookie-val="Classroom" >Products</a></li><li><a oncontextmenu="return false" href="/classroom/classroom-solutions" class="cookie-val" data-cookie-val="Classroom" >Classroom Solutions</a></li><li><a oncontextmenu="return false" href="/classroom/evaluate-and-sample" class="cookie-val" data-cookie-val="Classroom" >Evaluate & Sample</a></li></ul></div></div>
+            </li>
+        
+    
+</ul>
+
+
+        </div>
+    </nav>
+</header>
+
+
+
+
+<script type="text/javascript">
+
+    var xRf = xRf || { initialized: false };
+    if (!xRf.initialized) {
+        xRf.searchMenuData = [{
+"menu" :
+[  {
+"value" : "?segment=All;mm=all" ,
+"label" : "Entire Site",
+"path" : "?segment=All;mm=all;i=1;m_SiteSection=Entire+Site"
+},  {
+"value" : "?segment=Programs;mm=programs" ,
+"label" : "Education Programs",
+"path" : "?segment=Programs;mm=programs;i=1;m_SiteSection=Education+Programs"
+},  {
+"value" : "?segment=Components;mm=components" ,
+"label" : "Education Program Components",
+"path" : "?segment=Components;mm=components;i=1;m_SiteSection=Education+Program+Components"
+},  {
+"value" : "?segment=RiversidePrograms;mm=riversideprograms" ,
+"label" : "Assessment Products",
+"path" : "?segment=RiversidePrograms;mm=riversideprograms;i=1;m_SiteSection=Assessment+Products"
+},  {
+"value" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components" ,
+"label" : "Common Core",
+"path" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components;i=1;m_SiteSection=Common+Core"
+},  {
+"value" : "?segment=Products;mm=trade" ,
+"label" : "Popular Books",
+"path" : "?segment=Products;mm=trade;i=1;m_SiteSection=Popular+Books"
+},  {
+"value" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth" ,
+"label" : "Books for Kids & Teens",
+"path" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth;i=1;m_SiteSection=Books+for+Kids+%26+Teens"
+},  {
+"value" : "?segment=Content;mm=content" ,
+"label" : "Articles & Content",
+"path" : "?segment=Content;mm=content;i=1;m_SiteSection=Articles+%26+Content"
+},  {
+"value" : "?segment=MediaCenter;mm=mediacenter" ,
+"label" : "Media Center",
+"path" : "?segment=MediaCenter;mm=mediacenter;i=1;m_SiteSection=Media+Center"
+} 
+]
+}];
+
+        xRf.cookieBelowMinAge = 'submittedTooMuch';
+        xRf.searchPath = '/search';
+        xRf.mediacentersearchPath = '/media-center/search';
+        xRf.blogsPath = '/media-center/blogs';
+        xRf.pressreleasePath = '/media-center/press-releases';
+        xRf.newsPath = '/media-center/in-the-news';
+        xRf.searchMiscExtraFmt = '';
+        xRf.assetLibraryPath = '/booksellers/asset-library?q=';
+        xRf.autoCompleteAccount = "sp1004efe8";
+        xRf.autoCompleteDomain = "http://hmh.guided.ss-omtrdc.net";
+        xRf.autoCompleteInputSelector = "input#searchEntry";
+        xRf.menuAssetLibraryOption = '<option value="Asset Library">Asset Library</option>'
+    }
+</script>
+
+
+                    
+                    <section class="body-content row">
+                        <div class="twelve columns nopadding">
+                            
+<!--Begin Structure-->
+<!-- Content -->
+<section class="row headline whitebg">
+    <div class="twelve columns nopadding productDetailsContainer">
+    	<section class="twelve columns">
+        	<aside id="_2310708db40f3f_productDetailsLeft" class="leftside three columns product-details-leftside">
+                <div class="product-item product-item-details twelve columns nopadding">
+                    <figure id="_2310708db40f3f_productGraphicDiv">
+                        <img id="_2310708db40f3f_bookImage" src="/shop/books/assets/product/9780544339255.gif" alt="Girl Power 5-Minute Stories-9780544339255" />
+                    </figure>
+                    <!-- End Product Image -->
+                    <div id="_2310708db40f3f_downloadImageDiv" class="row ctaarea">
+                        <div class="twelve columns">
+                           <script type="text/javascript" src="//www.google.com/jsapi"></script>
+                           <script type="text/javascript">
+                               google.load("books", "0");
+                               function initialize() {
+                                   var display_options = { showLinkChrome: false };
+                                   var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'), display_options);
+
+                                   viewer.load('ISBN:9780544339255', bookNotFound, removePreviewFooter);
+                               }
+                               function bookNotFound() {
+                                   document.getElementById('viewerCanvas').innerHTML = "<h1>No Preview!</h1>";
+                               }
+                               function removePreviewFooter() {
+                                   $('#viewerCanvas > div > div:nth-child(2)').css('display', 'none');
+                               }
+                               google.setOnLoadCallback(initialize);
+                            </script>
+                            <p><a href="javascript:showDownloadImages('//www.hmhbooks.com/catalog/downloadresultsa.cfm?adv=y&ean=9780544339255'); Om_ShowProductImages('9780544339255','Hardcover');">Download Images</a></p>
+                            <p><a class="preview" data-isbn="ISBN:9780544339255"><img src="/Sites/HMH/Images/Global/gbs_preview_button1.gif" alt="Google Preview" /></a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Social Icons -->
+                <div class="social_icons">
+                    
+<div class="shareThis">
+    
+        <span class="st_facebook"></span>
+	    <span class="st_twitter"></span>
+        <span class="st_linkedin"></span>
+	    <span class="st_pinterest"></span>
+	    <span class="st_email"></span>
+    
+</div>
+
+
+                </div>
+                <!-- End Social Icons -->
+                <!-- Start product data listing -->
+                <div class="productDataListingContDup"></div>
+                <!-- End product data listing -->
+            </aside>
+            <article id="_2310708db40f3f_productDetailsMain" class="rightside six columns product-details">
+            	<h1 id="_2310708db40f3f_headerText">Girl Power 5-Minute Stories</h1>
+                <p class="writer">by <a href="/bookstore/authors/Houghton-Mifflin-Harcourt/13017964">Houghton Mifflin Harcourt</a></p>
+                <!-- Start Product Information Block -->
+                <div class="productInformationBlock">
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescrip">
+                        
+                        <div class="outOfStock">
+                            <p>
+                                <span class="error"></span>
+                            </p>
+                        </div>
+                        <p>
+                            <DIV>Get your daily dose of girl power with&#160;this&#160;inspiring treasury&#160;bursting with&#160;ten stories about&#160;ten amazing girls that can each be read aloud in five minutes flat!&#160;</DIV>
+                        </p>
+                    </div>
+                    <!-- end Product Description -->
+                    <!-- Start product data listing -->
+                    <div class="productDataListingCont" id="productDataListing">
+                        <ul class="productDataListing">
+                            <li id="_2310708db40f3f_formatSpan">Format: Hardcover</li>
+                            <li id="_2310708db40f3f_isbn13Span">ISBN-13/ EAN: 9780544339255</li>
+                            <li id="_2310708db40f3f_isbn10Span">ISBN-10: 0544339258</li>
+                            <li id="_2310708db40f3f_noOfPagesSpan">Pages: 224</li>
+                            <li id="_2310708db40f3f_publicationDateSpan">Publication Date: 01/27/2015</li>
+                            
+                            <li id="_2310708db40f3f_cartonQtySpan">Carton Quantity: 16</li>
+                            <li id="_2310708db40f3f_gradeLevelSpan" style="display: none">Grade Level: P,K,1,2,3</li>
+                            <li id="_2310708db40f3f_ageRangeSpan" style="display: none">Age Range: 4,5,6,7</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- End product data listing -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailable">
+                        <div id="_2310708db40f3f_relatedComponentDiv" class="row">
+                            <div class="twelve columns">
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- End also available -->
+                </div>
+                <!-- End Product Information Block -->
+            </article>
+            <aside id="_2310708db40f3f_productcartAside" class="right three columns product-details-rightside panel">
+                <div class="product-item product-item-details twelve columns">
+                    <div id="_2310708db40f3f_productcartDiv" class="product-items-full-details">
+                        <p class="product-item-price">
+                            
+                            <span>
+                                $12.99</span><br />
+                            <span>
+                                </span>
+                        </p>
+                        <div id="_2310708db40f3f_quantitySpan" class="quantity-container">
+                            <p>
+                                <a class="increment item-quantity-down" data-item-id='1584496' data-page="search">-</a>
+                                <input type="text" name="cartItemsForm[1584496].quantity" id='item_1584496_quantity'
+                                    class="item-quantity" data-price="" data-item-id='1584496' maxlength="4" value="1" />
+                                <a class="increment item-quantity-up" data-page="search" data-item-id='1584496'>+</a>
+                            </p>
+                        </div>
+                        <p>
+                            <a id="addToCartButtonInline" class="shopnow addToCartButton button" data-productid='1584496' data-title='Girl Power 5-Minute Stories'
+                                data-metatitle='Girl-Power-5Minute-Stories' data-isbn13='9780544339255' data-inventorystatus='' data-producttype="component">
+                                Add To Cart</a>
+                        </p>
+                        <div class="dynamic_box_content special_detail">
+                            <p><a class="bulkView">Bulk purchasing &amp; Other Options</a></p>
+                        </div>
+                    </div>
+                </div>
+                <section class="twelve columns">
+                    <!-- Start product data listing -->
+                    <div class="productDataListingContDup"></div>
+                    <!-- End product data listing -->
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescripDup"></div>
+                    <!-- end Product Description -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailableDup"></div>
+                    <!-- End also available -->
+                </section>  
+            </aside>
+        </section>
+        <div class="twelve columns nopadding productDetailsContainer">
+            <article class="rightside twelve columns product-details">
+                <!-- Start Tabbed Section -->
+                <div id="_2310708db40f3f_productdetailDiv">
+         		    <section class="row article-widget whitebg transparent">
+    				    <dl id="tabsdd" class="tabs tall tabs-module-4 hide-for-small">
+                            <dd id="tabProductInfo" class="active"><a target="" href="#ProductInfo">About the Book</a></dd>
+                            <dd id="tabAboutTheAuthor"><a id="authorAnchor" href="#AboutTheAuthor">About the Author</a></dd>
+                            
+                            
+    			        </dl>
+                        <ul class="accordion tabs-content centered">
+                            <li id="ProductInfoTab" class="accordion-tab active">
+                                <div class="title accordion-tab-title ProductInfoTab ProductInfo-accordion show-for-small" data-hash="ProductInfo-accordion" data-parent-tab-content="ProductInfoTab" data-parent-tab="tabProductInfo">
+                                    <h5>About the Book</h5>
+                                </div>
+                                <div id="ProductInfoTabContent" class="content accordion-tab-content active more-block">
+                                    <div id="book_more" class="book_more">
+                                        <DIV>The girls are in charge&#160;in this full-to-the-brim collection&#160;featuring ten stories that can each be read aloud in five minutes flat. Fearless, fun, determined, daring, kind, and confident . . . these girls rule! Whether you're looking for a strong role model, a quick pick-me-up, a jolt of inspiration, or just a giggle, this treasury has all that and more! A padded cover with plenty of glitz and gloss makes this the perfect book for gifting.&#160;&#160; </DIV><DIV>&#160;&#160;&#160;&#160; Get a good dose of girl power with these ten&#160;titles: Karen Beaumont and Dave Catrow's <I>I Like Myself!;</I> Beth Cadena and Frank Dormer's <I>Supersister;</I> Marilyn Singer and Alexandra Boiger's <I>Tallulah&#8217;s Tutu; </I>Jeanne Birdsall and Matt Phelan's <I>Flora&#8217;s Very Windy Day;</I> Tammi Sauer and Joe Berger's <I>Princess in Training;</I> Monica Brown and Magaly Morales's <I>Chavela and the Magic Bubble;</I> Jessica Meserve's <I>Small Sister;</I> Margaret Chodos-Irvine's <I>Ella Sarah Gets Dressed; </I>Erica Silverman and Betsy Lewin's <I>Cowgirl Kate and Cocoa; </I>Cynthia Jabar's <I>Wow, It Sure is Good to Be You!</I> </DIV>
+                                    </div>
+                                    <!--Begin Subjects-->
+                                    <div id="_2310708db40f3f_subjectParentDiv" class="additional-assets">
+                                        <div id="subjectParentContent">
+                                            <div id="_2310708db40f3f_subjectDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/kids-teens/juvenile-fiction/girls-women">Girls & Women</a></li>     
+                                                        
+                                                        <li><a href="/shop/kids-teens/juvenile-fiction/general">General</a></li>     
+                                                        
+                                                        <li><a href="/shop/kids-teens/juvenile-fiction/familysiblings">Family/Siblings</a></li>     
+                                                        
+                                                        <li><a href="/shop/kids-teens/juvenile-fiction/short-stories">Short Stories</a></li>     
+                                                        
+                                                        <li><a href="/shop/general-interest/bisac-subjects/readalouds">Read-Alouds</a></li>     
+                                                        
+                                                        <li><a href="/shop/kids-teens/juvenile-fiction/humorous-stories">Humorous Stories</a></li>     
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="_2310708db40f3f_relatedSubjectsDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Related Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/m/humorous-stories/">Humorous Stories</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/gift-books/">Gift Books</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/bisac-subjects/readalouds">Read-Alouds</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/family-relationships/">Family Relationships</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/images-of-strong-women/">Images of Strong Women</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/short-stories-story-collections/">Short Stories & Story Collections</a></li>    
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!--Begin links to other assets-->
+                                            
+                                            <!--End links to other assets-->
+                                        </div>
+                                    </div>
+                                    <!--End Subjects-->
+                                </div>
+                            </li>
+                            <li id="AboutTheAuthorTab" class="accordion-tab">
+                                <div class="title accordion-tab-title AboutTheAuthorTab AboutTheAuthor-accordion show-for-small" data-hash="AboutTheAuthor-accordion" data-parent-tab-content="AboutTheAuthorTab" data-parent-tab="tabAboutTheAuthor">
+                                    <h5>About the Author</h5>
+                                </div>
+                                <div id="AboutTheAuthorTabContent" class="content accordion-tab-content more-block">
+                                    
+                                            <section class="row featured-content nine-column blurb">
+                                                <div class="three columns image-wrap">
+                                                    <figure class="image-wrap">
+                                                        <img id="_2310708db40f3f_authorRepeater_authorImageUrl_0" class="itemImage" src="/sites/hmh/images/global/iconNoImageAuthor.png" />
+                                                    </figure>
+                                                </div>
+                                                <div class="nine columns text-box">
+                                                    <h2>
+                                                        Houghton Mifflin Harcourt</h2>
+                                                    <p>
+                                                        
+                                                        <!--<a id="_2310708db40f3f_authorRepeater_authorReadMoreHyperlink_0" class="arrow" href="/bookstore/authors/Houghton-Mifflin-Harcourt/13017964">Read More</a>-->
+                                                    </p>
+                                                </div>
+                                            </section>
+                                        
+                                    <!--Begin Other Books By the Author Slider-->
+                                    <!--<div id="_2310708db40f3f_otherBooksDiv">
+                                        <div id="otherBooksSliderContainer">
+                                            <h3>Other Books By <span>The Author</span></h3>
+                                            <hr />
+                                            <div id="booksSlider" class="flexslider">
+                                                <ul class="slides">
+                                                    
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544052000'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_0" href="/shop/books/Reader-and-Educator-Guide-to-quotThe-Hobbitquot-and-quotThe-Lord-of-the-Ringsquot/9780544052000">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_0" class="itemImage" src="/shop/books/assets/product/9780544052000.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Reader and Educator Guide to &quot;The Hobbit&quot; and &quot;The Lord of the Rings&quot;</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544092495'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_1" href="/shop/books/The-Family-Christmas-Treasury-with-CD-and-downloadable-audio/9780544092495">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_1" class="itemImage" src="/shop/books/assets/product/9780544092495_lres.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            The Family Christmas Treasury with CD and downloadable audio</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780547901985'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_2" href="/shop/books/The-Hobbit-The-Desolation-of-Smaug--The-Movie-Storybook/9780547901985">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_2" class="itemImage" src="/shop/books/assets/product/9780547901985.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            The Hobbit: The Desolation of Smaug -- The Movie Storybook</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544301788'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_3" href="/shop/books/Sweet-Dreams-5Minute-Bedtime-Stories/9780544301788">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_3" class="itemImage" src="/shop/books/assets/product/9780544301788.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Sweet Dreams 5-Minute Bedtime Stories</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538832'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_4" href="/shop/books/Things-That-Go/9780544538832">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_4" class="itemImage" src="/shop/books/assets/product/9780544538832.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Things That Go!</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538856'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_5" href="/shop/books/Dinosaurs/9780544538856">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_5" class="itemImage" src="/shop/books/assets/product/9780544538856.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Dinosaurs</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538887'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_6" href="/shop/books/Classic-Stories/9780544538887">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_6" class="itemImage" src="/shop/books/assets/product/9780544538887.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Classic Stories</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538894'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_7" href="/shop/books/Friends/9780544538894">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_7" class="itemImage" src="/shop/books/assets/product/9780544538894.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Friends!</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538962'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_8" href="/shop/books/My-Favorite-Characters/9780544538962">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_8" class="itemImage" src="/shop/books/assets/product/9780544538962.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            My Favorite Characters</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780544538979'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_9" href="/shop/books/Under-the-Sea/9780544538979">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_9" class="itemImage" src="/shop/books/assets/product/9780544538979.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Under the Sea</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!--End Other Books By the Author Slider-->
+                                </div>
+                            </li>
+                            <li id="ExcerptsTab" class="hide">
+                                <div class="title accordion-tab-title ExcerptsTab Excerpts-accordion show-for-small" data-hash="Excerpts-accordion" data-parent-tab-content="ExcerptsTab" data-parent-tab="tabExcerpts">
+                                    <h5>Excerpts</h5>
+                                </div>
+                                <div id="ExcerptsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="excerptsDiv">
+                                        <div id="excerpts_more" class="excerpts_more">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="ReviewsTab" class="hide">
+                                <div class="title accordion-tab-title ReviewsTab Reviews-accordion show-for-small" data-hash="Reviews-accordion" data-parent-tab-content="ReviewsTab" data-parent-tab="tabReviews">
+                                    <h5>Reviews</h5>
+                                </div>
+                                <div id="ReviewsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="reviewsDiv">
+                                        <div id="reviews_more" class="reviews_more">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+   		                     </li>
+       			         </ul>
+			        </section>
+                </div>
+                <!-- End Tabbed Section -->
+            </article>
+        </div>
+     </div>
+</section>
+<!--Start You May Also Enjoy Slider-->
+<section id="_2310708db40f3f_youMayAlsoLikeItDiv" class="row article-widget product-widget whitebg productDetailsContainer">
+    <div id="authorContentDiv">
+        <header class="block-grid-header">
+            <h2>You May Also Enjoy</h2>
+        </header>
+        <ul class="block-grid six-up mobile-two-up">
+            
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544716124' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_0" href="/shop/books/Muddle-amp-Mo/9780544716124">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_0" class="itemImage" src="/shop/books/assets/product/9780544716124.gif" /></figure>
+                            <h3>Muddle &amp; Mo</h3>
+                            <p class="flex-caption">
+                                
+                                        Nikki Robinson
+                                    
+                            </p>
+                            <p class="flex-caption">Hardcover</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544949751' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_1" href="/shop/books/Whose-House/9780544949751">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_1" class="itemImage" src="/shop/books/assets/product/9780544949751.gif" /></figure>
+                            <h3>Whose House?</h3>
+                            <p class="flex-caption">
+                                
+                                        H. A. Rey
+                                    
+                            </p>
+                            <p class="flex-caption">Hardcover</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544949072' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_2" href="/shop/books/Farm-Babies/9780544949072">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_2" class="itemImage" src="/shop/books/assets/product/9780544949072.gif" /></figure>
+                            <h3>Farm Babies</h3>
+                            <p class="flex-caption">
+                                
+                                        H. A. Rey
+                                    
+                            </p>
+                            <p class="flex-caption">Hardcover</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+        </ul>
+    </div>        
+</section>
+<div id="modals" class="reveal-modal viewer">
+    <div id="viewerCanvas"></div>
+    <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+</div>
+<!--End You May Also Enjoy Slider-->
+<!-- WP-364 -->
+<script type="text/javascript">
+    var add_to_cart_data = document.getElementById("addToCartButtonInline").getAttribute("data-productid");
+    sc_products = ';' + add_to_cart_data + ':' + "Girl Power 5-Minute Stories";
+</script>
+<!-- WP-364 -->
+
+
+                        </div>
+                    </section>
+                    
+                    
+<noindex>
+    <footer role="contentinfo">
+    
+    <section class="darkblack">
+        <div class="row">
+            <div class="twelve columns">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source media="(min-width: 1151px)" id="ImgLarge" srcset="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" />
+                    <source media="(min-width: 320px)" id="ImgSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo-white.png" />
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" alt="HMH LOGO" />
+                </picture>          
+                <!-- <div class="footer_logo"></div> //-->
+                <!--<h3>
+                     <span id="_67e175d82ad36a_footerTitle"></span>
+                </h3>-->
+                <h6>
+                    <span id="_67e175d82ad36a_description"><h6>Changing people's lives by fostering passionate, curious learners.</h6></span>
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="row">
+                    
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        HMH CORPORATE
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/about-hmh">Company Overview</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/executive-leadership">Executive Leadership</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/board-of-directors">Board of Directors</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Investor Relations" href="http://ir.hmhco.com" target="_blank">Investor Relations</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/partner-with-hmh">Partner with HMH</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center">Media Center</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center/blogs">HMH Blog: The Spark</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/corporate-and-social-responsibility">Corporate Social Responsibility</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/our-offices">Our Offices</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Careers" href="http://careers.hmhco.com/" target="_blank">Careers</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        TRADE PUBLISHING
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/trade-publishing">Home</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/asset-library">Asset Library</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/trade-catalogs">Trade Catalogs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/bookseller-faqs">Bookseller FAQs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/backlist-order-forms">Backlist Order Forms</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        Need Help?
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/csrportal/orderTrackingValidateUser.do" target="_blank">Track Your Order</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/index.html" target="_blank">HMH Customer Care</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/product/techsupport/CCTechSupportLandingPage.html" target="_blank">Technical & Software Support</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://hmhco.force.com/replocator" target="_blank">Find Your Sales Rep</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/contactus/contact_us.html">Contact Us</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/customer-care/faqs">FAQs</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lightblack">
+        <div class="row">
+            <div class="nine columns centered">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="miniform">
+                            <div class="row">
+                                <div class="twelve columns">
+                                    <fieldset>
+                                        <legend>Stay Connected With Us!</legend>
+                                        <div class="row">
+                                            <div class="eight mobile-three columns">
+                                                <input type="Email" placeholder="Enter Your Email" id="emailAddressFooter" name="emailAddressFooter" required="" />
+                                            </div>
+                                            <div class="four mobile-one columns connectWithUs">
+                                                <a href="#" id="showform" class="button">Sign Up</a>
+                                            </div>
+                                        </div>
+                                        <div class="row errors hide">
+                                            <div class="twelve mobile-four columns errors"></div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <!-- Start Footer Social Media Icons -->
+                        <div id="footerSocialMedia">
+                            <div class="socialLinksContainer">
+                                <div class="button_tw" id="socialTwitter">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_fb" id="socialFacebook">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_in">
+                                    <a href="http://instagram.com/hmhbooks" target="_blank"></a>
+                                </div>
+                                <div class="button_li">
+                                    <a href="http://www.linkedin.com/company/3980?trk=tyah" target="_blank"></a>
+                                </div>
+                                <div class="button_pin" id="socialPinterest">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_yt" id="socialYouTube">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Slide Up Menus for Twitter and Facebook on Hover -->
+        <!-- Twitter -->
+        <div id="socialTwitterContainer" class="socialContainer">
+            <div class="socialContainer--details-tw">
+                <a href="https://twitter.com/HMHCo" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/HMHKids" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Twitter -->
+
+        <!-- Facebook -->
+        <div id="socialFacebookContainer" class="socialContainer">
+            <div class="socialContainer--details-fb">
+                <a href="https://www.facebook.com/HoughtonMifflinHarcourt?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="http://www.facebook.com/HMHTeen#!/HMHtrade?fref=ts" target="_blank">
+                    <div class="socialSet">
+
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/HMHKids/?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Teens &amp; Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Facebook -->
+
+        <!-- Pinterest -->
+        <div id="socialPinterestContainer" class="socialContainer">
+            <div class="socialContainer--details-pin">
+                <a href="https://www.pinterest.com/HMHLearning" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMHCo</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhbooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+                <a href="https://www.pinterest.com/GoMathAcademy/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">Go Math! Academy</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhcooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Cooks</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Pinterest -->
+
+        <!-- YouTube -->
+        <div id="socialYouTubeContainer" class="socialContainer">
+            <div class="socialContainer--details-yt">
+                <a href="https://www.youtube.com/user/HMHCoTV" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/user/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End YouTube -->
+
+        <!-- End Social Media Icon Slide Up on Hover -->
+
+        <div class="row">
+            <div class="twelve columns">
+                <p class="copyright text-center">
+                    ©2017 Houghton Mifflin Harcourt. All rights reserved.<br class="show-for-small">
+<a href="/common/terms-of-use">Terms of Use</a>
+<a href="/common/privacy-policy">Privacy Policy</a>
+<a href="/common/privacy-policy#AL28">Children’s Privacy Policy</a>
+<a href="/common/privacy-policy-for-k-12-learning-platforms">Student (K-12) Privacy Policy</a>
+<a href="/common/intervention-privacy-policy">Intervention Technology Products Privacy Policy</a>
+<a href="/sitemap">Sitemap</a>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</footer>
+</noindex>
+<!-- Reveal Modals begin -->
+<div id="stayModal" class="reveal-modal stay-connected" data-reveal aria-labelledby="stayModalTitle" aria-hidden="true" role="dialog">
+    <div class="row">
+        <div class="twelve columns">
+            <h6 id="stayModalTitle">Stay Connected with Houghton Mifflin Harcourt!</h6>
+            <iframe id="frameID" class="stayConnect-iframe"></iframe>
+        </div>
+    </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+<!-- Reveal Modals end -->
+
+                    <!--New-->
+                </section>
+                <section id="sidebar" role="complementary">
+                    <nav class="slide-nav">
+                        
+                    </nav>
+                </section>
+            </section>
+        </div>
+        <!--New-->
+        <!-- START : BULK Modal -->
+        <div id="bulkModal" class="reveal-modal bulk full-screen">
+            <div id="bulkModalContainer">
+                <div class="modalMessage">
+                    <h3>Bulk Purchasing Information</h3>
+                    <p>For inquiries concerning bulk purchases for corporate use, sales incentives, or nonprofit sales, please email our Special Sales department at <a href="mailto:tradesales@hmhco.com">TradeSales@hmhco.com</a></p>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <!-- END : BULK Modal -->
+        <!-- START : BUY NOW Modal -->
+        <div id="buyNowModal" class="reveal-modal large full-screen">
+            <div id="buyNowModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="buyNowImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <p class="product-meta">
+                            <span class="title buyNowTitle"></span>
+                            <br />
+                            <span class="author buyNowAuthor"></span>
+                            <br />
+                            <span class="type buyNowFormat"></span>
+                        </p>
+                        <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                        <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="buyNow" class="inline-list">
+                            <li id="amazon"><a target="_blank">
+                                <img id="Img2" /></a></li>
+                            <li id="apple"><a target="_blank">
+                                <img id="Img3" /></a></li>
+                            <li id="barnesNobel"><a target="_blank">
+                                <img id="Img4" /></a></li>
+                            <li id="google"><a target="_blank">
+                                <img id="Img5" /></a></li>
+                            <li id="kobo"><a target="_blank">
+                                <img id="Img6" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : BUY NOW Modal -->
+        <!-- START : POD Modal -->
+        <div id="podModal" class="reveal-modal pod full-screen">
+            <div id="podModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="podImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="title">
+                                <span class="podTitle"></span>
+                            </h3>
+                            <p class="podPrice"></p>
+                            <p class="author podAuthor"></p>
+                            <p class="type podFormat"></p>
+                            <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                            <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="pod" class="inline-list">
+                            <li id="amazonPOD"><a target="_blank">
+                                <img id="Img8" alt="Amazon.com" /></a></li>
+                            <li id="bookaMillionPOD"><a target="_blank">
+                                <img id="Img9" alt="Books A Million" /></a></li>
+                            <li id="barnesNoblePOD"><a target="_blank">
+                                <img id="Img10" alt="Barnes &amp; Noble" /></a></li>
+                            <li id="indieBoundPOD"><a target="_blank">
+                                <img id="Img11" alt="Indie Bound" /></a></li>
+                            <li id="powellsBooksPOD"><a target="_blank">
+                                <img id="Img12" alt="Powell&#39;s Books" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : POD Modal -->
+        <!-- START : Relogin Modal -->
+        <div id="relogin" class="reveal-modal full-screen">
+            
+        <div id="ReloginModal_ReloginSignIn">
+	
+           
+            <h3>We&rsquo;re sorry</h3>
+<p>You have selected a product that is available for purchase only by a customer with an institutional account. If you have an institutional account, please sign out and sign back in using an institutional account email address and password.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Girl-Power-5Minute-Stories/9780544339255&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Girl-Power-5Minute-Stories/9780544339255&LogintoInstOrAss=true">Create an Institutional Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <div id="invalidQualification" class="reveal-modal full-screen">
+            <div id="ProductinvalidQualification_ReloginSignOut">
+	
+    
+    <h2>We're Sorry,</h2>
+<p>the product you have selected does not match your qualification level.</p>
+    
+    <div class="modal-links">
+        <ul>
+
+            <li><a href="/customer-care/faqs">Learn More</a></li>
+            <li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="reloginIndividualAssessment" class="reveal-modal full-screen">
+            
+<div id="ReloginModalIndividual_ReloginSignIn">
+	
+           
+    <h3>We're sorry. </h3>
+<p>You have selected a product that is available for purchase only by a customer with an Institutional/ Assessment Professional account.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Girl-Power-5Minute-Stories/9780544339255&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Girl-Power-5Minute-Stories/9780544339255">Create an Institutional/ Assessment Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="modal" class="reveal-modal large full-screen">
+            <div id="modal_content"></div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- Added for Hybris Pop up WP 818-->
+        <div id="dialog" class="reveal-modal small many-items" style="height: auto;">
+            <div id="Div1" class="text-center">&nbsp;</div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="spinnerModal" class="reveal-modal spinner">
+            <img src="/sites/HMH/images/Global/hmh-spinner.gif" />
+        </div>
+        <div id="cartMobileModal" class="reveal-modal cartModal">
+            <div class="panel callout radius text-center">
+                <p><i class="icon-cart"></i></p>
+                <h5>Added to Cart</h5>
+            </div>
+        </div>
+        <div data-reveal="" class="reveal-modal large" id="firstModal">
+            <div class="popcontent"></div>
+            <a class="close-reveal-modal">×</a>
+        </div>
+        <div id="backgroundDiv" style="width: 100%; height: 100%; display: none; background: #000; position: fixed; top: 0; opacity: 0.55; z-index: 999;">
+        </div>
+        <div id="bulkPurchase" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;">
+        </div>
+        <div id="authorImagesOverlay" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;"></div>
+        
+        
+
+<script src="/Sites/HMH/Javascript/jquery.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/foundation.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.ui.tooltip.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.mobile-events.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/app.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/minicart.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/top-bar.js"></script>
+<script src="/Sites/HMH/Javascript/sub-header.js"></script>
+<script src="/hmhstorefront/_ui/desktop/common/js/hybris/commonCart.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/searchbar.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.validate.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/custom.validation.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/full-header-footer-fxns.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/chosen.jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="/Sites/HMH/javascript/jquery.adobe.autocomplete.js?20170125024744000"></script>
+<script src="/Sites/HMH/Javascript/jquery.offcanvas.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.slide-nav.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframework.js"></script>
+
+
+<!--[if lt IE 9]>
+  <script src="/Sites/HMH/Javascript/selectivizr.min.js"></script>
+  <script src="/Sites/HMH/Javascript/respond.min.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var newCookieVal;
+        $(document.body).on('click touchstart', '.cookie-val', function () {
+            var currentCookieVal = $(this).attr('data-cookie-val');
+            var cookieName = 'cookiepersona';
+            var cookiedomain = '.hmhco.com';
+            newCookieVal = currentCookieVal;
+            document.cookie = cookieName + "=" + newCookieVal + ";domain=" + cookiedomain + ";path=/";
+            // alert(document.cookie + " new cookie value");
+        });
+       
+    });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        if ($('#datapull-slider').length) {
+            $('#datapull-slider').flexslider({
+                animation: "slide",
+                directionNav: "horizontal",
+                easing: "linear",
+                animationLoop: true,
+                itemWidth: 175, // we set this to avoid complications, but to have a dynamic slider the width should be set to auto
+                itemMargin: 0,
+                minItems: 1,
+                prevText: "",
+                nextText: "",
+                touch: true,
+                slideshow: false,
+                video: false,
+                startAt: 0,
+                selector: ".slides > dd",
+                start: function (slider) {
+                }
+            });
+        }
+    });
+</script>
+<script>
+
+    equalheight = function (container) {
+
+        var currentTallest = 0,
+             currentRowStart = 0,
+             rowDivs = new Array(),
+             $el,
+             topPosition = 0;
+        $(container).each(function () {
+
+            $el = $(this);
+            $($el).height('auto')
+            topPostion = $el.position().top;
+
+            if (currentRowStart != topPostion) {
+                for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+                rowDivs.length = 0; // empty the array
+                currentRowStart = topPostion;
+                currentTallest = $el.height();
+                rowDivs.push($el);
+            } else {
+                rowDivs.push($el);
+                currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+            }
+            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                rowDivs[currentDiv].height(currentTallest);
+            }
+        });
+    }
+    $(window).load(function () {
+        if ($('.fixed-grid').length >= 0) {
+            equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.account-types li section');
+        }
+        if ($('.fluid-grid').length <= 0) {
+            equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        }
+        if ($('.bkgdLightGray').length >= 0) {
+            equalheight('.bkgdLightGray .padding10');
+            resizeA();
+            equalheight('.bkgdLightGray .padding10 h6');
+            equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        }
+        if ($('.eachAddressCol').length >= 0) {
+            equalheight('.eachAddressCol');
+        }
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    /*if ($('.bkgdLightGray').length >= 0) {
+        $('.bkgdLightGray .padding10 img').on('load', function () {
+            alert($(this).height());
+        });
+    }*/
+    $(window).resize(function () {
+        equalheight('.bkgdLightGray .padding10');
+        equalheight('.bkgdLightGray .padding10 h6');
+        resizeA();
+        equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+        equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    $(document).ready(function () {
+        resizeA();
+    });
+    function resizeA() {
+        if ($('.bkgdLightGray').length >= 0) {
+            var maxHeight = -1;
+
+            $('.bkgdLightGray .padding10 a img').each(function () {
+                maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+            });
+
+            $('.bkgdLightGray .padding10 a:first-child:not(".button")').each(function () {
+                $(this).height(maxHeight);
+            });
+        }
+    }
+</script>
+
+
+
+
+
+
+<script type="text/javascript" src="/Sites/HMH/Javascript/add-to-cart.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/productdetail.js"></script>
+
+
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function () {
+                $('.modal').click(function (e) {
+                    e.preventDefault();
+                    var urlValue = $(this).data('href');
+                    setTimeout(function () {
+                        $('#modal #modal_content').load(urlValue); // Load its linked page into the div
+                        $("#modal").reveal({
+                            closeOnBackgroundClick: true,
+                            dismissModalClass: 'close-reveal-modal'
+                        });
+                    }, 500);
+                });
+                $('.close-reveal-modal').click(function () {
+                    $("#modal").trigger("reveal:close");
+                });
+                ////For accordion default opening on viewind seperatly
+                //var hashurl = window.location.hash.replace('#', '');
+                ////var parenttabcontent = $('li[id="' + hashurl + '"]');
+                //var datahash = $('.title.' + hashurl);
+                //var datahashparentcontentparenttab = $(datahash).attr('data-parent-tab-content');
+                ////var datatab = $('.title[data-parent-tab="tab-' + hashurl + '"]');
+                ////var parenttab = $('dd[id="tab-' + hashurl + '"]');
+                //var parenttab = $(datahash).attr('data-parent-tab');
+                //if (hashurl != '') {
+                //    //alert("parent tab is " + datahashparentcontentparenttab);
+                //    //alert("grand parent tab is " + parenttab);
+                //    $('dd[id="' + parenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + datahashparentcontentparenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + hashurl + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //}
+
+            });
+        </script>
+        
+<script type="text/javascript">
+    var dl = new Object;
+
+    /************************** FUNCTION SECTION **************************/
+
+    function Om_InitialSetup() {
+        
+        dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_AssetLibrarySearch() {
+       
+        
+        dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.searches = 'yes';
+        dl.internalsearchterm = '';
+        dl.internalsearchscope = '';
+        dl.channel = 'Asset Library Search Results';
+        dl.level2 = '';
+        dl.level3 = '';
+        dl.hier1 = 'Asset Library Search Results::';
+        dl.pageName = 'ALSR::';
+        dl.contentcategory = 'Asset Library Search Results';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+   
+
+    function Om_AssetLibrary() {
+        
+        
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.channel = 'Asset Library';
+        dl.hier = 'Asset Library';
+        dl.pageName = 'AL:Landing Page';
+        dl.contentcategory = 'Landing Page';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_MigrateAccount() {
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            oConvert.prop11 = 'Institution-Converted';
+            oConvert.eVar2 = 'Institution-Converted';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_NoSearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.nullsearch = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_SignIn() {
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+           
+            dl.pageName = 'MA:Create Account';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.contentcategory = 'Account';
+            dl.visits = 'yes';
+            
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_CreateInstitutional() {
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.membershiptype = 'Institution-New';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_ProductViewed(isbn) {
+            var oView = GetOmObj();
+
+            oView.pageName = "Quick View";
+            oView.events = "prodView";
+            oView.products = ';' + isbn + ';;;;eVar1=' + oView.pageName;
+            oView.prop16 = isbn;
+            oView.hier1 = dl.hier1;
+            oView.prop5 = "Quick View";
+            oView.linkTrackEvents = "prodView";
+            oView.linkTrackVars += ",products,eVar1,prop16,hier1,prop5";
+            oView.tl(true, 'o', 'Quick View');
+
+            if (DEBUG_CLICK)
+                alert('Quickview Click complete');
+        }
+
+        function Om_AddProductToCart(title, currentCartCount, quantity, productCode, isProductDetail) {
+            var oAdd = GetOmObj();
+
+            if (currentCartCount == 1) {
+                oAdd.events = "scAdd,scOpen";
+                oAdd.linkTrackEvents = "scAdd,scOpen";
+            }
+            else {
+                oAdd.events = "scAdd";
+                oAdd.linkTrackEvents = "scAdd";
+            }
+
+            oAdd.pageName = dl.pageName;
+            oAdd.eVar1 = '';
+            oAdd.products = ';' + productCode + ':' + title;
+            oAdd.hier1 = dl.hier1;
+
+            oAdd.linkTrackVars += ",products,eVar1,hier1,events";
+            oAdd.tl(true, 'o', 'Add to Cart');
+
+            if (DEBUG_CLICK)
+                alert('Add to Cart complete');
+        }
+
+        function Om_ShareThis(medium) {
+            var oShare = GetOmObj();
+            oShare.prop17 = dl.pageName;
+            oShare.prop18 = medium;
+            oShare.linkTrackVars += ",prop17,prop18";
+            oShare.tl(true, 'o', 'Share This Share');
+
+            if (DEBUG_CLICK)
+                alert('Share This Click complete');
+        }
+
+
+        function Om_SearchShare() {
+            var oSShare = GetOmObj();
+
+            oSShare.prop26 = dl.prop6;
+            oSShare.linkTrackVars += ",prop26";
+            oSShare.tl(true, 'o', 'Search Results Share');
+
+            if (DEBUG_CLICK)
+                alert('Search Results Click complete');
+        }
+
+
+        function Om_LookInside(isbn) {
+            var oLook = GetOmObj();
+
+            oLook.prop15 = isbn;
+            oLook.linkTrackVars += ",prop15";
+            oLook.tl(true, 'o', 'Look Inside');
+
+            if (DEBUG_CLICK)
+                alert('Look Inside Click complete');
+        }
+
+        function Om_ShowProductImages(isbn, format) {
+            var oShow = GetOmObj();
+
+            oShow.events = "event11";
+            oShow.prop31 = isbn;
+            oShow.prop32 = format;
+
+
+            oShow.linkTrackVars += ",prop31,prop32";
+            oShow.linkTrackEvents = "event11";
+
+            oShow.tl(true, 'o', 'Download Images');
+
+            if (DEBUG_CLICK)
+                alert('Download Images Click complete');
+        }
+
+        function Om_CartFunction(action, isbn) {
+            var oCart = GetOmObj();
+
+            oCart.prop19 = action;
+            oCart.linkTrackVars += ",prop19,products";
+
+            //By default, we need to set the ISBN here. It may get overridden at a later place
+            if (isbn != '')
+                oCart.products = ';' + isbn;
+
+            if (action == 'checkout') {
+                oCart.events = 'scCheckout';
+                oCart.linkTrackEvents = 'scCheckout';
+
+                for (var i = 0; i < currentCartItems.length; i++) {
+                    if (i == 0) {
+                        oCart.products = ";" + currentCartItems[i];
+                    }
+                    else {
+                        oCart.products += ",;" + currentCartItems[i];
+                    }
+                }
+            }
+            else if (action == 'remove') {
+                oCart.events = 'scRemove';
+                oCart.linkTrackEvents = 'scRemove';
+            }
+            else if (action == 'viewcart') {
+                oCart.events = 'scView';
+                oCart.linkTrackEvents = 'scView';
+            }
+
+            oCart.tl(true, 'o', 'Cart Function: ' + action);
+
+            if (DEBUG_CLICK)
+                alert('Cart Function Click (' + action + ') complete');
+        }
+
+        function Om_AssetLibDownload(isbn) {
+            var oAssetD = GetOmObj();
+
+            oAssetD.prop21 = isbn;
+            oAssetD.linkTrackVars += ",prop21";
+            oAssetD.tl(true, 'o', 'Asset Library Image Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Image Download Click complete');
+        }
+
+        function Om_AssetLibExcerptView(isbn) {
+            var oAssetV = GetOmObj();
+            oAssetV.prop22 = isbn;
+            oAssetV.linkTrackVars += ",prop22";
+            oAssetV.tl(true, 'o', 'Asset Library Excerpt Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Exceprt Download Click complete');
+        }
+
+        function Om_AssetLibActivitySheet(isbn) {
+            var oAssetS = GetOmObj();
+
+            oAssetS.prop23 = isbn;
+            oAssetS.linkTrackVars += ",prop23";
+            oAssetS.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Activity Sheet Download Click complete');
+        }
+
+        function Om_DoLogin(acctType) {
+            var oLogin = GetOmObj();
+
+            // oLogin.eVar2 =  ;
+
+            oLogin.eVar2 = acctType;
+
+            oLogin.linkTrackVars += ",eVar2";
+            oLogin.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Login track complete');
+        }
+
+
+
+
+        // tracks go math keyword search widget go click
+        function Om_SearchKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop34 = keyword;
+                oGoClick.eVar18 = keyword;
+
+                oGoClick.linkTrackVars += ",prop34,eVar18";
+                oGoClick.tl(true, 'o', 'Go Math Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks go math grade/topic search widget go click
+        function Om_SearchGradeTopicGoClick(grade, topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop35 = grade;
+                oGoClick.prop36 = topic;
+                oGoClick.eVar19 = grade;
+                oGoClick.eVar20 = topic;
+
+                oGoClick.linkTrackVars += ",prop35,prop36,eVar19,eVar20";
+                oGoClick.tl(true, 'o', 'Go Math Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks search widget go click
+        function Om_SearchGoClick(selectedValue) {
+            var oGoClick = GetOmObj();
+            oGoClick.eVar27 = selectedValue;
+            oGoClick.prop44 = selectedValue;
+            oGoClick.linkTrackVars += ",eVar27,prop44";
+            oGoClick.tl(true, 'o', "search widget go click " + selectedValue);
+            // debug
+            if (DEBUG_CLICK) {
+                alert("search widget go click " + selectedValue);
+            }
+        }
+
+        // tracks video title click
+        function Om_VideoTitleClick(videoTitle) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop37 = videoTitle;
+            oVideoClick.eVar21 = videoTitle;
+            oVideoClick.events = 'event6';
+
+
+            oVideoClick.linkTrackVars += ",eVar21,prop37,events";
+            oVideoClick.linkTrackEvents = "event6";
+            oVideoClick.tl(true, 'o', videoTitle + ' - GoMath video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - GoMath video click.');
+            }
+        }
+
+        // tracks video play
+        function Om_VideoPlay(videoId) {
+            var oVideo = GetOmObj();
+
+            oVideo.prop38 = videoId;
+            oVideo.eVar22 = videoId;
+            oVideo.linkTrackVars += ",eVar22,prop38";
+            oVideo.tl(true, 'o', videoId + ' - GoMath video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoId + ' - GoMath video play.');
+            }
+        }
+
+        // tracks Culinary keyword search widget go click
+        function Om_SearchCulinaryKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop39 = keyword;
+                oGoClick.eVar23 = keyword;
+
+                oGoClick.linkTrackVars += ",prop39,eVar23";
+                oGoClick.tl(true, 'o', 'Culinary Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks Culinary topic search widget go click
+        function Om_SearchCulinaryTopicGoClick(topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop40 = topic;
+                oGoClick.eVar24 = topic;
+                oGoClick.linkTrackVars += ",prop40,eVar24";
+                oGoClick.tl(true, 'o', 'Culinary Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks video title click
+        function Om_CulinaryVideoTitleClick(videoTitle, videoId) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop41 = videoTitle;
+            oVideoClick.eVar25 = videoTitle;
+            oVideoClick.prop42 = videoId;
+            oVideoClick.eVar26 = videoId;
+            oVideoClick.linkTrackVars += ",eVar25,eVar26,prop41,prop42";
+            oVideoClick.tl(true, 'o', videoTitle + ' ' + videoId + ' - Culinary video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - Culinary video click.');
+            }
+        }
+
+
+        // tracks video play
+        function Om_CulinaryVideoPlay() {
+            var oVideo = GetOmObj();
+
+            oVideo.events = 'event7';
+            oVideo.linkTrackEvents = "event7";
+            oVideo.tl(true, 'o', 'Culinary video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Culinary video play.');
+            }
+        }
+
+        // tracks image click
+        function Om_ImgClick(bannerFilename) {
+            var oClick = GetOmObj();
+            oClick.list1 = bannerFilename;
+            oClick.eVar7 = bannerFilename;
+            oClick.events = 'event5';
+
+            oClick.linkTrackVars += ",list1,eVar7,events";
+            oClick.linkTrackEvents = "event5";
+            oClick.tl(true, 'o', 'Image Click');
+            // debug
+            if (DEBUG_CLICK) {
+                alert(banner + '`s <a> tag <img> click.');
+            }
+        }
+
+        // a is the a tag clicked
+        function trackImgClick($a, parent) {
+            parent = parent || $a.parent();
+            try {
+                // get <a>'s inner img's src
+                var filename = ($a.find('img').attr('src') || '')
+                    // get last token of /
+                    .split('/').pop()
+                    // get first token of ?
+                    .split('?').shift();
+                var banner = parent;
+                // only filename required, banner name is not
+                var result = filename;
+                console.log(result);
+                // omniture
+                Om_ImgClick(result);
+
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        function Om_SetFeaturedItem(isbn13) {
+            var oFeatureItem = GetOmObj();
+
+            oFeatureItem.prop43 = isbn13;
+            oFeatureItem.eVar7 = isbn13;
+            oFeatureItem.events = 'event5';
+
+            oFeatureItem.linkTrackVars += ",eVar7,prop43";
+            oFeatureItem.linkTrackVars += ",prop43";
+            oFeatureItem.linkTrackEvents = "event5";
+            oFeatureItem.tl(true, 'o', isbn13 + ' - Feature Item Click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(isbn13 + ' - Feature Item Click.');
+            }
+        }
+
+        //tracking succesful registration - gomath registration
+        function Om_RegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "GMA";
+            oRegister.eVar6 = email;
+            oRegister.events = "event9,event3";
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event9,event3";
+            oRegister.tl(true, 'o', 'GMA Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('GMA Successful registration for ' + email);
+            }
+        }
+
+        //tracking succesful registration - culinary registration
+        function Om_CulinaryRegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "Culinary";
+            oRegister.eVar6 = email;
+            oRegister.events = "event8,event3";
+
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event8,event3";
+            oRegister.tl(true, 'o', 'Culinary Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('Culinary Successful registration for ' + email);
+            }
+        }
+
+
+        function Om_ItemClick(item) {
+            var oItemClick = GetOmObj();
+            var itemAttr = item.attr('data-section');
+            var itemText = item.text();
+
+            if (itemAttr == 't.t2') //category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop49 = itemText;
+            }
+            if (itemAttr == 't.t3') //sub-category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop50 = itemText;
+            }
+            else if (itemAttr == 'topic') {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop51 = itemText;
+            }
+
+            if (itemAttr == 'paging') {
+                oItemClick.pageName = 'Search Results:' + item.text();
+                //oItemClick.linkTrackVars += ",pageName";
+                //oItemClick.tl(true, 'o', 'PageName: ' + item.text());
+            }
+            else if (itemAttr == 'pagingprev' || itemAttr == 'pagingnext') {
+                itemSearch = item[0].search;
+                var items = itemSearch.split(';');
+                var pageNumber = '';
+                var hasPageNumber = false;
+                for (var i = 0; i < items.length; i++) {
+                    var kvp = items[i].split('=');
+                    if (kvp[0] == "page") {
+                        pageNumber = kvp[1];
+                        hasPageNumber = true;
+                        break;
+                    }
+                }
+                if (hasPageNumber == false)
+                    pageNumber = 1;
+
+                oItemClick.pageName = ' Search Results:' + pageNumber;
+                oItemClick.linkTrackVars += ",pageName";
+                oItemClick.tl(true, 'o', 'PageName: ' + pageNumber);
+            }
+
+            if (DEBUG_CLICK) {
+                alert('Item Click: ' + item.text());
+            }
+        }
+
+        function Om_InstitutionalSignInPopUp(isbn13) {
+            var oItemClick = GetOmObj();
+            oItemClick.prop45 = isbn13;
+            oItemClick.linkTrackVars += ",prop45";
+            oItemClick.tl(true, 'o', 'Instituational Sign In required for ISBN : ' + isbn13);
+            if (DEBUG_CLICK) {
+                alert('Instituational Sign In required for ISBN : ' + isbn13);
+            }
+        }
+
+        function Om_TrackSearchTerm(searchTerm) {
+            var oSearchEntryClick = GetOmObj();
+            oSearchEntryClick.events = "event1";
+            oSearchEntryClick.prop6 = searchTerm;
+            oSearchEntryClick.eVar4 = searchTerm;
+            oSearchEntryClick.pageName = ' Search Results:1';
+            oSearchEntryClick.linkTrackVars += ",prop6,eVar4";
+            oSearchEntryClick.linkTrackEvents += ",event1";
+            oSearchEntryClick.tl(true, 'o', 'Search term : ' + searchTerm);
+            if (DEBUG_CLICK) {
+                alert('Search term : ' + searchTerm);
+            }
+        }
+
+        function Om_ProgramName(programName) {
+           // var oProgram = GetOmObj();
+           // oProgram.pageName = 'Program Home Page:' + programName;
+           // oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramSampleNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop45 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop45";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramShopNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop46 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop46";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        /*Returning customers - SignIn page */
+        function Om_SignUp(signUpType) {
+            var oReturnCustomer = GetOmObj();
+            oReturnCustomer.events = 'event29'; // Returning customer login page 
+            oReturnCustomer.prop56 = signUpType;
+            oReturnCustomer.eVar38 = "D=c56";
+            oReturnCustomer.linkTrackVars = 'eVar38,prop56,events';
+            oReturnCustomer.linkTrackEvents = 'event29';
+            oReturnCustomer.tl(this, 'o', signUpType);
+            if (DEBUG_CLICK) {
+                alert(signUpType);
+            }
+        }
+
+        function Om_SetPageName(pageName, pageTitle) {
+            var oGoMath = GetOmObj();
+
+            oGoMath.pageName = pageName;
+            oGoMath.pageTitle = pageTitle;
+            oGoMath.linkTrackVars += ',pageName,pageTitle';
+
+            oGoMath.t(true, 'o', pageName + ':' + pageTitle);
+
+            if (DEBUG_CLICK)
+                alert(pageName + ':' + pageTitle + ' complete');
+        }
+
+        function Om_StructureProgramComponents(gradeSelect, stateSelect, sortSelect) {
+            var oProgram = GetOmObj();
+
+            oProgram.prop47 = gradeSelect;
+            oProgram.prop48 = stateSelect;
+            oProgram.prop46 = sortSelect;
+
+            oProgram.linkTrackVars += 'prop47,prop48,prop46';
+            oProgram.t(true, 'o', 'Structure Program Components');
+
+            if (DEBUG_CLICK)
+                alert('Structure Program Components complete');
+        }
+
+        function Om_SetNoSearchResultsTerm(searchTerm) {
+            var oSearch = GetOmObj();
+
+            oSearch.prop8 = searchTerm;
+
+            oSearch.linkTrackVars += 'prop8';
+            oSearch.t(true, 'o', 'No Search Results Term Tracking');
+
+            if (DEBUG_CLICK)
+                alert('No Search Results Term Tracking complete');
+        }
+
+
+        function om_SearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.searches = 'yes';
+            dl.internalsearchterm = '';
+            dl.internasearchscope = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+            dl.level3 = ' results;';
+            dl.hier1 = 'Search Results: Results:';
+            dl.pageName = 'Search Results::';
+            dl.contentcategory = 'Search Results';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Search Results');
+            }
+        }
+
+        //Function to capture analytics for Product Detail Page//
+        function Om_ProductDetailViewed(productCode) {
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            // WP-364, WP - 2210
+            var jsonresp = '[{\"ActivityGuideUrl\":null,\"Age\":\"4,5,6,7\",\"AudioUrl\":null,\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"AwardList\":[],\"BisacSubjects\":[{\"Code\":\"JUV014000\",\"Description\":null,\"DisplayName\":\"Girls \u0026 Women\",\"Name\":\"Girls \u0026 Women\",\"Parent\":{\"Code\":\"JUV\",\"Description\":null,\"DisplayName\":\"JUVENILE FICTION\",\"Name\":\"JUVENILE FICTION\",\"Parent\":null}},{\"Code\":\"JUV000000\",\"Description\":null,\"DisplayName\":\"General\",\"Name\":\"General\",\"Parent\":{\"Code\":\"JUV\",\"Description\":null,\"DisplayName\":\"JUVENILE FICTION\",\"Name\":\"JUVENILE FICTION\",\"Parent\":null}},{\"Code\":\"JUV013070\",\"Description\":null,\"DisplayName\":\"Family/Siblings\",\"Name\":\"Family/Siblings\",\"Parent\":{\"Code\":\"JUV\",\"Description\":null,\"DisplayName\":\"JUVENILE FICTION\",\"Name\":\"JUVENILE FICTION\",\"Parent\":null}},{\"Code\":\"JUV038000\",\"Description\":null,\"DisplayName\":\"Short Stories\",\"Name\":\"Short Stories\",\"Parent\":{\"Code\":\"JUV\",\"Description\":null,\"DisplayName\":\"JUVENILE FICTION\",\"Name\":\"JUVENILE FICTION\",\"Parent\":null}},{\"Code\":\"CRA\",\"Description\":null,\"DisplayName\":\"Read-Alouds\",\"Name\":\"Read-Alouds\",\"Parent\":{\"Code\":\"BISAC\",\"Description\":null,\"DisplayName\":\"BISAC Subjects\",\"Name\":\"BISAC Subjects\",\"Parent\":null}},{\"Code\":\"JUV019000\",\"Description\":null,\"DisplayName\":\"Humorous Stories\",\"Name\":\"Humorous Stories\",\"Parent\":{\"Code\":\"JUV\",\"Description\":null,\"DisplayName\":\"JUVENILE FICTION\",\"Name\":\"JUVENILE FICTION\",\"Parent\":null}}],\"BookUrl1\":null,\"CartonQty\":\"16\",\"ChokeHazardInd\":\"N\",\"ColoringPagesUrl\":null,\"Cpsia\":\"Y\",\"Description\":\"\u003cDIV\u003eThe girls are in charge\u0026#160;in this full-to-the-brim collection\u0026#160;featuring ten stories that can each be read aloud in five minutes flat. Fearless, fun, determined, daring, kind, and confident . . . these girls rule! Whether you\u0027re looking for a strong role model, a quick pick-me-up, a jolt of inspiration, or just a giggle, this treasury has all that and more! A padded cover with plenty of glitz and gloss makes this the perfect book for gifting.\u0026#160;\u0026#160; \u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160; Get a good dose of girl power with these ten\u0026#160;titles: Karen Beaumont and Dave Catrow\u0027s \u003cI\u003eI Like Myself!;\u003c/I\u003e Beth Cadena and Frank Dormer\u0027s \u003cI\u003eSupersister;\u003c/I\u003e Marilyn Singer and Alexandra Boiger\u0027s \u003cI\u003eTallulah\u0026#8217;s Tutu; \u003c/I\u003eJeanne Birdsall and Matt Phelan\u0027s \u003cI\u003eFlora\u0026#8217;s Very Windy Day;\u003c/I\u003e Tammi Sauer and Joe Berger\u0027s \u003cI\u003ePrincess in Training;\u003c/I\u003e Monica Brown and Magaly Morales\u0027s \u003cI\u003eChavela and the Magic Bubble;\u003c/I\u003e Jessica Meserve\u0027s \u003cI\u003eSmall Sister;\u003c/I\u003e Margaret Chodos-Irvine\u0027s \u003cI\u003eElla Sarah Gets Dressed; \u003c/I\u003eErica Silverman and Betsy Lewin\u0027s \u003cI\u003eCowgirl Kate and Cocoa; \u003c/I\u003eCynthia Jabar\u0027s \u003cI\u003eWow, It Sure is Good to Be You!\u003c/I\u003e \u003c/DIV\u003e\",\"EducatorsUrl\":null,\"EventKitsUrl\":null,\"Excerpts\":null,\"Format\":\"Hardcover\",\"Grade\":\"P,K,1,2,3\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544339258\",\"Isbn13\":\"9780544339255\",\"JacketUrl\":\"/assets/product/9780544339255.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1584496\",\"MetaTitle\":\"Girl-Power-5Minute-Stories\",\"OtherProducts\":[],\"Pages\":\"224\",\"PressReleaseUrl\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$12.99\",\"FormattedValue\":\"$12.99\",\"From\":\"\",\"ListPriceValue\":\"12.99\",\"Price\":\"$12.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":12.99}],\"ProductGroup\":\"Individual\",\"Promotions\":[],\"PublicationDate\":\"1422338400000\",\"PublicationStatus\":null,\"ReadersGuideUrl\":null,\"ReadingLevel\":null,\"RelatedProducts\":[],\"RelatedProductsByAuthor\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003eThe Hobbit and \u003cI\u003eThe Lord of the Rings \u003c/I\u003eare some of the most widely read and beloved books of the twentieth century. In December 2012, the man who brought J.R.R. Tolkien\u0026#8217;s magical worlds to life with \u003cI\u003eThe Lord of the Rings \u003c/I\u003emovies, Peter Jackson, will release the first of three film adaptations of \u003cI\u003eThe Hobbit, \u003c/I\u003ethe classic that first introduced a generation to Middle-earth.\u003c/P\u003e\u003cP\u003eThe\u003cI\u003e Reader and Educator Guide to \\\"The Hobbit\\\" and \\\"The Lord of the Rings\\\" \u003c/I\u003eis an enlightening and thorough, exclusively digital companion to these masterpieces of fantastical literature. Readers will get the chance to look deeper into the events and lives of the characters from these epic tales. What motivates these hobbits and men? What makes the elves tick and the dwarves sing? Educators will be guided with lesson plans that will challenge their students and give them a better understanding of why these books are so important, even over half-a-century later. The\u003cI\u003e Reader and Educator Guide to \\\"The Hobbit\\\" and \\\"The Lord of the Rings\\\" \u003c/I\u003ewill shed new light on these iconic works while engaging and entertaining both teachers and their students. \u003c/DIV\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544052005\",\"Isbn13\":\"9780544052000\",\"JacketUrl\":\"/assets/product/9780544052000.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1532150\",\"MetaTitle\":\"Reader-and-Educator-Guide-to-quotThe-Hobbitquot-and-quotThe-Lord-of-the-Ringsquot\",\"OtherProducts\":[],\"Pages\":\"266\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$2.99\",\"FormattedValue\":\"$2.99\",\"From\":\"\",\"ListPriceValue\":\"2.99\",\"Price\":\"$2.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":2.99}],\"Promotions\":[],\"PublicationDate\":\"1346130000000\",\"ShortDescription\":null,\"Status\":\"Active\",\"Title\":\"Reader and Educator Guide to \u0026quot;The Hobbit\u0026quot; and \u0026quot;The Lord of the Rings\u0026quot;\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null},{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"8268174\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Rey-and-others\",\"MiddleName\":null,\"Name\":\"Rey and others\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"10\",\"Description\":\"\u003cDIV\u003e\u003cDIV\u003e\u003cDIV\u003eFun, festive, and full of holiday spirit, the stories in this impressive anthology\u0026#8212;complete with holiday\u0026#160;music on CD and for download\u0026#8212;are just what Santa ordered to ring in the Christmas season! Eight full-length stories are interspersed with joyful Christmas carol lyrics featuring the musical art\u0026#160;of H. A. Rey. Create lasting yuletide memories with beloved characters such as\u0026#160;Curious George, Tacky the Penguin, Lyle the Crocodile, and Strega Nona. Perfect for reading together around the fire or snuggled in bed,\u0026#160;this collection\u0026#160;is an ideal gift for your loved ones this holiday season! Pair it with \u003cI\u003eThe Family Storybook Treasury\u003c/I\u003e and \u003cI\u003eThe Family Bedtime Treasury\u003c/I\u003e. \u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003eIncludes:\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eMerry Christmas, Curious George\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eTacky\u0026#8217;s Christmas\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eThe Finest Christmas Tree\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eLyle at Christmas \u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eMerry Christmas, Ollie\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eA Small Christmas \u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003eMerry Christmas, Strega Nona \u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u0026#8217;Twas the Night Before Christmas\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Format\":\"Hardcover\",\"Grade\":\"P,K,1,2,3\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"054409249X\",\"Isbn13\":\"9780544092495\",\"JacketUrl\":\"/assets/product/9780544092495_lres.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1538848\",\"MetaTitle\":\"The-Family-Christmas-Treasury-with-CD-and-downloadable-audio\",\"OtherProducts\":[],\"Pages\":\"288\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$18.99\",\"FormattedValue\":\"$18.99\",\"From\":\"\",\"ListPriceValue\":\"18.99\",\"Price\":\"$18.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":18.99}],\"Promotions\":[],\"PublicationDate\":\"1380603600000\",\"ShortDescription\":\"\u003cDIV\u003eThis delightful treasury rings in the Christmas season with festive stories, carols, and art. \u003c/DIV\u003e\u003cDIV\u003eFor an amazing value, it features eight complete picture books by authors like Tomie dePaola and Bernard Waber, plus eight illustrated\u0026#160;Christmas carols\u0026#160;by H. A. Rey, with the accompanying holiday\u0026#160;music on CD. This comprehensive collection with\u0026#160;shiny foil\u0026#160;cover accents will bring families hours of holiday enjoyment.\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"The Family Christmas Treasury with CD and downloadable audio\",\"Type\":null},{\"Age\":\"8,9,10,11,12,13,14,15,16\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"60\",\"Description\":\"\u003cP\u003eFind out what lies ahead for Bilbo and the Dwarves in this easy-to-read storybook that provides an enticing summary of the events in the second film. Fully illustrated with dozens of stills from the film and full-color artwork, this engaging and thrilling film companion reveals the full excitement of the second part in \u003cI\u003eThe Hobbit\u003c/I\u003e movie trilogy, including the characters and events exclusive to the film!\",\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547901984\",\"Isbn13\":\"9780547901985\",\"JacketUrl\":\"/assets/product/9780547901985.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1510401\",\"MetaTitle\":\"The-Hobbit-The-Desolation-of-Smaug--The-Movie-Storybook\",\"OtherProducts\":[{\"Age\":\"8,9,10,11,12,13,14,15,16\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cP\u003eFind out what lies ahead for Bilbo and the Dwarves in this easy-to-read storybook that provides an enticing summary of the events in the second film. Fully illustrated with dozens of stills from the film and full-color artwork, this engaging and thrilling film companion reveals the full excitement of the second part in \u003cI\u003eThe Hobbit\u003c/I\u003e movie trilogy, including the characters and events exclusive to the film!\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547899408\",\"Isbn13\":\"9780547899404\",\"JacketUrl\":\"/assets/product/9780547901985.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1510258\",\"MetaTitle\":\"The-Hobbit-The-Desolation-of-Smaug--The-Movie-Storybook\",\"OtherProducts\":null,\"Pages\":\"48\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$9.95\",\"FormattedValue\":\"$9.95\",\"From\":\"\",\"ListPriceValue\":\"9.95\",\"Price\":\"$9.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":9.95}],\"Promotions\":[],\"PublicationDate\":\"1390888800000\",\"ShortDescription\":\"\u003cP\u003eFind out what lies ahead for Bilbo and the Dwarves in this easy-to-read storybook that provides an enticing summary of the events in the second film. Fully illustrated with dozens of stills from the film and full-color artwork, this engaging and thrilling film companion reveals the full excitement of the second part in \u003cI\u003eThe Hobbit\u003c/I\u003e movie trilogy, including the characters and events exclusive to the film!\",\"Status\":\"Active\",\"Title\":\"The Hobbit: The Desolation of Smaug -- The Movie Storybook\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"48\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$9.95\",\"FormattedValue\":\"$9.95\",\"From\":\"\",\"ListPriceValue\":\"9.95\",\"Price\":\"$9.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":9.95}],\"Promotions\":[],\"PublicationDate\":\"1384840800000\",\"ShortDescription\":\"\u003cP\u003eFind out what lies ahead for Bilbo and the Dwarves in this easy-to-read storybook that provides an enticing summary of the events in the second film. Fully illustrated with dozens of stills from the film and full-color artwork, this engaging and thrilling film companion reveals the full excitement of the second part in \u003cI\u003eThe Hobbit\u003c/I\u003e movie trilogy, including the characters and events exclusive to the film!\",\"Status\":\"Active\",\"Title\":\"The Hobbit: The Desolation of Smaug -- The Movie Storybook\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null},{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"8268174\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Rey-and-others\",\"MiddleName\":null,\"Name\":\"Rey and others\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"16\",\"Description\":\"\u003cDIV\u003e\u003cDIV\u003eThis jam-packed\u0026#160;treasury features ten bedtime stories that are the perfect addition to any nighttime routine. Ranging from\u0026#160;mischievous tales of tireless tots to soothing stories that are sweet and snuggly, each\u0026#160;book in this collection\u0026#160;has full-color illustrations and can be read aloud in five minutes or less. With its padded cover and shiny foil accents, this is the perfect book to cuddle up with when it\u0027s time to settle down for bed!\u003c/DIV\u003e\u003cDIV\u003e\u003cDIV\u003eTuck your child in with these ten tales:\u003c/P\u003e\u003cI\u003eSweet Dreams, Curious George \u003c/I\u003eby Margret and H. A. Rey \u003c/P\u003e\u003cI\u003eI Will Not Read This Book! \u003c/I\u003eby Cece Meng, illustrated by Joy Ang \u003c/P\u003e\u003cI\u003eGo to Bed, Monster! \u003c/I\u003eby Natasha Wing, illustrated by Sylvie Kantorovitz \u003c/P\u003e\u003cI\u003eWon\u0026#8217;t You Be My Hugaroo? \u003c/I\u003eby Joanne Ryder, illustrated by Melissa Sweet\u003c/P\u003e\u003cI\u003eCharlotte Jane Battles Bedtime\u003c/I\u003e by Myra Wolfe, illustrated by Maria Monescillo \u003c/P\u003e\u003cI\u003eBlanket\u003c/I\u003e by Margot Apple \u003c/P\u003e\u003cI\u003eVery Hairy Bear\u003c/I\u003e by Alice Schertle, illustrated by Matt Phelan \u003c/P\u003e\u003cI\u003eThe Dream Jar\u003c/I\u003e by Lindan Lee Johnson, illustrated by Serena Curmi \u003c/P\u003e\u003cI\u003eWhat Did You Do Today?\u003c/I\u003e by Kerry Arquette, illustrated by Nancy Hayashi \u003c/P\u003e\u003cI\u003ePiggies\u003c/I\u003e by Audrey and Don Wood \u003c/DIV\u003e\u003c/DIV\u003e\u003c/DIV\u003e\",\"Format\":\"Hardcover\",\"Grade\":\"P,K,1,2,3\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544301781\",\"Isbn13\":\"9780544301788\",\"JacketUrl\":\"/assets/product/9780544301788.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1575899\",\"MetaTitle\":\"Sweet-Dreams-5Minute-Bedtime-Stories\",\"OtherProducts\":[],\"Pages\":\"232\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$12.99\",\"FormattedValue\":\"$12.99\",\"From\":\"\",\"ListPriceValue\":\"12.99\",\"Price\":\"$12.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":12.99}],\"Promotions\":[],\"PublicationDate\":\"1404190800000\",\"ShortDescription\":\"\u003cDIV\u003eWhether\u0026#160;it\u0027s naptime or nighttime, putting your little one to sleep is never complete without a story or two . . . or ten! This collection features ten bedtime books that can each be read aloud in five minutes or less.\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Sweet Dreams 5-Minute Bedtime Stories\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"18\",\"Description\":\"\u003cDIV\u003e\u003cDIV\u003eThis set includes:\u0026#160; \u003cI\u003eMike Mulligan and His Steam Shovel\u003c/I\u003e, \u003cI\u003eThe Caboose Who Got Loose\u003c/I\u003e, \u003cI\u003eBig Bear\u0027s Big Boat\u003c/I\u003e, and \u003cI\u003eCurious George and the Dump Truck.\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eMike Mulligan and His Steam Shovel\u003c/B\u003e \u003c/I\u003eby Virginia Burton\u003c/DIV\u003e\u003cDIV\u003eA modern classic that no child should miss.\u0026#160; Since it was first published in 1939, \u003cI\u003eMike Mulligan and His Steam Shovel\u003c/I\u003e has delighted generations of children.\u0026#160; Mike and his trusty steam shovel, Mary Anne, dig deep canals for boats to travel through, cut mountain passes for trains, and hollow out cellars for city skyscrapers -- the very symbol of industrial America.\u0026#160;\u0026#160;But with progress come new machines, and soon teh inseparable duo are out of work.\u0026#160; Mike believes that Mary Anne can dig as much ina a day as one hundred men can dig in a week, and the two have one last chance to prove it and save Mary Anne from the scrap heap. What happens next in the small town of Popperville is a testament to their friendship, and to old-fashioned hard work and ingenuity.\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eThe Caboose Who Got Loose\u003c/B\u003e\u003c/I\u003e by Bill Peet\u003c/DIV\u003e\u003cDIV\u003eKaty Caboose is tired of being last, and one day an accident allows her to realize her dream of peace and solitude.\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eBig Bear\u0027s Big Boat\u003c/B\u003e \u003c/I\u003eby Eve Bunting, Nancy Carpenter\u003c/DIV\u003e\u003cDIV\u003eA young, simple sequel to a \u003cI\u003eLittle Bear\u0027s Little Boat\u003c/I\u003e.\u0026#160;\u0026#160;Big Bear is building himself a big boat, but when he follows his friend\u0027s advice, it all goes wrong.\u0026#160; Big Bear learns that it\u0027s important to be true to one\u0027s dreams, and to one\u0027s friends.\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eCurious George and the Dump Truck (8x8 with stickers)\u003c/B\u003e\u0026#160;\u003c/I\u003eby H.A. Rey\u003c/DIV\u003e\u003cDIV\u003eCurious about the big truck next door, George takes a closer look.\u0026#160; He wants to see how it works.\u0026#160;\u0026#160;Before long, he finds that one little lever can mean great big trouble!\u0026#160; But George quickly puts his monkey ingenuity to work and finds a surprising solution to his messy mishap.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003eNow includes a sheet of fun on-to-go stickers!\u003c/DIV\u003e\u003c/DIV\u003e\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544538838\",\"Isbn13\":\"9780544538832\",\"JacketUrl\":\"/assets/product/9780544538832.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608616\",\"MetaTitle\":\"Things-That-Go\",\"OtherProducts\":[],\"Pages\":\"152\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$37.49\",\"FormattedValue\":\"$37.49\",\"From\":\"\",\"ListPriceValue\":\"37.49\",\"Price\":\"$37.49\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":37.49}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"\u003cDIV\u003eZoom! Honk! Whoosh! These classic adventures take your child from land to sea.\u0026#160; \u003cI\u003eMike Mulligan and His Steam Shovel\u003c/I\u003e, \u003cI\u003eThe Caboose Who Got Loose\u003c/I\u003e, \u003cI\u003eBig Bear\u0027s Big Boat\u003c/I\u003e, and \u003cI\u003eCurious George and the Dump Truck.\u003c/I\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Things That Go!\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"20\",\"Description\":\"\u003cDIV\u003eThis set includes:\u0026#160; \u003cI\u003eCurious George\u0027s Dinosaur Discover\u003c/I\u003e, \u003cI\u003eIf the Dinosaurs Came Back\u003c/I\u003e, \u003cI\u003ePatrick\u0027s Dinosaurs\u003c/I\u003e, and \u003cI\u003eGus, the Dinosaur Bus\u003c/I\u003e.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eCurious George\u0027s Dinosaur Discover\u003c/B\u003e\u003c/I\u003e by Anna Hines, H.A. Rey\u003c/DIV\u003e\u003cDIV\u003eCurious George loves dinosaurs, so he\u0027s excited to visit a dig to look for real dinosaur bones. Will the curious little monkey help make a big discovery?\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cB\u003e\u003cI\u003eIf the Dinosaurs Came Back\u003c/I\u003e \u003c/B\u003eby Bernard Most\u003c/DIV\u003e\u003cDIV\u003eIn this delightful book, a small boy imagines a world where dinosaurs perform public services.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003ePatrick\u0027s Dinosaurs\u003c/B\u003e\u003c/I\u003e by Carol Carrick, Donald Carrick\u003c/DIV\u003e\u003cDIV\u003eOne Saturday while visiting the zoo, Hank tells his brother Patrick all about dinosaurs, and Patrick scares himself by imagining what it would be like if the great creatures were alive today.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eGus, the Dinosaur Bus\u003c/B\u003e\u003c/I\u003e by Julia Liu and Bei Lynn\u003c/DIV\u003e\u003cDIV\u003eAll the schoolchildren love Gus, the dinosaur bus!\u0026#160; But when Gus\u0027 large feet cause traffic jams and other dino-sized problems, the principal must decide whether Gus should continue taking the children to school every morning.\u003c/DIV\u003e\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544538854\",\"Isbn13\":\"9780544538856\",\"JacketUrl\":\"/assets/product/9780544538856.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608617\",\"MetaTitle\":\"Dinosaurs\",\"OtherProducts\":[],\"Pages\":\"120\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$37.49\",\"FormattedValue\":\"$37.49\",\"From\":\"\",\"ListPriceValue\":\"37.49\",\"Price\":\"$37.49\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":37.49}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"\u003cDIV\u003eFor the child that loves dinosaurs, follow in these big footsteps:\u0026#160; \u003cI\u003eCurious George\u0027s Dinosaur Discovery\u003c/I\u003e, \u003cI\u003eIf the Dinosaurs Came Back\u003c/I\u003e, \u003cI\u003ePatrick\u0027s Dinosaurs\u003c/I\u003e, and \u003cI\u003eGus, the Dinosaur Bus\u003c/I\u003e.\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Dinosaurs\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"20\",\"Description\":\"\u003cDIV\u003eThis set includes :\u0026#160; \u003cI\u003eThe Little Red Lighthouse\u003c/I\u003e \u003cI\u003eand the\u003c/I\u003e \u003cI\u003eGreat Gray Bridge\u003c/I\u003e, \u003cI\u003eThree Billy Goats Gruff\u003c/I\u003e, and \u003cI\u003eHickory Dickory Dock\u003c/I\u003e. \u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eThe Little Red Lighthouse and the Great Gray Bridge\u003c/B\u003e\u003c/I\u003e Restored Edition by Lynd Ward, Hildegarde H. Swift\u003c/DIV\u003e\u003cDIV\u003eThe sixtieth anniversary edition of the classic story of a very, very proud lighthouse and it\u0027s big brother, the George Washington Bridge.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eThe Three Billy Goats Gruff\u003c/B\u003e\u003c/I\u003e by Paul Galdone\u003c/DIV\u003e\u003cDIV\u003eThe three goat brothers brave the terrible troll in a colorful version of the classic tale.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eHickory Dickory Dock\u003c/B\u003e\u003c/I\u003e by Keith Baker\u003c/DIV\u003e\u003cDIV\u003eWhen the clock strikes one, it\u0027s time for fun!\u003c/DIV\u003e\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544538889\",\"Isbn13\":\"9780544538887\",\"JacketUrl\":\"/assets/product/9780544538887.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608618\",\"MetaTitle\":\"Classic-Stories\",\"OtherProducts\":[],\"Pages\":\"128\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$24.99\",\"FormattedValue\":\"$24.99\",\"From\":\"\",\"ListPriceValue\":\"24.99\",\"Price\":\"$24.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":24.99}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"\u003cDIV\u003eShare the classics you read as a child.\u0026#160; \u003cI\u003eThe Little Red Lighthouse and the Great Gray Bridge\u003c/I\u003e, \u003cI\u003eThree Billy Goats Gruff\u003c/I\u003e, and \u003cI\u003eHickory Dickory Dock\u003c/I\u003e.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Classic Stories\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"16\",\"Description\":\"\u003cDIV\u003eThis set includes:\u0026#160; \u003cI\u003eWhen\u003c/I\u003e \u003cI\u003eStravinskey Met :\u0026#160; Two Artists, Their Ballet, and One Extraordinary Riot\u003c/I\u003e, \u003cI\u003eHachiko:\u0026#160; The Story of a Loyal Dog, When I\u0026#160;Was Five\u003c/I\u003e, and \u003cI\u003eWe Go Together!:\u0026#160; A Curious Selection of Affectionate Verse.\u003c/I\u003e\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cB\u003e\u003cI\u003eWhen\u003c/I\u003e \u003c/B\u003e\u003cI\u003e\u003cB\u003eStravinskey Met :\u0026#160; Two Artists, Their Ballet, and One Extraordinary Riot\u003c/B\u003e \u003c/I\u003eby Lauren Stringer\u003c/DIV\u003e\u003cDIV\u003eComposer Stravinsky and choreographer Nijinsky, Russian comrades, worked together to bring a very different and new ballet to a Parisian audience -- and rioting filled the streets!\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eHachiko:\u0026#160; The Story of a Loyal Dog\u003c/B\u003e \u003c/I\u003eby Pamela Turner, Yan Nascimbene\u003c/DIV\u003e\u003cDIV\u003eImagine walking to the same place every day, to meet your best friend.\u0026#160; Imagine watching hundreds of people pass by every morning and every afternoon.\u0026#160; Imagine waiting, and waiting, and waiting.\u0026#160; For ten yeares.\u0026#160;\u0026#160;This is what Hachiko did. Hachiko was a real dog who lived in Tokyo, a dog who faithfully waited for his owner at the Shibuya train station long after his owner could not come to meet him. He becaome famous for his loyalty and was adored by scores of people who passed through the station every day. This is Hachiko\u0027s story through the eyes of Kentaro, a young boy whose life is changed forever by this friendship with this very special dog.\u0026#160; Simply told, and illustrated with Yan Nascimbene\u0027s lush watercolors, the legend of Hachiko will touch your heart and inspire you as it has inspired thousands all over the world.\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003c/I\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eWhen I\u0026#160;Was Five\u003c/B\u003e \u003c/I\u003eby Arthur Howard\u003c/DIV\u003e\u003cDIV\u003eWhen Jeremy was five he wanted to be an astronaut or a cowboy -- or both.\u0026#160; And he had a best friend named Mark.\u0026#160; But now he\u0027s six and wants to be a major-league baseball player or a deep-sea diver.\u0026#160;\u0026#160;Jeremy knows things change as you grow up, but some things just might stay the same -- like your best friend.\u003c/DIV\u003e\u003cP\u003e\u003cI\u003e\u003cB\u003eWe Go Together!:\u0026#160; A Curious Selection of Affectionate Verse\u003c/B\u003e\u003c/I\u003e\u0026#160; by Calef Brown\u003c/P\u003e\u003cP\u003eA collection of illustrated poems of love and friendship teeming with wit, whimsy, and wordplay from \u003cI\u003eNew York Time\u0027s\u003c/I\u003e bestselling author-illustrator, Calef Brown.\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544538897\",\"Isbn13\":\"9780544538894\",\"JacketUrl\":\"/assets/product/9780544538894.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608619\",\"MetaTitle\":\"Friends\",\"OtherProducts\":[],\"Pages\":\"144\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$37.49\",\"FormattedValue\":\"$37.49\",\"From\":\"\",\"ListPriceValue\":\"37.49\",\"Price\":\"$37.49\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":37.49}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"\u003cDIV\u003eDoes your best friend have two legs or four legs?\u0026#160; Read about these special friendships:\u0026#160; \u003cI\u003eWe Go Together\u003c/I\u003e!, \u003cI\u003eWhen I\u0026#160;Was Five\u003c/I\u003e, \u003cI\u003eHachiko\u003c/I\u003e and \u003cI\u003eWhen Stravinskey Met Nijinsky\u003c/I\u003e.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Friends!\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"16\",\"Description\":\"\u003cP\u003eThis set includes: \u003cI\u003eLyle, Lyle Crocodile: Lyle Walks the Dogs\u003c/I\u003e, \u003cI\u003eGossie and Gertie (Reader),\u003c/I\u003e \u003cI\u003eCurious George Visits the Dentist\u003c/I\u003e, and \u003cI\u003eMartha Speaks: Martha Stinks! (Reader).\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u003cI\u003e\u003cB\u003eLyle, Lyle Crocodile: Lyle Walks the Dogs\u003c/B\u003e\u003c/I\u003e by Bernard Waber, Paulis Waber\u003cBR\u003eLyle the crocodile has a new job walking dogs. As Lyle\u0026#8217;s excellent reputation as a dog walker spreads, the number of dogs in his charge grows\u0026#8212;from one dog to ten! Whether they\u0026#8217;re frisky or happy, sniffy or snappy, Lyle must get them all walking together in harmony. But never fear\u0026#8212;Lyle\u0027s winning smile and gentle ways will always save the doggie day! Young children will enjoy walking the dogs\u0026#8212;and counting from one to ten\u0026#8212;with Lyle. The back cover features a matching activity.\u003c/P\u003e\u003cP\u003e\u003cI\u003e\u003cB\u003eGossie and Gertie (Reader)\u003c/B\u003e\u003c/I\u003e by Olivier Dunrea\u003cBR\u003eGossie\u0026amp;Gertie, the second story in the Gossie\u0026amp;Friends series by Olivier Dunrea, is now available in a new early reader edition. Simple text and expressive illustrations make this story perfect for level 1 readers. Includes a bonus audio download so kids can listen and read along. Look for the companion Gossie early reader edition! \u003c/P\u003e\u003cP\u003e\u003cI\u003e\u003cB\u003eCurious George Visits the Dentist\u003c/B\u003e\u003c/I\u003e by H. A. Rey\u003cBR\u003eGeorge bites into a wax apple and gets a loose tooth, so the man with the yellow hat takes him to the dentist, where George gets . . . curious!\u003c/P\u003e\u003cP\u003e\u003cI\u003e\u003cB\u003eMartha Speaks: Martha Stinks! (Reader)\u003c/B\u003e\u003c/I\u003e by Susan Meddaugh\u003cBR\u003eA level 1 Green Light Reader based on PBS\u0027s popular TV show Martha Speaks. This simple reader features rebus images to help the youngest readers decode its simple text, plus stinky gross-out humor, full-color illustrations, and a rebus matching activity. This book is ideal for reluctant and beginning readers and anyone who loves stinky silliness!\u0026#160; \u003cBR\u003e\u003cDIV\u003e\u003c/DIV\u003e\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"054453896X\",\"Isbn13\":\"9780544538962\",\"JacketUrl\":\"/assets/product/9780544538962.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608620\",\"MetaTitle\":\"My-Favorite-Characters\",\"OtherProducts\":[],\"Pages\":\"88\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$37.49\",\"FormattedValue\":\"$37.49\",\"From\":\"\",\"ListPriceValue\":\"37.49\",\"Price\":\"$37.49\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":37.49}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"Enjoy this treasury of our most popular characters: \u003cI\u003eGossie and Gertie\u003c/I\u003e, \u003cI\u003eLyle, Lyle Crocodile: Lyle Walks the Dogs\u003c/I\u003e, \u003cI\u003eCurious George Visits the Dentist\u003c/I\u003e, and \u003cI\u003eMartha Speaks: Martha Stinks!\u003c/I\u003e \u003cDIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"My Favorite Characters\",\"Type\":null},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"13017964\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Houghton-Mifflin-Harcourt\",\"MiddleName\":null,\"Name\":\"Houghton Mifflin Harcourt\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"14\",\"Description\":\"\u003cDIV\u003eThis set includes: Antarctic Antics : \u003cI\u003eA Book of Penguin Poems, Down, Down, Down: A Journey to the Bottom of the Sea, Nugget and Fang : Friends Forever--or Snack Time?\u003c/I\u003e, and \u003cI\u003eSea Shapes\u003c/I\u003e.\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eAntarctic Antics : A Book of Penguin Poems by Jose Aruego\u003c/B\u003e\u003c/I\u003e, Judy Sierra, Ariane Dewey\u003cBR\u003eBestselling penguin poetry fun--now in paperback! Dive, swim, and glide with this delightful pack of penguins as they slip and slide through their icy world. \u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eDown, Down, Down: A Journey to the Bottom of the Sea\u003c/B\u003e\u003c/I\u003e by Steve Jenkins\u003cBR\u003eCaldecott Honor\u0026#8211;winning Steve Jenkins provides a top-to-bottom look at the ocean, from birds and waves to thermal vents and ooze.\u003c/DIV\u003e\u003cDIV\u003eHalf the earth\u0026#8217;s surface is covered by water more than a mile deep, but most of this watery world is a mystery to us. In fact, more people have stood on the surface of the moon than have visited the deepest spot in the ocean.\u003cBR\u003eCome along as we travel\u003c/DIV\u003e\u003cDIV\u003edown,\u003c/DIV\u003e\u003cDIV\u003edown,\u003c/DIV\u003e\u003cDIV\u003edown,\u003c/DIV\u003e\u003cDIV\u003efrom the surface to the bottom of the sea.\u003cBR\u003eAlong the way you can see jellyfish that flash like a neon sign, creatures with teeth so big, they can\u0026#8217;t close their mouths, and even a squid as long as a bus, which battles to the death with a sperm whale, the largest predator on earth.\u003cBR\u003eIt\u0026#8217;ll be a journey you won\u0026#8217;t soon forget!\u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eNugget and Fang : Friends Forever--or Snack Time?\u003c/B\u003e\u003c/I\u003e by Tammi Sauer, Michael Slack\u003cBR\u003eIn the deep ocean, tiny Nugget and big, toothy Fang get along swimmingly\u0026#8212;until Nugget\u0026#8217;s first day of minnow school. There Nugget learns that minnows are supposed to be afraid of sharks! To regain Nugget\u0026#8217;s trust, Fang takes desperate (and hilarious) measures. But it\u0026#8217;s not until his big sharp teeth save the entire school that minnows learn this shark is no foe. Fantastically stylized artwork adds even more humor to this undersea story of unlikely friendship. \u003c/DIV\u003e\u003cDIV\u003e\u0026#160;\u003c/DIV\u003e\u003cDIV\u003e\u003cI\u003e\u003cB\u003eSea Shapes\u003c/B\u003e\u003c/I\u003e by Suse MacDonald\u003cBR\u003eThis engaging concept book invites very young children to identify basic shapes that transform into beautiful undersea creatures. Includes an informative glossary of sea facts.\u003cBR\u003e\u003c/DIV\u003e\",\"Format\":\"Boxed Set\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544538978\",\"Isbn13\":\"9780544538979\",\"JacketUrl\":\"/assets/product/9780544538979.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1608621\",\"MetaTitle\":\"Under-the-Sea\",\"OtherProducts\":[],\"Pages\":\"144\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":\"0\",\"FormattedListPriceValue\":\"$37.49\",\"FormattedValue\":\"$37.49\",\"From\":\"\",\"ListPriceValue\":\"37.49\",\"Price\":\"$37.49\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":37.49}],\"Promotions\":[],\"PublicationDate\":\"1406782800000\",\"ShortDescription\":\"Splish, splash! Explore incredible and strange ocean life with: \u003cI\u003eAntarctic Antics: A Book of Penguin Poems\u003c/I\u003e, \u003cI\u003eDown, Down, Down: A Journey to the Bottom of the S\u003c/I\u003eea,\u003cI\u003eNugget and Fang: Friends Forever--or Snack Time\u003c/I\u003e, and \u003cI\u003eSea Shapes\u003c/I\u003e. \u003cDIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Under the Sea\",\"Type\":null}],\"RelatedSubjects\":[{\"Code\":\"CHU\",\"Description\":null,\"DisplayName\":\"Humorous Stories\",\"Name\":\"Humorous Stories\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"CGB\",\"Description\":null,\"DisplayName\":\"Gift Books\",\"Name\":\"Gift Books\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"CRA\",\"Description\":null,\"DisplayName\":\"Read-Alouds\",\"Name\":\"Read-Alouds\",\"Parent\":{\"Code\":\"BISAC\",\"Description\":null,\"DisplayName\":\"BISAC Subjects\",\"Name\":\"BISAC Subjects\",\"Parent\":null}},{\"Code\":\"CFA\",\"Description\":null,\"DisplayName\":\"Family Relationships\",\"Name\":\"Family Relationships\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"CIM\",\"Description\":null,\"DisplayName\":\"Images of Strong Women\",\"Name\":\"Images of Strong Women\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"CSY\",\"Description\":null,\"DisplayName\":\"Short Stories \u0026 Story Collections\",\"Name\":\"Short Stories \u0026 Story Collections\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}}],\"ReleaseDate\":null,\"Reviews\":null,\"SearchProducts\":[{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"24051396\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Nikki-Robinson\",\"MiddleName\":null,\"Name\":\"Nikki Robinson\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"50\",\"ChokeHazardIng\":null,\"Copyright\":\"2017\",\"Cpsia\":\"\",\"Description\":\" Muddle (a duck) and Mo (a goat) are best friends, but Muddle is a bit confused about what type of animals they both are. Fortunately, during the course of their walk together, long-suffering Mo helps Muddle get his duck identity sorted out in this warm and funny tale of friendship, differences, ... \",\"Format\":\"Hardcover\",\"Grade\":null,\"GradeMax\":\"3\",\"GradeMin\":\"Pre-K\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544716124\",\"Isbn13\":\"9780544716124\",\"JacketUrl\":\"/assets/product/9780544716124.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1629695\",\"MetaTitle\":\"Muddle-amp-Mo\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780544716100\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Muddle-amp-Mo\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"14.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"32\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"14.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 21 Feb 2017 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" Muddle (a duck) and Mo (a goat) are best friends, but Muddle is a bit confused about what type of animals they both are. Fortunately, during the course of their walk together, long-suffering Mo helps Muddle get his duck identity sorted out in this warm and funny tale of friendship, differences, ... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"\",\"Title\":\"Muddle \u0026amp; Mo\",\"Url\":\"index:TradeFeed?key=1629695\"},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"2236767\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"H-A-Rey\",\"MiddleName\":null,\"Name\":\"H. A. Rey\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"28\",\"ChokeHazardIng\":null,\"Copyright\":\"1998\",\"Cpsia\":\"\",\"Description\":\" Find out who lives in a hive, a shell, a garage, and a hangar in this lovely rhyming book by Curious George creator H. A. Rey. Each spread features a four line poem and an image of a particular \u0026quot;house\u0026quot; with a big, sturdy flap to lift to reveal who or what lives inside! It\u0027s all saturated in Rey\u0027s... \",\"Format\":\"Hardcover\",\"Grade\":null,\"GradeMax\":\"3\",\"GradeMin\":\"Pre-K\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544949757\",\"Isbn13\":\"9780544949751\",\"JacketUrl\":\"/assets/product/9780544949751.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1660062\",\"MetaTitle\":\"Whose-House\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547341569\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Anybody-at-Home\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"5.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null},{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547767093\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Anybody-at-Home\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"5.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null},{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9781328742148\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Whose-House\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"8.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"24\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"8.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 14 Feb 2017 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" Find out who lives in a hive, a shell, a garage, and a hangar in this lovely rhyming book by Curious George creator H. A. Rey. Each spread features a four line poem and an image of a particular \u0026quot;house\u0026quot; with a big, sturdy flap to lift to reveal who or what lives inside! It\u0027s all saturated in Rey\u0027s... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"\",\"Title\":\"Whose House?\",\"Url\":\"index:TradeFeed?key=1660062\"},{\"Age\":\"4,5,6,7\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"2236767\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"H-A-Rey\",\"MiddleName\":null,\"Name\":\"H. A. Rey\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"28\",\"ChokeHazardIng\":null,\"Copyright\":\"2016\",\"Cpsia\":\"\",\"Description\":\" A mother hen counts her chicks from one to ten and a mother cow makes her calf laugh in this rhyming book by Curious George creator H. A. Rey. Each spread features a four line poem and an image of a mother farm animal with a big, sturdy flap to lift to reveal her babies! It\u0027s all saturated in ... \",\"Format\":\"Hardcover\",\"Grade\":null,\"GradeMax\":\"3\",\"GradeMin\":\"Pre-K\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544949072\",\"Isbn13\":\"9780544949072\",\"JacketUrl\":\"/assets/product/9780544949072.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1660322\",\"MetaTitle\":\"Farm-Babies\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9781328742155\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"Farm-Babies\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"8.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"24\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"8.99\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 14 Feb 2017 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" A mother hen counts her chicks from one to ten and a mother cow makes her calf laugh in this rhyming book by Curious George creator H. A. Rey. Each spread features a four line poem and an image of a mother farm animal with a big, sturdy flap to lift to reveal her babies! It\u0027s all saturated in ... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"\",\"Title\":\"Farm Babies\",\"Url\":\"index:TradeFeed?key=1660322\"}],\"Segment\":null,\"ShelfTalkerUrl\":null,\"ShortDescription\":\"\u003cDIV\u003eGet your daily dose of girl power with\u0026#160;this\u0026#160;inspiring treasury\u0026#160;bursting with\u0026#160;ten stories about\u0026#160;ten amazing girls that can each be read aloud in five minutes flat!\u0026#160;\u003c/DIV\u003e\",\"Status\":\"Active\",\"SubTitle\":null,\"Subjects\":null,\"Title\":\"Girl Power 5-Minute Stories\",\"Url\":null,\"VideoUrl\":null}]';
+            var resp = JSON.parse(jsonresp);
+            // WP-364, WP - 2210
+
+            sc_products = ';' + $(".addToCartButton").attr("data-productid") + ':' + resp[0]['Title'];
+            
+            //Derived fields
+            dl.pageName = '9780544339255:' + resp[0]['Title'];
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.customprodview = 'yes';
+            dl.prodView = 'yes';
+            dl.hier1 = 'Shop:Product Detail Page';
+            dl.level2 = 'Product Detail Page';
+            dl.contentcategory = 'Product Detail';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Product Detail Page for ' + productCode);
+            }
+        }
+
+        function om_ComponentBrowse() {
+
+            var gradeSelect = jQuery('.Grade_dropdown_div option:selected').text();
+            gradeSelect = gradeSelect.substring(0, gradeSelect.indexOf('(') - 1);
+            var stateSelect = jQuery('.State_dropdown_div option:selected').text();
+            stateSelect = stateSelect.substring(0, stateSelect.indexOf('(') - 1);
+            var sortSelect = jQuery('#sortSelect option:selected').text();
+			var sortMobileSelect = jQuery('#sortMobileSelect option:selected').text();
+
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Girl-Power-5Minute-Stories";
+dl.level4 = "9780544339255";
+dl.pageName = "/shop/books/Girl-Power-5Minute-Stories/9780544339255";
+dl.hier1 = "shop:books:Girl-Power-5Minute-Stories:9780544339255";
+dl.membershiptype = "Unregistered";
+
+
+            //Analytics Variables which replaces omniture/ComponentBrowse
+            dl.contentcategory = 'Browse';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.programhpvideoplay = gradeSelect;
+            dl.paymenttype = stateSelect;
+            dl.programhpshopnow = sortSelect;
+
+            if (DEBUG_CLICK)
+                alert('Category Browse complete');
+        }
+
+        // Omniture tracking script for Carousel Image tracking
+        function carouselTracking(imgName) {
+
+            var oCarousel = GetOmObj();
+            oCarousel.linkTrackVars = "eVar40,events";
+            oCarousel.linkTrackEvents = "event43";
+            oCarousel.events = "event43";
+            oCarousel.eVar40 = imgName;
+            oCarousel.tl(true, 'o', 'Carousel tracking');
+        }
+
+        // Omniture tracking script for Callout Image tracking
+        function calloutTracking(imgName) {
+            var oCallout = GetOmObj();
+            oCallout.linkTrackVars = "prop58";
+            oCallout.prop58 = imgName;
+            oCallout.tl(true, 'o', 'Sub-Box Tracking');
+        }
+
+        //Tracking scripts for GoMath Landing Pages
+
+        function gomathLoginTracking(pageName) {
+            var oGoMathLogin = GetOmObj();
+            oGoMathLogin.linkTrackVars = "eVar41";
+            oGoMathLogin.eVar41 = "GMA Login -" + pageName;
+            oGoMathLogin.tl(true, 'o', 'GMA Login Button tracking');
+        }
+
+        function gomathPriceTracking(price,pageName) {
+            var oGoMathPrice = GetOmObj();
+            oGoMathPrice.linkTrackVars = "eVar44";
+            oGoMathPrice.eVar44 = price + ' -' + pageName;
+            oGoMathPrice.tl(true, 'o', 'Try it Free Button Tracking');
+        }
+
+        function gomathTakeTourTracking(pageName) {
+            var oGoMathTakeTour = GetOmObj();
+            oGoMathTakeTour.linkTrackVars = "eVar43";
+            oGoMathTakeTour.eVar43 = "Take Video Tour - " + pageName;
+            oGoMathTakeTour.tl(true, 'o', 'Video Tour Tracking');
+        }
+
+        function gomathVideoPlayTracking(gomathPage, VideoName) {
+            var oVideoTrack = GetOmObj();
+            oVideoTrack.linkTrackVars = "eVar45,events";
+            oVideoTrack.events = "event48";
+            oVideoTrack.eVar45 = VideoName + "-" + gomathPage;
+            oVideoTrack.tl(true, 'o', 'GMA Video Play');
+        }
+</script>
+
+    <!-- SiteCatalyst code version: H.25.2.Copyright 1996-2012 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
+    <script type="text/javascript">
+
+        var curPageName = 'Product Detail Page';
+        var dl = new Object;
+
+        if (curPageName == 'Search') {
+            if (typeof om_SearchResults == 'function') {
+                om_SearchResults();
+            }
+        }
+        else if (curPageName == 'Product Detail Page') {
+            if (typeof Om_ProductDetailViewed == 'function') {
+                Om_ProductDetailViewed(jQuery(".addToCartButton").attr("data-productid"));
+            }
+        }
+        else if (curPageName == 'ComponentBrowse') {
+            if (typeof om_ComponentBrowse == 'function') {
+                om_ComponentBrowse();
+            }
+        }
+        else if (curPageName == "SignIn") {
+            if (typeof Om_SignIn == 'function') {
+                Om_SignIn();
+            }
+        }
+        else if (curPageName == "CreateInstitutional") {
+            if (typeof Om_CreateInstitutional == 'function') {
+                Om_CreateInstitutional();
+            }
+        }
+        else if (curPageName == 'NoSearch') {
+            if (typeof Om_NoSearchResults == 'function') {
+                Om_NoSearchResults();
+            }
+        }
+        else if (curPageName == 'Asset') {
+            if (typeof Om_AssetLibrary == 'function') {
+                Om_AssetLibrary();
+            }
+        }
+        else if (curPageName == 'AssetLibrarySearch') {
+            if (typeof Om_AssetLibrarySearch == 'function') {
+                Om_AssetLibrarySearch();
+            }
+        }
+        else if (curPageName == 'Migrate') {
+            if (typeof Om_MigrateAccount == 'function') {
+                Om_MigrateAccount();
+            }
+        }
+        else {
+            if (typeof Om_InitialSetup == 'function') {
+                Om_InitialSetup();
+            }
+        }
+
+
+        var DEBUG_CLICK = false;
+
+        
+
+       
+    </script>
+
+    <!-- Ominture Holder -->
+    
+<script type="text/javascript">
+
+    // tracks read more/less
+    function Om_ReadMoreOrLess(newLink) {
+        var oLink = GetOmObj();
+        isbn13Val = '9780544339255';
+        if (newLink == "moreLink") {
+            oLink.prop10 = isbn13Val;
+            oLink.linkTrackVars += ",prop10";
+        }
+        else {
+            oLink.prop9 = isbn13Val;
+            oLink.linkTrackVars += ",prop9";
+        }
+
+        oLink.tl(true, 'o', newLink);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert(newLink);
+        }
+    }
+
+    // Omniture tracking for product detail view
+    function Om_ProductDetailViewed_Old(productCode) {
+        var gca = GetOmObj();
+
+        gca.products = ';' + productCode + ':' + 'girl-power-5minute-stories';
+        gca.events = 'prodView,event19';
+        gca.pageName = '9780544339255:girl-power-5minute-stories';
+        gca.hier1 = 'Shop:Product Detail Page';
+        gca.prop1 = 'Product Detail Page';
+        gca.prop5 = 'Product Detail';
+
+        gca.linkTrackEvents = 'prodView,event19';
+        gca.linkTrackVars += ",products,hier1,prop1,prop5,events";
+        gca.t(true, 'o', 'Product Detail Page for ' + productCode);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert('Product Detail Page for ' + productCode);
+        }
+    }
+
+</script>
+    <!-- End Ominture Holder -->
+
+        
+        <script type="text/javascript">
+            $(window).load(function () {
+                var url = window.location.search;
+                if (url.indexOf("isSignIn=true") > -1) {
+                    if (typeof Om_SignUp == 'function') {
+                        Om_SignUp('Returning User Login');
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript">_satellite.pageBottom();</script>
+    <input type="hidden" name="MediaFramework_ItemId" id="MediaFramework_ItemId" value="FAC8B622AA9349998CE5EE28CA2209E3" /></form>
+</body>
+</html>

@@ -1,0 +1,2370 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta property="og:image" content="http://www.hmhco.com/Sites/HMH/Images/global/headerLogo.png" /><meta property="og:site_name" content="Houghton Mifflin Harcourt" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta name="skype_toolbar" content="skype_toolbar_parser_compatible" /><meta name="format-detection" content="telephone=yes" /><link rel="apple-touch-icon" sizes="144x144" href="/hmh-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="114x114" href="/hmh-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="72x72" href="/hmh-touch-icon-72x72.png" /><link rel="apple-touch-icon" href="/hmh-touch-icon.png" /><link href="/Sites/HMH/StyleSheets/foundation.min.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/app.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/header.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/left-nav.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/flexslider.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/hero-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/breadcrumbs.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/article-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/featured-content.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/product-widget.css" rel="stylesheet" /><link href="/Sites/HMH/StyleSheets/footer.css" rel="stylesheet" /><link rel="stylesheet" media="screen" type="text/css" href="/Sites/HMH/stylesheets/jquery-ui-autocomplete.css?20170125024747000" /><meta name="robots" content="index,follow" /> <meta name="thumbnailImage" content="" />
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "http://www.hmhco.com/",
+      "logo": "http://www.hmhco.com/Sites/HMH/Images/Global/headerLogo.png"
+      }
+    </script>
+    <script src="/Sites/HMH/Javascript/modernizr.foundation.js"></script>
+    <script src="/Sites/HMH/javascript/picturefill.min.js" async></script>
+    
+        <script src='//assets.adobedtm.com/5d599bba477bad3ce4973aeb5c0a8c11709abbb4/satelliteLib-0e2519e72ac99bf1903363af66591539e99b077e.js'></script>
+    <script type="text/javascript"> adroll_custom_data = {product_id:9780547678597, product_group:'Individual'};</script>
+<script type="text/javascript">
+    var __st_loadLate = true;
+</script>
+<script type="text/javascript">var switchTo5x = true;</script>
+<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({ publisher: "db14f118-ed4d-4b16-92a8-30a27aed5702", publisherGA: "UA-17416443-2", doNotHash: true, doNotCopy: false, hashAddressBar: true, onhover: false });</script>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.dummy.js" ></script>
+<script language="javascript" type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframeworkdummy.js" ></script>
+<link rel="Stylesheet" href="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.css" />
+<title>
+	Connectome
+</title></head>
+<body id="bdyMaster" class="off-canvas hide-extras neutral">
+    <form method="post" action="/shop/books/Curious-George-Plants-A-Tree/9780547297767" id="frmMain">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNzUzODc5NzcPFgYeD19fQW50aVhzcmZUb2tlbgUgZTE4Y2VjOWRmMWQ1NDgyZGIwMjYxMjJmNmQwMzQwNWIeEl9fQW50aVhzcmZVc2VyTmFtZQUSZXh0cmFuZXRcQW5vbnltb3VzHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWBAIBD2QWAgIaDxYCHgRUZXh0BXU8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+IGFkcm9sbF9jdXN0b21fZGF0YSA9IHtwcm9kdWN0X2lkOjk3ODA1NDc2Nzg1OTcsIHByb2R1Y3RfZ3JvdXA6J0luZGl2aWR1YWwnfTs8L3NjcmlwdD5kAgMPFgIeBWNsYXNzBR5vZmYtY2FudmFzIGhpZGUtZXh0cmFzIG5ldXRyYWwWAgIBEGRkFgoCAQ9kFgJmD2QWAmYPZBYIZg8WAh4HVmlzaWJsZWgWAgIBDxYCHwNlZAICD2QWAmYPZBYCZg9kFgICAQ8WAh4LXyFJdGVtQ291bnQCAhYEZg9kFgICAQ8WAh8EBR10b3AtYmFyLWJ1dHRvbiBwYXJlbnRzLWJ1dHRvbhYCAgEPD2QWBh8EBQpjb29raWUtdmFsHg9kYXRhLWNvb2tpZS12YWwFBkF0SG9tZR4Nb25jb250ZXh0bWVudQUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWhlYXJ0ZAIBD2QWAgIBDxYCHwQFH3RvcC1iYXItYnV0dG9uIGVkdWNhdG9ycy1idXR0b24WAgIBDw9kFgYfBAUKY29va2llLXZhbB8HBQlDbGFzc3Jvb20fCAUMcmV0dXJuIGZhbHNlFgICAQ8WAh8EBQppY29uLWFwcGxlZAIGD2QWBgIDDxYCHgRocmVmBXAvYWNjb3VudC9DcmVhdGVBY2NvdW50P2luQ2hlY2tvdXQ9ZmFsc2UmUmV0dXJuVXJsPSUyZnNob3AlMmZib29rcyUyZkN1cmlvdXMtR2VvcmdlLVBsYW50cy1BLVRyZWUlMmY5NzgwNTQ3Mjk3NzY3ZAIFDxYCHwkFai9hY2NvdW50L3NpZ24taW4/aW5DaGVja291dD1mYWxzZSZSZXR1cm5Vcmw9JTJmc2hvcCUyZmJvb2tzJTJmQ3VyaW91cy1HZW9yZ2UtUGxhbnRzLUEtVHJlZSUyZjk3ODA1NDcyOTc3NjdkAgcPFgIfCQVwL2FjY291bnQvQ3JlYXRlQWNjb3VudD9pbkNoZWNrb3V0PWZhbHNlJlJldHVyblVybD0lMmZzaG9wJTJmYm9va3MlMmZDdXJpb3VzLUdlb3JnZS1QbGFudHMtQS1UcmVlJTJmOTc4MDU0NzI5Nzc2N2QCCg9kFgICAQ8WAh8DZWQCAw9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgJmD2QWAgIBDxYCHwYCAhYEZg9kFgICAQ8WAh8EBRhhdGhvbWUtbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUGQXRIb21lHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1oZWFydGQCAQ9kFgICAQ8WAh8EBRtjbGFzc3Jvb20tbGluayBoYXMtZHJvcGRvd24WAgIBDw9kFgYfBAURYnV0dG9uIGNvb2tpZS12YWwfBwUJQ2xhc3Nyb29tHwgFDHJldHVybiBmYWxzZRYCAgEPFgIfBAUKaWNvbi1hcHBsZWQCBw9kFgJmD2QWAmYPZBYCZg9kFgpmD2QWBAIBD2QWAgIBDw8WBB4ISW1hZ2VVcmwFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDc2Nzg1OTcuZ2lmHg1BbHRlcm5hdGVUZXh0BRhDb25uZWN0b21lLTk3ODA1NDc2Nzg1OTdkZAIFD2QWAmYPZBYCZg9kFgJmDxYCHwVnZAIBD2QWHgIBD2QWAmYPFgIfAwU2Q29ubmVjdG9tZTogSG93IHRoZSBCcmFpbidzIFdpcmluZyBNYWtlcyBVcyBXaG8gV2UgQXJlZAIFDxYCHwVoZAIHDxYCHwMFsAE8RElWPjxESVY+VGhlIGF1ZGFjaW91cyBlZmZvcnQgdG8gbWFwIHRoZSBicmFpbiYjODIxMjthbmQgYWxvbmcgd2l0aCBpdCBvdXIgbWVudGFsIGFmZmxpY3Rpb25zLCBmcm9tIGF1dGlzbSB0byBzY2hpem9waHJlbmlhJiM4MjEyO2J5IGEgcmlzaW5nIHN0YXIgaW4gbmV1cm9zY2llbmNlLjwvRElWPjwvRElWPmQCCQ9kFgJmDxYCHwMFEUZvcm1hdDogUGFwZXJiYWNrZAILD2QWAmYPFgIfAwUbSVNCTi0xMy8gRUFOOiA5NzgwNTQ3Njc4NTk3ZAIND2QWAmYPFgIfAwUTSVNCTi0xMDogMDU0NzY3ODU5MmQCDw9kFgJmDxYCHwMFClBhZ2VzOiAzODRkAhEPZBYCZg8WAh8DBRxQdWJsaWNhdGlvbiBEYXRlOiAwMi8wNS8yMDEzZAITDxYCHwVoZAIVD2QWAmYPFgIfAwUTQ2FydG9uIFF1YW50aXR5OiAyNGQCFw8WAh8FaGQCGQ8WAh8FaGQCGw8WAh8FaGQCHQ9kFgICAw9kFgICAQ8WAh8GAgEWAmYPZBYEAgEPDxYCHgtOYXZpZ2F0ZVVybAUkL3Nob3AvYm9va3MvQ29ubmVjdG9tZS85NzgwNTQ3NTA4MTc3ZBYCZg8WAh8DBQVlQm9va2QCAw8WAh8GAgEWAmYPZBYCAgEPFgIfAwUGJDE0Ljk1ZAIfDxYCHwVoZAICD2QWAgIBD2QWBmYPFgIfBWgWAgIBDxYCHwVoZAIBDxYCHwMFBiQxNS45OWQCBA8WAh8DBQtBZGQgVG8gQ2FydGQCAw9kFgoCAw8WAh4JaW5uZXJodG1sBUA8YSBpZD0iYXV0aG9yQW5jaG9yIiBocmVmPSIjQWJvdXRUaGVBdXRob3IiPkFib3V0IHRoZSBBdXRob3I8L2E+ZAIJD2QWAgIBD2QWBAIBDxYCHwMFvA08RElWPiZsZHF1bztUaGlzIGlzIGNvbXBsaWNhdGVkIHN0dWZmLCBhbmQgaXQgaXMgYSB0ZXN0YW1lbnQgdG8gRHIuIFNldW5nJnJzcXVvO3MgIHJlbWFya2FibGUgY2xhcml0eSBvZiBleHBvc2l0aW9uIHRoYXQgdGhlIHJlYWRlciBpcyBzd2VwdCBhbG9uZyB3aXRoIGhpcyAgZW50aHVzaWFzbSwgYXMgaGUgbW92ZXMgZnJvbSB0aGUgYmFzaWNzIG9mIG5ldXJvc2NpZW5jZSBvdXQgdG8gdGhlICBmYXJ0aGVzdCByZWdpb25zIG9mIHRoZSBoeXBvdGhldGljYWwsIHNrZXRjaGluZyBvdXQgYSBzcGVjdGFjdWxhcmx5ICBpbGx1c3RyYXRlZCBnaWFudCBtYXAgb2YgdGhlIHVuaXZlcnNlIG9mIG1hbi4mcmRxdW87Jm1kYXNoO0FiaWdhaWwgWnVnZXIsIE0uRC4sIDxJPk5ldyBZb3JrIFRpbWVzPC9JPjxCUj48QlI+RXZlcnkgIHBlcnNvbiBpcyB1bmlxdWUsIGJ1dCBzY2llbmNlIGhhcyBzdHJ1Z2dsZWQgdG8gcGlucG9pbnQgd2hlcmUsICBwcmVjaXNlbHksIHRoYXQgdW5pcXVlbmVzcyByZXNpZGVzLiBPdXIgZ2Vub21lIG1heSBkZXRlcm1pbmUgb3VyIGV5ZSAgY29sb3IgYW5kIGV2ZW4gYXNwZWN0cyBvZiBvdXIgY2hhcmFjdGVyLiBCdXQgb3VyIGZyaWVuZHNoaXBzLCBmYWlsdXJlcywgIGFuZCBwYXNzaW9ucyBhbHNvIHNoYXBlIHdobyB3ZSBhcmUuIFRoZSBxdWVzdGlvbiBpczogaG93PzxCUj48QlI+U2ViYXN0aWFuICBTZXVuZyBpcyBhdCB0aGUgZm9yZWZyb250IG9mIGEgcmV2b2x1dGlvbiBpbiBuZXVyb3NjaWVuY2UuIEhlIGJlbGlldmVzICB0aGF0IG91ciBpZGVudGl0eSBsaWVzIG5vdCBpbiBvdXIgZ2VuZXMsIGJ1dCBpbiB0aGUgY29ubmVjdGlvbnMgYmV0d2VlbiAgb3VyIGJyYWluIGNlbGxzJm1kYXNoO291ciBwYXJ0aWN1bGFyIHdpcmluZy4gU2V1bmcgYW5kIGEgZGVkaWNhdGVkIGdyb3VwIG9mICByZXNlYXJjaGVycyBhcmUgbGVhZGluZyB0aGUgZWZmb3J0IHRvIG1hcCB0aGVzZSBjb25uZWN0aW9ucywgbmV1cm9uIGJ5ICBuZXVyb24sIHN5bmFwc2UgYnkgc3luYXBzZS4gSXQmcnNxdW87cyBhIG1vbnVtZW50YWwgZWZmb3J0LCBidXQgaWYgdGhleSAgc3VjY2VlZCwgdGhleSB3aWxsIHVuY292ZXIgdGhlIGJhc2lzIG9mIHBlcnNvbmFsaXR5LCBpZGVudGl0eSwgIGludGVsbGlnZW5jZSwgbWVtb3J5LCBhbmQgcGVyaGFwcyBkaXNvcmRlcnMgc3VjaCBhcyBhdXRpc20gYW5kICBzY2hpem9waHJlbmlhLiA8QlI+PEJSPjxJPkNvbm5lY3RvbWUgPC9JPmlzIGEgbWluZC1iZW5kaW5nIGFkdmVudHVyZSAgc3RvcnkgdGhhdCBwcmVzZW50cyBhIGRhcmluZyBzY2llbnRpZmljIGFuZCB0ZWNobm9sb2dpY2FsIHZpc2lvbiBmb3IgIHVuZGVyc3RhbmRpbmcgd2hhdCBtYWtlcyB1cyB3aG8gd2UgYXJlLCBib3RoIGFzIGluZGl2aWR1YWxzIGFuZCBhcyBhICBzcGVjaWVzLiA8QlI+PEJSPiZsZHF1bztBY2Nlc3NpYmxlLCB3aXR0eSwgaW1taW5lbnRseSBsb2dpY2FsIGFuZCBhdCB0aW1lcyBwb2V0aWMsIDxJPkNvbm5lY3RvbWUgPC9JPmVzdGFibGlzaGVzICBTZXVuZyBhcyBhbiBpbXBvcnRhbnQgbmV3IHJlc2VhcmNoZXIsIHBoaWxvc29waGVyIGFuZCBwb3B1bGFyaXplciBvZiAgYnJhaW4gc2NpZW5jZS4gSXQgcHV0cyBoaW0gb24gcGFyIHdpdGggY29zbW9sb2d5JnJzcXVvO3MgQnJpYW4gR3JlZW5lIGFuZCB0aGUgIGxhdGUgQ2FybCBTYWdhbi4mcmRxdW87Jm1kYXNoOzxJPkNsZXZlbGFuZCBQbGFpbiBEZWFsZXI8L0k+PC9wPmQCAw9kFgYCAQ9kFgICAQ8WAh8GAgFkAgMPZBYCAgEPFgIfBgICZAIFDxYCHwVoFhACAQ8WAh8FaGQCAw8WAh8FaGQCBQ8WAh8FaGQCBw8WAh8FaGQCCQ8WAh8FaGQCCw8WAh8FaGQCDQ8WAh8FaGQCDw8WAh8FaGQCCw9kFgICAQ9kFgQCAQ8WAh8GAgEWAmYPZBYIAgEPDxYCHwoFMi9zaG9wL2Jvb2tzL2Fzc2V0cy9jb250cmlidXRvci9zZXVuZyRzZWJhc3RpYW4uZ2lmZGQCAw8WAh8DBQ9TZWJhc3RpYW4gU2V1bmdkAgUPFgIfAwXvAlNlYmFzdGlhbiBTZXVuZyBpcyBQcm9mZXNzb3Igb2YgQ29tcHV0YXRpb25hbCBOZXVyb3NjaWVuY2UgYXQgTUlUIGFuZCBhbiBJbnZlc3RpZ2F0b3Igb2YgdGhlIEhvd2FyZCBIdWdoZXMgTWVkaWNhbCBJbnN0aXR1dGUuIEhlIGhhcyBtYWRlIGltcG9ydGFudCBhZHZhbmNlcyBpbiByb2JvdGljcywgbmV1cm9zY2llbmNlLCBuZXVyb2Vjb25vbWljcywgYW5kIHN0YXRpc3RpY2FsIHBoeXNpY3MuIEhpcyByZXNlYXJjaCBoYXMgYmVlbiBwdWJsaXNoZWQgaW4gbGVhZGluZyBzY2llbnRpZmljIGpvdXJuYWxzLCBhbmQgYWxzbyBmZWF0dXJlZCBpbiB0aGUgTmV3IFlvcmsgVGltZXMsIFRlY2hub2xvZ3kgUmV2aWV3LCBhbmQgdGhlIEVjb25vbWlzdC5kAgcPDxYCHwwFKi9ib29rc3RvcmUvYXV0aG9ycy9TZWJhc3RpYW4tU2V1bmcvNjI4NzIxOGRkAgMPZBYCAgEPFgIfBgIBFgJmD2QWBGYPFQENOTc4MDU0NzUwODE3N2QCAQ8PFgIfDAUkL3Nob3AvYm9va3MvQ29ubmVjdG9tZS85NzgwNTQ3NTA4MTc3ZBYGAgEPDxYCHwoFLC9zaG9wL2Jvb2tzL2Fzc2V0cy9wcm9kdWN0Lzk3ODA1NDc2Nzg1OTcuZ2lmZGQCAw8WAh8DBQpDb25uZWN0b21lZAIFDxYCHwYC/////w9kAg0PZBYCAgEPZBYCAgEPFgIfAwW9PjxQPjxCPkludHJvZHVjdGlvbjwvQj48UCBzdHlsZT0iTUFSR0lOLVJJR0hUOiAwcHgiIGRpcj1sdHI+Tm8gcm9hZCwgbm8gdHJhaWwgY2FuIHBlbmV0cmF0ZSB0aGlzIGZvcmVzdC4gVGhlIGxvbmcgYW5kIGRlbGljYXRlIGJyYW5jaGVzIG9mIGl0cyB0cmVlcyBsaWUgZXZlcnl3aGVyZSwgY2hva2luZyBzcGFjZSB3aXRoIHRoZWlyIGV4dWJlcmFudCBncm93dGguIE5vIHN1bmJlYW0gY2FuIGZseSBhIHBhdGggdG9ydHVvdXMgZW5vdWdoIHRvIG5hdmlnYXRlIHRoZSBuYXJyb3cgc3BhY2VzIGJldHdlZW4gdGhlc2UgZW50YW5nbGVkIGJyYW5jaGVzLiBBbGwgdGhlIHRyZWVzIG9mIHRoaXMgZGFyayBmb3Jlc3QgZ3JldyBmcm9tIDEwMCBiaWxsaW9uIHNlZWRzIHBsYW50ZWQgdG9nZXRoZXIuIEFuZCwgYWxsIGluIG9uZSBkYXksIGV2ZXJ5IHRyZWUgaXMgZGVzdGluZWQgdG8gZGllLiA8QlI+JiMxNjA7JiMxNjA7JiMxNjA7VGhpcyBmb3Jlc3QgaXMgbWFqZXN0aWMsIGJ1dCBhbHNvIGNvbWljIGFuZCBldmVuIHRyYWdpYy4gSXQgaXMgYWxsIG9mIHRoZXNlIHRoaW5ncy4gSW5kZWVkLCBzb21ldGltZXMgSSB0aGluayBpdCBpcyBldmVyeXRoaW5nLiBFdmVyeSBub3ZlbCBhbmQgZXZlcnkgc3ltcGhvbnksIGV2ZXJ5IGNydWVsIG11cmRlciBhbmQgZXZlcnkgYWN0IG9mIG1lcmN5LCBldmVyeSBsb3ZlIGFmZmFpciBhbmQgZXZlcnkgcXVhcnJlbCwgZXZlcnkgam9rZSBhbmQgZXZlcnkgc29ycm93JiM4MjAxOyYjODIxMjsmIzgyMDE7YWxsIHRoZXNlIHRoaW5ncyBjb21lIGZyb20gdGhlIGZvcmVzdC4gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO1lvdSBtYXkgYmUgc3VycHJpc2VkIHRvIGhlYXIgdGhhdCBpdCBmaXRzIGluIGEgY29udGFpbmVyIGxlc3MgdGhhbiBvbmUgZm9vdCBpbiBkaWFtZXRlci4gQW5kIHRoYXQgdGhlcmUgYXJlIHNldmVuIGJpbGxpb24gb24gdGhpcyBlYXJ0aC4gWW91IGhhcHBlbiB0byBiZSB0aGUgY2FyZXRha2VyIG9mIG9uZSwgdGhlIGZvcmVzdCB0aGF0IGxpdmVzIGluc2lkZSB5b3VyIHNrdWxsLiBUaGUgdHJlZXMgb2Ygd2hpY2ggSSBzcGVhayBhcmUgdGhvc2Ugc3BlY2lhbCBjZWxscyBjYWxsZWQgbmV1cm9ucy4gVGhlIG1pc3Npb24gb2YgbmV1cm9zY2llbmNlIGlzIHRvIGV4cGxvcmUgdGhlaXIgZW5jaGFudGVkIGJyYW5jaGVzJiM4MjAxOyYjODIxMjsmIzgyMDE7dG8gdGFtZSB0aGUganVuZ2xlIG9mIHRoZSBtaW5kIChzZWUgRmlndXJlIDEpLiA8QlI+JiMxNjA7JiMxNjA7JiMxNjA7TmV1cm9zY2llbnRpc3RzIGhhdmUgZWF2ZXNkcm9wcGVkIG9uIGl0cyBzb3VuZHMsIHRoZSBlbGVjdHJpY2FsIHNpZ25hbHMgaW5zaWRlIHRoZSBicmFpbi4gVGhleSBoYXZlIHJldmVhbGVkIGl0cyBmYW50YXN0aWMgc2hhcGVzIHdpdGggbWV0aWN1bG91cyBkcmF3aW5ncyBhbmQgcGhvdG9zIG9mIG5ldXJvbnMuIFRoZWlyIGRpc2NvdmVyaWVzIGFyZSBhbWF6aW5nLCBidXQgZnJvbSBqdXN0IGEgZmV3IHNjYXR0ZXJlZCB0cmVlcywgY2FuIHdlIGhvcGUgdG8gY29tcHJlaGVuZCB0aGUgdG90YWxpdHkgb2YgdGhlIGZvcmVzdD8gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO0luIHRoZSBzZXZlbnRlZW50aCBjZW50dXJ5LCB0aGUgRnJlbmNoIHBoaWxvc29waGVyIGFuZCBtYXRoZW1hdGljaWFuIEJsYWlzZSBQYXNjYWwgd3JvdGUgYWJvdXQgdGhlIHZhc3RuZXNzIG9mIHRoZSB1bml2ZXJzZTogPEJSPjxCUj4mIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsgTGV0IG1hbiBjb250ZW1wbGF0ZSBOYXR1cmUgZW50aXJlIGluIGhlciBmdWxsIGFuZCBsb2Z0eSBtYWplc3R5OyBsZXQgaGltIHB1dCBmYXIgZnJvbSBoaXMgc2lnaHQgdGhlIDxCUj4mIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsgbG93bHkgb2JqZWN0cyB0aGF0IHN1cnJvdW5kIGhpbTsgbGV0IGhpbSByZWdhcmQgdGhhdCBibGF6aW5nIGxpZ2h0LCBwbGFjZWQgbGlrZSBhbiBldGVybmFsIGxhbXAgdG8mIzE2MDsgPEJSPiYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwO2lsbHVtaW5hdGUgdGhlIHdvcmxkOyBsZXQgdGhlIGVhcnRoIGFwcGVhciB0byBoaW0gYnV0IGEgcG9pbnQgd2l0aGluIHRoZSB2YXN0IGNpcmN1aXQgd2hpY2ggdGhhdCBzdGFyIDxCUj4mIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsmIzE2MDsgZGVzY3JpYmVzOyBhbmQgbGV0IGhpbSBtYXJ2ZWwgdGhhdCB0aGlzIGltbWVuc2UgY2lyY3VtZmVyZW5jZSBpcyBpdHNlbGYgYnV0IGEgc3BlY2sgZnJvbSB0aGUmIzE2MDsgPEJSPiYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwOyYjMTYwO3ZpZXdwb2ludCBvZiB0aGUgc3RhcnMgdGhhdCBtb3ZlIGluIHRoZSBmaXJtYW1lbnQuIDxCUj48QlI+U2hvY2tlZCBhbmQgaHVtYmxlZCBieSB0aGVzZSB0aG91Z2h0cywgaGUgY29uZmVzc2VkIHRoYXQgaGUgd2FzIHRlcnJpZmllZCBieSAmIzgyMjA7dGhlIGV0ZXJuYWwgc2lsZW5jZSBvZiB0aGVzZSBpbmZpbml0ZSBzcGFjZXMuJiM4MjIxOyBQYXNjYWwgbWVkaXRhdGVkIHVwb24gb3V0ZXIgc3BhY2UsIGJ1dCB3ZSBuZWVkIG9ubHkgdHVybiBvdXIgdGhvdWdodHMgaW53YXJkIHRvIGZlZWwgaGlzIGRyZWFkLiBJbnNpZGUgZXZlcnkgb25lIG9mIG91ciBza3VsbHMgbGllcyBhbiBvcmdhbiBzbyB2YXN0IGluIGl0cyBjb21wbGV4aXR5IHRoYXQgaXQgbWlnaHQgYXMgd2VsbCBiZSBpbmZpbml0ZS4gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO0FzIGEgbmV1cm9zY2llbnRpc3QgbXlzZWxmLCBJIGhhdmUgY29tZSB0byBrbm93IGZpcnN0aGFuZCBQYXNjYWwmIzgyMTc7cyBmZWVsaW5nIG9mIGRyZWFkLiBJIGhhdmUgYWxzbyBleHBlcmllbmNlZCBlbWJhcnJhc3NtZW50LiBTb21ldGltZXMgSSBzcGVhayB0byB0aGUgcHVibGljIGFib3V0IHRoZSBzdGF0ZSBvZiBvdXIgZmllbGQuIEFmdGVyIG9uZSBzdWNoIHRhbGssIEkgd2FzIHB1bW1lbGVkIHdpdGggcXVlc3Rpb25zLiBXaGF0IGNhdXNlcyBkZXByZXNzaW9uIGFuZCBzY2hpem9waHJlbmlhPyBXaGF0IGlzIHNwZWNpYWwgYWJvdXQgdGhlIGJyYWluIG9mIGFuIEVpbnN0ZWluIG9yIGEgQmVldGhvdmVuPyBIb3cgY2FuIG15IGNoaWxkIGxlYXJuIHRvIHJlYWQgYmV0dGVyPyBBcyBJIGZhaWxlZCB0byBnaXZlIHNhdGlzZnlpbmcgYW5zd2VycywgSSBjb3VsZCBzZWUgZmFjZXMgZmFsbC4gSW4gbXkgc2hhbWUgSSBmaW5hbGx5IGFwb2xvZ2l6ZWQgdG8gdGhlIGF1ZGllbmNlLiAmIzgyMjA7SSYjODIxNzttIHNvcnJ5LCYjODIyMTsgSSBzYWlkLiAmIzgyMjA7WW91IHRob3VnaHQgSSYjODIxNzttIGEgcHJvZmVzc29yIGJlY2F1c2UgSSBrbm93IHRoZSBhbnN3ZXJzLiBBY3R1YWxseSBJJiM4MjE3O20gYSBwcm9mZXNzb3IgYmVjYXVzZSBJIGtub3cgaG93IG11Y2ggSSBkb24mIzgyMTc7dCBrbm93LiYjODIyMTsgPEJSPiYjMTYwOyYjMTYwOyYjMTYwO1N0dWR5aW5nIGFuIG9iamVjdCBhcyBjb21wbGV4IGFzIHRoZSBicmFpbiBtYXkgc2VlbSBhbG1vc3QgZnV0aWxlLiBUaGUgYnJhaW4mIzgyMTc7cyBiaWxsaW9ucyBvZiBuZXVyb25zIHJlc2VtYmxlIHRyZWVzIG9mIG1hbnkgc3BlY2llcyBhbmQgY29tZSBpbiBtYW55IGZhbnRhc3RpYyBzaGFwZXMuIE9ubHkgdGhlIG1vc3QgZGV0ZXJtaW5lZCBleHBsb3JlcnMgY2FuIGhvcGUgdG8gY2FwdHVyZSBhIGdsaW1wc2Ugb2YgdGhpcyBmb3Jlc3QmIzgyMTc7cyBpbnRlcmlvciwgYW5kIGV2ZW4gdGhleSBzZWUgbGl0dGxlLCBhbmQgc2VlIGl0IHBvb3JseS4gSXQmIzgyMTc7cyBubyB3b25kZXIgdGhhdCB0aGUgYnJhaW4gcmVtYWlucyBhbiBlbmlnbWEuIE15IGF1ZGllbmNlIHdhcyBjdXJpb3VzIGFib3V0IGJyYWlucyB0aGF0IG1hbGZ1bmN0aW9uIG9yIGV4Y2VsLCBidXQgZXZlbiB0aGUgaHVtZHJ1bSBsYWNrcyBleHBsYW5hdGlvbi4gRXZlcnkgZGF5IHdlIHJlY2FsbCB0aGUgcGFzdCwgcGVyY2VpdmUgdGhlIHByZXNlbnQsIGFuZCBpbWFnaW5lIHRoZSBmdXR1cmUuIEhvdyBkbyBvdXIgYnJhaW5zIGFjY29tcGxpc2ggdGhlc2UgZmVhdHM/IEl0JiM4MjE3O3Mgc2FmZSB0byBzYXkgdGhhdCBub2JvZHkgcmVhbGx5IDxCUj5rbm93cy4gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO0RhdW50ZWQgYnkgdGhlIGJyYWluJiM4MjE3O3MgY29tcGxleGl0eSwgbWFueSBuZXVyb3NjaWVudGlzdHMgaGF2ZSBjaG9zZW4gdG8gc3R1ZHkgYW5pbWFscyB3aXRoIGRyYXN0aWNhbGx5IGZld2VyIG5ldXJvbnMgdGhhbiBodW1hbnMuIFRoZSB3b3JtIHNob3duIGluIEZpZ3VyZSAyIGxhY2tzIHdoYXQgd2UmIzgyMTc7ZCBjYWxsIGEgYnJhaW4uIEl0cyBuZXVyb25zIGFyZSBzY2F0dGVyZWQgdGhyb3VnaG91dCBpdHMgYm9keSByYXRoZXIgdGhhbiBjZW50cmFsaXplZCBpbiBhIHNpbmdsZSBvcmdhbi4gVG9nZXRoZXIgdGhleSBmb3JtIGEgbmVydm91cyBzeXN0ZW0gY29udGFpbmluZyBhIG1lcmUgMzAwIG5ldXJvbnMuIFRoYXQgc291bmRzIG1hbmFnZWFibGUuIEkmIzgyMTc7bGwgd2FnZXIgdGhhdCBldmVuIFBhc2NhbCwgd2l0aCBoaXMgZGVwcmVzc2l2ZSB0ZW5kZW5jaWVzLCB3b3VsZCBub3QgaGF2ZSBkcmVhZGVkIHRoZSBmb3Jlc3Qgb2YgPEk+Qy4gZWxlZ2FuczwvST4uIChUaGF0JiM4MjE3O3MgdGhlIHNjaWVudGlmaWMgbmFtZSBmb3IgdGhlIG9uZS1taWxsaW1ldGVyLWxvbmcgd29ybS4pIDxCUj4mIzE2MDsmIzE2MDsmIzE2MDtFdmVyeSBuZXVyb24gaW4gdGhpcyB3b3JtIGhhcyBiZWVuIGdpdmVuIGEgdW5pcXVlIG5hbWUgYW5kIGhhcyBhIGNoYXJhY3RlcmlzdGljIGxvY2F0aW9uIGFuZCBzaGFwZS4gV29ybXMgYXJlIGxpa2UgcHJlY2lzaW9uIG1hY2hpbmVzIG1hc3MtcHJvZHVjZWQgaW4gYSBmYWN0b3J5OiBFYWNoIG9uZSBoYXMgYSBuZXJ2b3VzIHN5c3RlbSBidWlsdCBmcm9tIHRoZSBzYW1lIHNldCBvZiBwYXJ0cywgYW5kIHRoZSBwYXJ0cyBhcmUgYWx3YXlzIGFycmFuZ2VkIGluIHRoZSBzYW1lIHdheS4gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO1doYXQmIzgyMTc7cyBtb3JlLCB0aGlzIHN0YW5kYXJkaXplZCBuZXJ2b3VzIHN5c3RlbSBoYXMgYmVlbiBtYXBwZWQgY29tcGxldGVseS4gVGhlIHJlc3VsdCYjODIwMTsmIzgyMTI7JiM4MjAxO3NlZSBGaWd1cmUgMyYjODIwMTsmIzgyMTI7JiM4MjAxO2lzIHNvbWV0aGluZyBsaWtlIHRoZSBmbGlnaHQgbWFwcyB3ZSBzZWUgaW4gdGhlIGJhY2sgcGFnZXMgb2YgYWlybGluZSBtYWdhemluZXMuIFRoZSBmb3VyLWxldHRlciBuYW1lIG9mIGVhY2ggbmV1cm9uIGlzIGxpa2UgdGhlIHRocmVlLWxldHRlciBjb2RlIGZvciBlYWNoIG9mIHRoZSB3b3JsZCYjODIxNztzIGFpcnBvcnRzLiBUaGUgbGluZXMgcmVwcmVzZW50IGNvbm5lY3Rpb25zIGJldHdlZW4gbmV1cm9ucywganVzdCBhcyBsaW5lcyBvbiBhIGZsaWdodCBtYXAgcmVwcmVzZW50IHJvdXRlcyBiZXR3ZWVuIGNpdGllcy4gV2Ugc2F5IHRoYXQgdHdvIG5ldXJvbnMgYXJlICYjODIyMDtjb25uZWN0ZWQmIzgyMjE7IGlmIHRoZXJlIGlzIGEgc21hbGwganVuY3Rpb24sIGNhbGxlZCBhIHN5bmFwc2UsIGF0IGEgcG9pbnQgd2hlcmUgdGhlIG5ldXJvbnMgdG91Y2guIFRocm91Z2ggdGhlIHN5bmFwc2Ugb25lIG5ldXJvbiBzZW5kcyBtZXNzYWdlcyB0byB0aGUgb3RoZXIuIDxCUj4mIzE2MDsmIzE2MDsmIzE2MDtFbmdpbmVlcnMga25vdyB0aGF0IGEgcmFkaW8gaXMgY29uc3RydWN0ZWQgYnkgd2lyaW5nIHRvZ2V0aGVyIGVsZWN0cm9uaWMgY29tcG9uZW50cyBsaWtlIHJlc2lzdG9ycywgY2FwYWNpdG9ycywgYW5kIHRyYW5zaXN0b3JzLiBBIG5lcnZvdXMgc3lzdGVtIGlzIGxpa2V3aXNlIGFuIGFzc2VtYmx5IG9mIG5ldXJvbnMsICYjODIyMDt3aXJlZCYjODIyMTsgdG9nZXRoZXIgYnkgdGhlaXIgc2xlbmRlciBicmFuY2hlcy4gVGhhdCYjODIxNztzIHdoeSB0aGUgbWFwIHNob3duIGluIEZpZ3VyZSAzIHdhcyBvcmlnaW5hbGx5IGNhbGxlZCBhIHdpcmluZyBkaWFncmFtLiBNb3JlIHJlY2VudGx5LCBhIG5ldyB0ZXJtIGhhcyBiZWVuIGludHJvZHVjZWQmIzgyMDE7JiM4MjEyOyYjODIwMTs8ST5jb25uZWN0b21lPC9JPi4gVGhpcyB3b3JkIGludm9rZXMgbm90IGVsZWN0cmljYWwgZW5naW5lZXJpbmcgYnV0IHRoZSBmaWVsZCBvZiBnZW5vbWljcy4gWW91IGhhdmUgcHJvYmFibHkgaGVhcmQgdGhhdCBETkEgaXMgYSBsb25nIG1vbGVjdWxlIHJlc2VtYmxpbmcgYSBjaGFpbi4gVGhlIGluZGl2aWR1YWwgbGlua3Mgb2YgdGhlIGNoYWluIGFyZSBzbWFsbCBtb2xlY3VsZXMgY2FsbGVkIG51Y2xlb3RpZGVzLCBkZW5vdGVkIGJ5IHRoZSBsZXR0ZXJzIEEsIEMsIEcsIGFuZCBULiBZb3VyIGdlbm9tZSBpcyB0aGUgZW50aXJlIHNlcXVlbmNlIG9mIG51Y2xlb3RpZGVzIGluIHlvdXIgRE5BLCBvciBlcXVpdmFsZW50bHkgYSBsb25nIHN0cmluZyBvZiBsZXR0ZXJzIGRyYXduIGZyb20gdGhpcyBmb3VyLWxldHRlciBhbHBoYWJldC4gRmlndXJlIDQgc2hvd3MgYW4gZXhjZXJwdCBmcm9tIHRoZSB0aHJlZSBiaWxsaW9uIGxldHRlcnMsIHdoaWNoIHdvdWxkIGJlIGEgbWlsbGlvbiBwYWdlcyBsb25nIGlmIHByaW50ZWQgYXMgYSA8QlI+Ym9vay4gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO0luIHRoZSBzYW1lIHdheSwgYSBjb25uZWN0b21lIGlzIHRoZSB0b3RhbGl0eSBvZiBjb25uZWN0aW9ucyBiZXR3ZWVuIHRoZSBuZXVyb25zIGluIGEgbmVydm91cyBzeXN0ZW0uIFRoZSB0ZXJtLCBsaWtlIGdlbm9tZSwgaW1wbGllcyBjb21wbGV0ZW5lc3MuIEEgY29ubmVjdG9tZSBpcyBub3Qgb25lIGNvbm5lY3Rpb24sIG9yIGV2ZW4gbWFueS4gSXQgaXMgYWxsIG9mIHRoZW0uIEluIHByaW5jaXBsZSwgeW91ciBicmFpbiBjYW4gYWxzbyBiZSBzdW1tYXJpemVkIGJ5IGEgZGlhZ3JhbSB0aGF0IGlzIGxpa2UgdGhlIHdvcm0mIzgyMTc7cywgdGhvdWdoIG11Y2ggbW9yZSBjb21wbGV4LiBXb3VsZCB5b3VyIGNvbm5lY3RvbWUgcmV2ZWFsIGFueXRoaW5nIGludGVyZXN0aW5nIGFib3V0IHlvdT8gPEJSPiYjMTYwOyYjMTYwOyYjMTYwO1RoZSBmaXJzdCB0aGluZyBpdCB3b3VsZCByZXZlYWwgaXMgdGhhdCB5b3UgYXJlIHVuaXF1ZS4gWW91IGtub3cgdGhpcywgb2YgY291cnNlLCBidXQgaXQgaGFzIGJlZW4gc3VycHJpc2luZ2x5IGRpZmZpY3VsdCB0byBwaW5wb2ludCB3aGVyZSwgcHJlY2lzZWx5LCB5b3VyIHVuaXF1ZW5lc3MgcmVzaWRlcy4gWW91ciBjb25uZWN0b21lIGFuZCBtaW5lIGFyZSB2ZXJ5IGRpZmZlcmVudC4gVGhleSBhcmUgbm90IHN0YW5kYXJkaXplZCBsaWtlIHRob3NlIG9mIHdvcm1zLiBUaGF0JiM4MjE3O3MgY29uc2lzdGVudCB3aXRoIHRoZSBpZGVhIHRoYXQgZXZlcnkgaHVtYW4gaXMgdW5pcXVlIGluIGEgd2F5IHRoYXQgYSB3b3JtIGlzIG5vdCAobm8gb2ZmZW5zZSBpbnRlbmRlZCB0byB3b3JtcyEpLiA8QlI+JiMxNjA7JiMxNjA7JiMxNjA7RGlmZmVyZW5jZXMgZmFzY2luYXRlIHVzLiBXaGVuIHdlIGFzayBob3cgdGhlIGJyYWluIHdvcmtzLCB3aGF0IG1vc3RseSBpbnRlcmVzdHMgdXMgaXMgd2h5IHRoZSBicmFpbnMgb2YgcGVvcGxlIHdvcmsgc28gZGlmZmVyZW50bHkuIFdoeSBjYW4mIzgyMTc7dCBJIGJlIG1vcmUgb3V0Z29pbmcsIGxpa2UgbXkgZXh0cm92ZXJ0ZWQgZnJpZW5kPyBXaHkgZG9lcyBteSBzb24gZmluZCByZWFkaW5nIG1vcmUgZGlmZmljdWx0IHRoYW4gaGlzIGNsYXNzbWF0ZXMgZG8/IFdoeSBpcyBteSB0ZWVuYWdlIGNvdXNpbiBzdGFydGluZyB0byBoZWFyIGltYWdpbmFyeSB2b2ljZXM/IFdoeSBpcyBteSBtb3RoZXIgbG9zaW5nIGhlciBtZW1vcnk/IFdoeSBjYW4mIzgyMTc7dCBteSBzcG91c2UgKG9yIEkpIGJlIG1vcmUgY29tcGFzc2lvbmF0ZSBhbmQgdW5kZXJzdGFuZGluZz8gPEJSPiYuLi48L3A+ZAIPD2QWAgIBD2QWAgIBDxYCHwMFjSA8RElWPjxCPldhbGwgU3RyZWV0IEpvdXJuYWwncyAxMCBCZXN0IE5vbmZpY3Rpb24gQm9va3Mgb2YgMjAxMjwvQj4gPFA+PEI+QW1hem9uJ3MgVG9wIDEwMCBFZGl0b3IncyBQaWNrcyBmb3IgMjAxMjwvQj48L1A+PFA+PEI+UHVibGlzaGVycyBXZWVrbHkgVG9wIFRlbiBpbiBTY2llbmNlIGZvciBTcHJpbmcgMjAxMiA8QlI+PC9CPjxCUj4mIzgyMjA7PEk+VGhlPC9JPiBiZXN0IGxheSBib29rIG9uIGJyYWluIHNjaWVuY2UgSSYjODIxNzt2ZSBldmVyIHJlYWQuJiM4MjIxOyA8QlI+JiM4MjEyOyA8ST48Qj5XYWxsIFN0cmVldCBKb3VybmFsPC9CPjwvST4gYnk8Qj4gRGFuaWVsIExldml0aW48L0I+LCBQcm9mZXNzb3IsIE1jR2lsbCBVbml2ZXJzaXR5OyBhdXRob3Igb2YgPEk+VGhpcyBJcyBZb3VyIEJyYWluIG9uIE11c2ljIGFuZCBUaGUgV29ybGQgaW4gU2l4IFNvbmdzLjwvST48L1A+PFA+JiM4MjIwOyYjODIwNjtUaGlzIGlzIGNvbXBsaWNhdGVkIHN0dWZmLCBhbmQgaXQgaXMgYSB0ZXN0YW1lbnQgdG8gRHIuIFNldW5nJiM4MjE3O3MgcmVtYXJrYWJsZSBjbGFyaXR5IG9mIGV4cG9zaXRpb24gdGhhdCB0aGUgcmVhZGVyIGlzIHN3ZXB0IGFsb25nIHdpdGggaGlzIGVudGh1c2lhc20sIGFzIGhlIG1vdmVzIGZyb20gdGhlIGJhc2ljcyBvZiBuZXVyb3NjaWVuY2Ugb3V0IHRvIHRoZSBmYXJ0aGVzdCByZWdpb25zIG9mIHRoZSBoeXBvdGhldGljYWwsIHNrZXRjaGluZyBvdXQgYSBzcGVjdGFjdWxhcmx5IGlsbHVzdHJhdGVkIGdpYW50IG1hcCBvZiB0aGUgdW5pdmVyc2Ugb2YgbWFuLiYjODIyMTsgPEJSPjxCPiYjODIxMjsgPEk+TmV3IFlvcmsgVGltZXM8L0k+PC9CPjwvUD48UD4mIzgyMjA7W0FdIGJyYWNpbmcsIG1pbmQtZXhwYW5kaW5nIHJlcG9ydCBmcm9tIG5ldXJvc2NpZW5jZSYjODIxNztzIHJhem9yIGVkZ2UuIEFjY2Vzc2libGUsIHdpdHR5LCBbZV1taW5lbnRseSBsb2dpY2FsIGFuZCBhdCB0aW1lcyBwb2V0aWMsIENvbm5lY3RvbWUgZXN0YWJsaXNoZXMgU2V1bmcgYXMgYW4gaW1wb3J0YW50IG5ldyByZXNlYXJjaGVyLCBwaGlsb3NvcGhlciBhbmQgcG9wdWxhcml6ZXIgb2YgYnJhaW4gc2NpZW5jZS4gSXQgcHV0cyBoaW0gb24gcGFyIHdpdGggY29zbW9sb2d5JiM4MjE3O3MgQnJpYW4gR3JlZW5lIGFuZCB0aGUgbGF0ZSBDYXJsIFNhZ2FuLiYjODIyMTsgPEJSPjxCPiYjODIxMjsgPEk+Q2xldmVsYW5kIFBsYWluIERlYWxlcjwvST48L0I+PC9QPjxQPiYjODIyMDtTZXVuZyBhcmd1ZXMgaW50ZWxsaWdlbnRseSBhbmQgcG93ZXJmdWxseSB0aGF0IHRoZSBzZWxmIGxpZXMgaW4gdGhlIHRvdGFsaXR5IG9mIHRoZSBicmFpbiYjODIxNztzIHdpcmluZy4mIzgyMjE7IDxCUj4mIzgyMTI7IDxCPjxJPk5hdHVyZTwvST48L0I+IGJ5IDxCPkNocmlzdG9mIEtvY2g8L0I+LCBQcm9mZXNzb3IsIENhbGlmb3JuaWEgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3k7IENoaWVmIFNjaWVudGlmaWMgT2ZmaWNlciwgQWxsZW4gSW5zdGl0dXRlIGZvciBCcmFpbiBTY2llbmNlOyBhdXRob3Igb2YgUXVlc3QgZm9yIENvbnNjaW91c25lc3MgYW5kIENvbnNjaW91c25lc3M6IENvbmZlc3Npb25zIG9mIGEgUm9tYW50aWMgUmVkdWN0aW9uaXN0PC9QPjxQPiYjODIyMDtXaXRoIHRoZSBmaXJzdC1wZXJzb24gZmxhdm91ciBvZiBKYW1lcyBXYXRzb24mIzgyMTc7cyBEb3VibGUgSGVsaXgmIzgyMTI7YW4gYWNjb3VudCBvZiBob3cgRE5BJiM4MjE3O3Mgc3RydWN0dXJlIHdhcyBkaXNjb3ZlcmVkJiM4MjEyO0Nvbm5lY3RvbWUgZ2l2ZXMgYSBzZW5zZSBvZiB0aGUgZXhjaXRlbWVudCBvbiB0aGUgY3V0dGluZyBlZGdlIG9mIG5ldXJvc2NpZW5jZS4mIzgyMjE7IDxCUj48Qj4mIzgyMTI7IE5ld1NjaWVudGlzdDwvQj4gYnkgPEI+VGVycnkgU2Vqbm93c2tpLDwvQj4gUHJvZmVzc29yIGFuZCBEaXJlY3RvciwgQ29tcHV0YXRpb25hbCBOZXVyb2Jpb2xvZ3kgTGFiLCBTYWxrIEluc3RpdHV0ZTsgSW52ZXN0aWdhdG9yLCBIb3dhcmQgSHVnaGVzIE1lZGljYWwgSW5zdGl0dXRlOyBNZW1iZXIsIE5hdGlvbmFsIEFjYWRlbXkgb2YgU2NpZW5jZXMgYW5kIE5hdGlvbmFsIEFjYWRlbXkgb2YgRW5naW5lZXJpbmcgVVNBLjwvUD48UD4mIzgyMjA7QW4gZWxlZ2FudCBwcmltZXIgb24gd2hhdCYjODIxNztzIGtub3duIGFib3V0IGhvdyB0aGUgYnJhaW4gaXMgb3JnYW5pemVkIGFuZCBob3cgaXQgZ3Jvd3MsIHdpcmVzIGl0cyBuZXVyb25zLCBwZXJjZWl2ZXMgaXRzIGVudmlyb25tZW50LCBtb2RpZmllcyBvciByZXBhaXJzIGl0c2VsZiwgYW5kIHN0b3JlcyBpbmZvcm1hdGlvbi4gU2V1bmcgaXMgYSBjbGVhciwgbGl2ZWx5IHdyaXRlciB3aG8gY2hvb3NlcyB2aXZpZCBleGFtcGxlcy4mIzgyMjE7IDxCUj48Qj4mIzgyMTI7IDxJPldhc2hpbmd0b24gUG9zdDwvST48L0I+PC9QPjxQPiYjODIyMDtTZWJhc3RpYW4gU2V1bmcgc2NhbGVzIHRoZSBoZWlnaHRzIG9mIG5ldXJvc2NpZW5jZSBhbmQgY2FzdHMgaGlzIGJyaWxsaWFudCBleWUgYXJvdW5kLCBkZXNjcmliaW5nIHRoZSBsYW5kc2NhcGUgb2YgaXRzIHBhc3QgYW5kIGJvbGRseSBlbnZpc2lvbmluZyBhIGZ1dHVyZSB3aGVuIHdlIG1heSB1bmRlcnN0YW5kIG91ciBvd24gYnJhaW5zIGFuZCB0aHVzIG91cnNlbHZlcy4mIzgyMjE7IDxCUj48Qj4mIzgyMTI7S2VubmV0aCBCbHVtLCBFeGVjdXRpdmUgRGlyZWN0b3IsIENlbnRlciBmb3IgQnJhaW4gU2NpZW5jZSwgSGFydmFyZCBVbml2ZXJzaXR5PC9CPjwvUD48UD4mIzgyMjA7U2ViYXN0aWFuIFNldW5nIGNhbiBkbyBpdCBhbGwuIEhlJiM4MjE3O3Mgd2lkZWx5IHJlY29nbml6ZWQgYXMgYSBzdXBlcmIgcGh5c2ljaXN0LCBhIHdoaXogd2l0aCBjb21wdXRlcnMsIGFuZCBhIHBhdGgtYnJlYWtpbmcgbmV1cm9zY2llbnRpc3QuIENvbm5lY3RvbWUgc2hvd3MgdGhhdCBoZSdzIGFsc28gYSB0ZXJyaWZpYyB3cml0ZXIsIGFzIGluc3BpcmluZyBhcyBoZSBpcyBjbGVhciBhbmQgZ29vZCBodW1vcmVkLiYjODIyMTsmIzE2MDs8QlI+PEI+JiM4MjEyO1N0ZXZlbiBTdHJvZ2F0eiwgQ29ybmVsbCBVbml2ZXJzaXR5LCBhdXRob3Igb2YgPEk+U3luYzogdGhlIEVtZXJnaW5nIFNjaWVuY2Ugb2YgU3BvbnRhbmVvdXMgT3JkZXI8L0k+PC9CPjwvUD48UD4mIzgyMjA7SW4gQ29ubmVjdG9tZSwgU2ViYXN0aWFuIFNldW5nIHJlbWluZHMgdXMgdGhhdCB0aGUgaHVtYW4gYnJhaW4gaGFzIGNvbnRlbXBsYXRlZCBpdHNlbGYgZm9yIGNlbnR1cmllcy4gVGhpcyBpcyBhbiBpbXBvcnRhbnQgYm9vaywgZnVsbCBvZiByZWZyZXNoaW5nbHkgbmV3IHNjaWVuY2UgYW5kIGVuZ2FnaW5nIGhpc3RvcnksIGFib3V0IHRoZSBlc3NlbnRpYWwgcXVlc3QgdG8gdW5kZXJzdGFuZCBvdXJzZWx2ZXMuJiM4MjIxOyA8QlI+PEI+JiM4MjEyO1BoaWxsaXAgQS4gU2hhcnAsIE1JVCwgMTk5MyBOb2JlbCBQcml6ZSBpbiBQaHlzaW9sb2d5IG9yIE1lZGljaW5lPC9CPjwvUD48UD4mIzgyMjA7QSBsYW5kbWFyayB3b3JrLCBnb3JnZW91c2x5IHdyaXR0ZW4uIE5vIG90aGVyIHJlc2VhcmNoZXIgaGFzIHRyYXZlbGVkIGFzIGRlZXBseSBpbnRvIHRoZSBicmFpbiBmb3Jlc3QgYW5kIGVtZXJnZWQgdG8gc2hhcmUgaXRzIHNlY3JldHMuJiM4MjIxOyA8QlI+PEI+JiM4MjEyO0RhdmlkIEVhZ2xlbWFuLCBhdXRob3Igb2YgPEk+SW5jb2duaXRvPC9JPiBhbmQgPEk+U3VtPC9JPjwvQj48UD4mIzgyMjA7Q29ubmVjdG9taWNzIGlzIGVtZXJnaW5nIGFzIGEgY3J1Y2lhbCBhbmQgZXhoaWxhcmF0aW5nIGZpZWxkIG9mIHN0dWR5LiBTZWJhc3RpYW4gU2V1bmcgdGFrZXMgeW91IGJ5IHRoZSBoYW5kIGFuZCBzaG93cyB5b3Ugd2h5LiBDb25uZWN0b21lIGlzIGEgcGFnZSB0dXJuZXImIzgyMTI7YSBib29rIHRoYXQgc2hvdWxkIGJlIHJlYWQgYnkgYW55b25lIHdobyBsYXlzIGNsYWltIHRvIGJlIHRoaW5raW5nIGFib3V0IHRoZSBuYXR1cmUgb2YgbGlmZS4mIzgyMjE7IDxCUj48Qj4mIzgyMTI7TWljaGFlbCBHYXp6YW5pZ2EsIFVuaXZlcnNpdHkgb2YgQ2FsaWZvcm5pYSBhdCBTYW50YSBCYXJiYXJhIGFuZCBhdXRob3Igb2YgPEk+SHVtYW4gYW5kIFRoZSBFdGhpY2FsIEJyYWluPC9JPjwvQj48ST4gPC9JPjwvRElWPmQCBA9kFgICAQ8WAh8GAgEWAmYPZBYEZg8VAQ05NzgwNTQ0MjI3NzM2ZAIBDw8WAh8MBSwvc2hvcC9ib29rcy9UaGUtQXV0aXN0aWMtQnJhaW4vOTc4MDU0NDIyNzczNmQWCAIBDw8WAh8KBSwvc2hvcC9ib29rcy9hc3NldHMvcHJvZHVjdC85NzgwNTQ0MjI3NzM2LmdpZmRkAgMPFgIfAwUSVGhlIEF1dGlzdGljIEJyYWluZAIFDxYCHwYCAhYEZg9kFgICAQ8WAh8DBQ5UZW1wbGUgR3JhbmRpbmQCAQ9kFgICAQ8WAh8DBQ1SaWNoYXJkIFBhbmVrZAIHDxYCHwMFCVBhcGVyYmFja2QCDw9kFgICAg8PFgIfBWdkZAITD2QWAgICDw8WAh8FZ2RkZImhovbTH8k44gdI2Z+JZV8SbLQX" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="004CDBBC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIdZaYKEppaxsCL+mxyrDBpTyKPhRYzLqVFdOV50m1tKYbS43QbW0pwiR6BSYSI6cIakCtH" />
+</div>
+        <div class="container">
+            <!--New-->
+            <section>
+                    
+    <header class="header-nav darkgray" id="top-header">
+        <nav class="header-top-bar row">
+            
+<ul>
+    
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_0" class="top-bar-button parents-button">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_0" class="icon-heart"></i>
+                    <span class="hide-for-small">
+                        At Home
+                    </span>
+                </a>
+
+            </li>
+        
+            <li id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_liTopButtons_1" class="top-bar-button educators-button">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="cookie-val">
+                    <i id="greyheaderbar_0_pltopprimaryplaceholder_0_rptTopNavigation_iconButton_1" class="icon-apple"></i>
+                    <span class="hide-for-small">
+                        Classroom
+                    </span>
+                </a>
+
+            </li>
+        
+</ul>
+
+            <section>
+                
+                <ul class="right right-links-bar" id="signedOut">
+                    
+                        <li class="account-link icon-user-account has-dropdown"><a href="#"><i class="icon-user"></i></a>
+                            <div class="dropdown dropdown-animated dropdown-margin">
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><a href="/account/sign-in?inCheckout=false" id="greyheaderbar_0_signMobileLink">Sign In</a></li>
+                                        <li><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fCurious-George-Plants-A-Tree%2f9780547297767" id="greyheaderbar_0_A1">Sign Up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="account-link signin"><a href="/account/sign-in?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fCurious-George-Plants-A-Tree%2f9780547297767" id="greyheaderbar_0_signLink"><span>Sign In </span></a></li>
+                        <li class="account-link"><a href="/account/CreateAccount?inCheckout=false&ReturnUrl=%2fshop%2fbooks%2fCurious-George-Plants-A-Tree%2f9780547297767" id="greyheaderbar_0_signUpLink"><span>Sign Up</span></a></li>
+                    
+                    
+                    
+                        <li id="cartButton" class="cart cartButton has-dropdown"><a href="/hmhstorefront/cart" class="icon-cart"><span class="cart-counter cartCount" id="cartCounter">
+                            </span></a>
+                            <section class="mini-cart dropdown dropdown-animated cart items whitebg" id="cart">
+
+
+                                
+                                
+                            </section>
+                        </li>
+                    
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+  
+
+
+                <section id="main" role="main" class="lightgray">
+                    <!--New-->
+                    
+<header class="header-nav">
+    <nav class="header-sub-bar row">
+        <ul class="logo-section">
+            <li>
+                <a href="#" id="sidebarButton">
+                    <i class="icon-hamburger"></i>
+                </a>
+            </li>
+            <li class="hmh-logo">
+                <!-- make ie8 happy -->
+                <a href="//www.hmhco.com/">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(min-width: 1151px)" id="ImgHeaderLarge" srcset="/Sites/HMH/Images/Global/hmh-logo.png" />
+                        <source media="(min-width: 320px)" id="ImgHeaderSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo.png" />
+                        <!--[if IE 9]></video><![endif]-->
+                        <img src="/Sites/HMH/Images/Global/hmh-logo.png" alt="HMH LOGO" />
+                    </picture>
+                </a>                    
+            </li>
+            <li class="hmh-tagline">
+                <img src="/Sites/HMH/Images/Global/splash-header_w-secondary.png" />
+            </li>
+        </ul>
+        <section id="header_0_sectionSearch" class="search-bar">
+            <a href="#" class="search-toggle show-for-small hide-for-medium">
+                <i class="icon-magnifying"></i>
+            </a>
+            <div class="search-form">
+                <label class="search-input" for="searchEntry">
+                    <i class="icon-magnifying"></i>
+                    <input type="search" id="searchEntry" placeholder="Search by Keyword or ISBN" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                </label>
+                <input type="submit" value="Search" class="searchIconButton" />
+                <!-- <a href="#" class="submit-magnifying icon-magnifying"></a> //-->
+            </div>
+        </section>
+        <div class="button-container">
+            
+<ul class="neutral-buttons">
+    
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_0" class="athome-link has-dropdown">
+                <a href="/at-home" data-cookie-val="AtHome" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_0" class="icon-heart"></i>
+                    At Home
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/at-home/shop-by-age" class="cookie-val" data-cookie-val="AtHome" >Shop by Age</a></li><li><a oncontextmenu="return false" href="/at-home/shop-by-category" class="cookie-val" data-cookie-val="AtHome" >Shop by Category</a></li><li><a oncontextmenu="return false" href="/at-home/featured-shops" class="cookie-val" data-cookie-val="AtHome" >Featured Shops</a></li><li><a oncontextmenu="return false" href="/at-home/homeschool" class="cookie-val" data-cookie-val="AtHome" >Homeschool</a></li><li><a oncontextmenu="return false" href="/at-home/family-learning-center" class="cookie-val" data-cookie-val="AtHome" >Family Learning Center</a></li></ul></div></div>
+            </li>
+        
+            <li id="header_0_plsecondarynavigation_0_rptNeutralNavigation_listcontainer_1" class="classroom-link has-dropdown">
+                <a href="/classroom" data-cookie-val="Classroom" oncontextmenu="return false" class="button cookie-val">
+                    <i id="header_0_plsecondarynavigation_0_rptNeutralNavigation_iconButton_1" class="icon-apple"></i>
+                    Classroom
+                </a>
+               <div class="dropdown dropdown-hover alt"><div class="dropdown-content"><ul><li><a oncontextmenu="return false" href="/classroom/shop-by-grade" class="cookie-val" data-cookie-val="Classroom" >Shop by Grade</a></li><li><a oncontextmenu="return false" href="/classroom/shop-by-subject" class="cookie-val" data-cookie-val="Classroom" >Shop by Subject</a></li><li><a oncontextmenu="return false" href="/classroom/featured-programs" class="cookie-val" data-cookie-val="Classroom" >Products</a></li><li><a oncontextmenu="return false" href="/classroom/classroom-solutions" class="cookie-val" data-cookie-val="Classroom" >Classroom Solutions</a></li><li><a oncontextmenu="return false" href="/classroom/evaluate-and-sample" class="cookie-val" data-cookie-val="Classroom" >Evaluate & Sample</a></li></ul></div></div>
+            </li>
+        
+    
+</ul>
+
+
+        </div>
+    </nav>
+</header>
+
+
+
+
+<script type="text/javascript">
+
+    var xRf = xRf || { initialized: false };
+    if (!xRf.initialized) {
+        xRf.searchMenuData = [{
+"menu" :
+[  {
+"value" : "?segment=All;mm=all" ,
+"label" : "Entire Site",
+"path" : "?segment=All;mm=all;i=1;m_SiteSection=Entire+Site"
+},  {
+"value" : "?segment=Programs;mm=programs" ,
+"label" : "Education Programs",
+"path" : "?segment=Programs;mm=programs;i=1;m_SiteSection=Education+Programs"
+},  {
+"value" : "?segment=Components;mm=components" ,
+"label" : "Education Program Components",
+"path" : "?segment=Components;mm=components;i=1;m_SiteSection=Education+Program+Components"
+},  {
+"value" : "?segment=RiversidePrograms;mm=riversideprograms" ,
+"label" : "Assessment Products",
+"path" : "?segment=RiversidePrograms;mm=riversideprograms;i=1;m_SiteSection=Assessment+Products"
+},  {
+"value" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components" ,
+"label" : "Common Core",
+"path" : "?sp_q_33=+%22Common+Core%22;segment=All;sort=segment;mm=core;facet=Components;i=1;m_SiteSection=Common+Core"
+},  {
+"value" : "?segment=Products;mm=trade" ,
+"label" : "Popular Books",
+"path" : "?segment=Products;mm=trade;i=1;m_SiteSection=Popular+Books"
+},  {
+"value" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth" ,
+"label" : "Books for Kids & Teens",
+"path" : "?q1=Kids+%26+Young+Adults;segment=Products;x1=topNavigation;siteSection=Products;mm=youth;i=1;m_SiteSection=Books+for+Kids+%26+Teens"
+},  {
+"value" : "?segment=Content;mm=content" ,
+"label" : "Articles & Content",
+"path" : "?segment=Content;mm=content;i=1;m_SiteSection=Articles+%26+Content"
+},  {
+"value" : "?segment=MediaCenter;mm=mediacenter" ,
+"label" : "Media Center",
+"path" : "?segment=MediaCenter;mm=mediacenter;i=1;m_SiteSection=Media+Center"
+} 
+]
+}];
+
+        xRf.cookieBelowMinAge = 'submittedTooMuch';
+        xRf.searchPath = '/search';
+        xRf.mediacentersearchPath = '/media-center/search';
+        xRf.blogsPath = '/media-center/blogs';
+        xRf.pressreleasePath = '/media-center/press-releases';
+        xRf.newsPath = '/media-center/in-the-news';
+        xRf.searchMiscExtraFmt = '';
+        xRf.assetLibraryPath = '/booksellers/asset-library?q=';
+        xRf.autoCompleteAccount = "sp1004efe8";
+        xRf.autoCompleteDomain = "http://hmh.guided.ss-omtrdc.net";
+        xRf.autoCompleteInputSelector = "input#searchEntry";
+        xRf.menuAssetLibraryOption = '<option value="Asset Library">Asset Library</option>'
+    }
+</script>
+
+
+                    
+                    <section class="body-content row">
+                        <div class="twelve columns nopadding">
+                            
+<!--Begin Structure-->
+<!-- Content -->
+<section class="row headline whitebg">
+    <div class="twelve columns nopadding productDetailsContainer">
+    	<section class="twelve columns">
+        	<aside id="_2310708db40f3f_productDetailsLeft" class="leftside three columns product-details-leftside">
+                <div class="product-item product-item-details twelve columns nopadding">
+                    <figure id="_2310708db40f3f_productGraphicDiv">
+                        <img id="_2310708db40f3f_bookImage" src="/shop/books/assets/product/9780547678597.gif" alt="Connectome-9780547678597" />
+                    </figure>
+                    <!-- End Product Image -->
+                    <div id="_2310708db40f3f_downloadImageDiv" class="row ctaarea">
+                        <div class="twelve columns">
+                           <script type="text/javascript" src="//www.google.com/jsapi"></script>
+                           <script type="text/javascript">
+                               google.load("books", "0");
+                               function initialize() {
+                                   var display_options = { showLinkChrome: false };
+                                   var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'), display_options);
+
+                                   viewer.load('ISBN:9780547678597', bookNotFound, removePreviewFooter);
+                               }
+                               function bookNotFound() {
+                                   document.getElementById('viewerCanvas').innerHTML = "<h1>No Preview!</h1>";
+                               }
+                               function removePreviewFooter() {
+                                   $('#viewerCanvas > div > div:nth-child(2)').css('display', 'none');
+                               }
+                               google.setOnLoadCallback(initialize);
+                            </script>
+                            <p><a href="javascript:showDownloadImages('//www.hmhbooks.com/catalog/downloadresultsa.cfm?adv=y&ean=9780547678597'); Om_ShowProductImages('9780547678597','Paperback');">Download Images</a></p>
+                            <p><a class="preview" data-isbn="ISBN:9780547678597"><img src="/Sites/HMH/Images/Global/gbs_preview_button1.gif" alt="Google Preview" /></a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Social Icons -->
+                <div class="social_icons">
+                    
+<div class="shareThis">
+    
+        <span class="st_facebook"></span>
+	    <span class="st_twitter"></span>
+        <span class="st_linkedin"></span>
+	    <span class="st_pinterest"></span>
+	    <span class="st_email"></span>
+    
+</div>
+
+
+                </div>
+                <!-- End Social Icons -->
+                <!-- Start product data listing -->
+                <div class="productDataListingContDup"></div>
+                <!-- End product data listing -->
+            </aside>
+            <article id="_2310708db40f3f_productDetailsMain" class="rightside six columns product-details">
+            	<h1 id="_2310708db40f3f_headerText">Connectome: How the Brain's Wiring Makes Us Who We Are</h1>
+                <p class="writer">by <a href="/bookstore/authors/Sebastian-Seung/6287218">Sebastian Seung</a></p>
+                <!-- Start Product Information Block -->
+                <div class="productInformationBlock">
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescrip">
+                        
+                        <div class="outOfStock">
+                            <p>
+                                <span class="error"></span>
+                            </p>
+                        </div>
+                        <p>
+                            <DIV><DIV>The audacious effort to map the brain&#8212;and along with it our mental afflictions, from autism to schizophrenia&#8212;by a rising star in neuroscience.</DIV></DIV>
+                        </p>
+                    </div>
+                    <!-- end Product Description -->
+                    <!-- Start product data listing -->
+                    <div class="productDataListingCont" id="productDataListing">
+                        <ul class="productDataListing">
+                            <li id="_2310708db40f3f_formatSpan">Format: Paperback</li>
+                            <li id="_2310708db40f3f_isbn13Span">ISBN-13/ EAN: 9780547678597</li>
+                            <li id="_2310708db40f3f_isbn10Span">ISBN-10: 0547678592</li>
+                            <li id="_2310708db40f3f_noOfPagesSpan">Pages: 384</li>
+                            <li id="_2310708db40f3f_publicationDateSpan">Publication Date: 02/05/2013</li>
+                            
+                            <li id="_2310708db40f3f_cartonQtySpan">Carton Quantity: 24</li>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                    <!-- End product data listing -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailable">
+                        <div id="_2310708db40f3f_relatedComponentDiv" class="row">
+                            <div class="twelve columns">
+                                <p id="_2310708db40f3f_formatHeader">Also available in:</p>
+                                <ul id="_2310708db40f3f_formatList">
+                                    
+                                            <li>
+                                                <a id="_2310708db40f3f_otherFormatItemsRepeater_otherFormatHyperlink_0" href="/shop/books/Connectome/9780547508177">eBook</a>
+                                                
+                                                        -
+									                        $14.95
+                                                    
+                                                </li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- End also available -->
+                </div>
+                <!-- End Product Information Block -->
+            </article>
+            <aside id="_2310708db40f3f_productcartAside" class="right three columns product-details-rightside panel">
+                <div class="product-item product-item-details twelve columns">
+                    <div id="_2310708db40f3f_productcartDiv" class="product-items-full-details">
+                        <p class="product-item-price">
+                            
+                            <span>
+                                $15.99</span><br />
+                            <span>
+                                </span>
+                        </p>
+                        <div id="_2310708db40f3f_quantitySpan" class="quantity-container">
+                            <p>
+                                <a class="increment item-quantity-down" data-item-id='1475147' data-page="search">-</a>
+                                <input type="text" name="cartItemsForm[1475147].quantity" id='item_1475147_quantity'
+                                    class="item-quantity" data-price="" data-item-id='1475147' maxlength="4" value="1" />
+                                <a class="increment item-quantity-up" data-page="search" data-item-id='1475147'>+</a>
+                            </p>
+                        </div>
+                        <p>
+                            <a id="addToCartButtonInline" class="shopnow addToCartButton button" data-productid='1475147' data-title='Connectome'
+                                data-metatitle='Connectome' data-isbn13='9780547678597' data-inventorystatus='' data-producttype="component">
+                                Add To Cart</a>
+                        </p>
+                        <div class="dynamic_box_content special_detail">
+                            <p><a class="bulkView">Bulk purchasing &amp; Other Options</a></p>
+                        </div>
+                    </div>
+                </div>
+                <section class="twelve columns">
+                    <!-- Start product data listing -->
+                    <div class="productDataListingContDup"></div>
+                    <!-- End product data listing -->
+                    <!-- Start Product Description -->
+                    <div class="productDescrip" id="productDescripDup"></div>
+                    <!-- end Product Description -->
+                    <!-- Start also available -->
+                    <div class="prodAlsoAvailable" id="prodAlsoAvailableDup"></div>
+                    <!-- End also available -->
+                </section>  
+            </aside>
+        </section>
+        <div class="twelve columns nopadding productDetailsContainer">
+            <article class="rightside twelve columns product-details">
+                <!-- Start Tabbed Section -->
+                <div id="_2310708db40f3f_productdetailDiv">
+         		    <section class="row article-widget whitebg transparent">
+    				    <dl id="tabsdd" class="tabs tall tabs-module-4 hide-for-small">
+                            <dd id="tabProductInfo" class="active"><a target="" href="#ProductInfo">About the Book</a></dd>
+                            <dd id="tabAboutTheAuthor"><a id="authorAnchor" href="#AboutTheAuthor">About the Author</a></dd>
+                            <dd id="tabExcerpts"><a target="" href="#Excerpts">Excerpts</a></dd>
+                            <dd id="tabReviews"><a target="" href="#Reviews">Reviews</a></dd>
+    			        </dl>
+                        <ul class="accordion tabs-content centered">
+                            <li id="ProductInfoTab" class="accordion-tab active">
+                                <div class="title accordion-tab-title ProductInfoTab ProductInfo-accordion show-for-small" data-hash="ProductInfo-accordion" data-parent-tab-content="ProductInfoTab" data-parent-tab="tabProductInfo">
+                                    <h5>About the Book</h5>
+                                </div>
+                                <div id="ProductInfoTabContent" class="content accordion-tab-content active more-block">
+                                    <div id="book_more" class="book_more">
+                                        <DIV>&ldquo;This is complicated stuff, and it is a testament to Dr. Seung&rsquo;s  remarkable clarity of exposition that the reader is swept along with his  enthusiasm, as he moves from the basics of neuroscience out to the  farthest regions of the hypothetical, sketching out a spectacularly  illustrated giant map of the universe of man.&rdquo;&mdash;Abigail Zuger, M.D., <I>New York Times</I><BR><BR>Every  person is unique, but science has struggled to pinpoint where,  precisely, that uniqueness resides. Our genome may determine our eye  color and even aspects of our character. But our friendships, failures,  and passions also shape who we are. The question is: how?<BR><BR>Sebastian  Seung is at the forefront of a revolution in neuroscience. He believes  that our identity lies not in our genes, but in the connections between  our brain cells&mdash;our particular wiring. Seung and a dedicated group of  researchers are leading the effort to map these connections, neuron by  neuron, synapse by synapse. It&rsquo;s a monumental effort, but if they  succeed, they will uncover the basis of personality, identity,  intelligence, memory, and perhaps disorders such as autism and  schizophrenia. <BR><BR><I>Connectome </I>is a mind-bending adventure  story that presents a daring scientific and technological vision for  understanding what makes us who we are, both as individuals and as a  species. <BR><BR>&ldquo;Accessible, witty, imminently logical and at times poetic, <I>Connectome </I>establishes  Seung as an important new researcher, philosopher and popularizer of  brain science. It puts him on par with cosmology&rsquo;s Brian Greene and the  late Carl Sagan.&rdquo;&mdash;<I>Cleveland Plain Dealer</I></p>
+                                    </div>
+                                    <!--Begin Subjects-->
+                                    <div id="_2310708db40f3f_subjectParentDiv" class="additional-assets">
+                                        <div id="subjectParentContent">
+                                            <div id="_2310708db40f3f_subjectDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/general-interest/science/life-sciencesneuroscience">Life Sciences/Neuroscience</a></li>     
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="_2310708db40f3f_relatedSubjectsDiv" class="row">
+                                                <div class="twelve columns">
+                                                    <h4>Related Subjects</h4>
+                                                    <ul class="inline-list">
+                                                        
+                                                        <li><a href="/shop/m/science/">Science</a></li>    
+                                                        
+                                                        <li><a href="/shop/m/first-year-reads/">First Year Reads</a></li>    
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!--Begin links to other assets-->
+                                            
+                                            <!--End links to other assets-->
+                                        </div>
+                                    </div>
+                                    <!--End Subjects-->
+                                </div>
+                            </li>
+                            <li id="AboutTheAuthorTab" class="accordion-tab">
+                                <div class="title accordion-tab-title AboutTheAuthorTab AboutTheAuthor-accordion show-for-small" data-hash="AboutTheAuthor-accordion" data-parent-tab-content="AboutTheAuthorTab" data-parent-tab="tabAboutTheAuthor">
+                                    <h5>About the Author</h5>
+                                </div>
+                                <div id="AboutTheAuthorTabContent" class="content accordion-tab-content more-block">
+                                    
+                                            <section class="row featured-content nine-column blurb">
+                                                <div class="three columns image-wrap">
+                                                    <figure class="image-wrap">
+                                                        <img id="_2310708db40f3f_authorRepeater_authorImageUrl_0" class="itemImage" src="/shop/books/assets/contributor/seung$sebastian.gif" />
+                                                    </figure>
+                                                </div>
+                                                <div class="nine columns text-box">
+                                                    <h2>
+                                                        Sebastian Seung</h2>
+                                                    <p>
+                                                        Sebastian Seung is Professor of Computational Neuroscience at MIT and an Investigator of the Howard Hughes Medical Institute. He has made important advances in robotics, neuroscience, neuroeconomics, and statistical physics. His research has been published in leading scientific journals, and also featured in the New York Times, Technology Review, and the Economist.
+                                                        <!--<a id="_2310708db40f3f_authorRepeater_authorReadMoreHyperlink_0" class="arrow" href="/bookstore/authors/Sebastian-Seung/6287218">Read More</a>-->
+                                                    </p>
+                                                </div>
+                                            </section>
+                                        
+                                    <!--Begin Other Books By the Author Slider-->
+                                    <!--<div id="_2310708db40f3f_otherBooksDiv">
+                                        <div id="otherBooksSliderContainer">
+                                            <h3>Other Books By <span>The Author</span></h3>
+                                            <hr />
+                                            <div id="booksSlider" class="flexslider">
+                                                <ul class="slides">
+                                                    
+                                                            <li data-jsonattributename='RelatedProductsByAuthor' data-productid='9780547508177'>
+                                                                <a id="_2310708db40f3f_otherBooksRepeater_otherBooksHyperlink_0" href="/shop/books/Connectome/9780547508177">
+                                                                    <div class="image_container" style="background: #FFF;">
+
+                                                                        <img id="_2310708db40f3f_otherBooksRepeater_otherBooksImage_0" class="itemImage" src="/shop/books/assets/product/9780547678597.gif" />
+
+                                                                    </div>
+                                                                    <p class="flex-caption">
+                                                                        <strong>
+                                                                            Connectome</strong>
+                                                                    </p>
+                                                                    <p class="flex-caption">
+                                                                        
+                                                                    </p>
+                                                                    <p class="flex-caption buyNow">Buy Now</p>
+                                                                </a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!--End Other Books By the Author Slider-->
+                                </div>
+                            </li>
+                            <li id="ExcerptsTab" class="accordion-tab">
+                                <div class="title accordion-tab-title ExcerptsTab Excerpts-accordion show-for-small" data-hash="Excerpts-accordion" data-parent-tab-content="ExcerptsTab" data-parent-tab="tabExcerpts">
+                                    <h5>Excerpts</h5>
+                                </div>
+                                <div id="ExcerptsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="excerptsDiv">
+                                        <div id="excerpts_more" class="excerpts_more">
+                                            <P><B>Introduction</B><P style="MARGIN-RIGHT: 0px" dir=ltr>No road, no trail can penetrate this forest. The long and delicate branches of its trees lie everywhere, choking space with their exuberant growth. No sunbeam can fly a path tortuous enough to navigate the narrow spaces between these entangled branches. All the trees of this dark forest grew from 100 billion seeds planted together. And, all in one day, every tree is destined to die. <BR>&#160;&#160;&#160;This forest is majestic, but also comic and even tragic. It is all of these things. Indeed, sometimes I think it is everything. Every novel and every symphony, every cruel murder and every act of mercy, every love affair and every quarrel, every joke and every sorrow&#8201;&#8212;&#8201;all these things come from the forest. <BR>&#160;&#160;&#160;You may be surprised to hear that it fits in a container less than one foot in diameter. And that there are seven billion on this earth. You happen to be the caretaker of one, the forest that lives inside your skull. The trees of which I speak are those special cells called neurons. The mission of neuroscience is to explore their enchanted branches&#8201;&#8212;&#8201;to tame the jungle of the mind (see Figure 1). <BR>&#160;&#160;&#160;Neuroscientists have eavesdropped on its sounds, the electrical signals inside the brain. They have revealed its fantastic shapes with meticulous drawings and photos of neurons. Their discoveries are amazing, but from just a few scattered trees, can we hope to comprehend the totality of the forest? <BR>&#160;&#160;&#160;In the seventeenth century, the French philosopher and mathematician Blaise Pascal wrote about the vastness of the universe: <BR><BR>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Let man contemplate Nature entire in her full and lofty majesty; let him put far from his sight the <BR>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; lowly objects that surround him; let him regard that blazing light, placed like an eternal lamp to&#160; <BR>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;illuminate the world; let the earth appear to him but a point within the vast circuit which that star <BR>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; describes; and let him marvel that this immense circumference is itself but a speck from the&#160; <BR>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;viewpoint of the stars that move in the firmament. <BR><BR>Shocked and humbled by these thoughts, he confessed that he was terrified by &#8220;the eternal silence of these infinite spaces.&#8221; Pascal meditated upon outer space, but we need only turn our thoughts inward to feel his dread. Inside every one of our skulls lies an organ so vast in its complexity that it might as well be infinite. <BR>&#160;&#160;&#160;As a neuroscientist myself, I have come to know firsthand Pascal&#8217;s feeling of dread. I have also experienced embarrassment. Sometimes I speak to the public about the state of our field. After one such talk, I was pummeled with questions. What causes depression and schizophrenia? What is special about the brain of an Einstein or a Beethoven? How can my child learn to read better? As I failed to give satisfying answers, I could see faces fall. In my shame I finally apologized to the audience. &#8220;I&#8217;m sorry,&#8221; I said. &#8220;You thought I&#8217;m a professor because I know the answers. Actually I&#8217;m a professor because I know how much I don&#8217;t know.&#8221; <BR>&#160;&#160;&#160;Studying an object as complex as the brain may seem almost futile. The brain&#8217;s billions of neurons resemble trees of many species and come in many fantastic shapes. Only the most determined explorers can hope to capture a glimpse of this forest&#8217;s interior, and even they see little, and see it poorly. It&#8217;s no wonder that the brain remains an enigma. My audience was curious about brains that malfunction or excel, but even the humdrum lacks explanation. Every day we recall the past, perceive the present, and imagine the future. How do our brains accomplish these feats? It&#8217;s safe to say that nobody really <BR>knows. <BR>&#160;&#160;&#160;Daunted by the brain&#8217;s complexity, many neuroscientists have chosen to study animals with drastically fewer neurons than humans. The worm shown in Figure 2 lacks what we&#8217;d call a brain. Its neurons are scattered throughout its body rather than centralized in a single organ. Together they form a nervous system containing a mere 300 neurons. That sounds manageable. I&#8217;ll wager that even Pascal, with his depressive tendencies, would not have dreaded the forest of <I>C. elegans</I>. (That&#8217;s the scientific name for the one-millimeter-long worm.) <BR>&#160;&#160;&#160;Every neuron in this worm has been given a unique name and has a characteristic location and shape. Worms are like precision machines mass-produced in a factory: Each one has a nervous system built from the same set of parts, and the parts are always arranged in the same way. <BR>&#160;&#160;&#160;What&#8217;s more, this standardized nervous system has been mapped completely. The result&#8201;&#8212;&#8201;see Figure 3&#8201;&#8212;&#8201;is something like the flight maps we see in the back pages of airline magazines. The four-letter name of each neuron is like the three-letter code for each of the world&#8217;s airports. The lines represent connections between neurons, just as lines on a flight map represent routes between cities. We say that two neurons are &#8220;connected&#8221; if there is a small junction, called a synapse, at a point where the neurons touch. Through the synapse one neuron sends messages to the other. <BR>&#160;&#160;&#160;Engineers know that a radio is constructed by wiring together electronic components like resistors, capacitors, and transistors. A nervous system is likewise an assembly of neurons, &#8220;wired&#8221; together by their slender branches. That&#8217;s why the map shown in Figure 3 was originally called a wiring diagram. More recently, a new term has been introduced&#8201;&#8212;&#8201;<I>connectome</I>. This word invokes not electrical engineering but the field of genomics. You have probably heard that DNA is a long molecule resembling a chain. The individual links of the chain are small molecules called nucleotides, denoted by the letters A, C, G, and T. Your genome is the entire sequence of nucleotides in your DNA, or equivalently a long string of letters drawn from this four-letter alphabet. Figure 4 shows an excerpt from the three billion letters, which would be a million pages long if printed as a <BR>book. <BR>&#160;&#160;&#160;In the same way, a connectome is the totality of connections between the neurons in a nervous system. The term, like genome, implies completeness. A connectome is not one connection, or even many. It is all of them. In principle, your brain can also be summarized by a diagram that is like the worm&#8217;s, though much more complex. Would your connectome reveal anything interesting about you? <BR>&#160;&#160;&#160;The first thing it would reveal is that you are unique. You know this, of course, but it has been surprisingly difficult to pinpoint where, precisely, your uniqueness resides. Your connectome and mine are very different. They are not standardized like those of worms. That&#8217;s consistent with the idea that every human is unique in a way that a worm is not (no offense intended to worms!). <BR>&#160;&#160;&#160;Differences fascinate us. When we ask how the brain works, what mostly interests us is why the brains of people work so differently. Why can&#8217;t I be more outgoing, like my extroverted friend? Why does my son find reading more difficult than his classmates do? Why is my teenage cousin starting to hear imaginary voices? Why is my mother losing her memory? Why can&#8217;t my spouse (or I) be more compassionate and understanding? <BR>&...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="ReviewsTab" class="accordion-tab">
+                                <div class="title accordion-tab-title ReviewsTab Reviews-accordion show-for-small" data-hash="Reviews-accordion" data-parent-tab-content="ReviewsTab" data-parent-tab="tabReviews">
+                                    <h5>Reviews</h5>
+                                </div>
+                                <div id="ReviewsTabContent" class="content accordion-tab-content more-block">
+                                    <div id="reviewsDiv">
+                                        <div id="reviews_more" class="reviews_more">
+                                            <DIV><B>Wall Street Journal's 10 Best Nonfiction Books of 2012</B> <P><B>Amazon's Top 100 Editor's Picks for 2012</B></P><P><B>Publishers Weekly Top Ten in Science for Spring 2012 <BR></B><BR>&#8220;<I>The</I> best lay book on brain science I&#8217;ve ever read.&#8221; <BR>&#8212; <I><B>Wall Street Journal</B></I> by<B> Daniel Levitin</B>, Professor, McGill University; author of <I>This Is Your Brain on Music and The World in Six Songs.</I></P><P>&#8220;&#8206;This is complicated stuff, and it is a testament to Dr. Seung&#8217;s remarkable clarity of exposition that the reader is swept along with his enthusiasm, as he moves from the basics of neuroscience out to the farthest regions of the hypothetical, sketching out a spectacularly illustrated giant map of the universe of man.&#8221; <BR><B>&#8212; <I>New York Times</I></B></P><P>&#8220;[A] bracing, mind-expanding report from neuroscience&#8217;s razor edge. Accessible, witty, [e]minently logical and at times poetic, Connectome establishes Seung as an important new researcher, philosopher and popularizer of brain science. It puts him on par with cosmology&#8217;s Brian Greene and the late Carl Sagan.&#8221; <BR><B>&#8212; <I>Cleveland Plain Dealer</I></B></P><P>&#8220;Seung argues intelligently and powerfully that the self lies in the totality of the brain&#8217;s wiring.&#8221; <BR>&#8212; <B><I>Nature</I></B> by <B>Christof Koch</B>, Professor, California Institute of Technology; Chief Scientific Officer, Allen Institute for Brain Science; author of Quest for Consciousness and Consciousness: Confessions of a Romantic Reductionist</P><P>&#8220;With the first-person flavour of James Watson&#8217;s Double Helix&#8212;an account of how DNA&#8217;s structure was discovered&#8212;Connectome gives a sense of the excitement on the cutting edge of neuroscience.&#8221; <BR><B>&#8212; NewScientist</B> by <B>Terry Sejnowski,</B> Professor and Director, Computational Neurobiology Lab, Salk Institute; Investigator, Howard Hughes Medical Institute; Member, National Academy of Sciences and National Academy of Engineering USA.</P><P>&#8220;An elegant primer on what&#8217;s known about how the brain is organized and how it grows, wires its neurons, perceives its environment, modifies or repairs itself, and stores information. Seung is a clear, lively writer who chooses vivid examples.&#8221; <BR><B>&#8212; <I>Washington Post</I></B></P><P>&#8220;Sebastian Seung scales the heights of neuroscience and casts his brilliant eye around, describing the landscape of its past and boldly envisioning a future when we may understand our own brains and thus ourselves.&#8221; <BR><B>&#8212;Kenneth Blum, Executive Director, Center for Brain Science, Harvard University</B></P><P>&#8220;Sebastian Seung can do it all. He&#8217;s widely recognized as a superb physicist, a whiz with computers, and a path-breaking neuroscientist. Connectome shows that he's also a terrific writer, as inspiring as he is clear and good humored.&#8221;&#160;<BR><B>&#8212;Steven Strogatz, Cornell University, author of <I>Sync: the Emerging Science of Spontaneous Order</I></B></P><P>&#8220;In Connectome, Sebastian Seung reminds us that the human brain has contemplated itself for centuries. This is an important book, full of refreshingly new science and engaging history, about the essential quest to understand ourselves.&#8221; <BR><B>&#8212;Phillip A. Sharp, MIT, 1993 Nobel Prize in Physiology or Medicine</B></P><P>&#8220;A landmark work, gorgeously written. No other researcher has traveled as deeply into the brain forest and emerged to share its secrets.&#8221; <BR><B>&#8212;David Eagleman, author of <I>Incognito</I> and <I>Sum</I></B><P>&#8220;Connectomics is emerging as a crucial and exhilarating field of study. Sebastian Seung takes you by the hand and shows you why. Connectome is a page turner&#8212;a book that should be read by anyone who lays claim to be thinking about the nature of life.&#8221; <BR><B>&#8212;Michael Gazzaniga, University of California at Santa Barbara and author of <I>Human and The Ethical Brain</I></B><I> </I></DIV>
+                                        </div>
+                                    </div>
+                                </div>
+   		                     </li>
+       			         </ul>
+			        </section>
+                </div>
+                <!-- End Tabbed Section -->
+            </article>
+        </div>
+     </div>
+</section>
+<!--Start You May Also Enjoy Slider-->
+<section id="_2310708db40f3f_youMayAlsoLikeItDiv" class="row article-widget product-widget whitebg productDetailsContainer">
+    <div id="authorContentDiv">
+        <header class="block-grid-header">
+            <h2>You May Also Enjoy</h2>
+        </header>
+        <ul class="block-grid six-up mobile-two-up">
+            
+                    <li data-jsonattributename='SearchProducts' data-productid='9780544227736' class="product-item">
+                        <a id="_2310708db40f3f_youMayAlsoLikeItRepeater_youMayAlsoLikeHyperlink_0" href="/shop/books/The-Autistic-Brain/9780544227736">
+                            <figure><img id="_2310708db40f3f_youMayAlsoLikeItRepeater_bookImage_0" class="itemImage" src="/shop/books/assets/product/9780544227736.gif" /></figure>
+                            <h3>The Autistic Brain</h3>
+                            <p class="flex-caption">
+                                
+                                        Temple Grandin
+                                    
+                                        Richard Panek
+                                    
+                            </p>
+                            <p class="flex-caption">Paperback</p>
+                            <p class="flex-caption buyNow">Buy Now</p>
+                        </a>
+                    </li>
+                
+        </ul>
+    </div>        
+</section>
+<div id="modals" class="reveal-modal viewer">
+    <div id="viewerCanvas"></div>
+    <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+</div>
+<!--End You May Also Enjoy Slider-->
+<!-- WP-364 -->
+<script type="text/javascript">
+    var add_to_cart_data = document.getElementById("addToCartButtonInline").getAttribute("data-productid");
+    sc_products = ';' + add_to_cart_data + ':' + "Connectome";
+</script>
+<!-- WP-364 -->
+
+
+                        </div>
+                    </section>
+                    
+                    
+<noindex>
+    <footer role="contentinfo">
+    
+    <section class="darkblack">
+        <div class="row">
+            <div class="twelve columns">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source media="(min-width: 1151px)" id="ImgLarge" srcset="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" />
+                    <source media="(min-width: 320px)" id="ImgSmall" srcset="/Sites/HMH/Images/Global/hmh-spine-logo-white.png" />
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="/Sites/HMH/Images/Global/houghton-mifflin-harcourt-logo-white.png" alt="HMH LOGO" />
+                </picture>          
+                <!-- <div class="footer_logo"></div> //-->
+                <!--<h3>
+                     <span id="_67e175d82ad36a_footerTitle"></span>
+                </h3>-->
+                <h6>
+                    <span id="_67e175d82ad36a_description"><h6>Changing people's lives by fostering passionate, curious learners.</h6></span>
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="row">
+                    
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        HMH CORPORATE
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/about-hmh">Company Overview</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/executive-leadership">Executive Leadership</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/board-of-directors">Board of Directors</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Investor Relations" href="http://ir.hmhco.com" target="_blank">Investor Relations</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/partner-with-hmh">Partner with HMH</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center">Media Center</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/media-center/blogs">HMH Blog: The Spark</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/corporate-and-social-responsibility">Corporate Social Responsibility</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/about-hmh/our-offices">Our Offices</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a title="Careers" href="http://careers.hmhco.com/" target="_blank">Careers</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        TRADE PUBLISHING
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="/trade-publishing">Home</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/asset-library">Asset Library</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/trade-catalogs">Trade Catalogs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/bookseller-faqs">Bookseller FAQs</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/trade-publishing/backlist-order-forms">Backlist Order Forms</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                            <div class="four columns">
+                                
+                                        <ul class="accordion">
+                                            <li>
+                                                <div class="title">
+                                                    <h5>
+                                                        Need Help?
+                                                    </h5>
+                                                </div>
+                                                <div class="content">
+                                                    <ul>
+                                                        
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/csrportal/orderTrackingValidateUser.do" target="_blank">Track Your Order</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/index.html" target="_blank">HMH Customer Care</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/product/techsupport/CCTechSupportLandingPage.html" target="_blank">Technical & Software Support</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://hmhco.force.com/replocator" target="_blank">Find Your Sales Rep</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="http://customercare.hmhco.com/contactus/contact_us.html">Contact Us</a>
+                                                                </li>
+                                                            
+                                                                <li>
+                                                                    <a href="/customer-care/faqs">FAQs</a>
+                                                                </li>
+                                                            
+                                                    </ul>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lightblack">
+        <div class="row">
+            <div class="nine columns centered">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="miniform">
+                            <div class="row">
+                                <div class="twelve columns">
+                                    <fieldset>
+                                        <legend>Stay Connected With Us!</legend>
+                                        <div class="row">
+                                            <div class="eight mobile-three columns">
+                                                <input type="Email" placeholder="Enter Your Email" id="emailAddressFooter" name="emailAddressFooter" required="" />
+                                            </div>
+                                            <div class="four mobile-one columns connectWithUs">
+                                                <a href="#" id="showform" class="button">Sign Up</a>
+                                            </div>
+                                        </div>
+                                        <div class="row errors hide">
+                                            <div class="twelve mobile-four columns errors"></div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <!-- Start Footer Social Media Icons -->
+                        <div id="footerSocialMedia">
+                            <div class="socialLinksContainer">
+                                <div class="button_tw" id="socialTwitter">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_fb" id="socialFacebook">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_in">
+                                    <a href="http://instagram.com/hmhbooks" target="_blank"></a>
+                                </div>
+                                <div class="button_li">
+                                    <a href="http://www.linkedin.com/company/3980?trk=tyah" target="_blank"></a>
+                                </div>
+                                <div class="button_pin" id="socialPinterest">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                                <div class="button_yt" id="socialYouTube">
+                                    <a href="javascript:void(0);"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Slide Up Menus for Twitter and Facebook on Hover -->
+        <!-- Twitter -->
+        <div id="socialTwitterContainer" class="socialContainer">
+            <div class="socialContainer--details-tw">
+                <a href="https://twitter.com/HMHCo" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/HMHKids" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_tw"></div>
+                        <div class="socialText">HMH Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Twitter -->
+
+        <!-- Facebook -->
+        <div id="socialFacebookContainer" class="socialContainer">
+            <div class="socialContainer--details-fb">
+                <a href="https://www.facebook.com/HoughtonMifflinHarcourt?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="http://www.facebook.com/HMHTeen#!/HMHtrade?fref=ts" target="_blank">
+                    <div class="socialSet">
+
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH General Interest</div>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/HMHKids/?fref=ts" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_fb"></div>
+                        <div class="socialText">HMH Teens &amp; Kids</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Facebook -->
+
+        <!-- Pinterest -->
+        <div id="socialPinterestContainer" class="socialContainer">
+            <div class="socialContainer--details-pin">
+                <a href="https://www.pinterest.com/HMHLearning" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMHCo</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhbooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+                <a href="https://www.pinterest.com/GoMathAcademy/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">Go Math! Academy</div>
+                    </div>
+                </a>
+                <a href="http://www.pinterest.com/hmhcooks/" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_pin"></div>
+                        <div class="socialText">HMH Cooks</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Pinterest -->
+
+        <!-- YouTube -->
+        <div id="socialYouTubeContainer" class="socialContainer">
+            <div class="socialContainer--details-yt">
+                <a href="https://www.youtube.com/user/HMHCoTV" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Corporate</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/user/hmhbooks" target="_blank">
+                    <div class="socialSet">
+                        <div class="socialIcon button_yt"></div>
+                        <div class="socialText">HMH Books</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End YouTube -->
+
+        <!-- End Social Media Icon Slide Up on Hover -->
+
+        <div class="row">
+            <div class="twelve columns">
+                <p class="copyright text-center">
+                    ©2017 Houghton Mifflin Harcourt. All rights reserved.<br class="show-for-small">
+<a href="/common/terms-of-use">Terms of Use</a>
+<a href="/common/privacy-policy">Privacy Policy</a>
+<a href="/common/privacy-policy#AL28">Children’s Privacy Policy</a>
+<a href="/common/privacy-policy-for-k-12-learning-platforms">Student (K-12) Privacy Policy</a>
+<a href="/common/intervention-privacy-policy">Intervention Technology Products Privacy Policy</a>
+<a href="/sitemap">Sitemap</a>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</footer>
+</noindex>
+<!-- Reveal Modals begin -->
+<div id="stayModal" class="reveal-modal stay-connected" data-reveal aria-labelledby="stayModalTitle" aria-hidden="true" role="dialog">
+    <div class="row">
+        <div class="twelve columns">
+            <h6 id="stayModalTitle">Stay Connected with Houghton Mifflin Harcourt!</h6>
+            <iframe id="frameID" class="stayConnect-iframe"></iframe>
+        </div>
+    </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+<!-- Reveal Modals end -->
+
+                    <!--New-->
+                </section>
+                <section id="sidebar" role="complementary">
+                    <nav class="slide-nav">
+                        
+                    </nav>
+                </section>
+            </section>
+        </div>
+        <!--New-->
+        <!-- START : BULK Modal -->
+        <div id="bulkModal" class="reveal-modal bulk full-screen">
+            <div id="bulkModalContainer">
+                <div class="modalMessage">
+                    <h3>Bulk Purchasing Information</h3>
+                    <p>For inquiries concerning bulk purchases for corporate use, sales incentives, or nonprofit sales, please email our Special Sales department at <a href="mailto:tradesales@hmhco.com">TradeSales@hmhco.com</a></p>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <!-- END : BULK Modal -->
+        <!-- START : BUY NOW Modal -->
+        <div id="buyNowModal" class="reveal-modal large full-screen">
+            <div id="buyNowModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="buyNowImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <p class="product-meta">
+                            <span class="title buyNowTitle"></span>
+                            <br />
+                            <span class="author buyNowAuthor"></span>
+                            <br />
+                            <span class="type buyNowFormat"></span>
+                        </p>
+                        <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                        <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="buyNow" class="inline-list">
+                            <li id="amazon"><a target="_blank">
+                                <img id="Img2" /></a></li>
+                            <li id="apple"><a target="_blank">
+                                <img id="Img3" /></a></li>
+                            <li id="barnesNobel"><a target="_blank">
+                                <img id="Img4" /></a></li>
+                            <li id="google"><a target="_blank">
+                                <img id="Img5" /></a></li>
+                            <li id="kobo"><a target="_blank">
+                                <img id="Img6" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : BUY NOW Modal -->
+        <!-- START : POD Modal -->
+        <div id="podModal" class="reveal-modal pod full-screen">
+            <div id="podModalContainer">
+                <div class="row">
+                    <div class="twelve columns product-details-wrap">
+                        <div class="podImg product-img">
+                            <img class="product-item-img" />
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="title">
+                                <span class="podTitle"></span>
+                            </h3>
+                            <p class="podPrice"></p>
+                            <p class="author podAuthor"></p>
+                            <p class="type podFormat"></p>
+                            <p>Houghton Mifflin encourages you to buy books from both online and local booksellers. For information about booksellers in your area, we recommend you visit Book Web&rsquo;s Bookstore Directory or order from an online bookstore in the list provided.</p>
+                            <p><b>NOTE TO BOOKSELLERS:</b> If you are an online bookseller and wish to add or change your listing, please e-mail <a href="mailto:trade.webmaster@hmhco.com">trade.webmaster@hmhco.com</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns product-retailers-wrap">
+                        <h6 class="retailer-header">Available for purchase at these online retailers</h6>
+                        <ul id="pod" class="inline-list">
+                            <li id="amazonPOD"><a target="_blank">
+                                <img id="Img8" alt="Amazon.com" /></a></li>
+                            <li id="bookaMillionPOD"><a target="_blank">
+                                <img id="Img9" alt="Books A Million" /></a></li>
+                            <li id="barnesNoblePOD"><a target="_blank">
+                                <img id="Img10" alt="Barnes &amp; Noble" /></a></li>
+                            <li id="indieBoundPOD"><a target="_blank">
+                                <img id="Img11" alt="Indie Bound" /></a></li>
+                            <li id="powellsBooksPOD"><a target="_blank">
+                                <img id="Img12" alt="Powell&#39;s Books" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- END : POD Modal -->
+        <!-- START : Relogin Modal -->
+        <div id="relogin" class="reveal-modal full-screen">
+            
+        <div id="ReloginModal_ReloginSignIn">
+	
+           
+            <h3>We&rsquo;re sorry</h3>
+<p>You have selected a product that is available for purchase only by a customer with an institutional account. If you have an institutional account, please sign out and sign back in using an institutional account email address and password.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Curious-George-Plants-A-Tree/9780547297767&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Curious-George-Plants-A-Tree/9780547297767&LogintoInstOrAss=true">Create an Institutional Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+
+        <div id="invalidQualification" class="reveal-modal full-screen">
+            <div id="ProductinvalidQualification_ReloginSignOut">
+	
+    
+    <h2>We're Sorry,</h2>
+<p>the product you have selected does not match your qualification level.</p>
+    
+    <div class="modal-links">
+        <ul>
+
+            <li><a href="/customer-care/faqs">Learn More</a></li>
+            <li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="reloginIndividualAssessment" class="reveal-modal full-screen">
+            
+<div id="ReloginModalIndividual_ReloginSignIn">
+	
+           
+    <h3>We're sorry. </h3>
+<p>You have selected a product that is available for purchase only by a customer with an Institutional/ Assessment Professional account.</p>
+            <div class="btnWrap">  
+                <!-- IN16591  URlEncode is added to avoid problem with "operators like "+,&,/ etc" -->     
+                <a href="/account/sign-in?ReturnUrl=/shop/books/Curious-George-Plants-A-Tree/9780547297767&inCheckout=false" class="button">Sign In</a>
+            </div>
+            <div class="modal-links">
+				<ul>
+					<li><a href="/account/CreateAccount?ReturnUrl=/shop/books/Curious-George-Plants-A-Tree/9780547297767">Create an Institutional/ Assessment Professional account</a></li>
+					<li><a href="/customer-care/faqs">Learn More</a></li>
+					<li><a href="http://customercare.hmhco.com/contactus/contact_us.html" target="_blank">Contact Us</a></li>
+				</ul>
+			</div>
+        
+</div>
+            
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="modal" class="reveal-modal large full-screen">
+            <div id="modal_content"></div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <!-- Added for Hybris Pop up WP 818-->
+        <div id="dialog" class="reveal-modal small many-items" style="height: auto;">
+            <div id="Div1" class="text-center">&nbsp;</div>
+            <span class="close-holder"><a class="close-reveal-modal">&#215;</a></span>
+        </div>
+        <div id="spinnerModal" class="reveal-modal spinner">
+            <img src="/sites/HMH/images/Global/hmh-spinner.gif" />
+        </div>
+        <div id="cartMobileModal" class="reveal-modal cartModal">
+            <div class="panel callout radius text-center">
+                <p><i class="icon-cart"></i></p>
+                <h5>Added to Cart</h5>
+            </div>
+        </div>
+        <div data-reveal="" class="reveal-modal large" id="firstModal">
+            <div class="popcontent"></div>
+            <a class="close-reveal-modal">×</a>
+        </div>
+        <div id="backgroundDiv" style="width: 100%; height: 100%; display: none; background: #000; position: fixed; top: 0; opacity: 0.55; z-index: 999;">
+        </div>
+        <div id="bulkPurchase" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;">
+        </div>
+        <div id="authorImagesOverlay" style="position: absolute; top: 10%; left: 13%; display: none; border: 10px solid #444; z-index: 1000;"></div>
+        
+        
+
+<script src="/Sites/HMH/Javascript/jquery.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/foundation.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.ui.tooltip.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/jquery.mobile-events.min.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/app.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/minicart.js" type="text/javascript"></script>
+<script src="/Sites/HMH/Javascript/top-bar.js"></script>
+<script src="/Sites/HMH/Javascript/sub-header.js"></script>
+<script src="/hmhstorefront/_ui/desktop/common/js/hybris/commonCart.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/searchbar.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.validate.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/custom.validation.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/full-header-footer-fxns.js"></script>
+<script type="text/javascript" src="/Sites/HMH/javascript/chosen.jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="/Sites/HMH/javascript/jquery.adobe.autocomplete.js?20170125024744000"></script>
+<script src="/Sites/HMH/Javascript/jquery.offcanvas.js"></script>
+<script src="/Sites/HMH/Javascript/jquery.slide-nav.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/sitecore modules/Web/MediaFramework/js/mediaframework.js"></script>
+
+
+<!--[if lt IE 9]>
+  <script src="/Sites/HMH/Javascript/selectivizr.min.js"></script>
+  <script src="/Sites/HMH/Javascript/respond.min.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var newCookieVal;
+        $(document.body).on('click touchstart', '.cookie-val', function () {
+            var currentCookieVal = $(this).attr('data-cookie-val');
+            var cookieName = 'cookiepersona';
+            var cookiedomain = '.hmhco.com';
+            newCookieVal = currentCookieVal;
+            document.cookie = cookieName + "=" + newCookieVal + ";domain=" + cookiedomain + ";path=/";
+            // alert(document.cookie + " new cookie value");
+        });
+       
+    });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        if ($('#datapull-slider').length) {
+            $('#datapull-slider').flexslider({
+                animation: "slide",
+                directionNav: "horizontal",
+                easing: "linear",
+                animationLoop: true,
+                itemWidth: 175, // we set this to avoid complications, but to have a dynamic slider the width should be set to auto
+                itemMargin: 0,
+                minItems: 1,
+                prevText: "",
+                nextText: "",
+                touch: true,
+                slideshow: false,
+                video: false,
+                startAt: 0,
+                selector: ".slides > dd",
+                start: function (slider) {
+                }
+            });
+        }
+    });
+</script>
+<script>
+
+    equalheight = function (container) {
+
+        var currentTallest = 0,
+             currentRowStart = 0,
+             rowDivs = new Array(),
+             $el,
+             topPosition = 0;
+        $(container).each(function () {
+
+            $el = $(this);
+            $($el).height('auto')
+            topPostion = $el.position().top;
+
+            if (currentRowStart != topPostion) {
+                for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+                rowDivs.length = 0; // empty the array
+                currentRowStart = topPostion;
+                currentTallest = $el.height();
+                rowDivs.push($el);
+            } else {
+                rowDivs.push($el);
+                currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+            }
+            for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+                rowDivs[currentDiv].height(currentTallest);
+            }
+        });
+    }
+    $(window).load(function () {
+        if ($('.fixed-grid').length >= 0) {
+            equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+            equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+            equalheight('.fixed-grid.block-grid.three-up.account-types li section');
+        }
+        if ($('.fluid-grid').length <= 0) {
+            equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+            equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        }
+        if ($('.bkgdLightGray').length >= 0) {
+            equalheight('.bkgdLightGray .padding10');
+            resizeA();
+            equalheight('.bkgdLightGray .padding10 h6');
+            equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        }
+        if ($('.eachAddressCol').length >= 0) {
+            equalheight('.eachAddressCol');
+        }
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    /*if ($('.bkgdLightGray').length >= 0) {
+        $('.bkgdLightGray .padding10 img').on('load', function () {
+            alert($(this).height());
+        });
+    }*/
+    $(window).resize(function () {
+        equalheight('.bkgdLightGray .padding10');
+        equalheight('.bkgdLightGray .padding10 h6');
+        resizeA();
+        equalheight('.bkgdLightGray .padding10 p:not(".cta")');
+        equalheight('.fixed-grid.block-grid.one-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.two-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section .nine.columns .heading-wrap');
+        equalheight('.fixed-grid.block-grid.three-up.featured-content li section');
+        equalheight('.fixed-grid.block-grid.four-up.featured-content li section');
+        equalheight('.row.featured-content.nine-column.four-items.widget-section .content-wrap.twelve.columns .text-wrap');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns');
+        equalheight('.row.featured-content.nine-column.two-items.widget-section.eventext .six.columns .content-wrap.twelve.columns .text-wrap');
+        if ($(window).width() < 641) {
+            equalheight('.fluid-grid.block-grid.two-up.featured-content li section');
+        }
+    });
+    $(document).ready(function () {
+        resizeA();
+    });
+    function resizeA() {
+        if ($('.bkgdLightGray').length >= 0) {
+            var maxHeight = -1;
+
+            $('.bkgdLightGray .padding10 a img').each(function () {
+                maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+            });
+
+            $('.bkgdLightGray .padding10 a:first-child:not(".button")').each(function () {
+                $(this).height(maxHeight);
+            });
+        }
+    }
+</script>
+
+
+
+
+
+
+<script type="text/javascript" src="/Sites/HMH/Javascript/add-to-cart.js"></script>
+<script type="text/javascript" src="/Sites/HMH/Javascript/productdetail.js"></script>
+
+
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function () {
+                $('.modal').click(function (e) {
+                    e.preventDefault();
+                    var urlValue = $(this).data('href');
+                    setTimeout(function () {
+                        $('#modal #modal_content').load(urlValue); // Load its linked page into the div
+                        $("#modal").reveal({
+                            closeOnBackgroundClick: true,
+                            dismissModalClass: 'close-reveal-modal'
+                        });
+                    }, 500);
+                });
+                $('.close-reveal-modal').click(function () {
+                    $("#modal").trigger("reveal:close");
+                });
+                ////For accordion default opening on viewind seperatly
+                //var hashurl = window.location.hash.replace('#', '');
+                ////var parenttabcontent = $('li[id="' + hashurl + '"]');
+                //var datahash = $('.title.' + hashurl);
+                //var datahashparentcontentparenttab = $(datahash).attr('data-parent-tab-content');
+                ////var datatab = $('.title[data-parent-tab="tab-' + hashurl + '"]');
+                ////var parenttab = $('dd[id="tab-' + hashurl + '"]');
+                //var parenttab = $(datahash).attr('data-parent-tab');
+                //if (hashurl != '') {
+                //    //alert("parent tab is " + datahashparentcontentparenttab);
+                //    //alert("grand parent tab is " + parenttab);
+                //    $('dd[id="' + parenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + datahashparentcontentparenttab + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //    $('li[id="' + hashurl + '"]').trigger('click').addClass('active').siblings().removeClass('active');
+                //}
+
+            });
+        </script>
+        
+<script type="text/javascript">
+    var dl = new Object;
+
+    /************************** FUNCTION SECTION **************************/
+
+    function Om_InitialSetup() {
+        
+        dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_AssetLibrarySearch() {
+       
+        
+        dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+        //Derived fields
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.searches = 'yes';
+        dl.internalsearchterm = '';
+        dl.internalsearchscope = '';
+        dl.channel = 'Asset Library Search Results';
+        dl.level2 = '';
+        dl.level3 = '';
+        dl.hier1 = 'Asset Library Search Results::';
+        dl.pageName = 'ALSR::';
+        dl.contentcategory = 'Asset Library Search Results';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+   
+
+    function Om_AssetLibrary() {
+        
+        
+        dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+        dl.channel = 'Asset Library';
+        dl.hier = 'Asset Library';
+        dl.pageName = 'AL:Landing Page';
+        dl.contentcategory = 'Landing Page';
+
+        if (DEBUG_CLICK)
+            alert('Default tracking complete');
+    }
+
+    function Om_MigrateAccount() {
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            oConvert.prop11 = 'Institution-Converted';
+            oConvert.eVar2 = 'Institution-Converted';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_NoSearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.nullsearch = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_SignIn() {
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+           
+            dl.pageName = 'MA:Create Account';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.contentcategory = 'Account';
+            dl.visits = 'yes';
+            
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_CreateInstitutional() {
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.membershiptype = 'Institution-New';
+
+            if (DEBUG_CLICK)
+                alert('Default tracking complete');
+        }
+
+        function Om_ProductViewed(isbn) {
+            var oView = GetOmObj();
+
+            oView.pageName = "Quick View";
+            oView.events = "prodView";
+            oView.products = ';' + isbn + ';;;;eVar1=' + oView.pageName;
+            oView.prop16 = isbn;
+            oView.hier1 = dl.hier1;
+            oView.prop5 = "Quick View";
+            oView.linkTrackEvents = "prodView";
+            oView.linkTrackVars += ",products,eVar1,prop16,hier1,prop5";
+            oView.tl(true, 'o', 'Quick View');
+
+            if (DEBUG_CLICK)
+                alert('Quickview Click complete');
+        }
+
+        function Om_AddProductToCart(title, currentCartCount, quantity, productCode, isProductDetail) {
+            var oAdd = GetOmObj();
+
+            if (currentCartCount == 1) {
+                oAdd.events = "scAdd,scOpen";
+                oAdd.linkTrackEvents = "scAdd,scOpen";
+            }
+            else {
+                oAdd.events = "scAdd";
+                oAdd.linkTrackEvents = "scAdd";
+            }
+
+            oAdd.pageName = dl.pageName;
+            oAdd.eVar1 = '';
+            oAdd.products = ';' + productCode + ':' + title;
+            oAdd.hier1 = dl.hier1;
+
+            oAdd.linkTrackVars += ",products,eVar1,hier1,events";
+            oAdd.tl(true, 'o', 'Add to Cart');
+
+            if (DEBUG_CLICK)
+                alert('Add to Cart complete');
+        }
+
+        function Om_ShareThis(medium) {
+            var oShare = GetOmObj();
+            oShare.prop17 = dl.pageName;
+            oShare.prop18 = medium;
+            oShare.linkTrackVars += ",prop17,prop18";
+            oShare.tl(true, 'o', 'Share This Share');
+
+            if (DEBUG_CLICK)
+                alert('Share This Click complete');
+        }
+
+
+        function Om_SearchShare() {
+            var oSShare = GetOmObj();
+
+            oSShare.prop26 = dl.prop6;
+            oSShare.linkTrackVars += ",prop26";
+            oSShare.tl(true, 'o', 'Search Results Share');
+
+            if (DEBUG_CLICK)
+                alert('Search Results Click complete');
+        }
+
+
+        function Om_LookInside(isbn) {
+            var oLook = GetOmObj();
+
+            oLook.prop15 = isbn;
+            oLook.linkTrackVars += ",prop15";
+            oLook.tl(true, 'o', 'Look Inside');
+
+            if (DEBUG_CLICK)
+                alert('Look Inside Click complete');
+        }
+
+        function Om_ShowProductImages(isbn, format) {
+            var oShow = GetOmObj();
+
+            oShow.events = "event11";
+            oShow.prop31 = isbn;
+            oShow.prop32 = format;
+
+
+            oShow.linkTrackVars += ",prop31,prop32";
+            oShow.linkTrackEvents = "event11";
+
+            oShow.tl(true, 'o', 'Download Images');
+
+            if (DEBUG_CLICK)
+                alert('Download Images Click complete');
+        }
+
+        function Om_CartFunction(action, isbn) {
+            var oCart = GetOmObj();
+
+            oCart.prop19 = action;
+            oCart.linkTrackVars += ",prop19,products";
+
+            //By default, we need to set the ISBN here. It may get overridden at a later place
+            if (isbn != '')
+                oCart.products = ';' + isbn;
+
+            if (action == 'checkout') {
+                oCart.events = 'scCheckout';
+                oCart.linkTrackEvents = 'scCheckout';
+
+                for (var i = 0; i < currentCartItems.length; i++) {
+                    if (i == 0) {
+                        oCart.products = ";" + currentCartItems[i];
+                    }
+                    else {
+                        oCart.products += ",;" + currentCartItems[i];
+                    }
+                }
+            }
+            else if (action == 'remove') {
+                oCart.events = 'scRemove';
+                oCart.linkTrackEvents = 'scRemove';
+            }
+            else if (action == 'viewcart') {
+                oCart.events = 'scView';
+                oCart.linkTrackEvents = 'scView';
+            }
+
+            oCart.tl(true, 'o', 'Cart Function: ' + action);
+
+            if (DEBUG_CLICK)
+                alert('Cart Function Click (' + action + ') complete');
+        }
+
+        function Om_AssetLibDownload(isbn) {
+            var oAssetD = GetOmObj();
+
+            oAssetD.prop21 = isbn;
+            oAssetD.linkTrackVars += ",prop21";
+            oAssetD.tl(true, 'o', 'Asset Library Image Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Image Download Click complete');
+        }
+
+        function Om_AssetLibExcerptView(isbn) {
+            var oAssetV = GetOmObj();
+            oAssetV.prop22 = isbn;
+            oAssetV.linkTrackVars += ",prop22";
+            oAssetV.tl(true, 'o', 'Asset Library Excerpt Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Exceprt Download Click complete');
+        }
+
+        function Om_AssetLibActivitySheet(isbn) {
+            var oAssetS = GetOmObj();
+
+            oAssetS.prop23 = isbn;
+            oAssetS.linkTrackVars += ",prop23";
+            oAssetS.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Asset Library Activity Sheet Download Click complete');
+        }
+
+        function Om_DoLogin(acctType) {
+            var oLogin = GetOmObj();
+
+            // oLogin.eVar2 =  ;
+
+            oLogin.eVar2 = acctType;
+
+            oLogin.linkTrackVars += ",eVar2";
+            oLogin.tl(true, 'o', 'Asset Library Activity Sheet Download');
+
+            if (DEBUG_CLICK)
+                alert('Login track complete');
+        }
+
+
+
+
+        // tracks go math keyword search widget go click
+        function Om_SearchKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop34 = keyword;
+                oGoClick.eVar18 = keyword;
+
+                oGoClick.linkTrackVars += ",prop34,eVar18";
+                oGoClick.tl(true, 'o', 'Go Math Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks go math grade/topic search widget go click
+        function Om_SearchGradeTopicGoClick(grade, topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop35 = grade;
+                oGoClick.prop36 = topic;
+                oGoClick.eVar19 = grade;
+                oGoClick.eVar20 = topic;
+
+                oGoClick.linkTrackVars += ",prop35,prop36,eVar19,eVar20";
+                oGoClick.tl(true, 'o', 'Go Math Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Go Math Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks search widget go click
+        function Om_SearchGoClick(selectedValue) {
+            var oGoClick = GetOmObj();
+            oGoClick.eVar27 = selectedValue;
+            oGoClick.prop44 = selectedValue;
+            oGoClick.linkTrackVars += ",eVar27,prop44";
+            oGoClick.tl(true, 'o', "search widget go click " + selectedValue);
+            // debug
+            if (DEBUG_CLICK) {
+                alert("search widget go click " + selectedValue);
+            }
+        }
+
+        // tracks video title click
+        function Om_VideoTitleClick(videoTitle) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop37 = videoTitle;
+            oVideoClick.eVar21 = videoTitle;
+            oVideoClick.events = 'event6';
+
+
+            oVideoClick.linkTrackVars += ",eVar21,prop37,events";
+            oVideoClick.linkTrackEvents = "event6";
+            oVideoClick.tl(true, 'o', videoTitle + ' - GoMath video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - GoMath video click.');
+            }
+        }
+
+        // tracks video play
+        function Om_VideoPlay(videoId) {
+            var oVideo = GetOmObj();
+
+            oVideo.prop38 = videoId;
+            oVideo.eVar22 = videoId;
+            oVideo.linkTrackVars += ",eVar22,prop38";
+            oVideo.tl(true, 'o', videoId + ' - GoMath video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoId + ' - GoMath video play.');
+            }
+        }
+
+        // tracks Culinary keyword search widget go click
+        function Om_SearchCulinaryKeywordGoClick(keyword) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop39 = keyword;
+                oGoClick.eVar23 = keyword;
+
+                oGoClick.linkTrackVars += ",prop39,eVar23";
+                oGoClick.tl(true, 'o', 'Culinary Search Keyword');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Keyword');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks Culinary topic search widget go click
+        function Om_SearchCulinaryTopicGoClick(topic) {
+            try {
+                var oGoClick = GetOmObj();
+                oGoClick.prop40 = topic;
+                oGoClick.eVar24 = topic;
+                oGoClick.linkTrackVars += ",prop40,eVar24";
+                oGoClick.tl(true, 'o', 'Culinary Search Grade_Topic');
+                // debug
+                if (DEBUG_CLICK) {
+                    alert('Culinary Search Grade_Topic');
+                }
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        // tracks video title click
+        function Om_CulinaryVideoTitleClick(videoTitle, videoId) {
+            var oVideoClick = GetOmObj();
+
+            oVideoClick.prop41 = videoTitle;
+            oVideoClick.eVar25 = videoTitle;
+            oVideoClick.prop42 = videoId;
+            oVideoClick.eVar26 = videoId;
+            oVideoClick.linkTrackVars += ",eVar25,eVar26,prop41,prop42";
+            oVideoClick.tl(true, 'o', videoTitle + ' ' + videoId + ' - Culinary video click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(videoTitle + ' - Culinary video click.');
+            }
+        }
+
+
+        // tracks video play
+        function Om_CulinaryVideoPlay() {
+            var oVideo = GetOmObj();
+
+            oVideo.events = 'event7';
+            oVideo.linkTrackEvents = "event7";
+            oVideo.tl(true, 'o', 'Culinary video play.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Culinary video play.');
+            }
+        }
+
+        // tracks image click
+        function Om_ImgClick(bannerFilename) {
+            var oClick = GetOmObj();
+            oClick.list1 = bannerFilename;
+            oClick.eVar7 = bannerFilename;
+            oClick.events = 'event5';
+
+            oClick.linkTrackVars += ",list1,eVar7,events";
+            oClick.linkTrackEvents = "event5";
+            oClick.tl(true, 'o', 'Image Click');
+            // debug
+            if (DEBUG_CLICK) {
+                alert(banner + '`s <a> tag <img> click.');
+            }
+        }
+
+        // a is the a tag clicked
+        function trackImgClick($a, parent) {
+            parent = parent || $a.parent();
+            try {
+                // get <a>'s inner img's src
+                var filename = ($a.find('img').attr('src') || '')
+                    // get last token of /
+                    .split('/').pop()
+                    // get first token of ?
+                    .split('?').shift();
+                var banner = parent;
+                // only filename required, banner name is not
+                var result = filename;
+                console.log(result);
+                // omniture
+                Om_ImgClick(result);
+
+            } catch (ex) {
+                console.error(ex);
+            }
+        }
+
+        function Om_SetFeaturedItem(isbn13) {
+            var oFeatureItem = GetOmObj();
+
+            oFeatureItem.prop43 = isbn13;
+            oFeatureItem.eVar7 = isbn13;
+            oFeatureItem.events = 'event5';
+
+            oFeatureItem.linkTrackVars += ",eVar7,prop43";
+            oFeatureItem.linkTrackVars += ",prop43";
+            oFeatureItem.linkTrackEvents = "event5";
+            oFeatureItem.tl(true, 'o', isbn13 + ' - Feature Item Click.');
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert(isbn13 + ' - Feature Item Click.');
+            }
+        }
+
+        //tracking succesful registration - gomath registration
+        function Om_RegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "GMA";
+            oRegister.eVar6 = email;
+            oRegister.events = "event9,event3";
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event9,event3";
+            oRegister.tl(true, 'o', 'GMA Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('GMA Successful registration for ' + email);
+            }
+        }
+
+        //tracking succesful registration - culinary registration
+        function Om_CulinaryRegisterClick(email) {
+            var oRegister = GetOmObj();
+            oRegister.eVar2 = "Culinary";
+            oRegister.eVar6 = email;
+            oRegister.events = "event8,event3";
+
+            oRegister.linkTrackVars += ",eVar2,eVar6,events";
+            oRegister.linkTrackEvents = "event8,event3";
+            oRegister.tl(true, 'o', 'Culinary Successful registration for ' + email);
+
+            if (DEBUG_CLICK) {
+                alert('Culinary Successful registration for ' + email);
+            }
+        }
+
+
+        function Om_ItemClick(item) {
+            var oItemClick = GetOmObj();
+            var itemAttr = item.attr('data-section');
+            var itemText = item.text();
+
+            if (itemAttr == 't.t2') //category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop49 = itemText;
+            }
+            if (itemAttr == 't.t3') //sub-category
+            {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop50 = itemText;
+            }
+            else if (itemAttr == 'topic') {
+                itemText = itemText.substring(0, itemText.indexOf('(') - 1);
+                oItemClick.prop51 = itemText;
+            }
+
+            if (itemAttr == 'paging') {
+                oItemClick.pageName = 'Search Results:' + item.text();
+                //oItemClick.linkTrackVars += ",pageName";
+                //oItemClick.tl(true, 'o', 'PageName: ' + item.text());
+            }
+            else if (itemAttr == 'pagingprev' || itemAttr == 'pagingnext') {
+                itemSearch = item[0].search;
+                var items = itemSearch.split(';');
+                var pageNumber = '';
+                var hasPageNumber = false;
+                for (var i = 0; i < items.length; i++) {
+                    var kvp = items[i].split('=');
+                    if (kvp[0] == "page") {
+                        pageNumber = kvp[1];
+                        hasPageNumber = true;
+                        break;
+                    }
+                }
+                if (hasPageNumber == false)
+                    pageNumber = 1;
+
+                oItemClick.pageName = ' Search Results:' + pageNumber;
+                oItemClick.linkTrackVars += ",pageName";
+                oItemClick.tl(true, 'o', 'PageName: ' + pageNumber);
+            }
+
+            if (DEBUG_CLICK) {
+                alert('Item Click: ' + item.text());
+            }
+        }
+
+        function Om_InstitutionalSignInPopUp(isbn13) {
+            var oItemClick = GetOmObj();
+            oItemClick.prop45 = isbn13;
+            oItemClick.linkTrackVars += ",prop45";
+            oItemClick.tl(true, 'o', 'Instituational Sign In required for ISBN : ' + isbn13);
+            if (DEBUG_CLICK) {
+                alert('Instituational Sign In required for ISBN : ' + isbn13);
+            }
+        }
+
+        function Om_TrackSearchTerm(searchTerm) {
+            var oSearchEntryClick = GetOmObj();
+            oSearchEntryClick.events = "event1";
+            oSearchEntryClick.prop6 = searchTerm;
+            oSearchEntryClick.eVar4 = searchTerm;
+            oSearchEntryClick.pageName = ' Search Results:1';
+            oSearchEntryClick.linkTrackVars += ",prop6,eVar4";
+            oSearchEntryClick.linkTrackEvents += ",event1";
+            oSearchEntryClick.tl(true, 'o', 'Search term : ' + searchTerm);
+            if (DEBUG_CLICK) {
+                alert('Search term : ' + searchTerm);
+            }
+        }
+
+        function Om_ProgramName(programName) {
+           // var oProgram = GetOmObj();
+           // oProgram.pageName = 'Program Home Page:' + programName;
+           // oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramSampleNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop45 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop45";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        function Om_ProgramShopNow(programName) {
+            var oProgram = GetOmObj();
+            oProgram.prop46 = 'Program Home Page:' + programName;
+            oProgram.linkTrackVars += ",prop46";
+            oProgram.tl(true, 'o', 'Program Home Page:' + programName);
+            if (DEBUG_CLICK) {
+                alert('Program Home Page:' + programName);
+            }
+        }
+
+        /*Returning customers - SignIn page */
+        function Om_SignUp(signUpType) {
+            var oReturnCustomer = GetOmObj();
+            oReturnCustomer.events = 'event29'; // Returning customer login page 
+            oReturnCustomer.prop56 = signUpType;
+            oReturnCustomer.eVar38 = "D=c56";
+            oReturnCustomer.linkTrackVars = 'eVar38,prop56,events';
+            oReturnCustomer.linkTrackEvents = 'event29';
+            oReturnCustomer.tl(this, 'o', signUpType);
+            if (DEBUG_CLICK) {
+                alert(signUpType);
+            }
+        }
+
+        function Om_SetPageName(pageName, pageTitle) {
+            var oGoMath = GetOmObj();
+
+            oGoMath.pageName = pageName;
+            oGoMath.pageTitle = pageTitle;
+            oGoMath.linkTrackVars += ',pageName,pageTitle';
+
+            oGoMath.t(true, 'o', pageName + ':' + pageTitle);
+
+            if (DEBUG_CLICK)
+                alert(pageName + ':' + pageTitle + ' complete');
+        }
+
+        function Om_StructureProgramComponents(gradeSelect, stateSelect, sortSelect) {
+            var oProgram = GetOmObj();
+
+            oProgram.prop47 = gradeSelect;
+            oProgram.prop48 = stateSelect;
+            oProgram.prop46 = sortSelect;
+
+            oProgram.linkTrackVars += 'prop47,prop48,prop46';
+            oProgram.t(true, 'o', 'Structure Program Components');
+
+            if (DEBUG_CLICK)
+                alert('Structure Program Components complete');
+        }
+
+        function Om_SetNoSearchResultsTerm(searchTerm) {
+            var oSearch = GetOmObj();
+
+            oSearch.prop8 = searchTerm;
+
+            oSearch.linkTrackVars += 'prop8';
+            oSearch.t(true, 'o', 'No Search Results Term Tracking');
+
+            if (DEBUG_CLICK)
+                alert('No Search Results Term Tracking complete');
+        }
+
+
+        function om_SearchResults() {
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.searches = 'yes';
+            dl.internalsearchterm = '';
+            dl.internasearchscope = '';
+            dl.channel = 'Search Results';
+            dl.level2 = ' results';
+            dl.level3 = ' results;';
+            dl.hier1 = 'Search Results: Results:';
+            dl.pageName = 'Search Results::';
+            dl.contentcategory = 'Search Results';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Search Results');
+            }
+        }
+
+        //Function to capture analytics for Product Detail Page//
+        function Om_ProductDetailViewed(productCode) {
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            // WP-364, WP - 2210
+            var jsonresp = '[{\"ActivityGuideUrl\":null,\"Age\":null,\"AudioUrl\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/seung$sebastian.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"Sebastian Seung is Professor of Computational Neuroscience at MIT and an Investigator of the Howard Hughes Medical Institute. He has made important advances in robotics, neuroscience, neuroeconomics, and statistical physics. His research has been published in leading scientific journals, and also featured in the New York Times, Technology Review, and the Economist.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"6287218\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Sebastian-Seung\",\"MiddleName\":null,\"Name\":\"Sebastian Seung\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"AwardList\":[],\"BisacSubjects\":[{\"Code\":\"SCI089000\",\"Description\":null,\"DisplayName\":\"Life Sciences/Neuroscience\",\"Name\":\"Life Sciences/Neuroscience\",\"Parent\":{\"Code\":\"SCI\",\"Description\":null,\"DisplayName\":\"SCIENCE\",\"Name\":\"SCIENCE\",\"Parent\":null}}],\"BookUrl1\":null,\"CartonQty\":\"24\",\"ChokeHazardInd\":\"N\",\"ColoringPagesUrl\":null,\"Cpsia\":\"N\",\"Description\":\"\u003cDIV\u003e\u0026ldquo;This is complicated stuff, and it is a testament to Dr. Seung\u0026rsquo;s  remarkable clarity of exposition that the reader is swept along with his  enthusiasm, as he moves from the basics of neuroscience out to the  farthest regions of the hypothetical, sketching out a spectacularly  illustrated giant map of the universe of man.\u0026rdquo;\u0026mdash;Abigail Zuger, M.D., \u003cI\u003eNew York Times\u003c/I\u003e\u003cBR\u003e\u003cBR\u003eEvery  person is unique, but science has struggled to pinpoint where,  precisely, that uniqueness resides. Our genome may determine our eye  color and even aspects of our character. But our friendships, failures,  and passions also shape who we are. The question is: how?\u003cBR\u003e\u003cBR\u003eSebastian  Seung is at the forefront of a revolution in neuroscience. He believes  that our identity lies not in our genes, but in the connections between  our brain cells\u0026mdash;our particular wiring. Seung and a dedicated group of  researchers are leading the effort to map these connections, neuron by  neuron, synapse by synapse. It\u0026rsquo;s a monumental effort, but if they  succeed, they will uncover the basis of personality, identity,  intelligence, memory, and perhaps disorders such as autism and  schizophrenia. \u003cBR\u003e\u003cBR\u003e\u003cI\u003eConnectome \u003c/I\u003eis a mind-bending adventure  story that presents a daring scientific and technological vision for  understanding what makes us who we are, both as individuals and as a  species. \u003cBR\u003e\u003cBR\u003e\u0026ldquo;Accessible, witty, imminently logical and at times poetic, \u003cI\u003eConnectome \u003c/I\u003eestablishes  Seung as an important new researcher, philosopher and popularizer of  brain science. It puts him on par with cosmology\u0026rsquo;s Brian Greene and the  late Carl Sagan.\u0026rdquo;\u0026mdash;\u003cI\u003eCleveland Plain Dealer\u003c/I\u003e\u003c/div\u003e\",\"EducatorsUrl\":null,\"EventKitsUrl\":null,\"Excerpts\":\"\u003cP\u003e\u003cB\u003eIntroduction\u003c/B\u003e\u003cP style=\\\"MARGIN-RIGHT: 0px\\\" dir=ltr\u003eNo road, no trail can penetrate this forest. The long and delicate branches of its trees lie everywhere, choking space with their exuberant growth. No sunbeam can fly a path tortuous enough to navigate the narrow spaces between these entangled branches. All the trees of this dark forest grew from 100 billion seeds planted together. And, all in one day, every tree is destined to die. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;This forest is majestic, but also comic and even tragic. It is all of these things. Indeed, sometimes I think it is everything. Every novel and every symphony, every cruel murder and every act of mercy, every love affair and every quarrel, every joke and every sorrow\u0026#8201;\u0026#8212;\u0026#8201;all these things come from the forest. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;You may be surprised to hear that it fits in a container less than one foot in diameter. And that there are seven billion on this earth. You happen to be the caretaker of one, the forest that lives inside your skull. The trees of which I speak are those special cells called neurons. The mission of neuroscience is to explore their enchanted branches\u0026#8201;\u0026#8212;\u0026#8201;to tame the jungle of the mind (see Figure 1). \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Neuroscientists have eavesdropped on its sounds, the electrical signals inside the brain. They have revealed its fantastic shapes with meticulous drawings and photos of neurons. Their discoveries are amazing, but from just a few scattered trees, can we hope to comprehend the totality of the forest? \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;In the seventeenth century, the French philosopher and mathematician Blaise Pascal wrote about the vastness of the universe: \u003cBR\u003e\u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160; Let man contemplate Nature entire in her full and lofty majesty; let him put far from his sight the \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160; lowly objects that surround him; let him regard that blazing light, placed like an eternal lamp to\u0026#160; \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;illuminate the world; let the earth appear to him but a point within the vast circuit which that star \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160; describes; and let him marvel that this immense circumference is itself but a speck from the\u0026#160; \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;\u0026#160;viewpoint of the stars that move in the firmament. \u003cBR\u003e\u003cBR\u003eShocked and humbled by these thoughts, he confessed that he was terrified by \u0026#8220;the eternal silence of these infinite spaces.\u0026#8221; Pascal meditated upon outer space, but we need only turn our thoughts inward to feel his dread. Inside every one of our skulls lies an organ so vast in its complexity that it might as well be infinite. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;As a neuroscientist myself, I have come to know firsthand Pascal\u0026#8217;s feeling of dread. I have also experienced embarrassment. Sometimes I speak to the public about the state of our field. After one such talk, I was pummeled with questions. What causes depression and schizophrenia? What is special about the brain of an Einstein or a Beethoven? How can my child learn to read better? As I failed to give satisfying answers, I could see faces fall. In my shame I finally apologized to the audience. \u0026#8220;I\u0026#8217;m sorry,\u0026#8221; I said. \u0026#8220;You thought I\u0026#8217;m a professor because I know the answers. Actually I\u0026#8217;m a professor because I know how much I don\u0026#8217;t know.\u0026#8221; \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Studying an object as complex as the brain may seem almost futile. The brain\u0026#8217;s billions of neurons resemble trees of many species and come in many fantastic shapes. Only the most determined explorers can hope to capture a glimpse of this forest\u0026#8217;s interior, and even they see little, and see it poorly. It\u0026#8217;s no wonder that the brain remains an enigma. My audience was curious about brains that malfunction or excel, but even the humdrum lacks explanation. Every day we recall the past, perceive the present, and imagine the future. How do our brains accomplish these feats? It\u0026#8217;s safe to say that nobody really \u003cBR\u003eknows. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Daunted by the brain\u0026#8217;s complexity, many neuroscientists have chosen to study animals with drastically fewer neurons than humans. The worm shown in Figure 2 lacks what we\u0026#8217;d call a brain. Its neurons are scattered throughout its body rather than centralized in a single organ. Together they form a nervous system containing a mere 300 neurons. That sounds manageable. I\u0026#8217;ll wager that even Pascal, with his depressive tendencies, would not have dreaded the forest of \u003cI\u003eC. elegans\u003c/I\u003e. (That\u0026#8217;s the scientific name for the one-millimeter-long worm.) \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Every neuron in this worm has been given a unique name and has a characteristic location and shape. Worms are like precision machines mass-produced in a factory: Each one has a nervous system built from the same set of parts, and the parts are always arranged in the same way. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;What\u0026#8217;s more, this standardized nervous system has been mapped completely. The result\u0026#8201;\u0026#8212;\u0026#8201;see Figure 3\u0026#8201;\u0026#8212;\u0026#8201;is something like the flight maps we see in the back pages of airline magazines. The four-letter name of each neuron is like the three-letter code for each of the world\u0026#8217;s airports. The lines represent connections between neurons, just as lines on a flight map represent routes between cities. We say that two neurons are \u0026#8220;connected\u0026#8221; if there is a small junction, called a synapse, at a point where the neurons touch. Through the synapse one neuron sends messages to the other. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Engineers know that a radio is constructed by wiring together electronic components like resistors, capacitors, and transistors. A nervous system is likewise an assembly of neurons, \u0026#8220;wired\u0026#8221; together by their slender branches. That\u0026#8217;s why the map shown in Figure 3 was originally called a wiring diagram. More recently, a new term has been introduced\u0026#8201;\u0026#8212;\u0026#8201;\u003cI\u003econnectome\u003c/I\u003e. This word invokes not electrical engineering but the field of genomics. You have probably heard that DNA is a long molecule resembling a chain. The individual links of the chain are small molecules called nucleotides, denoted by the letters A, C, G, and T. Your genome is the entire sequence of nucleotides in your DNA, or equivalently a long string of letters drawn from this four-letter alphabet. Figure 4 shows an excerpt from the three billion letters, which would be a million pages long if printed as a \u003cBR\u003ebook. \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;In the same way, a connectome is the totality of connections between the neurons in a nervous system. The term, like genome, implies completeness. A connectome is not one connection, or even many. It is all of them. In principle, your brain can also be summarized by a diagram that is like the worm\u0026#8217;s, though much more complex. Would your connectome reveal anything interesting about you? \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;The first thing it would reveal is that you are unique. You know this, of course, but it has been surprisingly difficult to pinpoint where, precisely, your uniqueness resides. Your connectome and mine are very different. They are not standardized like those of worms. That\u0026#8217;s consistent with the idea that every human is unique in a way that a worm is not (no offense intended to worms!). \u003cBR\u003e\u0026#160;\u0026#160;\u0026#160;Differences fascinate us. When we ask how the brain works, what mostly interests us is why the brains of people work so differently. Why can\u0026#8217;t I be more outgoing, like my extroverted friend? Why does my son find reading more difficult than his classmates do? Why is my teenage cousin starting to hear imaginary voices? Why is my mother losing her memory? Why can\u0026#8217;t my spouse (or I) be more compassionate and understanding? \u003cBR\u003e\u0026...\u003c/div\u003e\",\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547678592\",\"Isbn13\":\"9780547678597\",\"JacketUrl\":\"/assets/product/9780547678597.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1475147\",\"MetaTitle\":\"Connectome\",\"OtherProducts\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/seung$sebastian.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"Sebastian Seung is Professor of Computational Neuroscience at MIT and an Investigator of the Howard Hughes Medical Institute. He has made important advances in robotics, neuroscience, neuroeconomics, and statistical physics. His research has been published in leading scientific journals, and also featured in the New York Times, Technology Review, and the Economist.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"6287218\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Sebastian-Seung\",\"MiddleName\":null,\"Name\":\"Sebastian Seung\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003e\u0026ldquo;This is complicated stuff, and it is a testament to Dr. Seung\u0026rsquo;s  remarkable clarity of exposition that the reader is swept along with his  enthusiasm, as he moves from the basics of neuroscience out to the  farthest regions of the hypothetical, sketching out a spectacularly  illustrated giant map of the universe of man.\u0026rdquo;\u0026mdash;Abigail Zuger, M.D., \u003cI\u003eNew York Times\u003c/I\u003e\u003cBR\u003e\u003cBR\u003eEvery  person is unique, but science has struggled to pinpoint where,  precisely, that uniqueness resides. Our genome may determine our eye  color and even aspects of our character. But our friendships, failures,  and passions also shape who we are. The question is: how?\u003cBR\u003e\u003cBR\u003eSebastian  Seung is at the forefront of a revolution in neuroscience. He believes  that our identity lies not in our genes, but in the connections between  our brain cells\u0026mdash;our particular wiring. Seung and a dedicated group of  researchers are leading the effort to map these connections, neuron by  neuron, synapse by synapse. It\u0026rsquo;s a monumental effort, but if they  succeed, they will uncover the basis of personality, identity,  intelligence, memory, and perhaps disorders such as autism and  schizophrenia. \u003cBR\u003e\u003cBR\u003e\u003cI\u003eConnectome \u003c/I\u003eis a mind-bending adventure  story that presents a daring scientific and technological vision for  understanding what makes us who we are, both as individuals and as a  species. \u003cBR\u003e\u003cBR\u003e\u0026ldquo;Accessible, witty, imminently logical and at times poetic, \u003cI\u003eConnectome \u003c/I\u003eestablishes  Seung as an important new researcher, philosopher and popularizer of  brain science. It puts him on par with cosmology\u0026rsquo;s Brian Greene and the  late Carl Sagan.\u0026rdquo;\u0026mdash;\u003cI\u003eCleveland Plain Dealer\u003c/I\u003e\u003c/div\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547508174\",\"Isbn13\":\"9780547508177\",\"JacketUrl\":\"/assets/product/9780547678597.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1443386\",\"MetaTitle\":\"Connectome\",\"OtherProducts\":null,\"Pages\":\"256\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$14.95\",\"FormattedValue\":\"$14.95\",\"From\":\"\",\"ListPriceValue\":\"14.95\",\"Price\":\"$14.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":14.95}],\"Promotions\":[],\"PublicationDate\":\"1328594400000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003eThe audacious effort to map the brain\u0026#8212;and along with it our mental afflictions, from autism to schizophrenia\u0026#8212;by a rising star in neuroscience.\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Connectome\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"384\",\"PressReleaseUrl\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$15.99\",\"FormattedValue\":\"$15.99\",\"From\":\"\",\"ListPriceValue\":\"15.99\",\"Price\":\"$15.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":15.99}],\"ProductGroup\":\"Individual\",\"Promotions\":[],\"PublicationDate\":\"1360044000000\",\"PublicationStatus\":null,\"ReadersGuideUrl\":null,\"ReadingLevel\":null,\"RelatedProducts\":[],\"RelatedProductsByAuthor\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/seung$sebastian.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"Sebastian Seung is Professor of Computational Neuroscience at MIT and an Investigator of the Howard Hughes Medical Institute. He has made important advances in robotics, neuroscience, neuroeconomics, and statistical physics. His research has been published in leading scientific journals, and also featured in the New York Times, Technology Review, and the Economist.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"6287218\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Sebastian-Seung\",\"MiddleName\":null,\"Name\":\"Sebastian Seung\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"1\",\"Description\":\"\u003cDIV\u003e\u0026ldquo;This is complicated stuff, and it is a testament to Dr. Seung\u0026rsquo;s  remarkable clarity of exposition that the reader is swept along with his  enthusiasm, as he moves from the basics of neuroscience out to the  farthest regions of the hypothetical, sketching out a spectacularly  illustrated giant map of the universe of man.\u0026rdquo;\u0026mdash;Abigail Zuger, M.D., \u003cI\u003eNew York Times\u003c/I\u003e\u003cBR\u003e\u003cBR\u003eEvery  person is unique, but science has struggled to pinpoint where,  precisely, that uniqueness resides. Our genome may determine our eye  color and even aspects of our character. But our friendships, failures,  and passions also shape who we are. The question is: how?\u003cBR\u003e\u003cBR\u003eSebastian  Seung is at the forefront of a revolution in neuroscience. He believes  that our identity lies not in our genes, but in the connections between  our brain cells\u0026mdash;our particular wiring. Seung and a dedicated group of  researchers are leading the effort to map these connections, neuron by  neuron, synapse by synapse. It\u0026rsquo;s a monumental effort, but if they  succeed, they will uncover the basis of personality, identity,  intelligence, memory, and perhaps disorders such as autism and  schizophrenia. \u003cBR\u003e\u003cBR\u003e\u003cI\u003eConnectome \u003c/I\u003eis a mind-bending adventure  story that presents a daring scientific and technological vision for  understanding what makes us who we are, both as individuals and as a  species. \u003cBR\u003e\u003cBR\u003e\u0026ldquo;Accessible, witty, imminently logical and at times poetic, \u003cI\u003eConnectome \u003c/I\u003eestablishes  Seung as an important new researcher, philosopher and popularizer of  brain science. It puts him on par with cosmology\u0026rsquo;s Brian Greene and the  late Carl Sagan.\u0026rdquo;\u0026mdash;\u003cI\u003eCleveland Plain Dealer\u003c/I\u003e\u003c/div\u003e\",\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547508174\",\"Isbn13\":\"9780547508177\",\"JacketUrl\":\"/assets/product/9780547678597.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1443386\",\"MetaTitle\":\"Connectome\",\"OtherProducts\":[{\"Age\":null,\"Authors\":[{\"AuthorImageUrl\":\"/assets/contributor/seung$sebastian.gif\",\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":\"Sebastian Seung is Professor of Computational Neuroscience at MIT and an Investigator of the Howard Hughes Medical Institute. He has made important advances in robotics, neuroscience, neuroeconomics, and statistical physics. His research has been published in leading scientific journals, and also featured in the New York Times, Technology Review, and the Economist.\",\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"6287218\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Sebastian-Seung\",\"MiddleName\":null,\"Name\":\"Sebastian Seung\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"Description\":\"\u003cDIV\u003e\u0026ldquo;This is complicated stuff, and it is a testament to Dr. Seung\u0026rsquo;s  remarkable clarity of exposition that the reader is swept along with his  enthusiasm, as he moves from the basics of neuroscience out to the  farthest regions of the hypothetical, sketching out a spectacularly  illustrated giant map of the universe of man.\u0026rdquo;\u0026mdash;Abigail Zuger, M.D., \u003cI\u003eNew York Times\u003c/I\u003e\u003cBR\u003e\u003cBR\u003eEvery  person is unique, but science has struggled to pinpoint where,  precisely, that uniqueness resides. Our genome may determine our eye  color and even aspects of our character. But our friendships, failures,  and passions also shape who we are. The question is: how?\u003cBR\u003e\u003cBR\u003eSebastian  Seung is at the forefront of a revolution in neuroscience. He believes  that our identity lies not in our genes, but in the connections between  our brain cells\u0026mdash;our particular wiring. Seung and a dedicated group of  researchers are leading the effort to map these connections, neuron by  neuron, synapse by synapse. It\u0026rsquo;s a monumental effort, but if they  succeed, they will uncover the basis of personality, identity,  intelligence, memory, and perhaps disorders such as autism and  schizophrenia. \u003cBR\u003e\u003cBR\u003e\u003cI\u003eConnectome \u003c/I\u003eis a mind-bending adventure  story that presents a daring scientific and technological vision for  understanding what makes us who we are, both as individuals and as a  species. \u003cBR\u003e\u003cBR\u003e\u0026ldquo;Accessible, witty, imminently logical and at times poetic, \u003cI\u003eConnectome \u003c/I\u003eestablishes  Seung as an important new researcher, philosopher and popularizer of  brain science. It puts him on par with cosmology\u0026rsquo;s Brian Greene and the  late Carl Sagan.\u0026rdquo;\u0026mdash;\u003cI\u003eCleveland Plain Dealer\u003c/I\u003e\u003c/div\u003e\",\"Format\":\"Paperback\",\"Grade\":null,\"InventoryStatus\":\"Active\",\"Isbn10\":\"0547678592\",\"Isbn13\":\"9780547678597\",\"JacketUrl\":\"/assets/product/9780547678597.gif\",\"LookInsideUrl\":null,\"MaterialId\":\"1475147\",\"MetaTitle\":\"Connectome\",\"OtherProducts\":null,\"Pages\":\"384\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$15.99\",\"FormattedValue\":\"$15.99\",\"From\":\"\",\"ListPriceValue\":\"15.99\",\"Price\":\"$15.99\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":15.99}],\"Promotions\":[],\"PublicationDate\":\"1360044000000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003eThe audacious effort to map the brain\u0026#8212;and along with it our mental afflictions, from autism to schizophrenia\u0026#8212;by a rising star in neuroscience.\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Connectome\",\"Type\":\"OTHER_FORMATS\"}],\"Pages\":\"256\",\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":\"$14.95\",\"FormattedValue\":\"$14.95\",\"From\":\"\",\"ListPriceValue\":\"14.95\",\"Price\":\"$14.95\",\"To\":\"\",\"Unit\":\"pieces\",\"Value\":14.95}],\"Promotions\":[],\"PublicationDate\":\"1328594400000\",\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003eThe audacious effort to map the brain\u0026#8212;and along with it our mental afflictions, from autism to schizophrenia\u0026#8212;by a rising star in neuroscience.\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"Title\":\"Connectome\",\"Type\":null}],\"RelatedSubjects\":[{\"Code\":\"ASC\",\"Description\":null,\"DisplayName\":\"Science\",\"Name\":\"Science\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}},{\"Code\":\"WFY\",\"Description\":null,\"DisplayName\":\"First Year Reads\",\"Name\":\"First Year Reads\",\"Parent\":{\"Code\":\"MERCHANDISING\",\"Description\":null,\"DisplayName\":\"Merchandising\",\"Name\":\"Merchandising\",\"Parent\":null}}],\"ReleaseDate\":null,\"Reviews\":\"\u003cDIV\u003e\u003cB\u003eWall Street Journal\u0027s 10 Best Nonfiction Books of 2012\u003c/B\u003e \u003cP\u003e\u003cB\u003eAmazon\u0027s Top 100 Editor\u0027s Picks for 2012\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u003cB\u003ePublishers Weekly Top Ten in Science for Spring 2012 \u003cBR\u003e\u003c/B\u003e\u003cBR\u003e\u0026#8220;\u003cI\u003eThe\u003c/I\u003e best lay book on brain science I\u0026#8217;ve ever read.\u0026#8221; \u003cBR\u003e\u0026#8212; \u003cI\u003e\u003cB\u003eWall Street Journal\u003c/B\u003e\u003c/I\u003e by\u003cB\u003e Daniel Levitin\u003c/B\u003e, Professor, McGill University; author of \u003cI\u003eThis Is Your Brain on Music and The World in Six Songs.\u003c/I\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;\u0026#8206;This is complicated stuff, and it is a testament to Dr. Seung\u0026#8217;s remarkable clarity of exposition that the reader is swept along with his enthusiasm, as he moves from the basics of neuroscience out to the farthest regions of the hypothetical, sketching out a spectacularly illustrated giant map of the universe of man.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212; \u003cI\u003eNew York Times\u003c/I\u003e\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;[A] bracing, mind-expanding report from neuroscience\u0026#8217;s razor edge. Accessible, witty, [e]minently logical and at times poetic, Connectome establishes Seung as an important new researcher, philosopher and popularizer of brain science. It puts him on par with cosmology\u0026#8217;s Brian Greene and the late Carl Sagan.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212; \u003cI\u003eCleveland Plain Dealer\u003c/I\u003e\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;Seung argues intelligently and powerfully that the self lies in the totality of the brain\u0026#8217;s wiring.\u0026#8221; \u003cBR\u003e\u0026#8212; \u003cB\u003e\u003cI\u003eNature\u003c/I\u003e\u003c/B\u003e by \u003cB\u003eChristof Koch\u003c/B\u003e, Professor, California Institute of Technology; Chief Scientific Officer, Allen Institute for Brain Science; author of Quest for Consciousness and Consciousness: Confessions of a Romantic Reductionist\u003c/P\u003e\u003cP\u003e\u0026#8220;With the first-person flavour of James Watson\u0026#8217;s Double Helix\u0026#8212;an account of how DNA\u0026#8217;s structure was discovered\u0026#8212;Connectome gives a sense of the excitement on the cutting edge of neuroscience.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212; NewScientist\u003c/B\u003e by \u003cB\u003eTerry Sejnowski,\u003c/B\u003e Professor and Director, Computational Neurobiology Lab, Salk Institute; Investigator, Howard Hughes Medical Institute; Member, National Academy of Sciences and National Academy of Engineering USA.\u003c/P\u003e\u003cP\u003e\u0026#8220;An elegant primer on what\u0026#8217;s known about how the brain is organized and how it grows, wires its neurons, perceives its environment, modifies or repairs itself, and stores information. Seung is a clear, lively writer who chooses vivid examples.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212; \u003cI\u003eWashington Post\u003c/I\u003e\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;Sebastian Seung scales the heights of neuroscience and casts his brilliant eye around, describing the landscape of its past and boldly envisioning a future when we may understand our own brains and thus ourselves.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212;Kenneth Blum, Executive Director, Center for Brain Science, Harvard University\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;Sebastian Seung can do it all. He\u0026#8217;s widely recognized as a superb physicist, a whiz with computers, and a path-breaking neuroscientist. Connectome shows that he\u0027s also a terrific writer, as inspiring as he is clear and good humored.\u0026#8221;\u0026#160;\u003cBR\u003e\u003cB\u003e\u0026#8212;Steven Strogatz, Cornell University, author of \u003cI\u003eSync: the Emerging Science of Spontaneous Order\u003c/I\u003e\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;In Connectome, Sebastian Seung reminds us that the human brain has contemplated itself for centuries. This is an important book, full of refreshingly new science and engaging history, about the essential quest to understand ourselves.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212;Phillip A. Sharp, MIT, 1993 Nobel Prize in Physiology or Medicine\u003c/B\u003e\u003c/P\u003e\u003cP\u003e\u0026#8220;A landmark work, gorgeously written. No other researcher has traveled as deeply into the brain forest and emerged to share its secrets.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212;David Eagleman, author of \u003cI\u003eIncognito\u003c/I\u003e and \u003cI\u003eSum\u003c/I\u003e\u003c/B\u003e\u003cP\u003e\u0026#8220;Connectomics is emerging as a crucial and exhilarating field of study. Sebastian Seung takes you by the hand and shows you why. Connectome is a page turner\u0026#8212;a book that should be read by anyone who lays claim to be thinking about the nature of life.\u0026#8221; \u003cBR\u003e\u003cB\u003e\u0026#8212;Michael Gazzaniga, University of California at Santa Barbara and author of \u003cI\u003eHuman and The Ethical Brain\u003c/I\u003e\u003c/B\u003e\u003cI\u003e \u003c/I\u003e\u003c/DIV\u003e\",\"SearchProducts\":[{\"Age\":\"\",\"Authors\":[{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"977541\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Temple-Grandin\",\"MiddleName\":null,\"Name\":\"Temple Grandin\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null},{\"AuthorImageUrl\":null,\"AuthorTitles\":null,\"AuthorUrl\":null,\"Biography\":null,\"BlogUrl\":null,\"City\":null,\"Classification\":null,\"Country\":null,\"Deceased\":null,\"FacebookUrl\":null,\"FirstName\":null,\"Id\":\"2247903\",\"ImageUrl\":null,\"LastName\":null,\"MetaName\":\"Richard-Panek\",\"MiddleName\":null,\"Name\":\"Richard Panek\",\"Pinterest\":null,\"State\":null,\"TwitterUrl\":null,\"Type\":null,\"UpcomingReleases\":null,\"WebsiteUrl\":null}],\"CartonQty\":\"24\",\"ChokeHazardIng\":null,\"Copyright\":\"2013\",\"Cpsia\":\"\",\"Description\":\" \u0026#8220;The right brain has created the right book for right now.\u0026#8221;\u0026#8212; Pittsburgh Post-Gazette Temple Grandin may be the most famous person with autism, a condition that affects 1 in 88 children. Since her birth in 1947, our understanding of it has undergone a great transformation, leading to more hope ... \",\"Format\":\"Paperback\",\"Grade\":null,\"GradeMax\":\"\",\"GradeMin\":\"\",\"InventoryStatus\":\"Active\",\"Isbn10\":\"0544227735\",\"Isbn13\":\"9780544227736\",\"JacketUrl\":\"/assets/product/9780544227736.gif\",\"LookInsideUrl\":\"\",\"MaterialId\":\"1563705\",\"MetaTitle\":\"The-Autistic-Brain\",\"OtherProducts\":[{\"Age\":null,\"Authors\":null,\"CartonQty\":null,\"Description\":null,\"Format\":\"eBook\",\"Grade\":null,\"InventoryStatus\":null,\"Isbn10\":null,\"Isbn13\":\"9780547858180\",\"JacketUrl\":null,\"LookInsideUrl\":null,\"MaterialId\":null,\"MetaTitle\":\"The-Autistic-Brain\",\"OtherProducts\":null,\"Pages\":null,\"Prices\":[{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":null,\"PublicationDate\":null,\"ShortDescription\":null,\"Status\":null,\"Title\":null,\"Type\":null}],\"Pages\":\"256\",\"Prices\":[{\"Amount\":null,\"Currency\":null,\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"15.95\",\"To\":null,\"Unit\":null,\"Value\":0.0}],\"Promotions\":[{\"PromotionCode\":null,\"PromotionDescription\":\"\",\"PromotionPrice\":{\"Amount\":null,\"Currency\":\"USD\",\"Duration\":null,\"FormattedListPriceValue\":null,\"FormattedValue\":null,\"From\":null,\"ListPriceValue\":null,\"Price\":\"\",\"To\":null,\"Unit\":null,\"Value\":0.0}}],\"PublicationDate\":\"Tue, 01 Apr 2014 00:00:00 GMT\",\"Restricted\":\"\",\"Segment\":\"Products\",\"ShortDescription\":\" \u0026#8220;The right brain has created the right book for right now.\u0026#8221;\u0026#8212; Pittsburgh Post-Gazette Temple Grandin may be the most famous person with autism, a condition that affects 1 in 88 children. Since her birth in 1947, our understanding of it has undergone a great transformation, leading to more hope ... \",\"State\":\"\",\"Status\":\"Active\",\"SubTitle\":\"Helping Different Kinds of Minds Succeed\",\"Title\":\"The Autistic Brain\",\"Url\":\"index:TradeFeed?key=1563705\"}],\"Segment\":null,\"ShelfTalkerUrl\":null,\"ShortDescription\":\"\u003cDIV\u003e\u003cDIV\u003eThe audacious effort to map the brain\u0026#8212;and along with it our mental afflictions, from autism to schizophrenia\u0026#8212;by a rising star in neuroscience.\u003c/DIV\u003e\u003c/DIV\u003e\",\"Status\":\"Active\",\"SubTitle\":\"How the Brain\u0027s Wiring Makes Us Who We Are\",\"Subjects\":null,\"Title\":\"Connectome\",\"Url\":null,\"VideoUrl\":null}]';
+            var resp = JSON.parse(jsonresp);
+            // WP-364, WP - 2210
+
+            sc_products = ';' + $(".addToCartButton").attr("data-productid") + ':' + resp[0]['Title'];
+            
+            //Derived fields
+            dl.pageName = '9780547678597:' + resp[0]['Title'];
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.customprodview = 'yes';
+            dl.prodView = 'yes';
+            dl.hier1 = 'Shop:Product Detail Page';
+            dl.level2 = 'Product Detail Page';
+            dl.contentcategory = 'Product Detail';
+
+            // debug
+            if (DEBUG_CLICK) {
+                alert('Product Detail Page for ' + productCode);
+            }
+        }
+
+        function om_ComponentBrowse() {
+
+            var gradeSelect = jQuery('.Grade_dropdown_div option:selected').text();
+            gradeSelect = gradeSelect.substring(0, gradeSelect.indexOf('(') - 1);
+            var stateSelect = jQuery('.State_dropdown_div option:selected').text();
+            stateSelect = stateSelect.substring(0, stateSelect.indexOf('(') - 1);
+            var sortSelect = jQuery('#sortSelect option:selected').text();
+			var sortMobileSelect = jQuery('#sortMobileSelect option:selected').text();
+
+            // Default Variables which needs to be captured. Replaces Om_Intialsetup()//
+            
+            dl.level2 = "books";
+dl.level3 = "Curious-George-Plants-A-Tree";
+dl.level4 = "9780547297767";
+dl.pageName = "/shop/books/Curious-George-Plants-A-Tree/9780547297767";
+dl.hier1 = "shop:books:Curious-George-Plants-A-Tree:9780547297767";
+dl.membershiptype = "Unregistered";
+
+
+            //Analytics Variables which replaces omniture/ComponentBrowse
+            dl.contentcategory = 'Browse';
+
+            //Derived fields
+            dl.membershiptypepathing = dl.membershiptype + ':' + dl.pageName;
+            dl.programhpvideoplay = gradeSelect;
+            dl.paymenttype = stateSelect;
+            dl.programhpshopnow = sortSelect;
+
+            if (DEBUG_CLICK)
+                alert('Category Browse complete');
+        }
+
+        // Omniture tracking script for Carousel Image tracking
+        function carouselTracking(imgName) {
+
+            var oCarousel = GetOmObj();
+            oCarousel.linkTrackVars = "eVar40,events";
+            oCarousel.linkTrackEvents = "event43";
+            oCarousel.events = "event43";
+            oCarousel.eVar40 = imgName;
+            oCarousel.tl(true, 'o', 'Carousel tracking');
+        }
+
+        // Omniture tracking script for Callout Image tracking
+        function calloutTracking(imgName) {
+            var oCallout = GetOmObj();
+            oCallout.linkTrackVars = "prop58";
+            oCallout.prop58 = imgName;
+            oCallout.tl(true, 'o', 'Sub-Box Tracking');
+        }
+
+        //Tracking scripts for GoMath Landing Pages
+
+        function gomathLoginTracking(pageName) {
+            var oGoMathLogin = GetOmObj();
+            oGoMathLogin.linkTrackVars = "eVar41";
+            oGoMathLogin.eVar41 = "GMA Login -" + pageName;
+            oGoMathLogin.tl(true, 'o', 'GMA Login Button tracking');
+        }
+
+        function gomathPriceTracking(price,pageName) {
+            var oGoMathPrice = GetOmObj();
+            oGoMathPrice.linkTrackVars = "eVar44";
+            oGoMathPrice.eVar44 = price + ' -' + pageName;
+            oGoMathPrice.tl(true, 'o', 'Try it Free Button Tracking');
+        }
+
+        function gomathTakeTourTracking(pageName) {
+            var oGoMathTakeTour = GetOmObj();
+            oGoMathTakeTour.linkTrackVars = "eVar43";
+            oGoMathTakeTour.eVar43 = "Take Video Tour - " + pageName;
+            oGoMathTakeTour.tl(true, 'o', 'Video Tour Tracking');
+        }
+
+        function gomathVideoPlayTracking(gomathPage, VideoName) {
+            var oVideoTrack = GetOmObj();
+            oVideoTrack.linkTrackVars = "eVar45,events";
+            oVideoTrack.events = "event48";
+            oVideoTrack.eVar45 = VideoName + "-" + gomathPage;
+            oVideoTrack.tl(true, 'o', 'GMA Video Play');
+        }
+</script>
+
+    <!-- SiteCatalyst code version: H.25.2.Copyright 1996-2012 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
+    <script type="text/javascript">
+
+        var curPageName = 'Product Detail Page';
+        var dl = new Object;
+
+        if (curPageName == 'Search') {
+            if (typeof om_SearchResults == 'function') {
+                om_SearchResults();
+            }
+        }
+        else if (curPageName == 'Product Detail Page') {
+            if (typeof Om_ProductDetailViewed == 'function') {
+                Om_ProductDetailViewed(jQuery(".addToCartButton").attr("data-productid"));
+            }
+        }
+        else if (curPageName == 'ComponentBrowse') {
+            if (typeof om_ComponentBrowse == 'function') {
+                om_ComponentBrowse();
+            }
+        }
+        else if (curPageName == "SignIn") {
+            if (typeof Om_SignIn == 'function') {
+                Om_SignIn();
+            }
+        }
+        else if (curPageName == "CreateInstitutional") {
+            if (typeof Om_CreateInstitutional == 'function') {
+                Om_CreateInstitutional();
+            }
+        }
+        else if (curPageName == 'NoSearch') {
+            if (typeof Om_NoSearchResults == 'function') {
+                Om_NoSearchResults();
+            }
+        }
+        else if (curPageName == 'Asset') {
+            if (typeof Om_AssetLibrary == 'function') {
+                Om_AssetLibrary();
+            }
+        }
+        else if (curPageName == 'AssetLibrarySearch') {
+            if (typeof Om_AssetLibrarySearch == 'function') {
+                Om_AssetLibrarySearch();
+            }
+        }
+        else if (curPageName == 'Migrate') {
+            if (typeof Om_MigrateAccount == 'function') {
+                Om_MigrateAccount();
+            }
+        }
+        else {
+            if (typeof Om_InitialSetup == 'function') {
+                Om_InitialSetup();
+            }
+        }
+
+
+        var DEBUG_CLICK = false;
+
+        
+
+       
+    </script>
+
+    <!-- Ominture Holder -->
+    
+<script type="text/javascript">
+
+    // tracks read more/less
+    function Om_ReadMoreOrLess(newLink) {
+        var oLink = GetOmObj();
+        isbn13Val = '9780547678597';
+        if (newLink == "moreLink") {
+            oLink.prop10 = isbn13Val;
+            oLink.linkTrackVars += ",prop10";
+        }
+        else {
+            oLink.prop9 = isbn13Val;
+            oLink.linkTrackVars += ",prop9";
+        }
+
+        oLink.tl(true, 'o', newLink);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert(newLink);
+        }
+    }
+
+    // Omniture tracking for product detail view
+    function Om_ProductDetailViewed_Old(productCode) {
+        var gca = GetOmObj();
+
+        gca.products = ';' + productCode + ':' + 'connectome';
+        gca.events = 'prodView,event19';
+        gca.pageName = '9780547678597:connectome';
+        gca.hier1 = 'Shop:Product Detail Page';
+        gca.prop1 = 'Product Detail Page';
+        gca.prop5 = 'Product Detail';
+
+        gca.linkTrackEvents = 'prodView,event19';
+        gca.linkTrackVars += ",products,hier1,prop1,prop5,events";
+        gca.t(true, 'o', 'Product Detail Page for ' + productCode);
+
+        // debug
+        if (DEBUG_CLICK) {
+            alert('Product Detail Page for ' + productCode);
+        }
+    }
+
+</script>
+    <!-- End Ominture Holder -->
+
+        
+        <script type="text/javascript">
+            $(window).load(function () {
+                var url = window.location.search;
+                if (url.indexOf("isSignIn=true") > -1) {
+                    if (typeof Om_SignUp == 'function') {
+                        Om_SignUp('Returning User Login');
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript">_satellite.pageBottom();</script>
+    <input type="hidden" name="MediaFramework_ItemId" id="MediaFramework_ItemId" value="FAC8B622AA9349998CE5EE28CA2209E3" /></form>
+</body>
+</html>
