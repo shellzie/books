@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7674b2-7e85-4c03-9307-0cfad543ea12" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/.txt.1" afterPath="$PROJECT_DIR$/app/static_html/random_house/.txt.1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/.txt.2" afterPath="$PROJECT_DIR$/app/static_html/random_house/.txt.2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/.txt.3" afterPath="$PROJECT_DIR$/app/static_html/random_house/.txt.3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/A Ball for Daisy.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/A Ball for Daisy.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/A Cat Named Swan.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/A Cat Named Swan.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/A Lullaby for Little One.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/A Lullaby for Little One.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/A Season to Bee.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/A Season to Bee.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/ABC Pasta.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/ABC Pasta.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Abe Lincoln Crosses a Creek.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Abe Lincoln Crosses a Creek.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Albert the Alphabetical Elephant.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Albert the Alphabetical Elephant.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Bear Likes Jam.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Bear Likes Jam.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Bluebird.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Bluebird.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Bunny’s Book Club.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Bunny’s Book Club.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Clever Jack Takes the Cake.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Clever Jack Takes the Cake.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Coming on Home Soon.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Coming on Home Soon.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Count Worm.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Count Worm.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Curious About Worms.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Curious About Worms.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Duck &amp; Goose.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Duck &amp; Goose.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Elsie Piddock Skips in Her Sleep.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Elsie Piddock Skips in Her Sleep.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Emma and the Whale.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Emma and the Whale.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Farmer Duck.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Farmer Duck.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Feel the Beat: Dance Poems that Zing from Salsa to Swing.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Feel the Beat: Dance Poems that Zing from Salsa to Swing.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Friendship and Junk.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Friendship and Junk.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Froggy Goes to the Library.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Froggy Goes to the Library.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Good Sports.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Good Sports.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Goodnight, Numbers.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Goodnight, Numbers.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Grandfather Clock.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Grandfather Clock.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Great, Now We’ve Got Barbarians!.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Great, Now We’ve Got Barbarians!.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Happy Birthday, Kate and Mim-Mim!.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Happy Birthday, Kate and Mim-Mim!.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Happy!.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Happy!.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Here Comes the Garbage Barge!.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Here Comes the Garbage Barge!.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Home.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Home.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/How to Be a Baby . . . by Me, the Big Sister.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/How to Be a Baby . . . by Me, the Big Sister.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/How to Catch Santa.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/How to Catch Santa.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Hush-A-Bye Bunny.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Hush-A-Bye Bunny.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I Will Never Get a Star on Mrs. Benson’s Blackboard.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/I Will Never Get a Star on Mrs. Benson’s Blackboard.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I am George Washington B&amp;N Exclusive Edititon.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/I am George Washington B&amp;N Exclusive Edititon.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I am George Washington B&amp;N Exclusive Edititon.txt.1" afterPath="$PROJECT_DIR$/app/static_html/random_house/I am George Washington B&amp;N Exclusive Edititon.txt.1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I am Jane Goodall.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/I am Jane Goodall.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I am Jane Goodall.txt.1" afterPath="$PROJECT_DIR$/app/static_html/random_house/I am Jane Goodall.txt.1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/I am Martin Luther King, Jr..txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/I am Martin Luther King, Jr..txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/If Rocks Could Sing.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/If Rocks Could Sing.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/If Your Monster Won’t Go To Bed.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/If Your Monster Won’t Go To Bed.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Inch by Inch.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Inch by Inch.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Keith Haring: The Boy Who Just Kept Drawing.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Keith Haring: The Boy Who Just Kept Drawing.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Last Stop on Market Street.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Last Stop on Market Street.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Life on Mars.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Life on Mars.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Little Fox in the Forest.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Little Fox in the Forest.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Llama Llama Gram and Grandpa.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Llama Llama Gram and Grandpa.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Love from The Very Hungry Caterpillar.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Love from The Very Hungry Caterpillar.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Me, All Alone, at the End of the World.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Me, All Alone, at the End of the World.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Mickey Mantle: The Commerce Comet.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Mickey Mantle: The Commerce Comet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Mr. Lincoln’s Way.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Mr. Lincoln’s Way.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Oh, No!.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Oh, No!.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Patrick and the President.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Patrick and the President.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Return.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Return.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Robert Louis Stevenson’s A Child’s Garden of Verses.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Robert Louis Stevenson’s A Child’s Garden of Verses.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Robo-Sauce.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Robo-Sauce.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Say Hello, Sophie.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Say Hello, Sophie.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Show Way.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Show Way.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/So You Want to Be President?.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/So You Want to Be President?.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Sometimes It’s Storks.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Sometimes It’s Storks.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Spin.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Spin.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Steppin’ Out.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Steppin’ Out.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Sun Bread.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Sun Bread.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The All-I’ll-Ever-Want Christmas Doll.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The All-I’ll-Ever-Want Christmas Doll.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Answer.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Answer.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Bill the Cat Story: A Bloom County Epic.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Bill the Cat Story: A Bloom County Epic.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Bill the Cat Story: A Bloom County Epic.txt.1" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Bill the Cat Story: A Bloom County Epic.txt.1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Chupacabra Ate the Candelabra.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Chupacabra Ate the Candelabra.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Day the Babies Crawled Away.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Day the Babies Crawled Away.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Day the Crayons Came Home.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Day the Crayons Came Home.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Little Snowplow.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Little Snowplow.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Poop Sleuth.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Poop Sleuth.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Rabbit Who Wants to Fall Asleep.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Rabbit Who Wants to Fall Asleep.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Tale of Kitty-in-Boots.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Tale of Kitty-in-Boots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Tree.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Tree.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/The Wonderful Things You Will Be.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/The Wonderful Things You Will Be.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/This Is Not My Hat.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/This Is Not My Hat.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Warning: Wild Weather Ahead.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Warning: Wild Weather Ahead.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/What Pet Should I Get?.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/What Pet Should I Get?.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/Woody Guthrie.txt" afterPath="$PROJECT_DIR$/app/static_html/random_house/Woody Guthrie.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static_html/mech.log" afterPath="$PROJECT_DIR$/app/static_html/random_house/mech.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.byebug_history" afterPath="$PROJECT_DIR$/.byebug_history" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
     </list>
     <ignored path="books.iws" />
@@ -123,13 +39,18 @@
       <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24735449">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.3001277">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
-                <element signature="e#9865#9916#0" expanded="false" />
-                <element signature="e#9920#10193#0" expanded="false" />
-                <element signature="e#11987#12074#0" expanded="false" />
-                <element signature="e#12078#12671#0" expanded="false" />
+                <element signature="e#5539#5839#0" expanded="false" />
+                <element signature="e#5961#6737#0" expanded="false" />
+                <element signature="e#6741#7241#0" expanded="false" />
+                <element signature="e#7339#8194#0" expanded="false" />
+                <element signature="e#8198#10341#0" expanded="false" />
+                <element signature="e#10385#10436#0" expanded="false" />
+                <element signature="e#10440#10713#0" expanded="false" />
+                <element signature="e#12507#12594#0" expanded="false" />
+                <element signature="e#12598#13191#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -167,7 +88,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
+    <option name="x" value="67" />
     <option name="y" value="23" />
     <option name="width" value="1389" />
     <option name="height" value="877" />
@@ -498,10 +419,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
+    <frame x="67" y="23" width="1389" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25463995" sideWeight="0.4952381" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32442465" sideWeight="0.4952381" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -534,7 +455,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -544,10 +465,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9865#9916#0" expanded="false" />
-            <element signature="e#9920#10193#0" expanded="false" />
-            <element signature="e#11987#12074#0" expanded="false" />
-            <element signature="e#12078#12671#0" expanded="false" />
+            <element signature="e#5539#5839#0" expanded="false" />
+            <element signature="e#5961#6737#0" expanded="false" />
+            <element signature="e#6741#7241#0" expanded="false" />
+            <element signature="e#7339#8194#0" expanded="false" />
+            <element signature="e#8198#10341#0" expanded="false" />
+            <element signature="e#10385#10436#0" expanded="false" />
+            <element signature="e#10440#10713#0" expanded="false" />
+            <element signature="e#12507#12594#0" expanded="false" />
+            <element signature="e#12598#13191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,10 +483,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9865#9916#0" expanded="false" />
-            <element signature="e#9920#10193#0" expanded="false" />
-            <element signature="e#11987#12074#0" expanded="false" />
-            <element signature="e#12078#12671#0" expanded="false" />
+            <element signature="e#5539#5839#0" expanded="false" />
+            <element signature="e#5961#6737#0" expanded="false" />
+            <element signature="e#6741#7241#0" expanded="false" />
+            <element signature="e#7339#8194#0" expanded="false" />
+            <element signature="e#8198#10341#0" expanded="false" />
+            <element signature="e#10385#10436#0" expanded="false" />
+            <element signature="e#10440#10713#0" expanded="false" />
+            <element signature="e#12507#12594#0" expanded="false" />
+            <element signature="e#12598#13191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -570,10 +501,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9865#9916#0" expanded="false" />
-            <element signature="e#9920#10193#0" expanded="false" />
-            <element signature="e#11987#12074#0" expanded="false" />
-            <element signature="e#12078#12671#0" expanded="false" />
+            <element signature="e#5539#5839#0" expanded="false" />
+            <element signature="e#5961#6737#0" expanded="false" />
+            <element signature="e#6741#7241#0" expanded="false" />
+            <element signature="e#7339#8194#0" expanded="false" />
+            <element signature="e#8198#10341#0" expanded="false" />
+            <element signature="e#10385#10436#0" expanded="false" />
+            <element signature="e#10440#10713#0" expanded="false" />
+            <element signature="e#12507#12594#0" expanded="false" />
+            <element signature="e#12598#13191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,10 +549,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9865#9916#0" expanded="false" />
-            <element signature="e#9920#10193#0" expanded="false" />
-            <element signature="e#11987#12074#0" expanded="false" />
-            <element signature="e#12078#12671#0" expanded="false" />
+            <element signature="e#5539#5839#0" expanded="false" />
+            <element signature="e#5961#6737#0" expanded="false" />
+            <element signature="e#6741#7241#0" expanded="false" />
+            <element signature="e#7339#8194#0" expanded="false" />
+            <element signature="e#8198#10341#0" expanded="false" />
+            <element signature="e#10385#10436#0" expanded="false" />
+            <element signature="e#10440#10713#0" expanded="false" />
+            <element signature="e#12507#12594#0" expanded="false" />
+            <element signature="e#12598#13191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,13 +857,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24735449">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3001277">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <element signature="e#9865#9916#0" expanded="false" />
-            <element signature="e#9920#10193#0" expanded="false" />
-            <element signature="e#11987#12074#0" expanded="false" />
-            <element signature="e#12078#12671#0" expanded="false" />
+            <element signature="e#5539#5839#0" expanded="false" />
+            <element signature="e#5961#6737#0" expanded="false" />
+            <element signature="e#6741#7241#0" expanded="false" />
+            <element signature="e#7339#8194#0" expanded="false" />
+            <element signature="e#8198#10341#0" expanded="false" />
+            <element signature="e#10385#10436#0" expanded="false" />
+            <element signature="e#10440#10713#0" expanded="false" />
+            <element signature="e#12507#12594#0" expanded="false" />
+            <element signature="e#12598#13191#0" expanded="false" />
           </folding>
         </state>
       </provider>

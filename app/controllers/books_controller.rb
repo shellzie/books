@@ -10,15 +10,32 @@ class BooksController < ApplicationController
   @@agent = Mechanize.new
 
   def show
-    download_hmh
+    download_bn
     render text: "OK"
   end
 
   private
 
-  def prepare_request
-    @@agent.user_agent_alias = random_user_agent
-    random_delay
+  def download_bn
+    @@agent.pluggable_parser.default = Mechanize::Download
+    @@agent.request_headers = {"Referer" => "http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1", "accept-charset" => nil}
+
+    for i in 2..5
+      prepare_request
+      page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=' + i.to_s)
+      doc = Nokogiri::HTML(page.content)
+      rows = doc.css('div.resultsListContainer ul#gridView li.clearer > ul')
+      rows.each do |row|
+        items_in_row = row.css('li')
+        items_in_row.each do |item|
+          title = item.css('p.product-info-title').text.strip
+          debugger
+          url = item.css('p.product-info-title > a')[0]['href']
+          prepare_request
+          @@agent.get('www.barnesandnoble.com' + url).save(@@local_file_path + 'bn/' + title + '.txt')
+        end
+      end
+    end
   end
 
   def download_hmh
@@ -41,7 +58,6 @@ class BooksController < ApplicationController
     end
   end
 
-
   def download_rh
     @@agent.user_agent_alias = random_user_agent
     @@agent.pluggable_parser.default = Mechanize::Download
@@ -59,14 +75,6 @@ class BooksController < ApplicationController
   end
 
   def scrape_bn
-
-    # agent = Mechanize.new
-    # agent.log = Logger.new "mech.log"
-    # agent.user_agent_alias = random_user_agent
-    # agent.request_headers = {"Referer" => "http://www.google.com", "accept-charset" => nil}
-    # page = agent.get("http://www.barnesandnoble.com")
-    # puts page.body
-
     @@agent.log = Logger.new "mech.log"
     @@agent.user_agent_alias = random_user_agent
 
@@ -390,5 +398,11 @@ class BooksController < ApplicationController
     num_agents = agent_array.length
     index = rand(0..num_agents-1)
     return agent_array[index]
+  end
+
+
+  def prepare_request
+    @@agent.user_agent_alias = random_user_agent
+    random_delay
   end
 end
