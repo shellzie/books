@@ -10,13 +10,13 @@ class BooksController < ApplicationController
 
   def show
     # scrape_bn
-    scrape_random_house
+    scrape_rh
     render text: "OK"
   end
 
   private
 
-  def scrape_random_house
+  def scrape_rh
     @@agent.user_agent_alias = random_user_agent
     @@agent.pluggable_parser.default = Mechanize::Download
     # page = @@agent.get('http://www.penguinrandomhouse.com/books/picture-books-childrens').save('results.txt')
