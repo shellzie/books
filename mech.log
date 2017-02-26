@@ -10,6 +10,18 @@ D, [2017-02-23T15:33:51.587371 #6217] DEBUG -- : request-header: referer => http
 
 
 
+
+D, [2017-02-23T15:37:10.849223 #6336] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:37:10.849807 #6336] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:37:10.850416 #6336] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2017-02-23T15:37:10.857982 #6336] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:37:10.858216 #6336] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:37:10.858425 #6336] DEBUG -- : request-header: referer => http://www.google.com
+
+
+
+
+
 I, [2017-02-23T15:33:52.212050 #6217]  INFO -- : status: Net::HTTPOK 1.1 200 OK
 D, [2017-02-23T15:33:52.212395 #6217] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
 D, [2017-02-23T15:33:52.212694 #6217] DEBUG -- : response-header: vary => Accept-Encoding
@@ -35,3 +47,815 @@ D, [2017-02-23T15:33:52.266279 #6217] DEBUG -- : saved cookie: TS01e75984=01b226
 D, [2017-02-23T15:33:52.267907 #6217] DEBUG -- : saved cookie: TS01af0a8e=01b2269760a89804013226e5d11a8be3ed91fad3a8ec414016f09d90d41073e81952af209405a25e09c54c0e3cc23fa51202c8c7010e298e1b7256d8e666464251bc0fec86bad0607ccff379ac98649ed6ebc41521c598a5bdb084d610c2fb0dd0aaef99ed
 D, [2017-02-23T15:33:52.269814 #6217] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
 D, [2017-02-23T15:33:52.272102 #6217] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=60~id=9d4801f4409abc8f2007d9dca921972e
+I, [2017-02-23T15:37:10.848403 #6336]  INFO -- : Net::HTTP::Get: /\
+
+
+
+D, [2017-02-23T15:37:10.849223 #6336] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:37:10.849807 #6336] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:37:10.850416 #6336] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2017-02-23T15:37:10.857982 #6336] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:37:10.858216 #6336] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:37:10.858425 #6336] DEBUG -- : request-header: referer => http://www.google.com
+
+
+
+I, [2017-02-23T15:37:11.723590 #6336]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:37:11.723900 #6336] DEBUG -- : response-header: pragma => no-cache
+D, [2017-02-23T15:37:11.724118 #6336] DEBUG -- : response-header: cache-control => no-cache
+D, [2017-02-23T15:37:11.724356 #6336] DEBUG -- : response-header: expires => Sat, 04 Dec 1993 21:29:02 GMT
+D, [2017-02-23T15:37:11.724596 #6336] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:37:11.724814 #6336] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:37:11.725036 #6336] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:37:11.725250 #6336] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:36:55 GMT
+D, [2017-02-23T15:37:11.725503 #6336] DEBUG -- : response-header: content-length => 25347
+D, [2017-02-23T15:37:11.725767 #6336] DEBUG -- : response-header: connection => keep-alive
+
+
+D, [2017-02-23T15:37:11.726000 #6336] DEBUG -- : response-header: set-cookie => JSESSIONID=BF36FEB43B1326A6266090DCE2BE073C.prodny_store01-atgap09; Path=/; HttpOnly, userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:36:55 GMT; path=/; HttpOnly, W2A=!6pyt0no+qtfG4uPAXN0BF8xiOC6QvNle5k/7fyFclujQd8hYEAygk21GXzFSXJdYlqUhsrVt8tteGg==; path=/, org-dc=WBY;path=/;domain=.barnesandnoble.com;, DeviceType=Desktop;path=/;domain=.barnesandnoble.com;, showSiteAs=Desktop;path=/;domain=.barnesandnoble.com;, client-profile=Desktop;path=/;domain=.barnesandnoble.com;, TS01e75984=01b226976044a2e8eafd9486a577e0e9d24eaf0ddcea798ac689875581de2c725815dd809639d98a7e5935915d2abdcbe335ee64ee3c61d382ee1013146de41ed2de30781089a2c036cc2c15fdb8cc1f43f2e5bef4; Path=/, TS01af0a8e=01b2269760903f945bc2f11f74654a68e304ed5021ce656ca4cad464a9cee7a07e5c7958254b856852a4103d15583cc60ad6f21c33275cbc28d84c0aa3303af4976a8b196c275cd8734dd62f9d3da629b70dcc31ebafd052fa7832d19fdc5b070480c7df93; path=/; domain=.barnesandnoble.com, Mobile-seg=Control-A-seg; path=/; domain=.barnesandnoble.com, akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+D, [2017-02-23T15:37:11.726702 #6336] DEBUG -- : Read 16318 bytes (16318 total)
+D, [2017-02-23T15:37:11.727147 #6336] DEBUG -- : Read 5336 bytes (21654 total)
+D, [2017-02-23T15:37:11.732590 #6336] DEBUG -- : Read 1448 bytes (23102 total)
+D, [2017-02-23T15:37:11.733186 #6336] DEBUG -- : Read 2245 bytes (25347 total)
+D, [2017-02-23T15:37:11.734302 #6336] DEBUG -- : gzip response
+D, [2017-02-23T15:37:11.751437 #6336] DEBUG -- : saved cookie: JSESSIONID=BF36FEB43B1326A6266090DCE2BE073C.prodny_store01-atgap09
+D, [2017-02-23T15:37:11.753704 #6336] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:37:11.755033 #6336] DEBUG -- : saved cookie: W2A=!6pyt0no+qtfG4uPAXN0BF8xiOC6QvNle5k/7fyFclujQd8hYEAygk21GXzFSXJdYlqUhsrVt8tteGg==
+D, [2017-02-23T15:37:11.756657 #6336] DEBUG -- : saved cookie: org-dc=WBY
+D, [2017-02-23T15:37:11.758551 #6336] DEBUG -- : saved cookie: DeviceType=Desktop
+D, [2017-02-23T15:37:11.760649 #6336] DEBUG -- : saved cookie: showSiteAs=Desktop
+D, [2017-02-23T15:37:11.765058 #6336] DEBUG -- : saved cookie: client-profile=Desktop
+D, [2017-02-23T15:37:11.766948 #6336] DEBUG -- : saved cookie: TS01e75984=01b226976044a2e8eafd9486a577e0e9d24eaf0ddcea798ac689875581de2c725815dd809639d98a7e5935915d2abdcbe335ee64ee3c61d382ee1013146de41ed2de30781089a2c036cc2c15fdb8cc1f43f2e5bef4
+D, [2017-02-23T15:37:11.768705 #6336] DEBUG -- : saved cookie: TS01af0a8e=01b2269760903f945bc2f11f74654a68e304ed5021ce656ca4cad464a9cee7a07e5c7958254b856852a4103d15583cc60ad6f21c33275cbc28d84c0aa3303af4976a8b196c275cd8734dd62f9d3da629b70dcc31ebafd052fa7832d19fdc5b070480c7df93
+D, [2017-02-23T15:37:11.770478 #6336] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
+D, [2017-02-23T15:37:11.772578 #6336] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4
+I, [2017-02-23T15:41:33.135513 #6390]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=1
+D, [2017-02-23T15:41:33.135585 #6390] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:41:33.135608 #6390] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:41:33.135628 #6390] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6
+D, [2017-02-23T15:41:33.135647 #6390] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:41:33.135668 #6390] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:41:33.135688 #6390] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:41:33.745338 #6390]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:41:33.745412 #6390] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:41:33.745435 #6390] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:41:33.745454 #6390] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:41:33.745478 #6390] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:41:17 GMT
+D, [2017-02-23T15:41:33.745496 #6390] DEBUG -- : response-header: content-length => 39016
+D, [2017-02-23T15:41:33.745514 #6390] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:41:33.745541 #6390] DEBUG -- : response-header: set-cookie => JSESSIONID=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10; Path=/; HttpOnly, userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:41:17 GMT; path=/; HttpOnly, W2A=!5rxujykiMSHOyNTAXN0BF8xiOC6QvMfB1gJ3qxBmj2rUdJVJuteeaPj+Vr3Vjw2IJwPoUhz9a/8ihw==; path=/, org-dc=WBY;path=/;domain=.barnesandnoble.com;, DeviceType=Desktop;path=/;domain=.barnesandnoble.com;, showSiteAs=Desktop;path=/;domain=.barnesandnoble.com;, client-profile=Desktop;path=/;domain=.barnesandnoble.com;, TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8; Path=/, TS01af0a8e=01b2269760d88a83615c7c0fe47d1aebec23cf63fb545a4a7446afae4f3fb945dd1784e1c98ae6d5d5810f843e89d9e3e9cc15bc06c80c15c96ca9d24c5e2c58735ebbeaf0b10b2f9db3fbb0de3955a747148899b488b7ba4f72a4778b81ef515883496a80; path=/; domain=.barnesandnoble.com, Mobile-seg=Control-A-seg; path=/; domain=.barnesandnoble.com, akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+D, [2017-02-23T15:41:33.745646 #6390] DEBUG -- : Read 17 bytes (17 total)
+D, [2017-02-23T15:41:33.746228 #6390] DEBUG -- : Read 16384 bytes (16401 total)
+D, [2017-02-23T15:41:33.746300 #6390] DEBUG -- : Read 5336 bytes (21737 total)
+D, [2017-02-23T15:41:33.794249 #6390] DEBUG -- : Read 2896 bytes (24633 total)
+D, [2017-02-23T15:41:33.794891 #6390] DEBUG -- : Read 8688 bytes (33321 total)
+D, [2017-02-23T15:41:33.795396 #6390] DEBUG -- : Read 5695 bytes (39016 total)
+D, [2017-02-23T15:41:33.795532 #6390] DEBUG -- : gzip response
+D, [2017-02-23T15:41:33.813940 #6390] DEBUG -- : saved cookie: JSESSIONID=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10
+D, [2017-02-23T15:41:33.814397 #6390] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:41:33.814503 #6390] DEBUG -- : saved cookie: W2A=!5rxujykiMSHOyNTAXN0BF8xiOC6QvMfB1gJ3qxBmj2rUdJVJuteeaPj+Vr3Vjw2IJwPoUhz9a/8ihw==
+D, [2017-02-23T15:41:33.814705 #6390] DEBUG -- : saved cookie: org-dc=WBY
+D, [2017-02-23T15:41:33.814903 #6390] DEBUG -- : saved cookie: DeviceType=Desktop
+D, [2017-02-23T15:41:33.815110 #6390] DEBUG -- : saved cookie: showSiteAs=Desktop
+D, [2017-02-23T15:41:33.815312 #6390] DEBUG -- : saved cookie: client-profile=Desktop
+D, [2017-02-23T15:41:33.815446 #6390] DEBUG -- : saved cookie: TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8
+D, [2017-02-23T15:41:33.815647 #6390] DEBUG -- : saved cookie: TS01af0a8e=01b2269760d88a83615c7c0fe47d1aebec23cf63fb545a4a7446afae4f3fb945dd1784e1c98ae6d5d5810f843e89d9e3e9cc15bc06c80c15c96ca9d24c5e2c58735ebbeaf0b10b2f9db3fbb0de3955a747148899b488b7ba4f72a4778b81ef515883496a80
+D, [2017-02-23T15:41:33.820434 #6390] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
+D, [2017-02-23T15:41:33.820773 #6390] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4
+I, [2017-02-23T15:41:44.751939 #6390]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/1123894616;jsessionid=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10?ean=9781452152165
+D, [2017-02-23T15:41:44.752012 #6390] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:41:44.752036 #6390] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:41:44.752057 #6390] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.4a) Gecko/20030401
+D, [2017-02-23T15:41:44.752077 #6390] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:41:44.752097 #6390] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760d88a83615c7c0fe47d1aebec23cf63fb545a4a7446afae4f3fb945dd1784e1c98ae6d5d5810f843e89d9e3e9cc15bc06c80c15c96ca9d24c5e2c58735ebbeaf0b10b2f9db3fbb0de3955a747148899b488b7ba4f72a4778b81ef515883496a80; TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8; W2A=!5rxujykiMSHOyNTAXN0BF8xiOC6QvMfB1gJ3qxBmj2rUdJVJuteeaPj+Vr3Vjw2IJwPoUhz9a/8ihw==; akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:41:44.752117 #6390] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:41:44.752136 #6390] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:42:04.184098 #6390]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:42:04.184173 #6390] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:42:04.184211 #6390] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:42:04.184232 #6390] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:42:04.184251 #6390] DEBUG -- : response-header: content-length => 29267
+D, [2017-02-23T15:42:04.184270 #6390] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:41:48 GMT
+D, [2017-02-23T15:42:04.184289 #6390] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:42:04.184319 #6390] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:41:28 GMT; path=/; HttpOnly, TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8; Path=/
+D, [2017-02-23T15:42:04.184391 #6390] DEBUG -- : Read 963 bytes (963 total)
+D, [2017-02-23T15:42:04.184888 #6390] DEBUG -- : Read 1999 bytes (2962 total)
+D, [2017-02-23T15:42:04.185394 #6390] DEBUG -- : Read 16384 bytes (19346 total)
+D, [2017-02-23T15:42:04.185443 #6390] DEBUG -- : Read 2440 bytes (21786 total)
+D, [2017-02-23T15:42:04.229680 #6390] DEBUG -- : Read 1448 bytes (23234 total)
+D, [2017-02-23T15:42:04.230433 #6390] DEBUG -- : Read 4344 bytes (27578 total)
+D, [2017-02-23T15:42:04.235044 #6390] DEBUG -- : Read 1689 bytes (29267 total)
+D, [2017-02-23T15:42:04.235473 #6390] DEBUG -- : gzip response
+D, [2017-02-23T15:42:04.246482 #6390] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:42:04.246617 #6390] DEBUG -- : saved cookie: TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8
+I, [2017-02-23T15:42:04.301839 #6390]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/1100192742;jsessionid=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10?ean=9780811877824
+D, [2017-02-23T15:42:04.301901 #6390] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:42:04.301956 #6390] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:42:04.301992 #6390] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+D, [2017-02-23T15:42:04.302019 #6390] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:42:04.302040 #6390] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=CC00E0EF36732BDD1EE66841D6D01A3C.prodny_store02-atgap10; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760d88a83615c7c0fe47d1aebec23cf63fb545a4a7446afae4f3fb945dd1784e1c98ae6d5d5810f843e89d9e3e9cc15bc06c80c15c96ca9d24c5e2c58735ebbeaf0b10b2f9db3fbb0de3955a747148899b488b7ba4f72a4778b81ef515883496a80; TS01e75984=01b2269760eb5197de08740adf4d9c388f00cd5560bcf174590ed7b85450411294ee0df77a39725841183b3709ee4aea64bdc828b7eab87b42db2821bade06ea4a03ff0248c7a1f46637145499d34f0dc1fb8571a8; W2A=!5rxujykiMSHOyNTAXN0BF8xiOC6QvMfB1gJ3qxBmj2rUdJVJuteeaPj+Vr3Vjw2IJwPoUhz9a/8ihw==; akaas_Mobile_phase_rollout=2147483647~rv=17~id=601c8bfd17faaddb1069c1ca48a734b4; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:42:04.302060 #6390] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:42:04.302079 #6390] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:42:46.734502 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=1
+D, [2017-02-23T15:42:46.734583 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:42:46.734607 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:42:46.734628 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-02-23T15:42:46.734664 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:42:46.734683 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:42:46.734711 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:42:48.129190 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:42:48.129260 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:42:48.129284 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:42:48.129304 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:42:48.129325 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:42:32 GMT
+D, [2017-02-23T15:42:48.129351 #6404] DEBUG -- : response-header: content-length => 62889
+D, [2017-02-23T15:42:48.129370 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:42:48.129391 #6404] DEBUG -- : response-header: set-cookie => JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Path=/; HttpOnly, userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:42:31 GMT; path=/; HttpOnly, W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; path=/, org-dc=WBY;path=/;domain=.barnesandnoble.com;, DeviceType=Desktop;path=/;domain=.barnesandnoble.com;, showSiteAs=Desktop;path=/;domain=.barnesandnoble.com;, client-profile=Desktop;path=/;domain=.barnesandnoble.com;, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/, TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; path=/; domain=.barnesandnoble.com, Mobile-seg=Control-A-seg; path=/; domain=.barnesandnoble.com, akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+D, [2017-02-23T15:42:48.129478 #6404] DEBUG -- : Read 17 bytes (17 total)
+D, [2017-02-23T15:42:48.130135 #6404] DEBUG -- : Read 15928 bytes (15945 total)
+D, [2017-02-23T15:42:48.130650 #6404] DEBUG -- : Read 4344 bytes (20289 total)
+D, [2017-02-23T15:42:48.131092 #6404] DEBUG -- : Read 1448 bytes (21737 total)
+D, [2017-02-23T15:42:48.139668 #6404] DEBUG -- : Read 1448 bytes (23185 total)
+D, [2017-02-23T15:42:48.140240 #6404] DEBUG -- : Read 4344 bytes (27529 total)
+D, [2017-02-23T15:42:48.140295 #6404] DEBUG -- : Read 1448 bytes (28977 total)
+D, [2017-02-23T15:42:48.140789 #6404] DEBUG -- : Read 5792 bytes (34769 total)
+D, [2017-02-23T15:42:48.140828 #6404] DEBUG -- : Read 1448 bytes (36217 total)
+D, [2017-02-23T15:42:48.141314 #6404] DEBUG -- : Read 7240 bytes (43457 total)
+D, [2017-02-23T15:42:48.141359 #6404] DEBUG -- : Read 1448 bytes (44905 total)
+D, [2017-02-23T15:42:48.141400 #6404] DEBUG -- : Read 1448 bytes (46353 total)
+D, [2017-02-23T15:42:48.141845 #6404] DEBUG -- : Read 7240 bytes (53593 total)
+D, [2017-02-23T15:42:48.142266 #6404] DEBUG -- : Read 2896 bytes (56489 total)
+D, [2017-02-23T15:42:48.147310 #6404] DEBUG -- : Read 6400 bytes (62889 total)
+D, [2017-02-23T15:42:48.147476 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:42:48.166736 #6404] DEBUG -- : saved cookie: JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03
+D, [2017-02-23T15:42:48.167171 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:42:48.167272 #6404] DEBUG -- : saved cookie: W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==
+D, [2017-02-23T15:42:48.167476 #6404] DEBUG -- : saved cookie: org-dc=WBY
+D, [2017-02-23T15:42:48.167660 #6404] DEBUG -- : saved cookie: DeviceType=Desktop
+D, [2017-02-23T15:42:48.167860 #6404] DEBUG -- : saved cookie: showSiteAs=Desktop
+D, [2017-02-23T15:42:48.168043 #6404] DEBUG -- : saved cookie: client-profile=Desktop
+D, [2017-02-23T15:42:48.168175 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+D, [2017-02-23T15:42:48.168355 #6404] DEBUG -- : saved cookie: TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480
+D, [2017-02-23T15:42:48.168549 #6404] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
+D, [2017-02-23T15:42:48.168733 #6404] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a
+I, [2017-02-23T15:42:56.754398 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/1123894616;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781452152165
+D, [2017-02-23T15:42:56.754456 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:42:56.754479 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:42:56.754499 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+D, [2017-02-23T15:42:56.754519 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:42:56.754538 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:42:56.754561 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:42:56.754580 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:43:15.348698 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:43:15.348831 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:43:15.348878 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:43:15.348909 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:43:15.348938 #6404] DEBUG -- : response-header: content-length => 29213
+D, [2017-02-23T15:43:15.348968 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:42:59 GMT
+D, [2017-02-23T15:43:15.348998 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:43:15.349035 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:42:40 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:43:15.349142 #6404] DEBUG -- : Read 963 bytes (963 total)
+D, [2017-02-23T15:43:15.349203 #6404] DEBUG -- : Read 2000 bytes (2963 total)
+D, [2017-02-23T15:43:15.350070 #6404] DEBUG -- : Read 16384 bytes (19347 total)
+D, [2017-02-23T15:43:15.350198 #6404] DEBUG -- : Read 2440 bytes (21787 total)
+D, [2017-02-23T15:43:15.359630 #6404] DEBUG -- : Read 1448 bytes (23235 total)
+D, [2017-02-23T15:43:15.359830 #6404] DEBUG -- : Read 2896 bytes (26131 total)
+D, [2017-02-23T15:43:15.360747 #6404] DEBUG -- : Read 1448 bytes (27579 total)
+D, [2017-02-23T15:43:15.364113 #6404] DEBUG -- : Read 1634 bytes (29213 total)
+D, [2017-02-23T15:43:15.364270 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:43:15.375912 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:43:15.376018 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:43:15.433461 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/1100192742;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780811877824
+D, [2017-02-23T15:43:15.433518 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:43:15.433541 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:43:15.433560 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6
+D, [2017-02-23T15:43:15.433582 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:43:15.433612 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:43:15.433634 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:43:15.433653 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:43:34.661557 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:43:34.661665 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:43:34.661714 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:43:34.661754 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:43:34.661793 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:43:18 GMT
+D, [2017-02-23T15:43:34.661855 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:43:34.661917 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:43:34.662090 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:42:59 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:43:34.662276 #6404] DEBUG -- : Read 916 bytes (916 total)
+D, [2017-02-23T15:43:34.662378 #6404] DEBUG -- : Read 15928 bytes (16844 total)
+D, [2017-02-23T15:43:34.662446 #6404] DEBUG -- : Read 4344 bytes (21188 total)
+D, [2017-02-23T15:43:34.662499 #6404] DEBUG -- : Read 1448 bytes (22636 total)
+D, [2017-02-23T15:43:34.662561 #6404] DEBUG -- : Read 1448 bytes (24084 total)
+D, [2017-02-23T15:43:34.662612 #6404] DEBUG -- : Read 492 bytes (24576 total)
+D, [2017-02-23T15:43:34.662673 #6404] DEBUG -- : Read 944 bytes (25520 total)
+D, [2017-02-23T15:43:34.662725 #6404] DEBUG -- : Read 1448 bytes (26968 total)
+D, [2017-02-23T15:43:34.662804 #6404] DEBUG -- : Read 1448 bytes (28416 total)
+D, [2017-02-23T15:43:34.663708 #6404] DEBUG -- : Read 5744 bytes (34160 total)
+D, [2017-02-23T15:43:34.663766 #6404] DEBUG -- : Read 701 bytes (34861 total)
+D, [2017-02-23T15:43:34.663818 #6404] DEBUG -- : Read 1438 bytes (36299 total)
+D, [2017-02-23T15:43:34.672292 #6404] DEBUG -- : Read 1448 bytes (37747 total)
+D, [2017-02-23T15:43:34.672509 #6404] DEBUG -- : Read 1448 bytes (39195 total)
+D, [2017-02-23T15:43:34.673490 #6404] DEBUG -- : Read 1448 bytes (40643 total)
+D, [2017-02-23T15:43:34.677394 #6404] DEBUG -- : Read 1448 bytes (42091 total)
+D, [2017-02-23T15:43:34.677577 #6404] DEBUG -- : Read 2896 bytes (44987 total)
+D, [2017-02-23T15:43:34.678473 #6404] DEBUG -- : Read 1783 bytes (46770 total)
+D, [2017-02-23T15:43:34.678633 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:43:34.695277 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:43:34.695457 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:43:34.761223 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/1123236059;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781419721373
+D, [2017-02-23T15:43:34.761276 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:43:34.761308 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:43:34.761328 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+D, [2017-02-23T15:43:34.761347 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:43:34.761368 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:43:34.761387 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:43:34.761405 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:43:53.068611 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:43:53.068720 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:43:53.068766 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:43:53.068805 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:43:53.068845 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:43:36 GMT
+D, [2017-02-23T15:43:53.068884 #6404] DEBUG -- : response-header: content-length => 46836
+D, [2017-02-23T15:43:53.068928 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:43:53.068990 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:43:18 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:43:53.069163 #6404] DEBUG -- : Read 963 bytes (963 total)
+D, [2017-02-23T15:43:53.069322 #6404] DEBUG -- : Read 16384 bytes (17347 total)
+D, [2017-02-23T15:43:53.069396 #6404] DEBUG -- : Read 6784 bytes (24131 total)
+D, [2017-02-23T15:43:53.069453 #6404] DEBUG -- : Read 2896 bytes (27027 total)
+D, [2017-02-23T15:43:53.070343 #6404] DEBUG -- : Read 16384 bytes (43411 total)
+D, [2017-02-23T15:43:53.070417 #6404] DEBUG -- : Read 3425 bytes (46836 total)
+D, [2017-02-23T15:43:53.070540 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:43:53.088849 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:43:53.088957 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:43:53.149967 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/1118470690;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781419713101
+D, [2017-02-23T15:43:53.150021 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:43:53.150042 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:43:53.150084 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+D, [2017-02-23T15:43:53.150102 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:43:53.150121 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:43:53.150142 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:43:53.150160 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:43:53.695881 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:43:53.695991 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:43:53.696047 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:43:53.696091 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:43:53.696146 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:43:37 GMT
+D, [2017-02-23T15:43:53.696223 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:43:53.696259 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:43:53.696297 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:43:37 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:43:53.696391 #6404] DEBUG -- : Read 2364 bytes (2364 total)
+D, [2017-02-23T15:43:53.696480 #6404] DEBUG -- : Read 15928 bytes (18292 total)
+D, [2017-02-23T15:43:53.696548 #6404] DEBUG -- : Read 5792 bytes (24084 total)
+D, [2017-02-23T15:43:53.696596 #6404] DEBUG -- : Read 492 bytes (24576 total)
+D, [2017-02-23T15:43:53.696696 #6404] DEBUG -- : Read 944 bytes (25520 total)
+D, [2017-02-23T15:43:53.696753 #6404] DEBUG -- : Read 1448 bytes (26968 total)
+D, [2017-02-23T15:43:53.696814 #6404] DEBUG -- : Read 1448 bytes (28416 total)
+D, [2017-02-23T15:43:53.696865 #6404] DEBUG -- : Read 2896 bytes (31312 total)
+D, [2017-02-23T15:43:53.697696 #6404] DEBUG -- : Read 10056 bytes (41368 total)
+D, [2017-02-23T15:43:53.697758 #6404] DEBUG -- : Read 90 bytes (41458 total)
+D, [2017-02-23T15:43:53.697810 #6404] DEBUG -- : Read 1328 bytes (42786 total)
+D, [2017-02-23T15:43:53.701248 #6404] DEBUG -- : Read 90 bytes (42876 total)
+D, [2017-02-23T15:43:53.701497 #6404] DEBUG -- : Read 1438 bytes (44314 total)
+D, [2017-02-23T15:43:53.701597 #6404] DEBUG -- : Read 1320 bytes (45634 total)
+D, [2017-02-23T15:43:53.701688 #6404] DEBUG -- : Read 90 bytes (45724 total)
+D, [2017-02-23T15:43:53.702506 #6404] DEBUG -- : Read 1230 bytes (46954 total)
+D, [2017-02-23T15:43:53.702647 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:43:53.718610 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:43:53.718728 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:43:53.790915 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/1100059236;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780064431781
+D, [2017-02-23T15:43:53.790974 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:43:53.790996 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:43:53.791016 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2017-02-23T15:43:53.791141 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:43:53.791163 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:43:53.791182 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:43:53.791203 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:43:54.381165 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:43:54.381281 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:43:54.381340 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:43:54.381384 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:43:54.381437 #6404] DEBUG -- : response-header: x-akamai-transformed => 9 - 0 pmb=mRUM,1
+D, [2017-02-23T15:43:54.381486 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:43:38 GMT
+D, [2017-02-23T15:43:54.381538 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:43:54.381608 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:43:54.381645 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:43:37 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:43:54.381773 #6404] DEBUG -- : Read 876 bytes (876 total)
+D, [2017-02-23T15:43:54.381865 #6404] DEBUG -- : Read 16384 bytes (17260 total)
+D, [2017-02-23T15:43:54.381916 #6404] DEBUG -- : Read 992 bytes (18252 total)
+D, [2017-02-23T15:43:54.382663 #6404] DEBUG -- : Read 6324 bytes (24576 total)
+D, [2017-02-23T15:43:54.382767 #6404] DEBUG -- : Read 10048 bytes (34624 total)
+D, [2017-02-23T15:43:54.382833 #6404] DEBUG -- : Read 5263 bytes (39887 total)
+D, [2017-02-23T15:43:54.382887 #6404] DEBUG -- : Read 1151 bytes (41038 total)
+D, [2017-02-23T15:43:54.383006 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:43:54.398514 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:43:54.398645 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:01.402750 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/1113054468;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780399255373
+D, [2017-02-23T15:44:01.402805 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:01.402829 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:01.402850 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+D, [2017-02-23T15:44:01.402870 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:01.402889 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:01.402909 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:01.402930 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:44:02.520343 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:44:02.520445 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:44:02.520491 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:44:02.520531 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:44:02.520570 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:43:46 GMT
+D, [2017-02-23T15:44:02.520609 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:44:02.520676 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:44:02.520725 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:43:45 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:44:02.520871 #6404] DEBUG -- : Read 916 bytes (916 total)
+D, [2017-02-23T15:44:02.520983 #6404] DEBUG -- : Read 16384 bytes (17300 total)
+D, [2017-02-23T15:44:02.521034 #6404] DEBUG -- : Read 992 bytes (18292 total)
+D, [2017-02-23T15:44:02.522134 #6404] DEBUG -- : Read 4344 bytes (22636 total)
+D, [2017-02-23T15:44:02.531280 #6404] DEBUG -- : Read 1940 bytes (24576 total)
+D, [2017-02-23T15:44:02.531523 #6404] DEBUG -- : Read 944 bytes (25520 total)
+D, [2017-02-23T15:44:02.531691 #6404] DEBUG -- : Read 5792 bytes (31312 total)
+D, [2017-02-23T15:44:02.531813 #6404] DEBUG -- : Read 1448 bytes (32760 total)
+D, [2017-02-23T15:44:02.531898 #6404] DEBUG -- : Read 1015 bytes (33775 total)
+D, [2017-02-23T15:44:02.531961 #6404] DEBUG -- : Read 90 bytes (33865 total)
+D, [2017-02-23T15:44:02.532015 #6404] DEBUG -- : Read 319 bytes (34184 total)
+D, [2017-02-23T15:44:02.532083 #6404] DEBUG -- : Read 1448 bytes (35632 total)
+D, [2017-02-23T15:44:02.532138 #6404] DEBUG -- : Read 1448 bytes (37080 total)
+D, [2017-02-23T15:44:02.533414 #6404] DEBUG -- : Read 4217 bytes (41297 total)
+D, [2017-02-23T15:44:02.533494 #6404] DEBUG -- : Read 90 bytes (41387 total)
+D, [2017-02-23T15:44:02.533867 #6404] DEBUG -- : Read 4357 bytes (45744 total)
+D, [2017-02-23T15:44:02.533920 #6404] DEBUG -- : Read 1152 bytes (46896 total)
+D, [2017-02-23T15:44:02.534051 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:44:02.550433 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:44:02.550552 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:02.619898 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/1111550949;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781423119913
+D, [2017-02-23T15:44:02.619953 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:02.619977 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:02.619997 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+D, [2017-02-23T15:44:02.620016 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:02.620035 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:02.620066 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:02.620086 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:44:21.723233 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:44:21.723343 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:44:21.723393 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:44:21.723433 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:44:21.723472 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:44:05 GMT
+D, [2017-02-23T15:44:21.723537 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:44:21.723606 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:44:21.723668 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:43:46 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:44:21.723854 #6404] DEBUG -- : Read 916 bytes (916 total)
+D, [2017-02-23T15:44:21.723981 #6404] DEBUG -- : Read 16384 bytes (17300 total)
+D, [2017-02-23T15:44:21.724059 #6404] DEBUG -- : Read 3888 bytes (21188 total)
+D, [2017-02-23T15:44:21.724134 #6404] DEBUG -- : Read 3388 bytes (24576 total)
+D, [2017-02-23T15:44:21.724192 #6404] DEBUG -- : Read 2392 bytes (26968 total)
+D, [2017-02-23T15:44:21.725321 #6404] DEBUG -- : Read 13032 bytes (40000 total)
+D, [2017-02-23T15:44:21.734401 #6404] DEBUG -- : Read 2896 bytes (42896 total)
+D, [2017-02-23T15:44:21.734532 #6404] DEBUG -- : Read 1448 bytes (44344 total)
+D, [2017-02-23T15:44:21.735820 #6404] DEBUG -- : Read 1448 bytes (45792 total)
+D, [2017-02-23T15:44:21.739438 #6404] DEBUG -- : Read 2896 bytes (48688 total)
+D, [2017-02-23T15:44:21.739593 #6404] DEBUG -- : Read 464 bytes (49152 total)
+D, [2017-02-23T15:44:21.739689 #6404] DEBUG -- : Read 2420 bytes (51572 total)
+D, [2017-02-23T15:44:21.739776 #6404] DEBUG -- : Read 1448 bytes (53020 total)
+D, [2017-02-23T15:44:21.740864 #6404] DEBUG -- : Read 7790 bytes (60810 total)
+D, [2017-02-23T15:44:21.747241 #6404] DEBUG -- : Read 90 bytes (60900 total)
+D, [2017-02-23T15:44:21.747425 #6404] DEBUG -- : Read 1438 bytes (62338 total)
+D, [2017-02-23T15:44:21.748322 #6404] DEBUG -- : Read 3331 bytes (65669 total)
+D, [2017-02-23T15:44:21.748837 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:44:21.766360 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:44:21.766885 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:21.850322 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/1119997903;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780544032569
+D, [2017-02-23T15:44:21.850377 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:21.850399 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:21.850417 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-02-23T15:44:21.850449 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:21.850485 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:21.850504 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:21.850522 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:44:40.204729 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:44:40.204924 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:44:40.204973 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:44:40.205017 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:44:40.205072 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:44:24 GMT
+D, [2017-02-23T15:44:40.205126 #6404] DEBUG -- : response-header: content-length => 65730
+D, [2017-02-23T15:44:40.205167 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:44:40.205210 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:44:05 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:44:40.205332 #6404] DEBUG -- : Read 963 bytes (963 total)
+D, [2017-02-23T15:44:40.205483 #6404] DEBUG -- : Read 5792 bytes (6755 total)
+D, [2017-02-23T15:44:40.205597 #6404] DEBUG -- : Read 16384 bytes (23139 total)
+D, [2017-02-23T15:44:40.205669 #6404] DEBUG -- : Read 7229 bytes (30368 total)
+D, [2017-02-23T15:44:40.205754 #6404] DEBUG -- : Read 2896 bytes (33264 total)
+D, [2017-02-23T15:44:40.205806 #6404] DEBUG -- : Read 1448 bytes (34712 total)
+D, [2017-02-23T15:44:40.206905 #6404] DEBUG -- : Read 16384 bytes (51096 total)
+D, [2017-02-23T15:44:40.207020 #6404] DEBUG -- : Read 11128 bytes (62224 total)
+D, [2017-02-23T15:44:40.215370 #6404] DEBUG -- : Read 1448 bytes (63672 total)
+D, [2017-02-23T15:44:40.215721 #6404] DEBUG -- : Read 2058 bytes (65730 total)
+D, [2017-02-23T15:44:40.215892 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:44:40.233640 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:44:40.233786 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:40.306318 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/www.barnesandnoble.com/w/i-want-my-hat-back-jon-klassen/1100054181;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780763655983
+D, [2017-02-23T15:44:40.306395 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:40.306419 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:40.306447 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6
+D, [2017-02-23T15:44:40.306466 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:40.306487 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:40.306507 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:40.306524 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:44:40.807472 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:44:40.807588 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:44:40.807646 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:44:40.807694 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:44:40.807738 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:44:24 GMT
+D, [2017-02-23T15:44:40.807797 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:44:40.807851 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:44:40.807902 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:44:24 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:44:40.807998 #6404] DEBUG -- : Read 916 bytes (916 total)
+D, [2017-02-23T15:44:40.808088 #6404] DEBUG -- : Read 15928 bytes (16844 total)
+D, [2017-02-23T15:44:40.808171 #6404] DEBUG -- : Read 4344 bytes (21188 total)
+D, [2017-02-23T15:44:40.808221 #6404] DEBUG -- : Read 1448 bytes (22636 total)
+D, [2017-02-23T15:44:40.809011 #6404] DEBUG -- : Read 1940 bytes (24576 total)
+D, [2017-02-23T15:44:40.809129 #6404] DEBUG -- : Read 9101 bytes (33677 total)
+D, [2017-02-23T15:44:40.809185 #6404] DEBUG -- : Read 90 bytes (33767 total)
+D, [2017-02-23T15:44:40.809238 #6404] DEBUG -- : Read 4334 bytes (38101 total)
+D, [2017-02-23T15:44:40.809299 #6404] DEBUG -- : Read 4344 bytes (42445 total)
+D, [2017-02-23T15:44:40.809347 #6404] DEBUG -- : Read 1448 bytes (43893 total)
+D, [2017-02-23T15:44:40.810005 #6404] DEBUG -- : Read 3236 bytes (47129 total)
+D, [2017-02-23T15:44:40.810129 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:44:40.825319 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:44:40.825427 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:40.897611 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/www.barnesandnoble.com/w/i-want-my-hat-back-jon-klassen/www.barnesandnoble.com/w/take-heart-my-child-ainsley-earhardt/1123385408;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781481466226
+D, [2017-02-23T15:44:40.897679 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:40.897701 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:40.897721 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2017-02-23T15:44:40.897742 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:40.897762 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:40.897781 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:40.897799 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:44:41.523573 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:44:41.524096 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:44:41.524143 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:44:41.524174 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:44:41.524211 #6404] DEBUG -- : response-header: x-akamai-transformed => 9 - 0 pmb=mRUM,1
+D, [2017-02-23T15:44:41.524244 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:44:25 GMT
+D, [2017-02-23T15:44:41.524281 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:44:41.524312 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:44:41.524344 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:44:24 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:44:41.524447 #6404] DEBUG -- : Read 876 bytes (876 total)
+D, [2017-02-23T15:44:41.524535 #6404] DEBUG -- : Read 16384 bytes (17260 total)
+D, [2017-02-23T15:44:41.524607 #6404] DEBUG -- : Read 5336 bytes (22596 total)
+D, [2017-02-23T15:44:41.525676 #6404] DEBUG -- : Read 1980 bytes (24576 total)
+D, [2017-02-23T15:44:41.526196 #6404] DEBUG -- : Read 14392 bytes (38968 total)
+D, [2017-02-23T15:44:41.526253 #6404] DEBUG -- : Read 917 bytes (39885 total)
+D, [2017-02-23T15:44:41.526313 #6404] DEBUG -- : Read 1450 bytes (41335 total)
+D, [2017-02-23T15:44:41.526436 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:44:41.541721 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:44:41.541832 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:44:49.851122 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/www.barnesandnoble.com/w/i-want-my-hat-back-jon-klassen/www.barnesandnoble.com/w/take-heart-my-child-ainsley-earhardt/www.barnesandnoble.com/w/amazing-grace-mary-hoffman/1103362825;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780803710405
+D, [2017-02-23T15:44:49.851177 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:44:49.851199 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:44:49.851219 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+D, [2017-02-23T15:44:49.851241 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:44:49.851260 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:44:49.851279 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:44:49.851298 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:45:09.490104 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:45:09.490204 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:45:09.490240 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:45:09.490271 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:45:09.490302 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:44:53 GMT
+D, [2017-02-23T15:45:09.490332 #6404] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-23T15:45:09.490363 #6404] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-23T15:45:09.490394 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:44:34 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:45:09.490483 #6404] DEBUG -- : Read 916 bytes (916 total)
+D, [2017-02-23T15:45:09.490568 #6404] DEBUG -- : Read 16384 bytes (17300 total)
+D, [2017-02-23T15:45:09.490634 #6404] DEBUG -- : Read 5336 bytes (22636 total)
+D, [2017-02-23T15:45:09.502760 #6404] DEBUG -- : Read 1448 bytes (24084 total)
+D, [2017-02-23T15:45:09.504092 #6404] DEBUG -- : Read 492 bytes (24576 total)
+D, [2017-02-23T15:45:09.504221 #6404] DEBUG -- : Read 9582 bytes (34158 total)
+D, [2017-02-23T15:45:09.504281 #6404] DEBUG -- : Read 5263 bytes (39421 total)
+D, [2017-02-23T15:45:09.504336 #6404] DEBUG -- : Read 1011 bytes (40432 total)
+D, [2017-02-23T15:45:09.504407 #6404] DEBUG -- : Read 6954 bytes (47386 total)
+D, [2017-02-23T15:45:09.504567 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:45:09.522368 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:45:09.522506 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:45:09.604339 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/www.barnesandnoble.com/w/i-want-my-hat-back-jon-klassen/www.barnesandnoble.com/w/take-heart-my-child-ainsley-earhardt/www.barnesandnoble.com/w/amazing-grace-mary-hoffman/www.barnesandnoble.com/w/good-good-father-chris-tomlin/1123639894;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9780718086954
+D, [2017-02-23T15:45:09.604396 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:45:09.604417 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:45:09.604436 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2017-02-23T15:45:09.604455 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:45:09.604484 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:45:09.604506 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:45:09.604526 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:45:27.816703 #6404]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-23T15:45:27.816828 #6404] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-23T15:45:27.816878 #6404] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-23T15:45:27.816918 #6404] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-23T15:45:27.816956 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:45:11 GMT
+D, [2017-02-23T15:45:27.817011 #6404] DEBUG -- : response-header: content-length => 47401
+D, [2017-02-23T15:45:27.817059 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:45:27.817113 #6404] DEBUG -- : response-header: set-cookie => userPrefLanguage=en_US; expires=Sat, 30-Oct-2066 18:44:53 GMT; path=/; HttpOnly, TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; Path=/
+D, [2017-02-23T15:45:27.817339 #6404] DEBUG -- : Read 963 bytes (963 total)
+D, [2017-02-23T15:45:27.817514 #6404] DEBUG -- : Read 16384 bytes (17347 total)
+D, [2017-02-23T15:45:27.817608 #6404] DEBUG -- : Read 9680 bytes (27027 total)
+D, [2017-02-23T15:45:27.817730 #6404] DEBUG -- : Read 5792 bytes (32819 total)
+D, [2017-02-23T15:45:27.817802 #6404] DEBUG -- : Read 2896 bytes (35715 total)
+D, [2017-02-23T15:45:27.818655 #6404] DEBUG -- : Read 10136 bytes (45851 total)
+D, [2017-02-23T15:45:27.828020 #6404] DEBUG -- : Read 1550 bytes (47401 total)
+D, [2017-02-23T15:45:27.828272 #6404] DEBUG -- : gzip response
+D, [2017-02-23T15:45:27.845706 #6404] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-23T15:45:27.845858 #6404] DEBUG -- : saved cookie: TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8
+I, [2017-02-23T15:45:27.913038 #6404]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/ada-twist-scientist-andrea-beaty/www.barnesandnoble.com/w/in-my-heart-jo-witek/www.barnesandnoble.com/w/where-the-wild-things-are-maurice-sendak/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/can-i-play-too-mo-willems/www.barnesandnoble.com/w/stick-and-stone-beth-ferry/www.barnesandnoble.com/w/i-want-my-hat-back-jon-klassen/www.barnesandnoble.com/w/take-heart-my-child-ainsley-earhardt/www.barnesandnoble.com/w/amazing-grace-mary-hoffman/www.barnesandnoble.com/w/good-good-father-chris-tomlin/www.barnesandnoble.com/w/they-all-saw-a-cat-brendan-wenzel/1123256597;jsessionid=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03?ean=9781452150130
+D, [2017-02-23T15:45:27.913092 #6404] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-23T15:45:27.913135 #6404] DEBUG -- : request-header: accept => */*
+D, [2017-02-23T15:45:27.913155 #6404] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; Konqueror/3; Linux)
+D, [2017-02-23T15:45:27.913173 #6404] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-23T15:45:27.913192 #6404] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=32EAB56579A54EEB5385F2631AC44E91.prodny_store02-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b2269760c77229b9528662590e3e0cc125d678803be647a749efd09ee0175e9aa1103c19f7f2ec18419209dd8c62c388e2736a48311336c1e4a3841f44a61fe8dab388ed31de7f6a52ba68e06c9f09e0ba05e21e67d6b7570951c6e0636e32b5624d3480; TS01e75984=01b2269760a3d3ff534b8a77c834eab6cacec7e8d73701050f603dca74d28a880bf0df3c1f3d1446529f074081622eb08df768a1d683c30df0572b47ddafebe5d4d1ecd4f3f5d3f304a2b03af7fa52d007aafc20f8; W2A=!bwhMd4trFnviKmvAXN0BF8xiOC6QvMbWrNXVf5FZjCc8XEKG6dcbIb3p13LdIepTnN2NBVHkldEMqg==; akaas_Mobile_phase_rollout=2147483647~rv=10~id=d6ceadf39cb03e16612b81ccb5ae000a; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-23T15:45:27.913210 #6404] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-23T15:45:27.913228 #6404] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-23T15:45:28.408130 #6404]  INFO -- : status: Net::HTTPInternalServerError 1.1 500 Internal Server Error
+D, [2017-02-23T15:45:28.408216 #6404] DEBUG -- : response-header: server => AkamaiGHost
+D, [2017-02-23T15:45:28.408269 #6404] DEBUG -- : response-header: mime-version => 1.0
+D, [2017-02-23T15:45:28.408300 #6404] DEBUG -- : response-header: content-type => text/html
+D, [2017-02-23T15:45:28.408329 #6404] DEBUG -- : response-header: content-length => 284
+D, [2017-02-23T15:45:28.408359 #6404] DEBUG -- : response-header: expires => Thu, 23 Feb 2017 22:45:12 GMT
+D, [2017-02-23T15:45:28.408389 #6404] DEBUG -- : response-header: date => Thu, 23 Feb 2017 22:45:12 GMT
+D, [2017-02-23T15:45:28.408417 #6404] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-23T15:45:28.408499 #6404] DEBUG -- : Read 284 bytes (284 total)
+I, [2017-02-26T08:35:57.565926 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=1
+D, [2017-02-26T08:35:57.566267 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:35:57.566309 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:35:57.566330 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+D, [2017-02-26T08:35:57.566350 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:35:57.566368 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:35:57.566386 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:35:59.341941 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:35:59.342030 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:35:59.342059 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:35:59.342086 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:35:59.342110 #17102] DEBUG -- : response-header: content-length => 40040
+D, [2017-02-26T08:35:59.342145 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:35:34 GMT
+D, [2017-02-26T08:35:59.342170 #17102] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-26T08:35:59.342206 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Path=/; HttpOnly, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:35:33 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299212; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT1=R:59|i:299212|e:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT1=R:59|i:299212|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT2=R:59|i:299212; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT2=R:59|i:299212|e:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT2=R:59|i:299212|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT3=R:59|i:299215; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT3=R:59|i:299215|e:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT3=R:59|i:299215|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT4=R:59|i:299211; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT4=R:59|i:299211|e:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT4=R:59|i:299211|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT5=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT5=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, ADRUM_BT5=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:03 GMT; Path=/, W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; path=/, org-dc=WBY;path=/;domain=.barnesandnoble.com;, DeviceType=Desktop;path=/;domain=.barnesandnoble.com;, showSiteAs=Desktop;path=/;domain=.barnesandnoble.com;, client-profile=Desktop;path=/;domain=.barnesandnoble.com;, TS01e75984=01b226976090e68279805aa9e14b5e1089767240b8b62b42b59423f44f309b803fd1730faf36fe361b21bd3f0e46ef25cf0ef43203b01059fc5c4ec20d6a0f4ad41c6c3b99bfc460389ffc9644ecc67557d2269ba7ba9e077d38ae83b6be9e4ae78e1e7b26111165d57b08e179278da20e57e19e2c4c512ac12cd16d12cdd516936fff872c905eb71a9b0e93d11b018d76d0782071f1b149e46ea06be2f17ebc1e116b538a635df1158751bbd6e4982e44c94979742657d97699b5fd8122ef155d49057a2a3cbd7a97fb209d596cf2041f8c895878dd6c40448f0077d9aeea9a82a5c0b7761a3a03de5f7645b3041af179f1029401c1d095b7fb6274f583d2bd5bcf0dc46d076217a1594ddcb7513763526503f63ebda1f9f7264c41b74388183f70eca516d4aaff54b9d725d085fba0cfc315ac542efe0c87585ace19602dcf3ae289e1898291fe65a635d3da2a0d93c35f01c1039da96fee345699a83a99f6195311e258; Path=/, TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; path=/; domain=.barnesandnoble.com, Mobile-seg=Control-A-seg; path=/; domain=.barnesandnoble.com, akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+D, [2017-02-26T08:35:59.342337 #17102] DEBUG -- : Read 14265 bytes (14265 total)
+D, [2017-02-26T08:35:59.342424 #17102] DEBUG -- : Read 4053 bytes (18318 total)
+D, [2017-02-26T08:35:59.351811 #17102] DEBUG -- : Read 1448 bytes (19766 total)
+D, [2017-02-26T08:35:59.351981 #17102] DEBUG -- : Read 2896 bytes (22662 total)
+D, [2017-02-26T08:35:59.352065 #17102] DEBUG -- : Read 1448 bytes (24110 total)
+D, [2017-02-26T08:35:59.352842 #17102] DEBUG -- : Read 7240 bytes (31350 total)
+D, [2017-02-26T08:35:59.363371 #17102] DEBUG -- : Read 2896 bytes (34246 total)
+D, [2017-02-26T08:35:59.364457 #17102] DEBUG -- : Read 5794 bytes (40040 total)
+D, [2017-02-26T08:35:59.364682 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:35:59.395453 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6
+D, [2017-02-26T08:35:59.395678 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:35:59.395790 #17102] DEBUG -- : saved cookie: JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03
+D, [2017-02-26T08:35:59.395995 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:35:59.396176 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299212
+D, [2017-02-26T08:35:59.396348 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299212|e:0
+D, [2017-02-26T08:35:59.396496 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299212|e:0|d:0
+D, [2017-02-26T08:35:59.396659 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299212
+D, [2017-02-26T08:35:59.396814 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299212|e:0
+D, [2017-02-26T08:35:59.397008 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299212|e:0|d:0
+D, [2017-02-26T08:35:59.397157 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299215
+D, [2017-02-26T08:35:59.397318 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299215|e:0
+D, [2017-02-26T08:35:59.397490 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299215|e:0|d:0
+D, [2017-02-26T08:35:59.397685 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299211
+D, [2017-02-26T08:35:59.397852 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299211|e:0
+D, [2017-02-26T08:35:59.397998 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299211|e:0|d:0
+D, [2017-02-26T08:35:59.398163 #17102] DEBUG -- : saved cookie: ADRUM_BT5=R:59|i:299216
+D, [2017-02-26T08:35:59.398308 #17102] DEBUG -- : saved cookie: ADRUM_BT5=R:59|i:299216|e:0
+D, [2017-02-26T08:35:59.398480 #17102] DEBUG -- : saved cookie: ADRUM_BT5=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:35:59.398580 #17102] DEBUG -- : saved cookie: W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==
+D, [2017-02-26T08:35:59.398759 #17102] DEBUG -- : saved cookie: org-dc=WBY
+D, [2017-02-26T08:35:59.398951 #17102] DEBUG -- : saved cookie: DeviceType=Desktop
+D, [2017-02-26T08:35:59.399122 #17102] DEBUG -- : saved cookie: showSiteAs=Desktop
+D, [2017-02-26T08:35:59.399301 #17102] DEBUG -- : saved cookie: client-profile=Desktop
+D, [2017-02-26T08:35:59.399479 #17102] DEBUG -- : saved cookie: TS01e75984=01b226976090e68279805aa9e14b5e1089767240b8b62b42b59423f44f309b803fd1730faf36fe361b21bd3f0e46ef25cf0ef43203b01059fc5c4ec20d6a0f4ad41c6c3b99bfc460389ffc9644ecc67557d2269ba7ba9e077d38ae83b6be9e4ae78e1e7b26111165d57b08e179278da20e57e19e2c4c512ac12cd16d12cdd516936fff872c905eb71a9b0e93d11b018d76d0782071f1b149e46ea06be2f17ebc1e116b538a635df1158751bbd6e4982e44c94979742657d97699b5fd8122ef155d49057a2a3cbd7a97fb209d596cf2041f8c895878dd6c40448f0077d9aeea9a82a5c0b7761a3a03de5f7645b3041af179f1029401c1d095b7fb6274f583d2bd5bcf0dc46d076217a1594ddcb7513763526503f63ebda1f9f7264c41b74388183f70eca516d4aaff54b9d725d085fba0cfc315ac542efe0c87585ace19602dcf3ae289e1898291fe65a635d3da2a0d93c35f01c1039da96fee345699a83a99f6195311e258
+D, [2017-02-26T08:35:59.399672 #17102] DEBUG -- : saved cookie: TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740
+D, [2017-02-26T08:35:59.399879 #17102] DEBUG -- : saved cookie: Mobile-seg=Control-A-seg
+D, [2017-02-26T08:35:59.400053 #17102] DEBUG -- : saved cookie: akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b
+I, [2017-02-26T08:36:01.471792 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/1123894616;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9781452152165
+D, [2017-02-26T08:36:01.471849 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:01.471869 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:01.471887 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+D, [2017-02-26T08:36:01.471905 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:01.471923 #17102] DEBUG -- : request-header: cookie => ADRUM_BT1=R:59|i:299212|e:0|d:0; ADRUM_BT2=R:59|i:299212|e:0|d:0; ADRUM_BT3=R:59|i:299215|e:0|d:0; ADRUM_BT4=R:59|i:299211|e:0|d:0; ADRUM_BT5=R:59|i:299216|e:0|d:0; ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b226976090e68279805aa9e14b5e1089767240b8b62b42b59423f44f309b803fd1730faf36fe361b21bd3f0e46ef25cf0ef43203b01059fc5c4ec20d6a0f4ad41c6c3b99bfc460389ffc9644ecc67557d2269ba7ba9e077d38ae83b6be9e4ae78e1e7b26111165d57b08e179278da20e57e19e2c4c512ac12cd16d12cdd516936fff872c905eb71a9b0e93d11b018d76d0782071f1b149e46ea06be2f17ebc1e116b538a635df1158751bbd6e4982e44c94979742657d97699b5fd8122ef155d49057a2a3cbd7a97fb209d596cf2041f8c895878dd6c40448f0077d9aeea9a82a5c0b7761a3a03de5f7645b3041af179f1029401c1d095b7fb6274f583d2bd5bcf0dc46d076217a1594ddcb7513763526503f63ebda1f9f7264c41b74388183f70eca516d4aaff54b9d725d085fba0cfc315ac542efe0c87585ace19602dcf3ae289e1898291fe65a635d3da2a0d93c35f01c1039da96fee345699a83a99f6195311e258; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:01.471941 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:01.471962 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:36:18.798802 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:36:18.798894 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:36:18.798928 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:36:18.798958 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:36:18.798986 #17102] DEBUG -- : response-header: content-length => 44075
+D, [2017-02-26T08:36:18.799015 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:35:53 GMT
+D, [2017-02-26T08:36:18.799043 #17102] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-26T08:36:18.799077 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BT1=R:59|i:299212|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT2=R:59|i:299212|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT3=R:59|i:299215|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT4=R:59|i:299211|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT5=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:c6fffa73-df11-428e-916b-3b00175f84af; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BTa=R:59|g:c6fffa73-df11-428e-916b-3b00175f84af|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:35:36 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT2=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT3=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:06 GMT; Path=/, ADRUM_BT4=R:59|i:299222; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:217; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, TS01e75984=01b22697604ee31aff79924cd68871760fc5754b77b62b42b59423f44f309b803fd1730faf2de6f9e2c34915401ace53688ec05465dbcd4c8317fbec7124f40e48424fd772c0bcfb73ca22e935e70c2fa8ab58845cf49528e0c1c6c28848e8d9231561e5587c3ee93641ce6568fc4b0645f1e379ac36d3e5362baae81299137a9e6976fe84ca13cd2a7eb5b0f27e51464397bd76adfbd2f88af764378448eedaf279dce81cb7870e8f992fb49951649280b37942a5d64863df55e2356f36f07b6b1d7485b259803d710af78c2e96fe75a80baa76d966180aa3101ac6778074551848deea64c4ed4c7849e5caa480c7bf4718edbc8f72285e02209cb79edfd351888ae058291176518ab2a8b5ea7450d97a0f0ce1d1ae6efdb63bcf49ecd055c95f057f2e343fd3349369ebc6baa7bf390d70691f91ad85ebe4f82a1ccd0dc7166e1d667b26e679cbedfbe9e6d657c6f67d8cdb6e3bf9e0039f4a360b1245b4411f178d1240; Path=/
+D, [2017-02-26T08:36:18.799206 #17102] DEBUG -- : Read 14945 bytes (14945 total)
+D, [2017-02-26T08:36:18.799319 #17102] DEBUG -- : Read 16384 bytes (31329 total)
+D, [2017-02-26T08:36:18.799389 #17102] DEBUG -- : Read 3135 bytes (34464 total)
+D, [2017-02-26T08:36:18.808514 #17102] DEBUG -- : Read 2896 bytes (37360 total)
+D, [2017-02-26T08:36:18.809352 #17102] DEBUG -- : Read 2896 bytes (40256 total)
+D, [2017-02-26T08:36:18.813086 #17102] DEBUG -- : Read 1448 bytes (41704 total)
+D, [2017-02-26T08:36:18.813782 #17102] DEBUG -- : Read 2371 bytes (44075 total)
+D, [2017-02-26T08:36:18.813941 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:36:18.826808 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299212|e:0|d:0
+D, [2017-02-26T08:36:18.827182 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299212|e:0|d:0
+D, [2017-02-26T08:36:18.827352 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299215|e:0|d:0
+D, [2017-02-26T08:36:18.827506 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299211|e:0|d:0
+D, [2017-02-26T08:36:18.827684 #17102] DEBUG -- : saved cookie: ADRUM_BT5=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:18.827846 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:a76ce9f1-0678-42ad-9bec-c19a597841f6|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:18.828018 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:c6fffa73-df11-428e-916b-3b00175f84af
+D, [2017-02-26T08:36:18.828160 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:c6fffa73-df11-428e-916b-3b00175f84af|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:18.828321 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:36:18.828468 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216
+D, [2017-02-26T08:36:18.828606 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0
+D, [2017-02-26T08:36:18.828754 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:18.828917 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216
+D, [2017-02-26T08:36:18.829056 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0
+D, [2017-02-26T08:36:18.829192 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:18.829350 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216
+D, [2017-02-26T08:36:18.829516 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0
+D, [2017-02-26T08:36:18.829669 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:18.829818 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222
+D, [2017-02-26T08:36:18.829956 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:217
+D, [2017-02-26T08:36:18.830091 #17102] DEBUG -- : saved cookie: TS01e75984=01b22697604ee31aff79924cd68871760fc5754b77b62b42b59423f44f309b803fd1730faf2de6f9e2c34915401ace53688ec05465dbcd4c8317fbec7124f40e48424fd772c0bcfb73ca22e935e70c2fa8ab58845cf49528e0c1c6c28848e8d9231561e5587c3ee93641ce6568fc4b0645f1e379ac36d3e5362baae81299137a9e6976fe84ca13cd2a7eb5b0f27e51464397bd76adfbd2f88af764378448eedaf279dce81cb7870e8f992fb49951649280b37942a5d64863df55e2356f36f07b6b1d7485b259803d710af78c2e96fe75a80baa76d966180aa3101ac6778074551848deea64c4ed4c7849e5caa480c7bf4718edbc8f72285e02209cb79edfd351888ae058291176518ab2a8b5ea7450d97a0f0ce1d1ae6efdb63bcf49ecd055c95f057f2e343fd3349369ebc6baa7bf390d70691f91ad85ebe4f82a1ccd0dc7166e1d667b26e679cbedfbe9e6d657c6f67d8cdb6e3bf9e0039f4a360b1245b4411f178d1240
+I, [2017-02-26T08:36:18.892622 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/1100192742;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9780811877824
+D, [2017-02-26T08:36:18.892676 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:18.892696 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:18.892715 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+D, [2017-02-26T08:36:18.892732 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:18.892750 #17102] DEBUG -- : request-header: cookie => ADRUM_BT4=R:59|i:299222|e:217; DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b22697604ee31aff79924cd68871760fc5754b77b62b42b59423f44f309b803fd1730faf2de6f9e2c34915401ace53688ec05465dbcd4c8317fbec7124f40e48424fd772c0bcfb73ca22e935e70c2fa8ab58845cf49528e0c1c6c28848e8d9231561e5587c3ee93641ce6568fc4b0645f1e379ac36d3e5362baae81299137a9e6976fe84ca13cd2a7eb5b0f27e51464397bd76adfbd2f88af764378448eedaf279dce81cb7870e8f992fb49951649280b37942a5d64863df55e2356f36f07b6b1d7485b259803d710af78c2e96fe75a80baa76d966180aa3101ac6778074551848deea64c4ed4c7849e5caa480c7bf4718edbc8f72285e02209cb79edfd351888ae058291176518ab2a8b5ea7450d97a0f0ce1d1ae6efdb63bcf49ecd055c95f057f2e343fd3349369ebc6baa7bf390d70691f91ad85ebe4f82a1ccd0dc7166e1d667b26e679cbedfbe9e6d657c6f67d8cdb6e3bf9e0039f4a360b1245b4411f178d1240; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:18.892768 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:18.892797 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:36:19.458610 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:36:19.458731 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:36:19.458797 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:36:19.458848 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:36:19.458894 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:35:54 GMT
+D, [2017-02-26T08:36:19.458924 #17102] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-26T08:36:19.458954 #17102] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-26T08:36:19.459031 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BT4=R:59|i:299222|e:217; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:35:53 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT2=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT3=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:23 GMT; Path=/, ADRUM_BT4=R:59|i:299222; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:217; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, TS01e75984=01b226976076eb63de78d664b7a7a8719cf4ec234cb62b42b59423f44f309b803fd1730faf92658e75cee5620afa5dadf8b32d8c50ac8a9b309be5553e74b31b4e721f55d3ece70481973c531d220ec32acb09b23ca3419d58e51c907c1c81113cb637c85ed7d77b489ec7af61ff6d0a52437ed42238ea96cb02a14bb76016670f57b599953449b6443edb2e7e59fe4f914f5fbe8bf48209bbe5e7467fd6e6f6959dfc1fc80ae856d3b118bb73e99af18a6a287aa2799eb82c2c57a4f8713c2ce31213692fe202a57b58769a5e55404fa0a2abe6ae630bbaddb853d82ff55f49788226d51d30b9f1c9f97b51b2e65b86c9bd05371ec20974077e921a3269b3b906d1b8a872bbb48d40e0dfc5201d7e39b95c9132fa8e26c9e3e195eee31000ea04a5572a3f92d6f2b7c9fa2458dd624e10b2f228749dea2198702f205d62a9e6a45209e29126a4793c4d99bca2432c78e955247090adcc002a5da0a9565b0825dc61b0079c; Path=/
+D, [2017-02-26T08:36:19.459187 #17102] DEBUG -- : Read 7731 bytes (7731 total)
+D, [2017-02-26T08:36:19.459295 #17102] DEBUG -- : Read 13032 bytes (20763 total)
+D, [2017-02-26T08:36:19.459376 #17102] DEBUG -- : Read 3813 bytes (24576 total)
+D, [2017-02-26T08:36:19.459432 #17102] DEBUG -- : Read 519 bytes (25095 total)
+D, [2017-02-26T08:36:19.459487 #17102] DEBUG -- : Read 1448 bytes (26543 total)
+D, [2017-02-26T08:36:19.459539 #17102] DEBUG -- : Read 1448 bytes (27991 total)
+D, [2017-02-26T08:36:19.459600 #17102] DEBUG -- : Read 1448 bytes (29439 total)
+D, [2017-02-26T08:36:19.460470 #17102] DEBUG -- : Read 10833 bytes (40272 total)
+D, [2017-02-26T08:36:19.462811 #17102] DEBUG -- : Read 90 bytes (40362 total)
+D, [2017-02-26T08:36:19.462982 #17102] DEBUG -- : Read 1438 bytes (41800 total)
+D, [2017-02-26T08:36:19.463079 #17102] DEBUG -- : Read 1448 bytes (43248 total)
+D, [2017-02-26T08:36:19.463996 #17102] DEBUG -- : Read 1335 bytes (44583 total)
+D, [2017-02-26T08:36:19.464149 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:36:19.480908 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:217
+D, [2017-02-26T08:36:19.481129 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705
+D, [2017-02-26T08:36:19.481313 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:19.481506 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:36:19.481672 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216
+D, [2017-02-26T08:36:19.481851 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0
+D, [2017-02-26T08:36:19.482045 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:19.482206 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216
+D, [2017-02-26T08:36:19.482390 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0
+D, [2017-02-26T08:36:19.482551 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:19.482712 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216
+D, [2017-02-26T08:36:19.482894 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0
+D, [2017-02-26T08:36:19.483054 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:19.483231 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222
+D, [2017-02-26T08:36:19.483391 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:217
+D, [2017-02-26T08:36:19.483536 #17102] DEBUG -- : saved cookie: TS01e75984=01b226976076eb63de78d664b7a7a8719cf4ec234cb62b42b59423f44f309b803fd1730faf92658e75cee5620afa5dadf8b32d8c50ac8a9b309be5553e74b31b4e721f55d3ece70481973c531d220ec32acb09b23ca3419d58e51c907c1c81113cb637c85ed7d77b489ec7af61ff6d0a52437ed42238ea96cb02a14bb76016670f57b599953449b6443edb2e7e59fe4f914f5fbe8bf48209bbe5e7467fd6e6f6959dfc1fc80ae856d3b118bb73e99af18a6a287aa2799eb82c2c57a4f8713c2ce31213692fe202a57b58769a5e55404fa0a2abe6ae630bbaddb853d82ff55f49788226d51d30b9f1c9f97b51b2e65b86c9bd05371ec20974077e921a3269b3b906d1b8a872bbb48d40e0dfc5201d7e39b95c9132fa8e26c9e3e195eee31000ea04a5572a3f92d6f2b7c9fa2458dd624e10b2f228749dea2198702f205d62a9e6a45209e29126a4793c4d99bca2432c78e955247090adcc002a5da0a9565b0825dc61b0079c
+I, [2017-02-26T08:36:19.542369 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/1113054468;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9780399255373
+D, [2017-02-26T08:36:19.542424 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:19.542444 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:19.542463 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+D, [2017-02-26T08:36:19.542480 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:19.542498 #17102] DEBUG -- : request-header: cookie => ADRUM_BT1=R:59|i:299216|e:0|d:0; ADRUM_BT2=R:59|i:299216|e:0|d:0; ADRUM_BT3=R:59|i:299216|e:0|d:0; ADRUM_BT4=R:59|i:299222|e:217; ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b226976076eb63de78d664b7a7a8719cf4ec234cb62b42b59423f44f309b803fd1730faf92658e75cee5620afa5dadf8b32d8c50ac8a9b309be5553e74b31b4e721f55d3ece70481973c531d220ec32acb09b23ca3419d58e51c907c1c81113cb637c85ed7d77b489ec7af61ff6d0a52437ed42238ea96cb02a14bb76016670f57b599953449b6443edb2e7e59fe4f914f5fbe8bf48209bbe5e7467fd6e6f6959dfc1fc80ae856d3b118bb73e99af18a6a287aa2799eb82c2c57a4f8713c2ce31213692fe202a57b58769a5e55404fa0a2abe6ae630bbaddb853d82ff55f49788226d51d30b9f1c9f97b51b2e65b86c9bd05371ec20974077e921a3269b3b906d1b8a872bbb48d40e0dfc5201d7e39b95c9132fa8e26c9e3e195eee31000ea04a5572a3f92d6f2b7c9fa2458dd624e10b2f228749dea2198702f205d62a9e6a45209e29126a4793c4d99bca2432c78e955247090adcc002a5da0a9565b0825dc61b0079c; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:19.542528 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:19.542546 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:36:36.344813 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:36:36.344888 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:36:36.344911 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:36:36.344930 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:36:36.344948 #17102] DEBUG -- : response-header: x-akamai-transformed => 9 44692 0 pmb=mRUM,1
+D, [2017-02-26T08:36:36.344967 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:36:11 GMT
+D, [2017-02-26T08:36:36.344984 #17102] DEBUG -- : response-header: content-length => 39822
+D, [2017-02-26T08:36:36.345002 #17102] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-26T08:36:36.345023 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BT1=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:217; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:fef9c398-52fe-44c7-b46d-52abdbb69155; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BTa=R:59|g:fef9c398-52fe-44c7-b46d-52abdbb69155|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:35:54 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0|d:1; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT2=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT3=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:24 GMT; Path=/, ADRUM_BT4=R:59|i:299222; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:201; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, TS01e75984=01b2269760107cfc55029d7fabc1f2a0476ad59b0ab62b42b59423f44f309b803fd1730fafff0e565e0429a60020c44b73599272ae810f57870d6a42cae50943e8b8b38e550ceb6c0be0f497d82b62a5dcac76304d2c8eebedc1eaffa257f68e736b1215fdd8c99a4b53074b7131bb5f65c3455801ae59b4115906a3efacaf8dcbcd4612ea24f1b99f72fe1fbfb83c800214bdf6fbac078ea84cea923450a7ed4b91b594a9aee5899e71394d0e19b183625ff4b772841709dd8ebe91d9f17f2fd8aad6fbeaf4cff71b9f4050202609d2b97a1b2305cddf2a0b2978148a4fb4fe6a2e5b6025357de47ae801b5885506f6a294aeb7b036febce0a94911cb4c0bae4c2752dd1b237215469c641849aea3fd1a6d10f9a991bff8833435f87a4556cfcff9ba915f0b8043f0f0cffb1cb9a870dd3bae946639474dfa920eba4d6931a7ba7629209352e7a530bb8c1f6e09c743e549f570883b394e98210de659425ecef1cd500c55; Path=/
+D, [2017-02-26T08:36:36.345090 #17102] DEBUG -- : Read 1507 bytes (1507 total)
+D, [2017-02-26T08:36:36.345187 #17102] DEBUG -- : Read 16384 bytes (17891 total)
+D, [2017-02-26T08:36:36.345288 #17102] DEBUG -- : Read 16384 bytes (34275 total)
+D, [2017-02-26T08:36:36.345351 #17102] DEBUG -- : Read 3333 bytes (37608 total)
+D, [2017-02-26T08:36:36.345862 #17102] DEBUG -- : Read 2214 bytes (39822 total)
+D, [2017-02-26T08:36:36.345957 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:36:36.358322 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.358640 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.358894 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.359064 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:217
+D, [2017-02-26T08:36:36.359241 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:76ae62dd-66af-457f-9e87-d962e5e75705|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:36.359406 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:fef9c398-52fe-44c7-b46d-52abdbb69155
+D, [2017-02-26T08:36:36.359584 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:fef9c398-52fe-44c7-b46d-52abdbb69155|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:36.359747 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:36:36.359905 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216
+D, [2017-02-26T08:36:36.360065 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.360230 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:1
+D, [2017-02-26T08:36:36.360385 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216
+D, [2017-02-26T08:36:36.360545 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.360701 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.360877 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216
+D, [2017-02-26T08:36:36.361051 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.361243 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.361437 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222
+D, [2017-02-26T08:36:36.361592 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:201
+D, [2017-02-26T08:36:36.361737 #17102] DEBUG -- : saved cookie: TS01e75984=01b2269760107cfc55029d7fabc1f2a0476ad59b0ab62b42b59423f44f309b803fd1730fafff0e565e0429a60020c44b73599272ae810f57870d6a42cae50943e8b8b38e550ceb6c0be0f497d82b62a5dcac76304d2c8eebedc1eaffa257f68e736b1215fdd8c99a4b53074b7131bb5f65c3455801ae59b4115906a3efacaf8dcbcd4612ea24f1b99f72fe1fbfb83c800214bdf6fbac078ea84cea923450a7ed4b91b594a9aee5899e71394d0e19b183625ff4b772841709dd8ebe91d9f17f2fd8aad6fbeaf4cff71b9f4050202609d2b97a1b2305cddf2a0b2978148a4fb4fe6a2e5b6025357de47ae801b5885506f6a294aeb7b036febce0a94911cb4c0bae4c2752dd1b237215469c641849aea3fd1a6d10f9a991bff8833435f87a4556cfcff9ba915f0b8043f0f0cffb1cb9a870dd3bae946639474dfa920eba4d6931a7ba7629209352e7a530bb8c1f6e09c743e549f570883b394e98210de659425ecef1cd500c55
+I, [2017-02-26T08:36:36.428673 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/egg-kevin-henkes/1123655035;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9780062408723
+D, [2017-02-26T08:36:36.428731 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:36.428752 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:36.428771 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-02-26T08:36:36.428812 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:36.428833 #17102] DEBUG -- : request-header: cookie => ADRUM_BT4=R:59|i:299222|e:201; DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b2269760107cfc55029d7fabc1f2a0476ad59b0ab62b42b59423f44f309b803fd1730fafff0e565e0429a60020c44b73599272ae810f57870d6a42cae50943e8b8b38e550ceb6c0be0f497d82b62a5dcac76304d2c8eebedc1eaffa257f68e736b1215fdd8c99a4b53074b7131bb5f65c3455801ae59b4115906a3efacaf8dcbcd4612ea24f1b99f72fe1fbfb83c800214bdf6fbac078ea84cea923450a7ed4b91b594a9aee5899e71394d0e19b183625ff4b772841709dd8ebe91d9f17f2fd8aad6fbeaf4cff71b9f4050202609d2b97a1b2305cddf2a0b2978148a4fb4fe6a2e5b6025357de47ae801b5885506f6a294aeb7b036febce0a94911cb4c0bae4c2752dd1b237215469c641849aea3fd1a6d10f9a991bff8833435f87a4556cfcff9ba915f0b8043f0f0cffb1cb9a870dd3bae946639474dfa920eba4d6931a7ba7629209352e7a530bb8c1f6e09c743e549f570883b394e98210de659425ecef1cd500c55; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:36.428864 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:36.428884 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:36:36.947203 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:36:36.947269 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:36:36.947291 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:36:36.947309 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:36:36.947327 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:36:11 GMT
+D, [2017-02-26T08:36:36.947345 #17102] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-02-26T08:36:36.947363 #17102] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2017-02-26T08:36:36.947384 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BT4=R:59|i:299222|e:201; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:36:11 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0|d:1; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT2=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT3=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT4=R:59|i:299222; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:201; Expires=Sun, 26-Feb-2017 15:36:41 GMT; Path=/, TS01e75984=01b2269760905c1cd8b83ff92fa334bbab846c3504b62b42b59423f44f309b803fd1730faf44011fb155c56049d08bda3575ea8466a1ef6788f173ee2e4d0fdc2791f2ed83a4087800ec3e65de1a9c8d2eaa8c225ab7c7485ced8cafa29f920c68e687a028712c338a08e52f142ac92312c32db1f6fe2a2b8a04c874ed606bcc3977e3bfc31fd3c2dbb3dfa4134dafc50d7c4b7400bc17302352da7b0fbb230455a8a66a938614c082647cbc1a27beddb0054b1ac76049cd9f994524736f0bb03eef1d2632b2661cf88d82aff47e03f78d0f7b0d9e4eff755f881744957737aad5bebde581159a2a44b4f6a49c7ce18dcf1962b0bf6d7e14619ed1bee1d08cd74329d7d2147cbcc2b0df4211c159e0fb768bc2326750f79036e67e0e2bd5592cd27516579fd17f8e3afdd75ebcffc92b9b9c383867d4083809efa81cf04435d7995284e828baae85ffb34c5fbe4b60ff623c5cf159ea3fe62d505e6035626d162f9a541bf8; Path=/
+D, [2017-02-26T08:36:36.947455 #17102] DEBUG -- : Read 1939 bytes (1939 total)
+D, [2017-02-26T08:36:36.947499 #17102] DEBUG -- : Read 2896 bytes (4835 total)
+D, [2017-02-26T08:36:36.948096 #17102] DEBUG -- : Read 8688 bytes (13523 total)
+D, [2017-02-26T08:36:36.948131 #17102] DEBUG -- : Read 1448 bytes (14971 total)
+D, [2017-02-26T08:36:36.948603 #17102] DEBUG -- : Read 8688 bytes (23659 total)
+D, [2017-02-26T08:36:36.949126 #17102] DEBUG -- : Read 917 bytes (24576 total)
+D, [2017-02-26T08:36:36.949179 #17102] DEBUG -- : Read 12042 bytes (36618 total)
+D, [2017-02-26T08:36:36.949260 #17102] DEBUG -- : Read 1426 bytes (38044 total)
+D, [2017-02-26T08:36:36.949296 #17102] DEBUG -- : Read 1448 bytes (39492 total)
+D, [2017-02-26T08:36:36.949727 #17102] DEBUG -- : Read 1458 bytes (40950 total)
+D, [2017-02-26T08:36:36.949763 #17102] DEBUG -- : Read 801 bytes (41751 total)
+D, [2017-02-26T08:36:36.953338 #17102] DEBUG -- : Read 90 bytes (41841 total)
+D, [2017-02-26T08:36:36.953480 #17102] DEBUG -- : Read 1438 bytes (43279 total)
+D, [2017-02-26T08:36:36.954118 #17102] DEBUG -- : Read 1481 bytes (44760 total)
+D, [2017-02-26T08:36:36.954229 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:36:36.966654 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:201
+D, [2017-02-26T08:36:36.966966 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00
+D, [2017-02-26T08:36:36.967227 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:36.967509 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:36:36.967785 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216
+D, [2017-02-26T08:36:36.968021 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.968291 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:1
+D, [2017-02-26T08:36:36.968523 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216
+D, [2017-02-26T08:36:36.968792 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.969022 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.969286 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216
+D, [2017-02-26T08:36:36.969517 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0
+D, [2017-02-26T08:36:36.969745 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:36.970008 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222
+D, [2017-02-26T08:36:36.970236 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:201
+D, [2017-02-26T08:36:36.970446 #17102] DEBUG -- : saved cookie: TS01e75984=01b2269760905c1cd8b83ff92fa334bbab846c3504b62b42b59423f44f309b803fd1730faf44011fb155c56049d08bda3575ea8466a1ef6788f173ee2e4d0fdc2791f2ed83a4087800ec3e65de1a9c8d2eaa8c225ab7c7485ced8cafa29f920c68e687a028712c338a08e52f142ac92312c32db1f6fe2a2b8a04c874ed606bcc3977e3bfc31fd3c2dbb3dfa4134dafc50d7c4b7400bc17302352da7b0fbb230455a8a66a938614c082647cbc1a27beddb0054b1ac76049cd9f994524736f0bb03eef1d2632b2661cf88d82aff47e03f78d0f7b0d9e4eff755f881744957737aad5bebde581159a2a44b4f6a49c7ce18dcf1962b0bf6d7e14619ed1bee1d08cd74329d7d2147cbcc2b0df4211c159e0fb768bc2326750f79036e67e0e2bd5592cd27516579fd17f8e3afdd75ebcffc92b9b9c383867d4083809efa81cf04435d7995284e828baae85ffb34c5fbe4b60ff623c5cf159ea3fe62d505e6035626d162f9a541bf8
+I, [2017-02-26T08:36:37.043704 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/egg-kevin-henkes/www.barnesandnoble.com/w/brown-bear-brown-bear-what-do-you-see-bill-martin-jr/1111575063;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9780805017441
+D, [2017-02-26T08:36:37.043771 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:37.043797 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:37.043828 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.4a) Gecko/20030401
+D, [2017-02-26T08:36:37.043853 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:37.043873 #17102] DEBUG -- : request-header: cookie => ADRUM_BT1=R:59|i:299216|e:0|d:1; ADRUM_BT2=R:59|i:299216|e:0|d:0; ADRUM_BT3=R:59|i:299216|e:0|d:0; ADRUM_BT4=R:59|i:299222|e:201; ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b2269760905c1cd8b83ff92fa334bbab846c3504b62b42b59423f44f309b803fd1730faf44011fb155c56049d08bda3575ea8466a1ef6788f173ee2e4d0fdc2791f2ed83a4087800ec3e65de1a9c8d2eaa8c225ab7c7485ced8cafa29f920c68e687a028712c338a08e52f142ac92312c32db1f6fe2a2b8a04c874ed606bcc3977e3bfc31fd3c2dbb3dfa4134dafc50d7c4b7400bc17302352da7b0fbb230455a8a66a938614c082647cbc1a27beddb0054b1ac76049cd9f994524736f0bb03eef1d2632b2661cf88d82aff47e03f78d0f7b0d9e4eff755f881744957737aad5bebde581159a2a44b4f6a49c7ce18dcf1962b0bf6d7e14619ed1bee1d08cd74329d7d2147cbcc2b0df4211c159e0fb768bc2326750f79036e67e0e2bd5592cd27516579fd17f8e3afdd75ebcffc92b9b9c383867d4083809efa81cf04435d7995284e828baae85ffb34c5fbe4b60ff623c5cf159ea3fe62d505e6035626d162f9a541bf8; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:37.043892 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:37.043946 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1
+I, [2017-02-26T08:36:53.687301 #17102]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-02-26T08:36:53.687376 #17102] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2017-02-26T08:36:53.687405 #17102] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-02-26T08:36:53.687429 #17102] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-02-26T08:36:53.687452 #17102] DEBUG -- : response-header: content-length => 45112
+D, [2017-02-26T08:36:53.687476 #17102] DEBUG -- : response-header: date => Sun, 26 Feb 2017 15:36:28 GMT
+D, [2017-02-26T08:36:53.687499 #17102] DEBUG -- : response-header: connection => keep-alive
+D, [2017-02-26T08:36:53.687528 #17102] DEBUG -- : response-header: set-cookie => ADRUM_BT1=R:59|i:299216|e:0|d:1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:201; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, ADRUM_BTa=R:59|g:e69c8b43-af9d-45d4-9f3d-6ee419578c04; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BTa=R:59|g:e69c8b43-af9d-45d4-9f3d-6ee419578c04|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, userPrefLanguage=en_US; expires=Tue, 02-Nov-2066 11:36:12 GMT; path=/; HttpOnly, ADRUM_BT1=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT1=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT2=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT2=R:59|i:299216|e:0|d:1; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT3=R:59|i:299216; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT3=R:59|i:299216|e:0|d:0; Expires=Sun, 26-Feb-2017 15:36:42 GMT; Path=/, ADRUM_BT4=R:59|i:299222; Expires=Sun, 26-Feb-2017 15:36:58 GMT; Path=/, ADRUM_BT4=R:59|i:299222|e:201; Expires=Sun, 26-Feb-2017 15:36:58 GMT; Path=/, TS01e75984=01b2269760c4effa2c17db48da6a98957045e7aa84b62b42b59423f44f309b803fd1730fafc13a5a6d16c48954c1667e8096b42aa65e913f07b8ad725be3dfcb44094d1d5d8070c25f89b735a0ccea2d53c7d7a29d224af00d56d707a802d1677bf6ec13e26372e63a1811863518c47eca32cf7b775e5a20a6b6a1bf9775fb4d611d5bf97e98407265d2e3e8e9519bf0a3fd5bcd0df9a4e5fc2da48adde7b5a430c0d6014e1121caaf53b45fed6ae4a5fc18fb94cd355429e74e1a11cd949e1f6a456d8bf471f59b8998807bfd72b293d1ca35b9cdc8ccddaee64ba8fb9bfa2f126fc812faa443081bb98f82c21177ce966dafc52202722b5a1b30951ba0b0610f195c6d5d0c9d8e57618bf5b766bbdfb9e1ae8215ad992639b86c14793cc1c5fd4755b5ef12b1af1f790e785c9892c5b86d73f37f3aa2c40e13aef98f057205e909c368347582f7601d8dbbfae93f57647679ea773904b824773f2536b85ab4faf52f0f52; Path=/
+D, [2017-02-26T08:36:53.687689 #17102] DEBUG -- : Read 15039 bytes (15039 total)
+D, [2017-02-26T08:36:53.687803 #17102] DEBUG -- : Read 16384 bytes (31423 total)
+D, [2017-02-26T08:36:53.687864 #17102] DEBUG -- : Read 5991 bytes (37414 total)
+D, [2017-02-26T08:36:53.688471 #17102] DEBUG -- : Read 7698 bytes (45112 total)
+D, [2017-02-26T08:36:53.688606 #17102] DEBUG -- : gzip response
+D, [2017-02-26T08:36:53.702178 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:1
+D, [2017-02-26T08:36:53.702339 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:53.702506 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:53.702672 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:201
+D, [2017-02-26T08:36:53.702820 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:009d6d1e-0d44-4657-9a55-38cb8fd21e00|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:53.702988 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:e69c8b43-af9d-45d4-9f3d-6ee419578c04
+D, [2017-02-26T08:36:53.703155 #17102] DEBUG -- : saved cookie: ADRUM_BTa=R:59|g:e69c8b43-af9d-45d4-9f3d-6ee419578c04|n:bncom_96e222da-c3e7-4a56-b3e4-7ee7e703d28d
+D, [2017-02-26T08:36:53.703302 #17102] DEBUG -- : saved cookie: userPrefLanguage=en_US
+D, [2017-02-26T08:36:53.703466 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216
+D, [2017-02-26T08:36:53.703609 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0
+D, [2017-02-26T08:36:53.703772 #17102] DEBUG -- : saved cookie: ADRUM_BT1=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:53.703913 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216
+D, [2017-02-26T08:36:53.704073 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0
+D, [2017-02-26T08:36:53.704309 #17102] DEBUG -- : saved cookie: ADRUM_BT2=R:59|i:299216|e:0|d:1
+D, [2017-02-26T08:36:53.704496 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216
+D, [2017-02-26T08:36:53.704644 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0
+D, [2017-02-26T08:36:53.704803 #17102] DEBUG -- : saved cookie: ADRUM_BT3=R:59|i:299216|e:0|d:0
+D, [2017-02-26T08:36:53.704963 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222
+D, [2017-02-26T08:36:53.705230 #17102] DEBUG -- : saved cookie: ADRUM_BT4=R:59|i:299222|e:201
+D, [2017-02-26T08:36:53.705345 #17102] DEBUG -- : saved cookie: TS01e75984=01b2269760c4effa2c17db48da6a98957045e7aa84b62b42b59423f44f309b803fd1730fafc13a5a6d16c48954c1667e8096b42aa65e913f07b8ad725be3dfcb44094d1d5d8070c25f89b735a0ccea2d53c7d7a29d224af00d56d707a802d1677bf6ec13e26372e63a1811863518c47eca32cf7b775e5a20a6b6a1bf9775fb4d611d5bf97e98407265d2e3e8e9519bf0a3fd5bcd0df9a4e5fc2da48adde7b5a430c0d6014e1121caaf53b45fed6ae4a5fc18fb94cd355429e74e1a11cd949e1f6a456d8bf471f59b8998807bfd72b293d1ca35b9cdc8ccddaee64ba8fb9bfa2f126fc812faa443081bb98f82c21177ce966dafc52202722b5a1b30951ba0b0610f195c6d5d0c9d8e57618bf5b766bbdfb9e1ae8215ad992639b86c14793cc1c5fd4755b5ef12b1af1f790e785c9892c5b86d73f37f3aa2c40e13aef98f057205e909c368347582f7601d8dbbfae93f57647679ea773904b824773f2536b85ab4faf52f0f52
+I, [2017-02-26T08:36:59.723613 #17102]  INFO -- : Net::HTTP::Get: /b/picture-books/books/kids/_/www.barnesandnoble.com/w/mighty-mighty-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/goodnight-goodnight-construction-site-sherri-duskey-rinker/www.barnesandnoble.com/w/the-day-the-crayons-quit-drew-daywalt/www.barnesandnoble.com/w/egg-kevin-henkes/www.barnesandnoble.com/w/brown-bear-brown-bear-what-do-you-see-bill-martin-jr/www.barnesandnoble.com/w/i-love-my-white-shoes-james-dean/1123141361;jsessionid=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03?ean=9780061906220
+D, [2017-02-26T08:36:59.723687 #17102] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-02-26T08:36:59.723709 #17102] DEBUG -- : request-header: accept => */*
+D, [2017-02-26T08:36:59.723728 #17102] DEBUG -- : request-header: user-agent => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+D, [2017-02-26T08:36:59.723746 #17102] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-02-26T08:36:59.723764 #17102] DEBUG -- : request-header: cookie => DeviceType=Desktop; JSESSIONID=2210BDAE2A60F11829DF324FFF95D081.prodny_store01-atgap03; Mobile-seg=Control-A-seg; TS01af0a8e=01b22697604a8c65b1108ef0464f214e061087fdc42a1c5421c599ea4330ba3603dcb27dfce1cd623fdc00fda14f6d2cb69c31dc25dfbe31e85c1f969dfb00aa69dc404d64b511369191bd244172bd559bd4a7df31d039aa2a6c0d8816dee83842f1c40740; TS01e75984=01b2269760c4effa2c17db48da6a98957045e7aa84b62b42b59423f44f309b803fd1730fafc13a5a6d16c48954c1667e8096b42aa65e913f07b8ad725be3dfcb44094d1d5d8070c25f89b735a0ccea2d53c7d7a29d224af00d56d707a802d1677bf6ec13e26372e63a1811863518c47eca32cf7b775e5a20a6b6a1bf9775fb4d611d5bf97e98407265d2e3e8e9519bf0a3fd5bcd0df9a4e5fc2da48adde7b5a430c0d6014e1121caaf53b45fed6ae4a5fc18fb94cd355429e74e1a11cd949e1f6a456d8bf471f59b8998807bfd72b293d1ca35b9cdc8ccddaee64ba8fb9bfa2f126fc812faa443081bb98f82c21177ce966dafc52202722b5a1b30951ba0b0610f195c6d5d0c9d8e57618bf5b766bbdfb9e1ae8215ad992639b86c14793cc1c5fd4755b5ef12b1af1f790e785c9892c5b86d73f37f3aa2c40e13aef98f057205e909c368347582f7601d8dbbfae93f57647679ea773904b824773f2536b85ab4faf52f0f52; W2A=!y7DZZt0Wx49fh5XAXN0BF8xiOC6QvAHt+B8mhdGp5IO0/x5nqDIlju6wHP1u8WymGMYP+3V7t0xvlA==; akaas_Mobile_phase_rollout=2147483647~rv=6~id=b245177c814779f1574045a77a4c5b0b; client-profile=Desktop; org-dc=WBY; showSiteAs=Desktop; userPrefLanguage=en_US
+D, [2017-02-26T08:36:59.723783 #17102] DEBUG -- : request-header: host => www.barnesandnoble.com
+D, [2017-02-26T08:36:59.723801 #17102] DEBUG -- : request-header: referer => http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1

@@ -5,36 +5,35 @@ require 'date'
 
 class BooksController < ApplicationController
 
-  # @@local_img_path = '/Users/mkam/books/app/assets/images/'
-  # @@agent = Mechanize.new
+  @@local_img_path = '/Users/mkam/books/app/assets/images/'
+  @@agent = Mechanize.new
 
   def show
-    scrape_bn
+    # scrape_bn
+    scrape_random_house
     render text: "OK"
   end
 
   private
 
+  def scrape_random_house
+    @@agent.user_agent_alias
+  end
+
   def scrape_bn
-    debugger
-    agent = Mechanize.new
-    agent.log = Logger.new "mech.log"
-    agent.user_agent_alias = random_user_agent
-    # agent.add_header("Referer" => "http://www.google.com")
 
-    agent.request_headers = {"Referer" => "http://www.google.com"}
-    page = agent.get("http://www.barnesandnoble.com")
-    puts page.body
+    # agent = Mechanize.new
+    # agent.log = Logger.new "mech.log"
+    # agent.user_agent_alias = random_user_agent
+    # agent.request_headers = {"Referer" => "http://www.google.com", "accept-charset" => nil}
+    # page = agent.get("http://www.barnesandnoble.com")
+    # puts page.body
 
-    debugger
-
-    # @@agent.user_agent_alias = random_user_agent
-    # @@agent.get('http://www.jcrew.com')
-
-
+    @@agent.log = Logger.new "mech.log"
     @@agent.user_agent_alias = random_user_agent
 
     for i in 1..5
+      @@agent.request_headers = {"Referer" => "http://www.barnesandnoble.com/b/books/kids/_/N-8Z29Z8q8Ztu1", "accept-charset" => nil}
       page = @@agent.get('http://www.barnesandnoble.com/b/picture-books/books/kids/_/N-8Z2eg0Z29Z8q8Ztu1?Nrpp=40&page=' + i.to_s)
 
       doc = Nokogiri::HTML(page.content)
